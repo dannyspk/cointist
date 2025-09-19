@@ -1,0 +1,15 @@
+{
+  "startedAt": 1758233175136,
+  "invocationToken": "f2b773f6ca56563e6179",
+  "selected": [
+    {
+      "id": "https://cointelegraph.com/news/bnb-investor-turns-1k-into-1m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "‘Diamond hand’ investor turns $1K into $1M as BNB tops $1,000",
+      "url": "https://cointelegraph.com/news/bnb-investor-turns-1k-into-1m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "bnb-investor-turns-1k-into-1m",
+      "oldSlug": "bnb-investor-turns-1k-into-1m",
+      "href": "/articles/bnb-investor-turns-1k-into-1m"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

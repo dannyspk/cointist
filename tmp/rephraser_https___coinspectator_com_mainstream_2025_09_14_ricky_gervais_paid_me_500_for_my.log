@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/ricky-gervais-paid-me-500-for-my-role-in-extras-says-ross-kemp-thats-why-hes-got-a-big-house-on-the-river/ at 2025-09-14T13:23:11.331Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_ricky-gervais-paid-me-500-for-my.txt --twoStage invocation=https://coinspectator.com/mainstream/2025/09/14/ricky-gervais-paid-me-500-for-my-role-in-extras-says-ross-kemp-thats-why-hes-got-a-big-house-on-the-river/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757856201865.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 345,
+    "slug": "ricky-gervais-and-ross-kemp-a-tale-of-payment-and-success",
+    "title": "Ricky Gervais and Ross Kemp: A Tale of Payment and Success",
+    "excerpt": "Ross Kemp shares a humorous anecdote about the £500 payment he received from Ricky Gervais for his role in Extras, reflecting on his early career challenges and the impact of small opportunities."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '09da673d967b846272c86ff831412c3ffd99db9e', id: 345 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T13:23:23.151Z ===

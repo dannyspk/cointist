@@ -1,0 +1,916 @@
+2025-09-13T06:55:46.706Z [rephraser] model= gpt-4o-mini
+2025-09-13T06:55:58.017Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757746558014.html
+2025-09-13T06:55:58.519Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T06:55:58.810Z Supabase select raw response for slug: {"error":null,"data":{"id":223,"slug":"alliance-strengthens-chainlink-s-market-position-amid-strategic-growth"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T06:55:58.812Z Upserted rephrase to Supabase { sha: '683c3d8f028ec9e2d03ea4f972dd0c0e6d2e747c', id: 223 }
+2025-09-13T07:02:56.199Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:03:07.471Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757746987470.html
+2025-09-13T07:03:08.082Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:03:08.488Z Supabase select raw response for slug: {"error":null,"data":{"id":224,"slug":"potential-formation-of-a-us-strategic-bitcoin-reserve-insights-and-opinions"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:03:08.490Z Upserted rephrase to Supabase { sha: '58d780d4d1b6c848bdab78ab0908ab60480bbe38', id: 224 }
+2025-09-13T07:05:49.519Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:06:00.550Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757747160546.html
+2025-09-13T07:06:01.567Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:06:01.987Z Supabase select raw response for slug: {"error":null,"data":{"id":225,"slug":"bitcoin-s-resilience-is-the-bottom-truly-behind-us"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:06:02.011Z Upserted rephrase to Supabase { sha: '28e69a824dbfe7d41fb129b00260fc56590d9a44', id: 225 }
+2025-09-13T07:12:15.605Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:12:23.098Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757747543096.html
+2025-09-13T07:12:23.707Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:12:24.067Z Supabase select raw response for slug: {"error":null,"data":{"id":226,"slug":"coinbase-fights-back-as-sec-faces-scrutiny-over-lost-text-messages"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:12:24.072Z Upserted rephrase to Supabase { sha: '220f45f8fde4b3e15c4731bde81e556ed89f00dc', id: 226 }
+2025-09-13T07:20:29.197Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:20:37.997Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757748037993.html
+2025-09-13T07:20:39.104Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:20:39.412Z Supabase select raw response for slug: {"error":null,"data":{"id":227,"slug":"analyzing-bitcoin-s-current-market-dynamics-amid-mvrv-decline"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:20:39.417Z Upserted rephrase to Supabase { sha: '5a6826e2049dc5ea7e36015b9788f6719b0e612f', id: 227 }
+2025-09-13T07:26:23.950Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:26:32.280Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757748392276.html
+2025-09-13T07:26:33.368Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:26:33.845Z Supabase select raw response for slug: {"error":null,"data":{"id":228,"slug":"potential-formation-of-a-us-strategic-bitcoin-reserve-in-2023"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:26:33.851Z Upserted rephrase to Supabase { sha: '58d780d4d1b6c848bdab78ab0908ab60480bbe38', id: 228 }
+2025-09-13T07:30:12.648Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:30:21.283Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757748621279.html
+2025-09-13T07:30:21.806Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:30:22.115Z Supabase select raw response for slug: {"error":null,"data":{"id":229,"slug":"potential-formation-of-a-u-s-strategic-bitcoin-reserve-insights-and-implications"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:30:22.118Z Upserted rephrase to Supabase { sha: '58d780d4d1b6c848bdab78ab0908ab60480bbe38', id: 229 }
+2025-09-13T07:34:15.579Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:34:25.401Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757748865399.html
+2025-09-13T07:34:26.119Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:34:26.494Z Supabase select raw response for slug: {"error":null,"data":{"id":230,"slug":"assessing-bitcoin-s-market-stability-mvrv-and-liquidity-challenges"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:34:26.497Z Upserted rephrase to Supabase { sha: '5a6826e2049dc5ea7e36015b9788f6719b0e612f', id: 230 }
+2025-09-13T07:40:34.888Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:40:46.060Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757749246057.html
+2025-09-13T07:40:46.752Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:40:47.129Z Supabase select raw response for slug: {"error":null,"data":{"id":231,"slug":"bitcoin-s-market-dynamics-analyzing-mvrv-and-liquidity-challenges"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:40:47.133Z Upserted rephrase to Supabase { sha: '5a6826e2049dc5ea7e36015b9788f6719b0e612f', id: 231 }
+2025-09-13T07:53:10.666Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:53:12.517Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:53:21.380Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750001376.html
+2025-09-13T07:53:22.160Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:53:22.473Z Supabase select raw response for slug: {"error":null,"data":{"id":232,"slug":"xrp-s-potential-for-a-20-surge-key-levels-to-monitor"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:53:22.475Z Upserted rephrase to Supabase { sha: 'f969e840bb91f2b3ff96a02f42b31f68f0233416', id: 232 }
+2025-09-13T07:53:22.806Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750002781.html
+2025-09-13T07:53:23.163Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:53:23.410Z Supabase select raw response for slug: {"error":null,"data":{"id":233,"slug":"trends-in-cryptocurrency-investment-funding-declines-and-market-shifts"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:53:23.414Z Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 233 }
+2025-09-13T07:59:01.106Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:59:01.430Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:59:02.852Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:59:03.065Z [rephraser] model= gpt-4o-mini
+2025-09-13T07:59:09.720Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750349719.html
+2025-09-13T07:59:10.252Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:59:10.505Z Supabase select raw response for slug: {"error":null,"data":{"id":234,"slug":"shifting-trends-in-crypto-investment-a-closer-look-at-august-2025"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:59:10.506Z Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 234 }
+2025-09-13T07:59:12.258Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750352256.html
+2025-09-13T07:59:12.583Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:59:12.840Z Supabase select raw response for slug: {"error":null,"data":{"id":235,"slug":"kalshi-s-legal-battle-defending-prediction-markets-against-massachusetts-lawsuit"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:59:12.842Z Upserted rephrase to Supabase { sha: '691ee6b21986fbb4bcf12bd0094e2889293be532', id: 235 }
+2025-09-13T07:59:12.979Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750352976.html
+2025-09-13T07:59:13.279Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:59:13.544Z Supabase select raw response for slug: {"error":null,"data":{"id":236,"slug":"ondo-finance-s-remarkable-growth-amid-rising-defi-interest"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:59:13.547Z Upserted rephrase to Supabase { sha: '499f6ce371b3ecfc6bbf73b1073fdd9186f8eeb2', id: 236 }
+2025-09-13T07:59:16.967Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750356965.html
+2025-09-13T07:59:17.235Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T07:59:17.552Z Supabase select raw response for slug: {"error":null,"data":{"id":237,"slug":"potential-for-xrp-to-surge-20-key-levels-to-monitor"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T07:59:17.553Z Upserted rephrase to Supabase { sha: 'f969e840bb91f2b3ff96a02f42b31f68f0233416', id: 237 }
+2025-09-13T08:01:48.762Z [rephraser] model= gpt-4o-mini
+2025-09-13T08:01:58.515Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750518508.html
+2025-09-13T08:01:59.090Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T08:01:59.745Z Supabase select raw response for slug: {"error":null,"data":{"id":238,"slug":"trends-in-crypto-investment-analyzing-recent-funding-changes"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T08:01:59.751Z Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 238 }
+2025-09-13T08:03:01.277Z [rephraser] model= gpt-4o-mini
+2025-09-13T08:03:10.724Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750590720.html
+2025-09-13T08:03:11.004Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T08:03:11.286Z Supabase select raw response for slug: {"error":null,"data":{"id":239,"slug":"xrp-price-analysis-20-upside-potential-if-key-levels-are-maintained"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T08:03:11.289Z Upserted rephrase to Supabase { sha: 'f969e840bb91f2b3ff96a02f42b31f68f0233416', id: 239 }
+2025-09-13T08:16:51.066Z [rephraser] model= gpt-4o-mini
+2025-09-13T08:16:59.469Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757751419465.html
+2025-09-13T08:16:59.801Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T08:17:00.046Z Supabase select raw response for slug: {"error":null,"data":{"id":240,"slug":"crypto-funding-trends-a-shift-in-investor-behavior-and-market-dynamics"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T08:17:00.048Z Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 240 }
+2025-09-13T08:19:07.922Z [rephraser] model= gpt-4o-mini
+2025-09-13T08:19:16.359Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757751556356.html
+2025-09-13T08:19:16.651Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T08:19:16.891Z Supabase select raw response for slug: {"error":null,"data":{"id":241,"slug":"potential-for-xrp-to-surge-20-key-levels-to-monitor"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T08:19:16.895Z Upserted rephrase to Supabase { sha: 'f969e840bb91f2b3ff96a02f42b31f68f0233416', id: 241 }
+2025-09-13T08:21:59.843Z [rephraser] model= gpt-4o-mini
+2025-09-13T08:22:08.815Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757751728813.html
+2025-09-13T08:22:09.098Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T08:22:09.338Z Supabase select raw response for slug: {"error":null,"data":{"id":242,"slug":"comparing-ethereum-and-cardano-insights-from-recent-validator-slashing"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T08:22:09.341Z Upserted rephrase to Supabase { sha: '78b85dedd12061e8ed6a14a4f772406f7f9890de', id: 242 }
+2025-09-13T08:26:21.044Z [rephraser] model= gpt-4o-mini
+2025-09-13T08:26:28.373Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757751988372.html
+2025-09-13T08:26:28.755Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T08:26:29.058Z Supabase select raw response for slug: {"error":null,"data":{"id":243,"slug":"legal-challenge-for-prediction-market-kalshi-in-massachusetts"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T08:26:29.060Z Upserted rephrase to Supabase { sha: '691ee6b21986fbb4bcf12bd0094e2889293be532', id: 243 }
+2025-09-13T08:39:46.693Z [rephraser] model= gpt-4o-mini
+2025-09-13T08:39:54.675Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757752794668.html
+2025-09-13T08:39:54.935Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T08:39:55.191Z Supabase select raw response for slug: {"error":null,"data":{"id":244,"slug":"comparing-staking-models-ethereum-s-challenges-and-cardano-s-strengths"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T08:39:55.193Z Upserted rephrase to Supabase { sha: '78b85dedd12061e8ed6a14a4f772406f7f9890de', id: 244 }
+2025-09-13T08:46:42.430Z [rephraser] model= gpt-4o-mini
+2025-09-13T08:46:51.346Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757753211335.html
+2025-09-13T08:46:51.680Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T08:46:51.986Z Supabase select raw response for slug: {"error":null,"data":{"id":245,"slug":"trends-in-crypto-investment-analyzing-august-s-funding-decline"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T08:46:51.990Z Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 245 }
+2025-09-13T08:51:22.005Z [rephraser] model= gpt-4o-mini
+2025-09-13T08:51:32.454Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757753492448.html
+2025-09-13T08:51:32.852Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T08:51:33.123Z Supabase select raw response for slug: {"error":null,"data":{"id":246,"slug":"dogecoin-s-breakout-analysts-predict-major-price-surge-ahead"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T08:51:33.125Z Upserted rephrase to Supabase { sha: 'f3730c7e6892d76145c0f0c6f3dccbf5b032247a', id: 246 }
+2025-09-13T09:27:31.114Z [rephraser] model= gpt-4o-mini
+2025-09-13T09:27:42.089Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757755662087.html
+2025-09-13T09:27:42.495Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T09:27:42.804Z Supabase select raw response for slug: {"error":null,"data":{"id":247,"slug":"trends-in-crypto-investment-august-sees-significant-funding-decline"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T09:27:42.805Z Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 247 }
+2025-09-13T09:31:59.254Z [rephraser] model= gpt-4o-mini
+2025-09-13T09:32:10.727Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757755930708.html
+2025-09-13T09:32:11.058Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T09:32:11.418Z Supabase select raw response for slug: {"error":null,"data":{"id":248,"slug":"decline-in-crypto-funding-august-sees-reduced-investment"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T09:32:11.420Z Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 248 }
+2025-09-13T10:17:25.337Z [rephraser] model= gpt-4o-mini
+2025-09-13T10:17:25.353Z [rephraser] model= gpt-4o-mini
+2025-09-13T10:17:33.750Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757758653705.html
+2025-09-13T10:17:34.332Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757758654315.html
+2025-09-13T10:17:35.339Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T10:17:35.406Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T10:17:35.620Z Supabase select raw response for slug: {"error":null,"data":{"id":249,"slug":"coinbase-enhances-transparency-in-token-listings"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T10:17:35.627Z Upserted rephrase to Supabase { sha: '75f101ffdbd6e4cb5a1eadf47e69c3bdabde570c', id: 249 }
+2025-09-13T10:17:36.185Z Supabase select raw response for slug: {"error":null,"data":{"id":250,"slug":"bitcoin-s-price-surge-analyzing-market-trends-and-holder-sentiment"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T10:17:36.191Z Upserted rephrase to Supabase { sha: 'a2f7f9f3d4d395a582e256c436e40442c0964a49', id: 250 }
+2025-09-13T10:24:43.263Z [rephraser] model= gpt-4o-mini
+2025-09-13T10:24:54.663Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757759094640.html
+2025-09-13T10:24:55.364Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T10:24:55.775Z Supabase select raw response for slug: {"error":null,"data":{"id":251,"slug":"okx-x-layer-achieves-milestones-with-record-active-users-and-dex-fees"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T10:24:55.788Z Upserted rephrase to Supabase { sha: '9db08170fb44f08e60d51fbe0be1281d6a6b2d0f', id: 251 }
+2025-09-13T10:25:00.428Z [rephraser] model= gpt-4o-mini
+2025-09-13T10:25:09.081Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757759109071.html
+2025-09-13T10:25:09.365Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T10:25:09.698Z Supabase select raw response for slug: {"error":null,"data":{"id":252,"slug":"coinbase-enhances-token-listing-procedures-with-emphasis-on-transparency"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T10:25:09.701Z Upserted rephrase to Supabase { sha: '75f101ffdbd6e4cb5a1eadf47e69c3bdabde570c', id: 252 }
+2025-09-13T14:37:09.269Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:37:11.932Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:37:22.609Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774242605.html
+2025-09-13T14:37:22.881Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:37:23.292Z Supabase select raw response for slug: {"error":null,"data":{"id":253,"slug":"bitcoin-s-current-stalemate-analyzing-market-dynamics-and-future-prospects"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:37:23.294Z Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 253 }
+2025-09-13T14:37:29.548Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774249545.html
+2025-09-13T14:37:29.872Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:37:30.119Z Supabase select raw response for slug: {"error":null,"data":{"id":254,"slug":"sec-chair-paul-atkins-envisions-a-new-era-for-digital-assets"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:37:30.121Z Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 254 }
+2025-09-13T14:41:31.872Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:41:32.158Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:41:43.616Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774503588.html
+2025-09-13T14:41:44.094Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774504089.html
+2025-09-13T14:41:45.236Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:41:45.239Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:41:46.281Z Supabase select raw response for slug: {"error":null,"data":{"id":256,"slug":"profit-and-loss-dynamics-among-pump-fun-traders"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:41:46.285Z Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 256 }
+2025-09-13T14:41:46.353Z Supabase select raw response for slug: {"error":null,"data":{"id":255,"slug":"rethinking-ai-integration-building-human-centric-systems-for-future-work"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:41:46.360Z Upserted rephrase to Supabase { sha: '1bd997b203a0deb0222d2a4097bf3fcdc21960f2', id: 255 }
+2025-09-13T14:46:29.964Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:46:30.003Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:46:41.547Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774801541.html
+2025-09-13T14:46:41.617Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774801598.html
+2025-09-13T14:46:42.704Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:46:42.713Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:46:43.962Z Supabase select raw response for slug: {"error":null,"data":{"id":257,"slug":"bitcoin-s-price-stagnation-analyzing-key-market-signals-for-future-movement"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:46:43.998Z Supabase select raw response for slug: {"error":null,"data":{"id":258,"slug":"cometa-global-launches-innovative-come-app-for-crypto-investors"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:46:43.995Z Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 257 }
+2025-09-13T14:46:44.007Z Upserted rephrase to Supabase { sha: 'ed06c63b421e9e884af6dc5f6bc45c3506e77c70', id: 258 }
+2025-09-13T14:51:11.051Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:51:11.071Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:51:21.575Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775081572.html
+2025-09-13T14:51:22.222Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:51:22.884Z Supabase select raw response for slug: {"error":null,"data":{"id":259,"slug":"assessing-bitcoin-s-current-position-retail-dominance-and-future-potentials"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:51:22.886Z Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 259 }
+2025-09-13T14:51:23.189Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775083186.html
+2025-09-13T14:51:23.794Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:51:24.928Z Supabase select raw response for slug: {"error":null,"data":{"id":260,"slug":"sec-chair-paul-atkins-vision-for-the-future-of-crypto-markets"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:51:24.930Z Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 260 }
+2025-09-13T14:56:47.554Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:56:59.374Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775419354.html
+2025-09-13T14:57:00.692Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:57:01.977Z Supabase select raw response for slug: {"error":null,"data":{"id":261,"slug":"wisdomtree-introduces-innovative-tokenized-fund-to-democratize-private-credit"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:57:02.006Z Upserted rephrase to Supabase { sha: '2d90abd5ef9214f2d1b33ca9e0edea2b690ce6c9', id: 261 }
+2025-09-13T14:57:32.681Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:57:32.792Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:57:32.916Z [rephraser] model= gpt-4o-mini
+2025-09-13T14:57:43.147Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775463111.html
+2025-09-13T14:57:43.847Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:57:46.404Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775466346.html
+2025-09-13T14:57:46.323Z Supabase select raw response for slug: {"error":null,"data":{"id":262,"slug":"coinbase-enhances-token-listing-protocol-with-transparency"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:57:46.576Z Upserted rephrase to Supabase { sha: '75f101ffdbd6e4cb5a1eadf47e69c3bdabde570c', id: 262 }
+2025-09-13T14:57:48.010Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775467228.html
+2025-09-13T14:57:49.832Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:57:50.224Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T14:57:50.612Z Supabase select raw response for slug: {"error":null,"data":{"id":263,"slug":"wisdomtree-launches-tokenized-fund-to-broaden-access-to-private-credit"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:57:50.616Z Upserted rephrase to Supabase { sha: '2d90abd5ef9214f2d1b33ca9e0edea2b690ce6c9', id: 263 }
+2025-09-13T14:57:51.007Z Supabase select raw response for slug: {"error":null,"data":{"id":264,"slug":"decentraland-s-mana-key-resistance-levels-to-watch-for-future-growth"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T14:57:51.016Z Upserted rephrase to Supabase { sha: '1e652234ed94713e93f45afc911c06b69140c513', id: 264 }
+2025-09-13T15:04:25.871Z [rephraser] model= gpt-4o-mini
+2025-09-13T15:04:26.097Z [rephraser] model= gpt-4o-mini
+2025-09-13T15:04:37.690Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775877666.html
+2025-09-13T15:04:38.618Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775878599.html
+2025-09-13T15:04:39.183Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T15:04:39.771Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T15:04:40.038Z Supabase select raw response for slug: {"error":null,"data":{"id":265,"slug":"rethinking-ai-integration-building-human-centric-systems-for-tomorrow-s-workforce"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T15:04:40.050Z Upserted rephrase to Supabase { sha: '1bd997b203a0deb0222d2a4097bf3fcdc21960f2', id: 265 }
+2025-09-13T15:04:40.711Z Supabase select raw response for slug: {"error":null,"data":{"id":266,"slug":"analysis-of-profitability-among-pump-fun-traders"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T15:04:40.717Z Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 266 }
+2025-09-13T15:21:06.718Z [rephraser] model= gpt-4o-mini
+2025-09-13T15:21:06.854Z [rephraser] model= gpt-4o-mini
+2025-09-13T15:21:24.518Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757776884515.html
+2025-09-13T15:21:25.107Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757776885105.html
+2025-09-13T15:21:25.451Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T15:21:25.723Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T15:21:26.356Z Supabase select raw response for slug: {"error":null,"data":{"id":267,"slug":"sec-chair-paul-atkins-envisions-a-new-era-for-on-chain-markets"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T15:21:26.360Z Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 267 }
+2025-09-13T15:21:26.690Z Supabase select raw response for slug: {"error":null,"data":{"id":268,"slug":"analyzing-bitcoin-s-market-dynamics-what-lies-ahead-for-btc-prices"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T15:21:26.692Z Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 268 }
+2025-09-13T15:29:46.899Z [rephraser] model= gpt-4o-mini
+2025-09-13T15:29:47.002Z [rephraser] model= gpt-4o-mini
+2025-09-13T15:29:51.517Z [rephraser] model= gpt-4o-mini
+2025-09-13T15:29:58.983Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757777398970.html
+2025-09-13T15:29:59.242Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757777399239.html
+2025-09-13T15:30:01.464Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T15:30:01.750Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T15:30:03.690Z Supabase select raw response for slug: {"error":null,"data":{"id":270,"slug":"empowering-financial-dignity-through-ai-driven-innovations-in-crypto"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T15:30:03.691Z Upserted rephrase to Supabase { sha: 'a64ee3f613ec89ac948702bcb377edf37bad055d', id: 270 }
+2025-09-13T15:30:04.603Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757777404601.html
+2025-09-13T15:30:05.481Z Supabase select raw response for slug: {"error":null,"data":{"id":269,"slug":"market-dynamics-understanding-bitcoin-s-current-phase"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T15:30:05.483Z Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 269 }
+2025-09-13T15:30:06.247Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T15:30:07.968Z Supabase select raw response for slug: {"error":null,"data":{"id":271,"slug":"cometa-global-launches-innovative-come-app-for-crypto-investment"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T15:30:07.970Z Upserted rephrase to Supabase { sha: 'ed06c63b421e9e884af6dc5f6bc45c3506e77c70', id: 271 }
+2025-09-13T15:51:51.425Z [rephraser] model= gpt-4o-mini
+2025-09-13T15:51:53.991Z [rephraser] model= gpt-4o-mini
+2025-09-13T15:52:03.228Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757778723223.html
+2025-09-13T15:52:03.570Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T15:52:03.884Z Supabase select raw response for slug: {"error":null,"data":{"id":272,"slug":"rethinking-ai-building-human-centered-systems-for-the-future-of-work"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T15:52:03.887Z Upserted rephrase to Supabase { sha: '1bd997b203a0deb0222d2a4097bf3fcdc21960f2', id: 272 }
+2025-09-13T15:52:07.009Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757778727007.html
+2025-09-13T15:52:07.707Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T15:52:07.964Z Supabase select raw response for slug: {"error":null,"data":{"id":273,"slug":"sec-s-vision-for-on-chain-markets-and-its-implications-for-crypto"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T15:52:07.965Z Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 273 }
+2025-09-13T16:12:44.970Z [rephraser] model= gpt-4o-mini
+2025-09-13T16:12:45.001Z [rephraser] model= gpt-4o-mini
+2025-09-13T16:12:56.885Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757779976859.html
+2025-09-13T16:12:57.330Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757779977327.html
+2025-09-13T16:12:58.039Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T16:12:58.305Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T16:12:58.696Z Supabase select raw response for slug: {"error":null,"data":{"id":274,"slug":"bitcoin-surges-past-115-000-amid-inflation-relief-and-etf-demand"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T16:12:58.697Z Upserted rephrase to Supabase { sha: '4c7f3879a0017373530d46a1dd44caf48e2fdb44', id: 274 }
+2025-09-13T16:12:59.251Z Supabase select raw response for slug: {"error":null,"data":{"id":275,"slug":"profit-and-loss-dynamics-among-pump-fun-s-pump-token-holders"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T16:12:59.254Z Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 275 }
+2025-09-13T16:21:55.660Z [rephraser] model= gpt-4o-mini
+2025-09-13T16:21:55.741Z [rephraser] model= gpt-4o-mini
+2025-09-13T16:22:04.796Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757780524775.html
+2025-09-13T16:22:05.433Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T16:22:06.023Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757780526020.html
+2025-09-13T16:22:06.407Z Supabase select raw response for slug: {"error":null,"data":{"id":276,"slug":"coinbase-enhances-transparency-in-its-token-listing-procedure"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T16:22:06.410Z Upserted rephrase to Supabase { sha: '75f101ffdbd6e4cb5a1eadf47e69c3bdabde570c', id: 276 }
+2025-09-13T16:22:06.982Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T16:22:07.938Z Supabase select raw response for slug: {"error":null,"data":{"id":277,"slug":"key-levels-for-decentraland-s-mana-a-path-to-0-60"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T16:22:07.941Z Upserted rephrase to Supabase { sha: '1e652234ed94713e93f45afc911c06b69140c513', id: 277 }
+2025-09-13T16:25:35.520Z [rephraser] model= gpt-4o-mini
+2025-09-13T16:25:35.827Z [rephraser] model= gpt-4o-mini
+2025-09-13T16:25:45.178Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757780745176.html
+2025-09-13T16:25:45.796Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T16:25:45.919Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757780745917.html
+2025-09-13T16:25:46.536Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-13T16:25:46.710Z Supabase select raw response for slug: {"error":null,"data":{"id":278,"slug":"analysis-of-profitability-among-pump-fun-traders"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T16:25:46.714Z Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 278 }
+2025-09-13T16:25:47.132Z Supabase select raw response for slug: {"error":null,"data":{"id":279,"slug":"reimagining-ai-the-importance-of-human-centric-systems"},"count":null,"status":200,"statusText":"OK"}
+2025-09-13T16:25:47.134Z Upserted rephrase to Supabase { sha: '1bd997b203a0deb0222d2a4097bf3fcdc21960f2', id: 279 }
+2025-09-14T03:37:30.967Z [rephraser] model= gpt-4o-mini
+2025-09-14T03:37:30.979Z [rephraser] model= gpt-4o-mini
+2025-09-14T03:37:38.469Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821058444.html
+2025-09-14T03:37:39.294Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821059286.html
+2025-09-14T03:37:39.442Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T03:37:40.048Z Supabase select raw response for slug: {"error":null,"data":{"id":280,"slug":"memecore-m-after-reaching-new-heights-what-lies-ahead-for-the-cryptocurrency"},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T03:37:40.053Z Upserted rephrase to Supabase { sha: '6f2121c6e9eda0c82ce295da9eacc82682c15e4c', id: 280 }
+2025-09-14T03:37:40.247Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T03:37:41.167Z Supabase select raw response for slug: {"error":null,"data":{"id":281,"slug":"solana-s-potential-price-surge-following-cup-and-handle-breakout"},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T03:37:41.173Z Upserted rephrase to Supabase { sha: 'fe7edd1f9f816debc708f14dc44959d5d5a56f44', id: 281 }
+2025-09-14T03:45:08.840Z [rephraser] model= gpt-4o-mini
+2025-09-14T03:45:08.893Z [rephraser] model= gpt-4o-mini
+2025-09-14T03:45:17.782Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821517759.html
+2025-09-14T03:45:18.116Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821518113.html
+2025-09-14T03:45:18.407Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T03:45:19.008Z Supabase select raw response for slug: {"error":null,"data":{"id":282,"slug":"insights-into-profit-distribution-among-pump-token-traders"},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T03:45:19.032Z Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 282 }
+2025-09-14T03:45:19.559Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T03:45:20.170Z Supabase select raw response for slug: {"error":null,"data":{"id":283,"slug":"bridging-cultures-and-innovations-vitalik-buterin-s-vision-at-ethtokyo-2025"},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T03:45:20.173Z Upserted rephrase to Supabase { sha: '60124764561ed59457d3bee048ef7aef87f34c9e', id: 283 }
+2025-09-14T03:51:36.973Z [rephraser] model= gpt-4o-mini
+2025-09-14T03:51:38.005Z [rephraser] model= gpt-4o-mini
+2025-09-14T03:51:44.590Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821904583.html
+2025-09-14T03:51:45.442Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821905437.html
+2025-09-14T03:51:45.688Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T03:51:46.379Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T03:51:46.635Z Supabase select raw response for slug: {"error":null,"data":{"id":284,"slug":"criticism-of-rachel-reeves-amidst-uk-economic-stagnation"},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T03:51:46.639Z Upserted rephrase to Supabase { sha: '764105728f949256816f29378bf596e2ddd0c1c7', id: 284 }
+2025-09-14T03:51:47.293Z Supabase select raw response for slug: {"error":null,"data":{"id":285,"slug":"bitcoin-s-potential-rally-key-insights-on-market-sentiment"},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T03:51:47.298Z Upserted rephrase to Supabase { sha: 'a2f7f9f3d4d395a582e256c436e40442c0964a49', id: 285 }
+2025-09-14T04:01:29.382Z [rephraser] model= gpt-4o-mini
+2025-09-14T04:01:29.521Z [rephraser] model= gpt-4o-mini
+2025-09-14T04:01:37.163Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757822497138.html
+2025-09-14T04:01:37.273Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757822497268.html
+2025-09-14T04:01:37.966Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T04:01:38.269Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T04:01:38.911Z Supabase select raw response for slug: {"error":null,"data":{"id":286,"slug":"insights-into-profitability-among-pump-fun-traders"},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T04:01:38.914Z Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 286 }
+2025-09-14T04:01:39.198Z Supabase select raw response for slug: {"error":null,"data":{"id":287,"slug":"bridging-borders-vitalik-buterin-s-insights-from-ethtokyo-2025"},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T04:01:39.203Z Upserted rephrase to Supabase { sha: '60124764561ed59457d3bee048ef7aef87f34c9e', id: 287 }
+2025-09-14T04:32:45.006Z [rephraser] model= gpt-4o-mini
+2025-09-14T04:32:56.288Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757824376281.html
+2025-09-14T04:32:58.540Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T04:32:59.508Z Supabase select raw response for slug: {"error":null,"data":{"id":288,"slug":"bingx-launches-ai-master-the-first-ai-driven-crypto-trading-strategist","title":"BingX Launches AI Master: The First AI-Driven Crypto Trading Strategist","excerpt":"BingX has introduced AI Master, the first AI-powered crypto trading strategist, representing a major leap in digital asset management and improving trading accessibility for users."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T04:32:59.511Z Upserted rephrase to Supabase { sha: 'b49b2287596b775e520e60095749bbfe0011da3f', id: 288 }
+2025-09-14T04:40:40.686Z [rephraser] model= gpt-4o-mini
+2025-09-14T04:40:40.711Z [rephraser] model= gpt-4o-mini
+2025-09-14T04:40:48.183Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757824848177.html
+2025-09-14T04:40:48.898Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757824848884.html
+2025-09-14T04:40:49.317Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T04:40:49.851Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T04:40:50.258Z Supabase select raw response for slug: {"error":null,"data":{"id":289,"slug":"the-future-of-on-chain-markets-sec-s-vision-under-project-crypto","title":"The Future of On-Chain Markets: SEC’s Vision Under Project Crypto","excerpt":"In a significant address delivered in Paris, SEC Chair Paul Atkins outlined a transformative vision for digital assets, emphasizing the importance of clear regulatory frameworks under Project Crypto."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T04:40:50.263Z Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 289 }
+2025-09-14T04:40:50.773Z Supabase select raw response for slug: {"error":null,"data":{"id":290,"slug":"retail-traders-take-the-lead-analyzing-bitcoin-s-market-movements","title":"Retail Traders Take the Lead: Analyzing Bitcoin's Market Movements","excerpt":"Bitcoin's market dynamics are shifting as retail traders gain influence, leading to a period of price stagnation. This article explores recent movements in Bitcoin's landscape, highlighting key trends and behavior among different investor types."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T04:40:50.779Z Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 290 }
+2025-09-14T04:59:09.277Z [rephraser] model= gpt-4o-mini
+2025-09-14T04:59:09.310Z [rephraser] model= gpt-4o-mini
+2025-09-14T04:59:17.171Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757825957162.html
+2025-09-14T04:59:18.146Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T04:59:18.267Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757825958266.html
+2025-09-14T04:59:19.074Z Supabase select raw response for slug: {"error":null,"data":{"id":291,"slug":"rachel-reeves-faces-criticism-as-uk-economic-growth-stagnates","title":"Rachel Reeves Faces Criticism as UK Economic Growth Stagnates","excerpt":"The ongoing economic challenges in the UK have led to significant scrutiny of Rachel Reeves, highlighting concerns over her visibility amidst these struggles."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T04:59:19.076Z Upserted rephrase to Supabase { sha: '764105728f949256816f29378bf596e2ddd0c1c7', id: 291 }
+2025-09-14T04:59:19.202Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T04:59:20.103Z Supabase select raw response for slug: {"error":null,"data":{"id":292,"slug":"bitcoin-s-mid-term-holders-signal-bullish-momentum-with-recent-price-surge","title":"Bitcoin's Mid-Term Holders Signal Bullish Momentum with Recent Price Surge","excerpt":"Recent data shows a significant uptick in Bitcoin's price, suggesting that mid-term holders are regaining confidence in the market. With the current price hovering around $115,050, analysts remain divided on the future trajectory of Bitcoin."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T04:59:20.105Z Upserted rephrase to Supabase { sha: 'a2f7f9f3d4d395a582e256c436e40442c0964a49', id: 292 }
+2025-09-14T05:09:33.416Z [rephraser] model= gpt-4o-mini
+2025-09-14T05:09:33.575Z [rephraser] model= gpt-4o-mini
+2025-09-14T05:09:41.227Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757826581199.html
+2025-09-14T05:09:42.241Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T05:09:43.236Z Supabase select raw response for slug: {"error":null,"data":{"id":293,"slug":"solana-s-bullish-potential-analyzing-the-cup-and-handle-breakout","title":"Solana's Bullish Potential: Analyzing the Cup-and-Handle Breakout","excerpt":"Recent analysis by Ali Martinez reveals a bullish cup-and-handle pattern in Solana's price, suggesting a potential uptrend continuation for the cryptocurrency SOL."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T05:09:43.240Z Upserted rephrase to Supabase { sha: 'fe7edd1f9f816debc708f14dc44959d5d5a56f44', id: 293 }
+2025-09-14T05:09:43.417Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757826583413.html
+2025-09-14T05:09:44.072Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T05:09:45.013Z Supabase select raw response for slug: {"error":null,"data":{"id":294,"slug":"vitalik-buterin-raises-concerns-about-ai-governance-in-crypto","title":"Vitalik Buterin Raises Concerns About AI Governance in Crypto","excerpt":"Vitalik Buterin has expressed apprehensions regarding the governance of artificial intelligence (AI) within the cryptocurrency realm. This article discusses his insights and alternative approaches to navigate these emerging challenges."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T05:09:45.017Z Upserted rephrase to Supabase { sha: '80b90f27675a8ef530a3f7ca681943a96232fbbb', id: 294 }
+2025-09-14T05:21:53.573Z [rephraser] model= gpt-4o-mini
+2025-09-14T05:21:54.989Z [rephraser] model= gpt-4o-mini
+2025-09-14T05:22:00.784Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757827320759.html
+2025-09-14T05:22:02.109Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T05:22:02.606Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757827322603.html
+2025-09-14T05:22:03.067Z Supabase select raw response for slug: {"error":null,"data":{"id":295,"slug":"compensation-considerations-for-unpaid-carers-affected-by-allowance-scandal","title":"Compensation Considerations for Unpaid Carers Affected by Allowance Scandal","excerpt":"The UK government is examining potential compensation avenues for those impacted by the carer’s allowance scandal, which has financially burdened thousands of unpaid carers. Recent findings have shed light on the administrative issues within the Department for Work and Pensions (DWP) that have exacerbated these challenges."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T05:22:03.072Z Upserted rephrase to Supabase { sha: '9d988b5893ae9dcaf2485b6d3cec126dcf236861', id: 295 }
+2025-09-14T05:22:03.612Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T05:22:04.591Z Supabase select raw response for slug: {"error":null,"data":{"id":296,"slug":"new-developments-in-the-tech-industry-a-look-ahead","title":"New Developments in the Tech Industry: A Look Ahead","excerpt":"The tech industry is navigating a complex landscape filled with challenges and opportunities. This article explores recent hurdles, market trends, innovations in AI, regulatory shifts, and the anticipated future of technology in 2024."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T05:22:04.594Z Upserted rephrase to Supabase { sha: '20e3f91562f4cb3cb6ee8b221f1cf4d6448f8b25', id: 296 }
+2025-09-14T06:20:34.640Z [rephraser] model= gpt-4o-mini
+2025-09-14T06:20:35.977Z [rephraser] model= gpt-4o-mini
+2025-09-14T06:20:41.885Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757830841882.html
+2025-09-14T06:20:43.355Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T06:20:43.643Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757830843639.html
+2025-09-14T06:20:44.342Z Supabase select raw response for slug: {"error":null,"data":{"id":297,"slug":"government-explores-restitution-for-carers-affected-by-allowance-controversy","title":"Government Explores Restitution for Carers Affected by Allowance Controversy","excerpt":"The UK government is considering compensation for unpaid carers who have faced financial difficulties due to recent controversies surrounding the carer’s allowance. This situation has led to thousands falling into debt amid heightened scrutiny of existing benefit regulations."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T06:20:44.343Z Upserted rephrase to Supabase { sha: '9d988b5893ae9dcaf2485b6d3cec126dcf236861', id: 297 }
+2025-09-14T06:20:44.646Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T06:20:45.617Z Supabase select raw response for slug: {"error":null,"data":{"id":298,"slug":"key-developments-in-renewable-energy-initiatives","title":"Key Developments in Renewable Energy Initiatives","excerpt":"The renewable energy sector is experiencing significant advancements, with a variety of key players and policies shaping its landscape. This article explores recent trends, statistics, and future potential in sustainable energy initiatives."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T06:20:45.619Z Upserted rephrase to Supabase { sha: '20e3f91562f4cb3cb6ee8b221f1cf4d6448f8b25', id: 298 }
+2025-09-14T06:32:15.896Z [rephraser] model= gpt-4o-mini
+2025-09-14T06:32:15.896Z [rephraser] model= gpt-4o-mini
+2025-09-14T06:32:22.888Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757831542884.html
+2025-09-14T06:32:23.441Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757831543438.html
+2025-09-14T06:32:24.134Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T06:32:24.441Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T06:32:25.117Z Supabase select raw response for slug: {"error":null,"data":{"id":299,"slug":"allegations-of-russian-influence-in-moldova-s-elections","title":"Allegations of Russian Influence in Moldova's Elections","excerpt":"Moldovan President Maia Sandu has accused Russia of attempting to manipulate the country's elections, raising significant concerns about the integrity of the electoral process amidst rising geopolitical tensions."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T06:32:25.121Z Upserted rephrase to Supabase { sha: 'a2058106216eb5fe519cefe72bbf78db4c054d5c', id: 299 }
+2025-09-14T06:32:25.433Z Supabase select raw response for slug: {"error":null,"data":{"id":300,"slug":"controversy-erupts-as-aena-accuses-ryanair-of-misleading-claims-about-flight-reductions","title":"Controversy Erupts as Aena Accuses Ryanair of Misleading Claims About Flight Reductions","excerpt":"Aena has publicly criticized Ryanair for allegedly making false claims regarding its flight cancellations, sparking tensions between the airline and airport authorities. The accusations come amidst a backdrop of operational challenges faced by Ryanair."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T06:32:25.440Z Upserted rephrase to Supabase { sha: 'a7e0168b7de570b58e4e7a924ec9cc1c114b5a00', id: 300 }
+2025-09-14T06:44:56.417Z [rephraser] model= gpt-4o-mini
+2025-09-14T06:44:56.434Z [rephraser] model= gpt-4o-mini
+2025-09-14T06:45:04.637Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757832304628.html
+2025-09-14T06:45:05.133Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757832305121.html
+2025-09-14T06:45:06.171Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T06:45:06.177Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T06:45:07.121Z Supabase select raw response for slug: {"error":null,"data":{"id":302,"slug":"potential-scenarios-for-bitcoin-price-movement-in-the-coming-days","title":"Potential Scenarios for Bitcoin Price Movement in the Coming Days","excerpt":"As Bitcoin navigates a significant decline from its all-time highs, analysts are assessing future price movements and market implications."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T06:45:07.124Z Upserted rephrase to Supabase { sha: '40773467e5e93bea80479811f68776394310cc3e', id: 302 }
+2025-09-14T06:45:07.170Z Supabase select raw response for slug: {"error":null,"data":{"id":301,"slug":"ethereum-s-ascent-analyzing-the-path-to-5-000","title":"Ethereum's Ascent: Analyzing the Path to $5,000","excerpt":"Ethereum's recent performance has sparked interest as it crosses the $4,700 mark, driven by significant market indicators and a shift in trading dynamics. Analysts are observing critical signs that could pave the way for a surge towards the $5,000 milestone."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T06:45:07.171Z Upserted rephrase to Supabase { sha: 'e5c19ced884cb9de74a175711429a4ec9a0a0911', id: 301 }
+2025-09-14T06:54:58.791Z [rephraser] model= gpt-4o-mini
+2025-09-14T06:54:59.769Z [rephraser] model= gpt-4o-mini
+2025-09-14T06:55:08.710Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757832908702.html
+2025-09-14T06:55:10.106Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757832910100.html
+2025-09-14T06:55:11.352Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T06:55:11.369Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T06:55:12.340Z Supabase select raw response for slug: {"error":null,"data":{"id":303,"slug":"future-projections-for-bitcoin-insights-from-arthur-hayes","title":"Future Projections for Bitcoin: Insights from Arthur Hayes","excerpt":"Arthur Hayes shares his outlook on Bitcoin's potential trajectory, suggesting the possibility of a bull market extending into 2026 due to various macroeconomic influences."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T06:55:12.343Z Upserted rephrase to Supabase { sha: 'f3051d195fdb69d2a1f95e17e6afcdc662acde98', id: 303 }
+2025-09-14T06:55:12.360Z Supabase select raw response for slug: {"error":null,"data":{"id":304,"slug":"today-s-highlights-in-the-crypto-space","title":"Today's Highlights in the Crypto Space","excerpt":"In the ever-evolving world of cryptocurrency, major trends and predictions are shaping the market landscape. Today's insights highlight the future of stablecoins, the lucrative role of ethical hackers, and potential developments in Bitcoin reserves."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T06:55:12.367Z Upserted rephrase to Supabase { sha: 'b431ea497743c593e10ff5173e1a8bad73c4aae0', id: 304 }
+2025-09-14T07:00:10.650Z [rephraser] model= gpt-4o-mini
+2025-09-14T07:00:10.693Z [rephraser] model= gpt-4o-mini
+2025-09-14T07:00:18.828Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757833218818.html
+2025-09-14T07:00:19.940Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T07:00:20.228Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757833220222.html
+2025-09-14T07:00:20.878Z Supabase select raw response for slug: {"error":null,"data":{"id":305,"slug":"compensation-considerations-for-carers-affected-by-allowance-mismanagement","title":"Compensation Considerations for Carers Affected by Allowance Mismanagement","excerpt":"The UK government is examining the possibility of compensation for unpaid carers impacted by violations of benefit rules, as thousands face significant financial repercussions from stringent regulations."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T07:00:20.882Z Upserted rephrase to Supabase { sha: '9d988b5893ae9dcaf2485b6d3cec126dcf236861', id: 305 }
+2025-09-14T07:00:21.171Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T07:00:22.098Z Supabase select raw response for slug: {"error":null,"data":{"id":306,"slug":"worldcoin-s-future-can-wld-reach-2-following-tom-lee-s-endorsement","title":"Worldcoin's Future: Can WLD Reach $2 Following Tom Lee's Endorsement?","excerpt":"Following Tom Lee's recent endorsement, Worldcoin (WLD) is gaining attention regarding its potential to reach $2. With significant movements in its price and backing from major investors, the market sentiment around WLD is showing signs of optimism."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T07:00:22.102Z Upserted rephrase to Supabase { sha: '21e271facd48ae77b0e10b1bcbe0f4429dd3fcca', id: 306 }
+2025-09-14T08:06:45.852Z [rephraser] model= gpt-4o-mini
+2025-09-14T08:06:46.022Z [rephraser] model= gpt-4o-mini
+2025-09-14T08:06:56.401Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757837215524.html
+2025-09-14T08:06:57.225Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757837217213.html
+2025-09-14T08:06:58.847Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T08:06:58.853Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T08:06:59.867Z Supabase select raw response for slug: {"error":null,"data":{"id":307,"slug":"worldcoin-s-future-can-wld-reach-2-following-tom-lee-s-endorsement","title":"Worldcoin's Future: Can WLD Reach $2 Following Tom Lee's Endorsement?","excerpt":"Worldcoin (WLD) is generating excitement in the market thanks to Tom Lee's recent endorsement. This article examines the factors that could drive WLD toward a $2 valuation amidst a backdrop of significant developments in the cryptocurrency landscape."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T08:06:59.873Z Upserted rephrase to Supabase { sha: '21e271facd48ae77b0e10b1bcbe0f4429dd3fcca', id: 307 }
+2025-09-14T08:06:59.875Z Supabase select raw response for slug: {"error":null,"data":{"id":308,"slug":"russia-s-tactics-in-moldovan-elections-an-inside-look","title":"Russia's Tactics in Moldovan Elections: An Inside Look","excerpt":"Amidst allegations of Russian interference, Moldova's President Maia Sandu highlights the complexities of foreign influence in her country’s electoral processes."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T08:06:59.880Z Upserted rephrase to Supabase { sha: 'a2058106216eb5fe519cefe72bbf78db4c054d5c', id: 308 }
+2025-09-14T08:38:47.892Z [rephraser] model= gpt-4o-mini
+2025-09-14T08:38:55.853Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757839135848.html
+2025-09-14T08:38:57.380Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T08:38:58.456Z Supabase select raw response for slug: {"error":null,"data":{"id":309,"slug":"key-developments-in-the-cryptocurrency-sector-today","title":"Key Developments in the Cryptocurrency Sector Today","excerpt":"Today's insights reveal significant predictions and trends within the cryptocurrency landscape, including forecasts for Bitcoin investments and the evolving stablecoin market."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T08:38:58.458Z Upserted rephrase to Supabase { sha: 'b431ea497743c593e10ff5173e1a8bad73c4aae0', id: 309 }
+2025-09-14T08:53:08.033Z [rephraser] model= gpt-4o-mini
+2025-09-14T08:53:16.551Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757839996545.html
+2025-09-14T08:53:17.979Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T08:53:19.076Z Supabase select raw response for slug: {"error":null,"data":{"id":310,"slug":"dogecoin-s-journey-towards-1-key-levels-and-market-dynamics-in-2025","title":"Dogecoin's Journey Towards $1: Key Levels and Market Dynamics in 2025","excerpt":"Dogecoin's price path is showing promising signs as it recently broke through significant resistance, yet market dynamics indicate mixed signals ahead."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T08:53:19.085Z Upserted rephrase to Supabase { sha: '97ff934714f624c3f125a33a17d664f7f6be187f', id: 310 }
+2025-09-14T09:11:33.551Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:11:33.602Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:11:44.422Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841104392.html
+2025-09-14T09:11:45.136Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841105116.html
+2025-09-14T09:11:45.629Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:11:46.426Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:11:46.718Z Supabase select raw response for slug: {"error":null,"data":{"id":311,"slug":"bitcoin-s-path-to-117-000-a-bullish-outlook","title":"Bitcoin's Path to $117,000: A Bullish Outlook","excerpt":"Bitcoin (BTC) is showing promising signs as it has successfully transitioned from a key support area, with analysts eyeing a crucial resistance level at $117,000. The overall market sentiment is optimistic, indicating the possibility of further upward movement."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:11:46.730Z Upserted rephrase to Supabase { sha: '350986b201effbd70a8dbbc0faa82ca7651b86d8', id: 311 }
+2025-09-14T09:11:47.506Z Supabase select raw response for slug: {"error":null,"data":{"id":312,"slug":"dogecoin-the-transformation-of-a-meme-into-a-financial-asset","title":"Dogecoin: The Transformation of a Meme into a Financial Asset","excerpt":"The journey of Dogecoin, from a simple internet meme to a recognized financial asset, highlights its cultural resonance and the evolving landscape of cryptocurrency. This article delves into key events and trends that have shaped Dogecoin's rise and the implications of its potential as an ETF."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:11:47.539Z Upserted rephrase to Supabase { sha: 'e65ff9bf54f808cf6ff5bb5700792e68ec6c553f', id: 312 }
+2025-09-14T09:19:40.766Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:19:43.553Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:19:51.510Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841591467.html
+2025-09-14T09:19:53.043Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:19:53.795Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841593767.html
+2025-09-14T09:19:54.191Z Supabase select raw response for slug: {"error":null,"data":{"id":313,"slug":"decentralized-indexing-the-future-of-web3-amid-challenges","title":"Decentralized Indexing: The Future of Web3 Amid Challenges","excerpt":"Decentralized indexing is becoming increasingly crucial for the functionality of Web3 and decentralized applications (dApps). This article delves into The Graph's role in this evolving landscape, the challenges it faces, and the potential impact on the broader ecosystem."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:19:54.224Z Upserted rephrase to Supabase { sha: '6e4a9b67ab601e88be9dd5715e1bf6fda58043a8', id: 313 }
+2025-09-14T09:19:54.623Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:19:55.836Z Supabase select raw response for slug: {"error":null,"data":{"id":314,"slug":"increased-bitcoin-allocations-anticipated-in-traditional-finance","title":"Increased Bitcoin Allocations Anticipated in Traditional Finance","excerpt":"Jordi Visser has projected a significant rise in Bitcoin allocations within traditional finance by the end of the year, reflecting a growing confidence among institutional investors."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:19:55.858Z Upserted rephrase to Supabase { sha: '1e7a94d66ef6ac9ac1c845b60d38d5062ec59236', id: 314 }
+2025-09-14T09:25:24.392Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:25:25.249Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:25:31.756Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841931752.html
+2025-09-14T09:25:32.893Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:25:33.834Z Supabase select raw response for slug: {"error":null,"data":{"id":315,"slug":"ripple-s-xrp-reclaims-its-spot-among-the-top-global-assets","title":"Ripple's XRP Reclaims Its Spot Among the Top Global Assets","excerpt":"Ripple's XRP has successfully returned to the top 100 global assets by market capitalization, boasting a valuation of around $185 billion. This recovery follows a significant rebound in its trading price, now positioned at $3.10."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:25:33.840Z Upserted rephrase to Supabase { sha: 'eefa517c27c7edb36169b6b8c09c24f36d1d0c6e', id: 315 }
+2025-09-14T09:25:33.873Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841933867.html
+2025-09-14T09:25:33.965Z Updater spawn attempt 1 exit=0
+2025-09-14T09:25:34.854Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:25:35.777Z Supabase select raw response for slug: {"error":null,"data":{"id":316,"slug":"traditional-finance-set-to-increase-bitcoin-allocations-by-year-end","title":"Traditional Finance Set to Increase Bitcoin Allocations by Year-End","excerpt":"Jordi Visser anticipates a significant rise in Bitcoin allocations within US financial institutions by the end of 2023. This outlook is supported by recent industry insights and positive market trends."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:25:35.779Z Upserted rephrase to Supabase { sha: '1e7a94d66ef6ac9ac1c845b60d38d5062ec59236', id: 316 }
+2025-09-14T09:25:35.859Z Updater spawn attempt 1 exit=0
+2025-09-14T09:37:38.269Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:37:38.272Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:37:47.033Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757842667028.html
+2025-09-14T09:37:48.275Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:37:48.342Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757842668338.html
+2025-09-14T09:37:49.332Z Supabase select raw response for slug: {"error":null,"data":{"id":317,"slug":"analyzing-bitcoin-s-potential-price-movements-amid-macro-correction-speculation","title":"Analyzing Bitcoin's Potential Price Movements Amid Macro Correction Speculation","excerpt":"Recent price trends in Bitcoin have prompted analysts to assess its potential movements, particularly in light of macroeconomic corrections. Key resistance levels and indicators suggest critical points for traders to monitor moving forward."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:37:49.338Z Upserted rephrase to Supabase { sha: '40773467e5e93bea80479811f68776394310cc3e', id: 317 }
+2025-09-14T09:37:49.345Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:37:49.469Z Updater spawn attempt 1 exit=0
+2025-09-14T09:37:50.325Z Supabase select raw response for slug: {"error":null,"data":{"id":318,"slug":"ethereum-poised-for-growth-as-shorts-liquidated-and-5-000-target-approaches","title":"Ethereum Poised for Growth as Shorts Liquidated and $5,000 Target Approaches","excerpt":"Ethereum has recently exceeded the $4,700 threshold, showcasing strong bullish trends as short positions face liquidation and market dynamics shift favorably."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:37:50.329Z Upserted rephrase to Supabase { sha: 'e5c19ced884cb9de74a175711429a4ec9a0a0911', id: 318 }
+2025-09-14T09:37:50.429Z Updater spawn attempt 1 exit=0
+2025-09-14T09:44:32.281Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:44:32.281Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:44:40.687Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757843080677.html
+2025-09-14T09:44:41.790Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757843081786.html
+2025-09-14T09:44:42.008Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:44:42.753Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:44:42.986Z Supabase select raw response for slug: {"error":null,"data":{"id":319,"slug":"extended-bullish-outlook-for-bitcoin-insights-from-arthur-hayes","title":"Extended Bullish Outlook for Bitcoin: Insights from Arthur Hayes","excerpt":"Arthur Hayes has expressed a bullish perspective on Bitcoin's future, envisioning a continuation of the crypto rally potentially extending into 2026, driven by various macroeconomic factors."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:44:42.993Z Upserted rephrase to Supabase { sha: 'f3051d195fdb69d2a1f95e17e6afcdc662acde98', id: 319 }
+2025-09-14T09:44:43.115Z Updater spawn attempt 1 exit=0
+2025-09-14T09:44:43.391Z Supabase select raw response for slug: {"error":null,"data":{"id":320,"slug":"ethereum-poised-for-breakout-key-insights-on-bullish-momentum","title":"Ethereum Poised for Breakout: Key Insights on Bullish Momentum","excerpt":"Ethereum has recently surpassed the $4,700 mark, indicating a strong potential for further growth toward the $5,000 threshold. This article explores various indicators that suggest Ethereum is on the cusp of a significant bullish phase."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:44:43.398Z Upserted rephrase to Supabase { sha: 'e5c19ced884cb9de74a175711429a4ec9a0a0911', id: 320 }
+2025-09-14T09:44:43.502Z Updater spawn attempt 1 exit=0
+2025-09-14T09:52:38.147Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:52:38.337Z [rephraser] model= gpt-4o-mini
+2025-09-14T09:52:48.220Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757843568212.html
+2025-09-14T09:52:48.245Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757843568237.html
+2025-09-14T09:52:49.374Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:52:49.369Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T09:52:50.315Z Supabase select raw response for slug: {"error":null,"data":{"id":322,"slug":"french-firms-outpace-government-in-borrowing-costs-amid-debt-concerns","title":"French Firms Outpace Government in Borrowing Costs Amid Debt Concerns","excerpt":"Recent trends show that French companies are experiencing a significant decline in borrowing costs, surpassing those of the government, which raises questions about France's economic standing amidst increasing debt concerns."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:52:50.309Z Supabase select raw response for slug: {"error":null,"data":{"id":321,"slug":"high-street-retail-struggles-insights-from-pret-and-competitors","title":"High Street Retail Struggles: Insights from Pret and Competitors","excerpt":"The UK high street is currently facing significant challenges, as evidenced by an examination of Pret and its competitors. This article delves into Pret's performance amidst shifting consumer behaviors and highlights essential strategies for navigating the evolving retail landscape."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T09:52:50.321Z Upserted rephrase to Supabase { sha: '61f1f8eb7bfd953343a1db3b6aab6781815313bd', id: 322 }
+2025-09-14T09:52:50.319Z Upserted rephrase to Supabase { sha: '62bc64110e3fde469a4e4e5720aa60cb8fb8aad5', id: 321 }
+2025-09-14T09:52:50.463Z Updater spawn attempt 1 exit=0
+2025-09-14T09:52:50.458Z Updater spawn attempt 1 exit=0
+2025-09-14T10:00:08.182Z [rephraser] model= gpt-4o-mini
+2025-09-14T10:00:08.877Z [rephraser] model= gpt-4o-mini
+2025-09-14T10:00:15.248Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757844015200.html
+2025-09-14T10:00:16.872Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T10:00:17.415Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757844017411.html
+2025-09-14T10:00:18.773Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T10:00:19.744Z Supabase select raw response for slug: {"error":null,"data":{"id":324,"slug":"predictions-for-increased-bitcoin-allocations-in-traditional-finance","title":"Predictions for Increased Bitcoin Allocations in Traditional Finance","excerpt":"Traditional financial institutions are poised for an uptick in Bitcoin allocations before the end of the year, according to Wall Street's Jordi Visser. This shift aligns with broader trends among institutional investors and significant market inflows."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T10:00:19.748Z Upserted rephrase to Supabase { sha: '1e7a94d66ef6ac9ac1c845b60d38d5062ec59236', id: 324 }
+2025-09-14T10:00:19.855Z Updater spawn attempt 1 exit=0
+2025-09-14T10:00:21.368Z Supabase select raw response for slug: {"error":null,"data":{"id":323,"slug":"ripple-s-xrp-reclaims-position-among-top-global-assets","title":"Ripple's XRP Reclaims Position Among Top Global Assets","excerpt":"Ripple's XRP has made a notable return to the top 100 global assets, currently valued at around $185 billion following a recent market recovery."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T10:00:21.378Z Upserted rephrase to Supabase { sha: 'eefa517c27c7edb36169b6b8c09c24f36d1d0c6e', id: 323 }
+2025-09-14T10:00:21.540Z Updater spawn attempt 1 exit=0
+2025-09-14T10:14:11.860Z [rephraser] model= gpt-4o-mini
+2025-09-14T10:14:17.224Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757844857218.html
+2025-09-14T10:14:18.542Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T10:14:19.762Z Supabase select raw response for slug: {"error":null,"data":{"id":325,"slug":"exploring-the-dynamics-of-pipeline-aggregation","title":"Exploring the Dynamics of Pipeline Aggregation","excerpt":"This article delves into the critical aspects of pipeline aggregation, examining its significance, the key players involved, and the technologies that drive this process. Furthermore, it offers insights into current market trends and the challenges organizations face, along with a forward-looking perspective on the future of pipeline aggregation."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T10:14:19.763Z Upserted rephrase to Supabase { sha: '678200046da3272d771638570ee46127e356daa4', id: 325 }
+2025-09-14T10:14:19.769Z Attempting in-process require of updater (preferred)
+2025-09-14T10:16:38.448Z [rephraser] model= gpt-4o-mini
+2025-09-14T10:16:38.535Z [rephraser] model= gpt-4o-mini
+2025-09-14T10:16:38.717Z [rephraser] model= gpt-4o-mini
+2025-09-14T10:16:49.799Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845009786.html
+2025-09-14T10:16:50.216Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845010211.html
+2025-09-14T10:16:50.387Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845010377.html
+2025-09-14T10:16:52.411Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T10:16:52.415Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T10:16:52.695Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T10:16:53.699Z Supabase select raw response for slug: {"error":null,"data":{"id":328,"slug":"decentralized-indexing-a-new-hope-for-web3","title":"Decentralized Indexing: A New Hope for Web3?","excerpt":"As decentralized applications (dApps) continue to grow in popularity, the need for effective blockchain indexing becomes increasingly critical. This article explores the significance of decentralized indexing within the Web3 landscape, with a focus on The Graph and the evolving challenges it faces."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T10:16:53.701Z Upserted rephrase to Supabase { sha: '6e4a9b67ab601e88be9dd5715e1bf6fda58043a8', id: 328 }
+2025-09-14T10:16:53.709Z Attempting in-process require of updater (preferred)
+2025-09-14T10:16:53.892Z Supabase select raw response for slug: {"error":null,"data":{"id":327,"slug":"worldcoin-s-potential-analyzing-tom-lee-s-influence-on-wld-prices","title":"Worldcoin's Potential: Analyzing Tom Lee's Influence on WLD Prices","excerpt":"Tom Lee's endorsement of Worldcoin [WLD] highlights its significance in the advancing AI landscape, suggesting a potential rebound for the cryptocurrency after recent fluctuations."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T10:16:53.897Z Upserted rephrase to Supabase { sha: '21e271facd48ae77b0e10b1bcbe0f4429dd3fcca', id: 327 }
+2025-09-14T10:16:53.912Z Supabase select raw response for slug: {"error":null,"data":{"id":326,"slug":"compensation-considerations-for-unpaid-carers-affected-by-allowance-scandal","title":"Compensation Considerations for Unpaid Carers Affected by Allowance Scandal","excerpt":"The recent scandal surrounding carer allowances has prompted significant governmental action and public discussion regarding compensation for unpaid carers. A thorough examination of the benefits system and its implications reveals the various challenges faced by those who provide essential care without financial recognition."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T10:16:53.910Z Attempting in-process require of updater (preferred)
+2025-09-14T10:16:53.919Z Upserted rephrase to Supabase { sha: '9d988b5893ae9dcaf2485b6d3cec126dcf236861', id: 326 }
+2025-09-14T10:16:53.943Z Attempting in-process require of updater (preferred)
+2025-09-14T10:31:19.763Z [rephraser] model= gpt-4o-mini
+2025-09-14T10:31:20.582Z [rephraser] model= gpt-4o-mini
+2025-09-14T10:31:28.491Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845888486.html
+2025-09-14T10:31:29.287Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845889283.html
+2025-09-14T10:31:29.695Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T10:31:30.278Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T10:31:30.615Z Supabase select raw response for slug: {"error":null,"data":{"id":329,"slug":"future-prospects-for-worldcoin-insights-from-tom-lee-s-endorsement","title":"Future Prospects for Worldcoin: Insights from Tom Lee's Endorsement","excerpt":"Tom Lee's recent support for Worldcoin [WLD] highlights its potential in the realms of artificial intelligence and tokenization, suggesting a positive outlook for the crypto asset."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T10:31:30.618Z Upserted rephrase to Supabase { sha: '21e271facd48ae77b0e10b1bcbe0f4429dd3fcca', id: 329 }
+2025-09-14T10:31:30.627Z Attempting in-process require of updater (preferred)
+2025-09-14T10:31:31.490Z Supabase select raw response for slug: {"error":null,"data":{"id":330,"slug":"traditional-finance-set-to-increase-bitcoin-allocations-predicts-jordi-visser","title":"Traditional Finance Set to Increase Bitcoin Allocations, Predicts Jordi Visser","excerpt":"Wall Street expert Jordi Visser expects traditional finance sectors to boost their Bitcoin allocations before the end of the year, highlighting a significant shift in investment strategies."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T10:31:31.495Z Upserted rephrase to Supabase { sha: '1e7a94d66ef6ac9ac1c845b60d38d5062ec59236', id: 330 }
+2025-09-14T10:31:31.518Z Attempting in-process require of updater (preferred)
+2025-09-14T10:50:59.835Z [rephraser] model= gpt-4o-mini
+2025-09-14T10:51:19.881Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757847079876.html
+2025-09-14T10:51:21.478Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T10:51:22.711Z Supabase select raw response for slug: {"error":null,"data":{"id":331,"slug":"bitcoin-s-price-consolidation-analyzing-market-signals-for-future-movements","title":"Bitcoin's Price Consolidation: Analyzing Market Signals for Future Movements","excerpt":"Bitcoin is experiencing a phase of consolidation as it trades below the resistance level of $115,892. Despite some bullish sentiments, various market signals could influence its future price trajectory."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T10:51:22.736Z Upserted rephrase to Supabase { sha: '4b3653445faa0967b1ffe6634a6d368be3d8830f', id: 331 }
+2025-09-14T10:51:22.751Z Attempting in-process require of updater (preferred)
+2025-09-14T11:02:44.389Z [rephraser] model= gpt-4o-mini
+2025-09-14T11:02:57.508Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757847777504.html
+2025-09-14T11:02:58.883Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T11:02:59.884Z Supabase select raw response for slug: {"error":null,"data":{"id":332,"slug":"recent-usdt-minting-surge-analyzing-market-signals","title":"Recent USDT Minting Surge: Analyzing Market Signals","excerpt":"A recent surge in the minting of $2 billion USDT in just two days has raised significant interest among market observers. This article explores the implications of this development on market sentiment and trading strategies."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T11:02:59.890Z Upserted rephrase to Supabase { sha: '57c21787343b20a1a1d0332eb5c7d287a5373af4', id: 332 }
+2025-09-14T11:02:59.901Z Attempting in-process require of updater (preferred)
+2025-09-14T11:30:12.820Z [rephraser] model= gpt-4o-mini
+2025-09-14T11:30:23.963Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757849423960.html
+2025-09-14T11:30:25.083Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T11:30:25.801Z Supabase select raw response for slug: {"error":null,"data":{"id":333,"slug":"hbar-price-rally-faces-increasing-bearish-sentiment","title":"HBAR Price Rally Faces Increasing Bearish Sentiment","excerpt":"HBAR's recent surge of nearly 15% marks its strongest performance since July, but on-chain metrics and market sentiment suggest a potential downturn."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T11:30:25.802Z Upserted rephrase to Supabase { sha: '77edf5bb39a5b2a755137e7353a4e471677c3186', id: 333 }
+2025-09-14T11:30:25.808Z Attempting in-process require of updater (preferred)
+2025-09-14T11:41:54.200Z [rephraser] model= gpt-4o-mini
+2025-09-14T11:42:04.902Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757850124887.html
+2025-09-14T11:42:05.602Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T11:42:05.965Z Supabase select raw response for slug: {"error":null,"data":{"id":334,"slug":"pakistan-welcomes-international-crypto-firms-to-enter-its-market","title":"Pakistan Welcomes International Crypto Firms to Enter Its Market","excerpt":"Pakistan is opening its doors to global virtual asset service providers, inviting them to apply for licenses through the newly established PVARA. This initiative aims to enhance market transparency and tackle illicit finance issues."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T11:42:05.968Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 334 }
+2025-09-14T11:42:05.984Z Attempting in-process require of updater (preferred)
+2025-09-14T11:46:16.052Z [rephraser] model= gpt-4o-mini
+2025-09-14T11:46:26.306Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757850386283.html
+2025-09-14T11:46:27.282Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T11:46:27.626Z Supabase select raw response for slug: {"error":null,"data":{"id":335,"slug":"pakistan-opens-doors-for-global-crypto-firms-licensing-opportunities-ahead","title":"Pakistan Opens Doors for Global Crypto Firms: Licensing Opportunities Ahead","excerpt":"Pakistan is actively inviting international cryptocurrency enterprises to secure licenses through the newly established Pakistan Virtual Asset Regulatory Authority (PVARA). This initiative encourages leading exchanges and virtual asset service providers to participate, with a focus on compliance and transparency."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T11:46:27.629Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 335 }
+2025-09-14T11:46:27.640Z Attempting in-process require of updater (preferred)
+2025-09-14T11:50:47.425Z [rephraser] model= gpt-4o-mini
+2025-09-14T11:50:56.575Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757850656570.html
+2025-09-14T11:50:57.716Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T11:50:58.106Z Supabase select raw response for slug: {"error":null,"data":{"id":336,"slug":"pakistan-opens-licensing-for-global-crypto-firms-key-details","title":"Pakistan Opens Licensing for Global Crypto Firms: Key Details","excerpt":"Pakistan is now welcoming international cryptocurrency companies to apply for licenses through the Pakistan Virtual Assets Regulatory Authority (PVARA), aiming to bolster fintech opportunities while regulating the industry."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T11:50:58.108Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 336 }
+2025-09-14T11:50:58.119Z Attempting in-process require of updater (preferred)
+2025-09-14T11:54:47.054Z [rephraser] model= gpt-4o-mini
+2025-09-14T11:54:57.324Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757850897319.html
+2025-09-14T11:54:58.102Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T11:54:58.492Z Supabase select raw response for slug: {"error":null,"data":{"id":337,"slug":"pakistan-opens-gateway-for-international-crypto-firms-with-new-licensing-framework","title":"Pakistan Opens Gateway for International Crypto Firms with New Licensing Framework","excerpt":"Pakistan is now welcoming international cryptocurrency companies to apply for licenses under its newly established regulatory authority, the Pakistan Virtual Asset Regulatory Authority (PVARA). This initiative seeks to foster a transparent and robust digital financial environment in the country."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T11:54:58.500Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 337 }
+2025-09-14T11:54:58.531Z Attempting in-process require of updater (preferred)
+2025-09-14T12:04:33.601Z [rephraser] model= gpt-4o-mini
+2025-09-14T12:04:44.818Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757851484810.html
+2025-09-14T12:04:45.483Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T12:04:45.846Z Supabase select raw response for slug: {"error":null,"data":{"id":338,"slug":"pakistan-s-regulatory-push-to-attract-global-crypto-enterprises","title":"Pakistan's Regulatory Push to Attract Global Crypto Enterprises","excerpt":"Pakistan is actively inviting international cryptocurrency firms to register for licenses under the PVARA, aiming to align with global standards while boosting its fintech sector."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T12:04:45.869Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 338 }
+2025-09-14T12:04:45.884Z Attempting in-process require of updater (preferred)
+2025-09-14T12:49:58.055Z [rephraser] model= gpt-4o-mini
+2025-09-14T12:50:08.965Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757854208958.html
+2025-09-14T12:50:10.185Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T12:50:10.875Z Supabase select raw response for slug: {"error":null,"data":{"id":339,"slug":"pakistan-opens-licensing-opportunities-for-global-crypto-companies","title":"Pakistan Opens Licensing Opportunities for Global Crypto Companies","excerpt":"Pakistan's Virtual Asset Regulatory Authority (PVARA) is extending an invitation to international cryptocurrency firms to apply for operating licenses. This initiative is part of a broader effort to foster fintech innovations while ensuring regulatory compliance."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T12:50:10.879Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 339 }
+2025-09-14T12:50:10.885Z Attempting in-process require of updater (preferred)
+2025-09-14T12:54:15.918Z [rephraser] model= gpt-4o-mini
+2025-09-14T12:54:27.518Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757854467514.html
+2025-09-14T12:54:28.542Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T12:54:28.878Z Supabase select raw response for slug: {"error":null,"data":{"id":340,"slug":"pakistan-s-push-for-global-crypto-engagement-new-licensing-opportunities","title":"Pakistan's Push for Global Crypto Engagement: New Licensing Opportunities","excerpt":"Pakistan's regulatory authority, PVARA, is actively seeking international crypto firms to obtain operating licenses, emphasizing compliance and transparency in the burgeoning digital finance sector."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T12:54:28.882Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 340 }
+2025-09-14T12:54:28.895Z Attempting in-process require of updater (preferred)
+2025-09-14T12:56:25.916Z [rephraser] model= gpt-4o-mini
+2025-09-14T12:56:35.760Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757854595751.html
+2025-09-14T12:56:36.497Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T12:56:36.825Z Supabase select raw response for slug: {"error":null,"data":{"id":341,"slug":"pakistan-s-regulatory-initiative-welcomes-global-crypto-firms","title":"Pakistan's Regulatory Initiative Welcomes Global Crypto Firms","excerpt":"Pakistan is inviting international cryptocurrency firms to apply for licenses through the newly established Pakistan Virtual Asset Regulatory Authority (PVARA). This initiative aims to create a transparent digital financial ecosystem by fostering collaboration with recognized global players in the crypto market."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T12:56:36.830Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 341 }
+2025-09-14T12:56:36.839Z Attempting in-process require of updater (preferred)
+2025-09-14T13:00:28.677Z [rephraser] model= gpt-4o-mini
+2025-09-14T13:00:38.197Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757854838190.html
+2025-09-14T13:00:38.723Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T13:00:38.993Z Supabase select raw response for slug: {"error":null,"data":{"id":342,"slug":"pakistan-welcomes-global-crypto-firms-with-new-license-initiative","title":"Pakistan Welcomes Global Crypto Firms with New License Initiative","excerpt":"Pakistan has taken a significant step towards integrating global crypto firms by opening applications under the Pakistan Virtual Asset Regulatory Authority (PVARA). This initiative aims to enhance the country's position in the cryptocurrency landscape while ensuring compliance with international standards."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T13:00:38.999Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 342 }
+2025-09-14T13:00:39.013Z Attempting in-process require of updater (preferred)
+2025-09-14T13:08:59.919Z [rephraser] model= gpt-4o-mini
+2025-09-14T13:09:09.869Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757855349862.html
+2025-09-14T13:09:10.728Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T13:09:11.093Z Supabase select raw response for slug: {"error":null,"data":{"id":343,"slug":"galaxy-digital-s-strategic-acquisition-propels-solana-to-new-heights","title":"Galaxy Digital's Strategic Acquisition Propels Solana to New Heights","excerpt":"Galaxy Digital's substantial investment in Solana has significantly boosted its standing in the market, with key acquisitions leading to a dramatic increase in SOL's price. This move reflects a long-term vision as the company actively engages in enhancing Solana's influence within the capital markets."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T13:09:11.096Z Upserted rephrase to Supabase { sha: '22f83d6f10f1f59c3eac923db3f48e50e355626f', id: 343 }
+2025-09-14T13:09:11.111Z Attempting in-process require of updater (preferred)
+2025-09-14T13:15:48.081Z [rephraser] model= gpt-4o-mini
+2025-09-14T13:15:55.910Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757855755884.html
+2025-09-14T13:15:56.855Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T13:15:57.180Z Supabase select raw response for slug: {"error":null,"data":{"id":344,"slug":"bitcoin-s-price-consolidation-analyzing-current-market-signals","title":"Bitcoin's Price Consolidation: Analyzing Current Market Signals","excerpt":"As Bitcoin struggles to break through a critical resistance level, on-chain indicators reveal bullish signals and an unprecedented number of wallet addresses holding balances, suggesting that market interest remains strong."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T13:15:57.186Z Upserted rephrase to Supabase { sha: '4b3653445faa0967b1ffe6634a6d368be3d8830f', id: 344 }
+2025-09-14T13:15:57.201Z Attempting in-process require of updater (preferred)
+2025-09-14T13:23:11.505Z [rephraser] model= gpt-4o-mini
+2025-09-14T13:23:21.870Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757856201865.html
+2025-09-14T13:23:22.710Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T13:23:23.088Z Supabase select raw response for slug: {"error":null,"data":{"id":345,"slug":"ricky-gervais-and-ross-kemp-a-tale-of-payment-and-success","title":"Ricky Gervais and Ross Kemp: A Tale of Payment and Success","excerpt":"Ross Kemp shares a humorous anecdote about the £500 payment he received from Ricky Gervais for his role in Extras, reflecting on his early career challenges and the impact of small opportunities."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T13:23:23.092Z Upserted rephrase to Supabase { sha: '09da673d967b846272c86ff831412c3ffd99db9e', id: 345 }
+2025-09-14T13:23:23.102Z Attempting in-process require of updater (preferred)
+2025-09-14T13:27:50.270Z [rephraser] model= gpt-4o-mini
+2025-09-14T13:27:58.292Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757856478266.html
+2025-09-14T13:27:58.866Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T13:27:59.191Z Supabase select raw response for slug: {"error":null,"data":{"id":346,"slug":"bitcoin-s-path-to-bullish-momentum-key-resistance-levels-analyzed","title":"Bitcoin's Path to Bullish Momentum: Key Resistance Levels Analyzed","excerpt":"Bitcoin's price hovers around $116,000, reflecting uncertainty about its bullish trajectory. Analyst Joao Wedson identifies critical resistance levels that could signal a potential price surge."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T13:27:59.194Z Upserted rephrase to Supabase { sha: '195027a1dca830c3dba68c233ac1ac06f3d945cd', id: 346 }
+2025-09-14T13:27:59.210Z Attempting in-process require of updater (preferred)
+2025-09-14T13:33:53.931Z [rephraser] model= gpt-4o-mini
+2025-09-14T13:34:03.020Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757856842992.html
+2025-09-14T13:34:03.381Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T13:34:03.738Z Supabase select raw response for slug: {"error":null,"data":{"id":347,"slug":"analyzing-bitcoin-s-potential-for-growth-amidst-current-price-fluctuations","title":"Analyzing Bitcoin's Potential for Growth Amidst Current Price Fluctuations","excerpt":"Bitcoin's recent price behavior raises questions about its ability to maintain bullish momentum as it hovers around $116,000. Analysts suggest key resistance levels will dictate its next move."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T13:34:03.743Z Upserted rephrase to Supabase { sha: '195027a1dca830c3dba68c233ac1ac06f3d945cd', id: 347 }
+2025-09-14T13:34:03.754Z Attempting in-process require of updater (preferred)
+2025-09-14T13:47:10.325Z [rephraser] model= gpt-4o-mini
+2025-09-14T13:47:22.829Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757857642820.html
+2025-09-14T13:47:23.474Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T13:47:23.791Z Supabase select raw response for slug: {"error":null,"data":{"id":348,"slug":"recent-usdt-minting-surge-sparks-both-optimism-and-caution-in-the-crypto-market","title":"Recent USDT Minting Surge Sparks Both Optimism and Caution in the Crypto Market","excerpt":"The recent minting of $2 billion in Tether (USDT) within a mere 48 hours has generated a mix of enthusiasm and skepticism in the cryptocurrency sector. This article delves into the effects of this surge on market sentiment and future trends."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T13:47:23.798Z Upserted rephrase to Supabase { sha: '57c21787343b20a1a1d0332eb5c7d287a5373af4', id: 348 }
+2025-09-14T13:47:23.806Z Attempting in-process require of updater (preferred)
+2025-09-14T13:48:42.569Z [rephraser] model= gpt-4o-mini
+2025-09-14T13:48:55.822Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757857735820.html
+2025-09-14T13:48:56.139Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T13:48:56.426Z Supabase select raw response for slug: {"error":null,"data":{"id":349,"slug":"pakistan-opens-doors-for-international-crypto-firms-new-licensing-opportunities","title":"Pakistan Opens Doors for International Crypto Firms: New Licensing Opportunities","excerpt":"Pakistan is actively inviting global cryptocurrency companies to apply for operating licenses, creating a framework aimed at fostering a secure and transparent digital financial landscape."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T13:48:56.430Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 349 }
+2025-09-14T13:48:56.436Z Attempting in-process require of updater (preferred)
+2025-09-14T14:04:06.715Z [rephraser] model= gpt-4o-mini
+2025-09-14T14:04:18.919Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757858658915.html
+2025-09-14T14:04:19.545Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T14:04:20.287Z Supabase select raw response for slug: {"error":null,"data":{"id":350,"slug":"a-surge-in-usdt-minting-what-it-means-for-the-market","title":"A Surge in USDT Minting: What It Means for the Market","excerpt":"Recent data reveals a remarkable increase in USDT minting, with $2 billion generated in just two days. This surge is prompting analysts to examine its potential implications for cryptocurrency trends."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T14:04:20.291Z Upserted rephrase to Supabase { sha: '57c21787343b20a1a1d0332eb5c7d287a5373af4', id: 350 }
+2025-09-14T14:04:20.303Z Attempting in-process require of updater (preferred)
+2025-09-14T14:12:06.208Z [rephraser] model= gpt-4o-mini
+2025-09-14T14:12:18.395Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757859138390.html
+2025-09-14T14:12:19.495Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T14:12:19.803Z Supabase select raw response for slug: {"error":null,"data":{"id":351,"slug":"pakistan-welcomes-global-crypto-firms-with-new-licensing-initiative","title":"Pakistan Welcomes Global Crypto Firms with New Licensing Initiative","excerpt":"Pakistan is extending an invitation to international cryptocurrency businesses to seek licenses through its new framework, aimed at enhancing the fintech landscape in the region."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T14:12:19.808Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 351 }
+2025-09-14T14:12:19.820Z Attempting in-process require of updater (preferred)
+2025-09-14T14:16:31.429Z [rephraser] model= gpt-4o-mini
+2025-09-14T14:16:44.064Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757859404052.html
+2025-09-14T14:16:45.446Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T14:16:46.186Z Supabase select raw response for slug: {"error":null,"data":{"id":352,"slug":"economic-trends-bitcoin-s-rise-amidst-inflation-and-job-market-challenges","title":"Economic Trends: Bitcoin's Rise Amidst Inflation and Job Market Challenges","excerpt":"The economic landscape is shifting as inflation rises and job creation falls, impacting various markets. Notably, Bitcoin's price surge is observed against this backdrop of economic uncertainty."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T14:16:46.190Z Upserted rephrase to Supabase { sha: '55b7a8a278bf6f04fa8a17f1c5353c029e7bb338', id: 352 }
+2025-09-14T14:16:46.203Z Attempting in-process require of updater (preferred)
+2025-09-14T14:54:37.806Z [rephraser] model= gpt-4o-mini
+2025-09-14T14:54:39.123Z [rephraser] model= gpt-4o-mini
+2025-09-14T14:54:48.304Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757861688278.html
+2025-09-14T14:54:49.500Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T14:54:50.864Z Supabase select raw response for slug: {"error":null,"data":{"id":353,"slug":"bitcoin-s-path-to-uptrend-key-levels-to-watch","title":"Bitcoin's Path to Uptrend: Key Levels to Watch","excerpt":"Bitcoin's price is currently hovering around $116,000, raising questions about its potential upward movement. Crypto expert Joao Wedson from Alphractal outlines critical resistance levels that could influence future price action."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T14:54:50.868Z Upserted rephrase to Supabase { sha: '195027a1dca830c3dba68c233ac1ac06f3d945cd', id: 353 }
+2025-09-14T14:54:50.885Z Attempting in-process require of updater (preferred)
+2025-09-14T14:54:58.403Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757861698401.html
+2025-09-14T14:54:59.376Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T14:55:00.261Z Supabase select raw response for slug: {"error":null,"data":{"id":354,"slug":"economic-strains-and-bitcoin-s-resilience-analyzing-current-trends","title":"Economic Strains and Bitcoin's Resilience: Analyzing Current Trends","excerpt":"Recent economic data reveals significant challenges, yet Bitcoin shows resilience as it approaches key price levels. This article examines the interplay between current economic indicators and Bitcoin's performance in the market."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T14:55:00.263Z Upserted rephrase to Supabase { sha: '55b7a8a278bf6f04fa8a17f1c5353c029e7bb338', id: 354 }
+2025-09-14T14:55:00.271Z Attempting in-process require of updater (preferred)
+2025-09-14T15:00:10.301Z [rephraser] model= gpt-4o-mini
+2025-09-14T15:00:23.137Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757862023130.html
+2025-09-14T15:00:23.736Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T15:00:24.148Z Supabase select raw response for slug: {"error":null,"data":{"id":355,"slug":"pakistan-opens-doors-to-international-crypto-firms-for-licensing","title":"Pakistan Opens Doors to International Crypto Firms for Licensing","excerpt":"Pakistan is welcoming global cryptocurrency companies to apply for licenses, setting the stage for enhanced regulation and opportunities in the digital asset landscape."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T15:00:24.151Z Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 355 }
+2025-09-14T15:00:24.166Z Attempting in-process require of updater (preferred)
+2025-09-14T17:08:46.568Z [rephraser] model= gpt-4o-mini
+2025-09-14T17:08:48.253Z [rephraser] model= gpt-4o-mini
+2025-09-14T17:08:55.265Z [rephraser] model= gpt-4o-mini
+2025-09-14T17:09:00.460Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757869740444.html
+2025-09-14T17:09:01.845Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757869741695.html
+2025-09-14T17:09:01.977Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T17:09:03.001Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T17:09:03.096Z Supabase select raw response for slug: {"error":null,"data":{"id":356,"slug":"the-growing-trend-of-ai-chatbots-in-financial-guidance-and-its-pitfalls","title":"The Growing Trend of AI Chatbots in Financial Guidance and Its Pitfalls","excerpt":"AI chatbots are becoming increasingly popular among Americans seeking financial advice, yet their use comes with notable risks. This article explores both the benefits and drawbacks of relying on AI for financial guidance."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T17:09:03.105Z Upserted rephrase to Supabase { sha: '593c93b12413a17124594a0f80079b3e6362a6f6', id: 356 }
+2025-09-14T17:09:03.189Z Attempting in-process require of updater (preferred)
+2025-09-14T17:09:03.485Z Supabase select raw response for slug: {"error":null,"data":{"id":357,"slug":"growing-institutional-influence-in-bitcoin-holdings","title":"Growing Institutional Influence in Bitcoin Holdings","excerpt":"Institutional investors are making significant strides within the Bitcoin market, collectively controlling a notable portion of its total supply. This article explores the implications of their growing presence on price dynamics, regulatory considerations, and future trends in cryptocurrency adoption."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T17:09:03.551Z Upserted rephrase to Supabase { sha: '9694e033789065997be5d880c8c65a41de2c7d66', id: 357 }
+2025-09-14T17:09:03.673Z Attempting in-process require of updater (preferred)
+2025-09-14T17:09:04.653Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757869744647.html
+2025-09-14T17:09:05.149Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T17:09:05.502Z Supabase select raw response for slug: {"error":null,"data":{"id":358,"slug":"solana-sol-experiences-bullish-breakout-with-promising-targets","title":"Solana (SOL) Experiences Bullish Breakout with Promising Targets","excerpt":"Solana has seen a significant increase in its price, marking a 20.89% rise over the last week, and establishing a bullish outlook with multiple potential targets."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T17:09:05.514Z Upserted rephrase to Supabase { sha: '4464fc250bd217b03af27676852ee3cdd8572033', id: 358 }
+2025-09-14T17:09:05.596Z Attempting in-process require of updater (preferred)
+2025-09-14T18:15:47.200Z [rephraser] model= gpt-4o-mini
+2025-09-14T18:16:02.749Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757873762737.html
+2025-09-14T18:16:03.784Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T18:16:04.170Z Supabase select raw response for slug: {"error":null,"data":{"id":359,"slug":"ai-chatbots-in-finance-insights-and-cautions-from-users","title":"AI Chatbots in Finance: Insights and Cautions from Users","excerpt":"The adoption of AI chatbots for financial advice is on the rise among Americans, bringing both advantages and potential pitfalls for users. This article delves into user experiences, highlighting benefits, concerns, and best practices for utilizing AI financial tools."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T18:16:04.173Z Upserted rephrase to Supabase { sha: '593c93b12413a17124594a0f80079b3e6362a6f6', id: 359 }
+2025-09-14T18:16:04.181Z Attempting in-process require of updater (preferred)
+2025-09-14T18:17:53.083Z [rephraser] model= gpt-4o-mini
+2025-09-14T18:18:02.410Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757873882378.html
+2025-09-14T18:18:03.137Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-14T18:18:03.804Z Supabase select raw response for slug: {"error":null,"data":{"id":360,"slug":"vitalik-buterin-critiques-ai-governance-concepts","title":"Vitalik Buterin Critiques AI Governance Concepts","excerpt":"Ethereum founder Vitalik Buterin has voiced his apprehensions regarding the governance of artificial intelligence, highlighting significant flaws in current proposals and the necessity of human intervention."},"count":null,"status":200,"statusText":"OK"}
+2025-09-14T18:18:03.808Z Upserted rephrase to Supabase { sha: 'cd37b25883389656aaf27ec4c906a398b20dc307', id: 360 }
+2025-09-14T18:18:03.837Z Attempting in-process require of updater (preferred)
+2025-09-15T11:34:44.624Z [rephraser] model= gpt-4o-mini
+2025-09-15T11:34:44.682Z [rephraser] model= gpt-4o-mini
+2025-09-15T11:34:46.125Z [rephraser] model= gpt-4o-mini
+2025-09-15T11:34:56.326Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757936096282.html
+2025-09-15T11:34:57.566Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-15T11:34:58.181Z Supabase select raw response for slug: {"error":null,"data":{"id":361,"slug":"london-stock-exchange-unveils-blockchain-based-private-fund-market","title":"London Stock Exchange Unveils Blockchain-Based Private Fund Market","excerpt":"The London Stock Exchange has introduced a groundbreaking private fund market supported by Microsoft, aiming to enhance transparency and accessibility in the investment space valued at approximately $1.2 trillion."},"count":null,"status":200,"statusText":"OK"}
+2025-09-15T11:34:58.240Z Upserted rephrase to Supabase { sha: 'f053afab756dcd356e8f414678def15992e18b4b', id: 361 }
+2025-09-15T11:34:58.379Z Attempting in-process require of updater (preferred)
+2025-09-15T11:35:00.846Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757936100819.html
+2025-09-15T11:35:01.395Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-15T11:35:01.934Z Supabase select raw response for slug: {"error":null,"data":{"id":362,"slug":"ethereum-s-q3-triumph-and-q4-challenges-a-critical-analysis","title":"Ethereum's Q3 Triumph and Q4 Challenges: A Critical Analysis","excerpt":"Ethereum's remarkable performance in the third quarter presents a sharp contrast to its historical trends as it faces potential challenges in the upcoming quarter. As analysts evaluate the sustainability of its gains, the focus shifts to capital rotation and market dynamics."},"count":null,"status":200,"statusText":"OK"}
+2025-09-15T11:35:01.984Z Upserted rephrase to Supabase { sha: 'cf86492f28b44efd335b6d94f17c07f43f136e2b', id: 362 }
+2025-09-15T11:35:02.086Z Attempting in-process require of updater (preferred)
+2025-09-15T11:35:02.837Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1757936102780.html
+2025-09-15T11:35:04.014Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-15T11:35:06.046Z Supabase select raw response for slug: {"error":null,"data":{"id":363,"slug":"analysis-of-the-current-crypto-market-decline","title":"Analysis of the Current Crypto Market Decline","excerpt":"The cryptocurrency market has seen a modest decline in capitalization, yet certain factors are fostering optimism among investors. Insights from market experts suggest that this downturn may not signal the end of the ongoing bull cycle."},"count":null,"status":200,"statusText":"OK"}
+2025-09-15T11:35:06.109Z Upserted rephrase to Supabase { sha: '69c242362777aedf74bd8db7698ca65a22eb58a0', id: 363 }
+2025-09-15T11:35:06.303Z Attempting in-process require of updater (preferred)
+2025-09-16T15:47:01.761Z [rephraser] model= gpt-4o-mini
+2025-09-16T15:47:01.993Z [rephraser] model= gpt-4o-mini
+2025-09-16T15:47:13.315Z [rephraser] model= gpt-4o-mini
+2025-09-16T15:47:14.361Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758037634315.html
+2025-09-16T15:47:16.044Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-16T15:47:16.980Z Supabase select raw response for slug: {"error":null,"data":{"id":364,"slug":"sharplink-s-strategic-buyback-amidst-ethereum-s-large-treasury","title":"Sharplink's Strategic Buyback Amidst Ethereum's Large Treasury","excerpt":"Sharplink has recently made headlines by repurchasing 1 million shares, a move that coincides with Ethereum's substantial treasury of $3.8 billion. This buyback signals the company's focus on increasing shareholder value while navigating a fluctuating cryptocurrency market."},"count":null,"status":200,"statusText":"OK"}
+2025-09-16T15:47:16.986Z Upserted rephrase to Supabase { sha: '05ea19a5a112343e28ffc6f54c25a5db135d4cf5', id: 364 }
+2025-09-16T15:47:16.999Z Attempting in-process require of updater (preferred)
+2025-09-16T15:47:19.560Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758037639532.html
+2025-09-16T15:47:20.141Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-16T15:47:22.372Z Supabase select raw response for slug: {"error":null,"data":{"id":365,"slug":"google-and-coinbase-collaborate-on-ai-and-payment-solutions","title":"Google and Coinbase Collaborate on AI and Payment Solutions","excerpt":"Google Cloud has launched an initiative aimed at integrating artificial intelligence into payment technologies through a partnership with Coinbase, focusing on enhancing stablecoin transactions and financial services. This collaboration is poised to impact the cryptocurrency landscape significantly."},"count":null,"status":200,"statusText":"OK"}
+2025-09-16T15:47:22.385Z Upserted rephrase to Supabase { sha: '057c6d5e32c6ec9120444f544f379451b84fd18c', id: 365 }
+2025-09-16T15:47:22.499Z Attempting in-process require of updater (preferred)
+2025-09-16T15:47:28.058Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758037648046.html
+2025-09-16T15:47:28.582Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-16T15:47:29.398Z Supabase select raw response for slug: {"error":null,"data":{"id":366,"slug":"keyrock-s-strategic-acquisition-of-turing-capital","title":"Keyrock's Strategic Acquisition of Turing Capital","excerpt":"Keyrock has announced its acquisition of Turing Capital, a strategic move designed to bolster its asset and wealth management offerings within the evolving cryptocurrency sector."},"count":null,"status":200,"statusText":"OK"}
+2025-09-16T15:47:29.405Z Upserted rephrase to Supabase { sha: '1fcb2e3eda43396d05e7e555271e17fc17c0d0d4', id: 366 }
+2025-09-16T15:47:29.450Z Attempting in-process require of updater (preferred)
+2025-09-16T16:04:21.263Z [rephraser] model= gpt-4o-mini
+2025-09-16T16:04:39.587Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758038679575.html
+2025-09-16T16:04:40.042Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-16T16:04:40.873Z Supabase select raw response for slug: {"error":null,"data":{"id":367,"slug":"caution-advised-amidst-cryptocurrency-market-losses","title":"Caution Advised Amidst Cryptocurrency Market Losses","excerpt":"Recent commentary by Ted Pillows on the state of the cryptocurrency market reveals substantial losses, cautioning investors about potential misleading price increases."},"count":null,"status":200,"statusText":"OK"}
+2025-09-16T16:04:40.901Z Upserted rephrase to Supabase { sha: 'd55d133c62ea695c6200b2c721489da8ce52c55d', id: 367 }
+2025-09-16T16:04:40.978Z Attempting in-process require of updater (preferred)
+2025-09-16T17:26:01.575Z [rephraser] model= gpt-4o-mini
+2025-09-16T17:26:12.592Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758043572572.html
+2025-09-16T17:26:13.825Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-16T17:26:14.561Z Supabase select raw response for slug: {"error":null,"data":{"id":368,"slug":"caution-amidst-crypto-volatility-ted-pillows-insights","title":"Caution Amidst Crypto Volatility: Ted Pillows' Insights","excerpt":"As the cryptocurrency market experiences significant fluctuations, expert Ted Pillows shares his insights on the current landscape, emphasizing caution for investors navigating this unpredictable terrain."},"count":null,"status":200,"statusText":"OK"}
+2025-09-16T17:26:14.589Z Upserted rephrase to Supabase { sha: 'd55d133c62ea695c6200b2c721489da8ce52c55d', id: 368 }
+2025-09-16T17:26:14.657Z Attempting in-process require of updater (preferred)
+2025-09-16T17:56:37.106Z [rephraser] model= gpt-4o-mini
+2025-09-16T17:58:42.502Z [rephraser] model= gpt-4o-mini
+2025-09-16T18:08:00.150Z [rephraser] model= gpt-4o-mini
+2025-09-16T18:08:10.263Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758046090259.html
+2025-09-16T18:08:10.614Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-16T18:08:10.896Z Supabase select raw response for slug: {"error":null,"data":{"id":369,"slug":"concerns-rise-amidst-cryptocurrency-market-decline","title":"Concerns Rise Amidst Cryptocurrency Market Decline","excerpt":"As the cryptocurrency market experiences a significant downturn, experts are warning investors about the potential risks and dynamics at play, particularly highlighting the influence of market manipulation and external economic factors."},"count":null,"status":200,"statusText":"OK"}
+2025-09-16T18:08:10.901Z Upserted rephrase to Supabase { sha: 'd55d133c62ea695c6200b2c721489da8ce52c55d', id: 369 }
+2025-09-16T18:08:10.915Z Attempting in-process require of updater (preferred)
+2025-09-16T18:18:24.337Z [rephraser] model= gpt-4o-mini
+2025-09-16T18:18:24.516Z [rephraser] model= gpt-4o-mini
+2025-09-16T18:18:36.145Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758046716140.html
+2025-09-16T18:18:37.116Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-16T18:18:37.199Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758046717195.html
+2025-09-16T18:18:37.446Z Supabase select raw response for slug: {"error":null,"data":{"id":370,"slug":"bitcoin-s-remarkable-yearly-performance-amid-altcoin-growth","title":"Bitcoin's Remarkable Yearly Performance Amid Altcoin Growth","excerpt":"This year has seen Bitcoin achieve impressive gains, even as altcoins experience significant growth in trading volume. The evolving dynamics of the cryptocurrency market, influenced by regulatory decisions and investor sentiment, are reshaping the landscape for both Bitcoin and altcoins."},"count":null,"status":200,"statusText":"OK"}
+2025-09-16T18:18:37.453Z Upserted rephrase to Supabase { sha: '90287cc4d763dad55ffe644511840d5554fee898', id: 370 }
+2025-09-16T18:18:37.472Z Attempting in-process require of updater (preferred)
+2025-09-16T18:18:37.548Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-16T18:18:37.866Z Supabase select raw response for slug: {"error":null,"data":{"id":371,"slug":"tokenized-real-world-assets-market-exceeds-30-billion","title":"Tokenized Real-World Assets Market Exceeds $30 Billion","excerpt":"The market for tokenized real-world assets (RWAs) has surpassed $30 billion, reflecting a significant shift in how traditional assets are being managed and traded. This milestone underscores the growing acceptance and integration of tokenization within the financial sector."},"count":null,"status":200,"statusText":"OK"}
+2025-09-16T18:18:37.870Z Upserted rephrase to Supabase { sha: 'bb184da3acd0c5e8c65df284638556cb9f8620ca', id: 371 }
+2025-09-16T18:18:37.888Z Attempting in-process require of updater (preferred)
+2025-09-17T10:36:15.514Z [rephraser] model= gpt-4o-mini
+2025-09-17T10:36:21.797Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758105381794.html
+2025-09-17T10:36:23.052Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-17T10:36:23.970Z Supabase select raw response for slug: {"error":null,"data":{"id":372,"slug":"analyzing-dogecoin-s-recent-price-movements-and-market-structure","title":"Analyzing Dogecoin's Recent Price Movements and Market Structure","excerpt":"Dogecoin has recently displayed notable price fluctuations that reflect its evolving market dynamics. This article delves into the technical aspects of Dogecoin's price action, identifies significant resistance and support levels, and explores the implications of its current bullish market structure."},"count":null,"status":200,"statusText":"OK"}
+2025-09-17T10:36:23.972Z Upserted rephrase to Supabase { sha: 'ddae35c0f976208d6054971efb71cb9f152087a6', id: 372 }
+2025-09-17T10:36:23.978Z Attempting in-process require of updater (preferred)
+2025-09-17T10:58:47.197Z [rephraser] model= gpt-4o-mini
+2025-09-17T10:59:01.320Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758106741308.html
+2025-09-17T10:59:03.034Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-17T10:59:04.140Z Supabase select raw response for slug: {"error":null,"data":{"id":373,"slug":"evaluating-dogecoin-s-market-dynamics-and-price-trends","title":"Evaluating Dogecoin's Market Dynamics and Price Trends","excerpt":"As Dogecoin continues to capture the attention of investors and traders alike, understanding its market dynamics and price trends is crucial for making informed decisions. This article delves into the recent price fluctuations, key support and resistance levels, and the overall bullish market structure surrounding Dogecoin."},"count":null,"status":200,"statusText":"OK"}
+2025-09-17T10:59:04.145Z Upserted rephrase to Supabase { sha: '397db42039dd4c6f741da9affba0dac10e81e9e0', id: 373 }
+2025-09-17T10:59:04.154Z Attempting in-process require of updater (preferred)
+2025-09-17T11:08:32.986Z [rephraser] model= gpt-4o-mini
+2025-09-17T11:08:46.400Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758107326397.html
+2025-09-17T11:08:48.034Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-17T11:08:49.089Z Supabase select raw response for slug: {"error":null,"data":{"id":374,"slug":"dogecoin-price-analysis-resistance-and-support-dynamics","title":"Dogecoin Price Analysis: Resistance and Support Dynamics","excerpt":"As Dogecoin continues to navigate the cryptocurrency landscape, analysts are closely monitoring its price movements, particularly around key resistance and support levels that could influence future trends."},"count":null,"status":200,"statusText":"OK"}
+2025-09-17T11:08:49.091Z Upserted rephrase to Supabase { sha: 'ddae35c0f976208d6054971efb71cb9f152087a6', id: 374 }
+2025-09-17T11:08:49.098Z Attempting in-process require of updater (preferred)
+2025-09-17T11:29:11.054Z [rephraser] model= gpt-4o-mini
+2025-09-17T11:29:15.368Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758108555366.html
+2025-09-17T13:54:43.230Z [rephraser] model= gpt-4o-mini
+2025-09-17T13:54:57.223Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758117297217.html
+2025-09-17T13:54:58.658Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-17T13:54:59.629Z Supabase select raw response for slug: {"error":null,"data":{"id":376,"slug":"defi-landscape-160-billion-in-total-value-locked-but-concentration-risks-remain","title":"DeFi Landscape: $160 Billion in Total Value Locked but Concentration Risks Remain","excerpt":"The decentralized finance (DeFi) sector has reached a significant milestone, with a total value locked (TVL) of $160 billion. However, this growth is accompanied by concentration risks that could impact the stability and accessibility of the market."},"count":null,"status":200,"statusText":"OK"}
+2025-09-17T13:54:59.632Z Upserted rephrase to Supabase { sha: '9ac7407fcb32de9ceefb9f9132283f734e1aba61', id: 376 }
+2025-09-17T13:54:59.644Z Attempting in-process require of updater (preferred)
+2025-09-17T14:00:32.642Z [rephraser] model= gpt-4o-mini
+2025-09-17T14:00:45.627Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758117645617.html
+2025-09-17T14:00:46.781Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-17T14:00:47.410Z Supabase select raw response for slug: {"error":null,"data":{"id":377,"slug":"polygon-leads-rankings-in-tokenized-assets-worth-1-billion","title":"Polygon Leads Rankings in Tokenized Assets Worth $1 Billion","excerpt":"Polygon has emerged as a frontrunner in the realm of tokenized assets, achieving a remarkable valuation of $1 billion. This milestone not only highlights Polygon's innovative capabilities but also underscores the growing importance of real-world asset tokenization in the cryptocurrency landscape."},"count":null,"status":200,"statusText":"OK"}
+2025-09-17T14:00:47.417Z Upserted rephrase to Supabase { sha: '5c2781641f3f873176f8137ce269a46aaf2aeb01', id: 377 }
+2025-09-17T14:00:47.444Z Attempting in-process require of updater (preferred)
+2025-09-17T14:05:34.465Z [rephraser] model= gpt-4o-mini
+2025-09-17T14:05:49.500Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758117949493.html
+2025-09-17T14:05:50.733Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-17T14:05:51.389Z Supabase select raw response for slug: {"error":null,"data":{"id":378,"slug":"the-shift-from-charismatic-leadership-to-decentralized-governance-in-crypto","title":"The Shift from Charismatic Leadership to Decentralized Governance in Crypto","excerpt":"The cryptocurrency landscape is undergoing a significant transformation as the industry pivots from traditional charismatic leadership models towards decentralized governance structures. This shift is driven by the vulnerabilities associated with centralized authority and the growing influence of Decentralized Autonomous Organizations (DAOs)."},"count":null,"status":200,"statusText":"OK"}
+2025-09-17T14:05:51.393Z Upserted rephrase to Supabase { sha: 'c2330076b6ae6666c48e4e7072e41f1f980110ec', id: 378 }
+2025-09-17T14:05:51.410Z Attempting in-process require of updater (preferred)
+2025-09-17T16:48:53.599Z [rephraser] model= gpt-4o-mini
+2025-09-17T16:49:03.211Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758127743148.html
+2025-09-17T16:49:05.758Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-17T16:49:07.321Z Supabase select raw response for slug: {"error":null,"data":{"id":379,"slug":"ripple-s-vision-for-stablecoins-and-market-developments","title":"Ripple's Vision for Stablecoins and Market Developments","excerpt":"Ripple continues to shape the landscape of stablecoins, emphasizing the need for robust infrastructure and transparency. Insights from industry leaders highlight the importance of interoperability and recent trends that could redefine the stablecoin market."},"count":null,"status":200,"statusText":"OK"}
+2025-09-17T16:49:07.327Z Upserted rephrase to Supabase { sha: 'cb037151264e991b2cf1d4fd6478bf3b1bd25e73', id: 379 }
+2025-09-17T16:49:07.351Z Attempting in-process require of updater (preferred)
+2025-09-18T12:38:39.961Z [rephraser] model= gpt-5
+2025-09-18T12:38:59.408Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758199139401.html
+2025-09-18T12:39:01.729Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T12:39:03.519Z Supabase select raw response for slug: {"error":null,"data":{"id":380,"slug":"hello-world-message-used-in-quick-rephraser-test","title":"\"Hello world\" Message Used in Quick Rephraser Test","excerpt":"A brief trial message was issued to validate core rephrasing functionality. The test confirms the system can handle simple inputs and produce clean editorial output."},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T12:39:03.522Z Upserted rephrase to Supabase { sha: 'de81e5847cec4cbcd3f012d53f557775d6ba9cad', id: 380 }
+2025-09-18T12:39:03.528Z Attempting in-process require of updater (preferred)
+2025-09-18T12:41:39.114Z [rephraser] model= gpt-5
+2025-09-18T12:42:51.384Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758199370771.html
+2025-09-18T12:42:54.898Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T12:42:58.875Z Supabase select raw response for slug: {"error":null,"data":{"id":381,"slug":"ripple-sets-out-rlusd-pillars-and-xrp-ledger-privacy-plans-as-stablecoin-cap-hits-302-billion","title":"Ripple sets out $RLUSD pillars and XRP Ledger privacy plans as stablecoin cap hits $302 billion","excerpt":"Ripple outlined core pillars for $RLUSD—interoperability, transparency and scale—and previewed privacy enhancements for the XRP Ledger via RippleX’s Confidential MPT. The update arrives as the stablecoin market cap reaches $302 billion, according to CoinMarketCap."},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T12:42:58.907Z Upserted rephrase to Supabase { sha: 'cb037151264e991b2cf1d4fd6478bf3b1bd25e73', id: 381 }
+2025-09-18T12:42:59.176Z Attempting in-process require of updater (preferred)
+2025-09-18T15:10:52.515Z [rephraser] model= gpt-5
+2025-09-18T15:11:54.094Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758208314085.html
+2025-09-18T15:11:55.719Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T15:11:56.848Z Supabase select raw response for slug: {"error":null,"data":{"id":382,"slug":"circle-expands-cctp-v2-to-stellar-for-direct-usdc-transfers","title":"Circle expands CCTP V2 to Stellar for direct USDC transfers","excerpt":"Circle has expanded CCTP V2 to Stellar, enabling direct USDC transfers across networks. The integration brings Stellar into Circle’s Cross-Chain Transfer Protocol, maintaining USD Coin"},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T15:11:56.854Z Upserted rephrase to Supabase { sha: '2123ae7ec703dc9e8ca487ea2eee77dda465bda4', id: 382 }
+2025-09-18T15:11:56.871Z Attempting in-process require of updater (preferred)
+2025-09-18T15:14:37.711Z [rephraser] model= gpt-5
+2025-09-18T15:14:37.980Z [rephraser] model= gpt-5
+2025-09-18T15:17:04.175Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758208624147.html
+2025-09-18T15:17:05.422Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T15:17:06.468Z Supabase select raw response for slug: {"error":null,"data":{"id":383,"slug":"ethereum-s-bullish-setup-builds-as-whales-buy-and-longs-dominate","title":"Ethereum’s bullish setup builds as whales buy and longs dominate","excerpt":"Ethereum’s near-term outlook brightened as a post-Fed bid from whales, shrinking exchange balances, and elevated leverage tilted sentiment bullish. Still, mid-sized holders nearing November 2021 profit levels introduce a tangible risk of supply hitting the market."},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T15:17:06.563Z Upserted rephrase to Supabase { sha: '5034fc63dc6b6aec19ee77568f736b32f62bddbb', id: 383 }
+2025-09-18T15:17:07.949Z Attempting in-process require of updater (preferred)
+2025-09-18T15:17:31.996Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758208651981.html
+2025-09-18T15:17:33.042Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T15:17:33.974Z Supabase select raw response for slug: {"error":null,"data":{"id":384,"slug":"plasma-sets-sept-25-mainnet-beta-and-xpl-debut-amid-surging-stablecoin-demand","title":"Plasma Sets Sept. 25 Mainnet Beta and XPL Debut Amid Surging Stablecoin Demand","excerpt":"Plasma will launch its mainnet beta on Thursday, Sept. 25 at 8:00 am ET, introducing XPL alongside deep USDT integrations. Backed by Bitfinex and Peter Thiel’s Founders Fund, the rollout lands amid rapid vault uptake and fresh capital commitments across the stablecoin ecosystem."},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T15:17:33.980Z Upserted rephrase to Supabase { sha: 'cbc87d40f26f433af404a6bd21b76baf3c046ac5', id: 384 }
+2025-09-18T15:17:34.037Z Attempting in-process require of updater (preferred)
+2025-09-18T15:39:12.768Z [rephraser] model= gpt-5
+2025-09-18T15:39:12.887Z [rephraser] model= gpt-5
+2025-09-18T15:41:32.227Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758210092214.html
+2025-09-18T15:41:33.326Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T15:41:34.276Z Supabase select raw response for slug: {"error":null,"data":{"id":385,"slug":"hype-nears-60-as-hyperliquid-upgrade-fuels-rally-technicals-flag-wedge-risk","title":"HYPE Nears $60 as Hyperliquid Upgrade Fuels Rally, Technicals Flag Wedge Risk","excerpt":null},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T15:41:34.283Z Upserted rephrase to Supabase { sha: '8213211f361b3ef5e329628c4009651a5da35f3d', id: 385 }
+2025-09-18T15:41:34.336Z Attempting in-process require of updater (preferred)
+2025-09-18T15:52:25.473Z [rephraser] model= gpt-5
+2025-09-18T15:54:09.558Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758210849529.html
+2025-09-18T15:54:12.385Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T15:54:14.341Z Supabase select raw response for slug: {"error":null,"data":{"id":386,"slug":"hype-nears-60-as-hyperliquid-s-upgrades-and-record-fees-propel-rally-amid-wedge-risk","title":"HYPE nears $60 as Hyperliquid’s upgrades and record fees propel rally amid wedge risk","excerpt":"HYPE surged to $58.77 following a $57.40 high, testing the $60 psychological level as Hyperliquid’s latest upgrades and record fees stoke momentum. A rising wedge near $59.36 and cooling signals on lower timeframes temper the advance."},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T15:54:14.345Z Upserted rephrase to Supabase { sha: '8213211f361b3ef5e329628c4009651a5da35f3d', id: 386 }
+2025-09-18T15:54:14.370Z Attempting in-process require of updater (preferred)
+2025-09-18T21:48:56.199Z [rephraser] model= gpt-5
+2025-09-18T21:58:32.432Z [rephraser] model= gpt-5-mini
+2025-09-18T21:59:57.802Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758232797796.html
+2025-09-18T21:59:59.612Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T22:00:00.639Z Supabase select raw response for slug: {"error":null,"data":{"id":387,"slug":"solana-foundation-cathie-woods-and-ark-invest-back-300-million-plan-to-seed-solmate-sol-treasury","title":"Solana Foundation, Cathie Woods and Ark Invest back $300 million plan to seed Solmate SOL treasury","excerpt":"Key Solana ecosystem stakeholders, including the Solana Foundation, Cathie Woods and Ark Invest, have agreed to participate in a"},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T22:00:00.642Z Upserted rephrase to Supabase { sha: '71a56ea241aa80f674a610d2682fd4d3aa0156b2', id: 387 }
+2025-09-18T22:00:00.649Z Attempting in-process require of updater (preferred)
+2025-09-18T22:05:40.871Z [rephraser] model= gpt-5-mini
+2025-09-18T22:06:20.037Z [rephraser] model= gpt-5-mini
+2025-09-18T22:06:36.931Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758233196926.html
+2025-09-18T22:06:38.459Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T22:06:39.686Z Supabase select raw response for slug: {"error":null,"data":{"id":388,"slug":"brera-holdings-rebrands-as-solmate-after-oversubscribed-300-million-pipe","title":"Brera Holdings rebrands as Solmate after oversubscribed $300 million PIPE","excerpt":"Brera Holdings said it will rebrand as Solmate following an oversubscribed $300 million PIPE that drew high-profile backers, while outlining leadership changes, a Sol acquisition plan and a strategy to expand crypto infrastructure in the UAE. The company also signaled ambitions for dual listings and will retain its sports businesses as it shifts focus to Web"},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T22:06:39.689Z Upserted rephrase to Supabase { sha: '71a56ea241aa80f674a610d2682fd4d3aa0156b2', id: 388 }
+2025-09-18T22:06:39.696Z Attempting in-process require of updater (preferred)
+2025-09-18T22:09:10.875Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758233350859.html
+2025-09-18T22:09:12.646Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T22:09:13.775Z Supabase select raw response for slug: {"error":null,"data":{"id":389,"slug":"early-bnb-investor-s-1-000-stake-becomes-1-million-as-bnb-surpasses-1-000","title":"Early BNB Investor’s $1,000 Stake Becomes $1 Million as BNB Surpasses $1,000","excerpt":"An early BNB holder has seen a $1,000 stake grow to $1 million as BNB topped the $1,000 mark, prompting renewed attention from on-chain trackers and market strategists. Analysts and industry figures cite the milestone as evidence of long-term payoff, growing utility and broader market rotation into altcoins."},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T22:09:13.798Z Upserted rephrase to Supabase { sha: '10635b98467501ea54f6b5d494a86994c637aaef', id: 389 }
+2025-09-18T22:09:14.070Z Attempting in-process require of updater (preferred)
+2025-09-18T22:09:39.005Z [rephraser] model= gpt-5-mini
+2025-09-18T22:11:17.390Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758233477340.html
+2025-09-18T22:11:18.415Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-18T22:11:19.445Z Supabase select raw response for slug: {"error":null,"data":{"id":390,"slug":"1-000-fold-gain-for-early-bnb-investor-as-token-tops-1-000","title":"1,000-fold gain for early BNB investor as token tops $1,000","excerpt":"BNB surged to a fresh all-time high of $1,005, turning an early $1,000 stake into $1,000,000 over eight years for at least one investor. On-chain analytics and market commentators point to a mix of native utility, institutional flows and broader macro momentum behind the rally."},"count":null,"status":200,"statusText":"OK"}
+2025-09-18T22:11:19.449Z Upserted rephrase to Supabase { sha: '10635b98467501ea54f6b5d494a86994c637aaef', id: 390 }
+2025-09-18T22:11:19.473Z Attempting in-process require of updater (preferred)

@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/news/bitcoin/bitcoin-bulls-now-target-117000/ at 2025-09-14T09:11:33.231Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_bitcoin_bitcoin-bulls-now-target-117000_.txt --twoStage invocation=https://www.newsbtc.com/news/bitcoin/bitcoin-bulls-now-target-117000/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841104392.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 311,
+    "slug": "bitcoin-s-path-to-117-000-a-bullish-outlook",
+    "title": "Bitcoin's Path to $117,000: A Bullish Outlook",
+    "excerpt": "Bitcoin (BTC) is showing promising signs as it has successfully transitioned from a key support area, with analysts eyeing a crucial resistance level at $117,000. The overall market sentiment is optimistic, indicating the possibility of further upward movement."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '350986b201effbd70a8dbbc0faa82ca7651b86d8', id: 311 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T09:11:47.402Z ===

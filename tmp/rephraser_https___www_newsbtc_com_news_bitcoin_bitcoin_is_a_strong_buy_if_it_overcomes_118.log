@@ -1,0 +1,81 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/ at 2025-09-14T13:27:50.115Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_bitcoin_bitcoin-is-a-strong-buy-if-it-overcomes-118.txt --twoStage invocation=https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757856478266.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 346,
+    "slug": "bitcoin-s-path-to-bullish-momentum-key-resistance-levels-analyzed",
+    "title": "Bitcoin's Path to Bullish Momentum: Key Resistance Levels Analyzed",
+    "excerpt": "Bitcoin's price hovers around $116,000, reflecting uncertainty about its bullish trajectory. Analyst Joao Wedson identifies critical resistance levels that could signal a potential price surge."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '195027a1dca830c3dba68c233ac1ac06f3d945cd', id: 346 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T13:27:59.261Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/ at 2025-09-14T13:33:53.785Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_bitcoin_bitcoin-is-a-strong-buy-if-it-overcomes-118.txt --twoStage invocation=https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757856842992.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 347,
+    "slug": "analyzing-bitcoin-s-potential-for-growth-amidst-current-price-fluctuations",
+    "title": "Analyzing Bitcoin's Potential for Growth Amidst Current Price Fluctuations",
+    "excerpt": "Bitcoin's recent price behavior raises questions about its ability to maintain bullish momentum as it hovers around $116,000. Analysts suggest key resistance levels will dictate its next move."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '195027a1dca830c3dba68c233ac1ac06f3d945cd', id: 347 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T13:34:03.804Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/ at 2025-09-14T14:54:37.358Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_bitcoin_bitcoin-is-a-strong-buy-if-it-overcomes-118.txt --twoStage invocation=https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757861688278.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 353,
+    "slug": "bitcoin-s-path-to-uptrend-key-levels-to-watch",
+    "title": "Bitcoin's Path to Uptrend: Key Levels to Watch",
+    "excerpt": "Bitcoin's price is currently hovering around $116,000, raising questions about its potential upward movement. Crypto expert Joao Wedson from Alphractal outlines critical resistance levels that could influence future price action."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '195027a1dca830c3dba68c233ac1ac06f3d945cd', id: 353 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T14:54:50.942Z ===

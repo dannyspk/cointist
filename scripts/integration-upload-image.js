@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+// Upload a minimal 1x1 PNG to the images bucket for integration testing
+const fs = require('fs');
+const path = require('path');
+const { PNG } = require('pngjs');
+
+(async function(){
+  try {
+    const { uploadFileToGcs } = require('../src/lib/storage-gcs');
+    // create a 1x1 PNG in memory
+    const png = new PNG({ width: 1, height: 1 });
+    png.data[0] = 255; png.data[1] = 0; png.data[2] = 0; png.data[3] = 255; // red pixel
+    const tmp = path.join(process.cwd(), 'tmp-test-image.webp');
+    await new Promise((res, rej)=>{
+      const stream = fs.createWriteStream(tmp);
+      png.pack().pipe(stream).on('finish', res).on('error', rej);
+    });
+    const destName = `uploads/integration-test-${Date.now()}.png`;
+    const res = await uploadFileToGcs(tmp, destName, true, process.env.GCS_IMAGE_BUCKET || 'cointist-images');
+    console.log('integration upload result:', res);
+    try { fs.unlinkSync(tmp); } catch (e) {}
+  } catch (e) { console.error('integration upload failed:', e && e.message ? e.message : e); process.exit(1); }
+})();

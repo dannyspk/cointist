@@ -1,0 +1,11 @@
+/* cointist-sectors.css — lightweight, respects site variables */
+.ct-sectors{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px}
+.ct-sectors h3{margin:0 0 10px;font-family:"SF Pro Display";font-weight:600;font-size:16px}
+.ct-sec{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-top:1px solid color-mix(in oklab, var(--border) 60%, transparent)}
+.ct-sec:first-child{border-top:0}
+.ct-sec .name{display:flex;align-items:center;gap:8px}
+.ct-sec .badge{width:8px;height:8px;border-radius:50%}
+.ct-sec .val{font-variant-numeric:tabular-nums; font-feature-settings:"tnum" 1}
+.ct-sec .val .chg.up{color:#16a34a}
+.ct-sec .val .chg.down{color:#dc2626}
+.ct-small{color:var(--muted);font-size:12px;margin-top:8px}

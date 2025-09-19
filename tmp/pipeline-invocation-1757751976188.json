@@ -1,0 +1,14 @@
+{
+  "startedAt": 1757751976188,
+  "invocationToken": "676b0cb4af3faf8a7b80",
+  "selected": [
+    {
+      "id": "https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Kalshi ‘ready to defend’ prediction markets amid Massachusetts lawsuit",
+      "url": "https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "prediction-market-kalshi-massachusetts-lawsuit",
+      "href": "/articles/prediction-market-kalshi-massachusetts-lawsuit"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

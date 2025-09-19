@@ -1,0 +1,81 @@
+
+=== Spawned rephraser for https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath at 2025-09-16T16:04:20.965Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___u_today_dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath.txt --twoStage invocation=https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758038679575.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 367,
+    "slug": "caution-advised-amidst-cryptocurrency-market-losses",
+    "title": "Caution Advised Amidst Cryptocurrency Market Losses",
+    "excerpt": "Recent commentary by Ted Pillows on the state of the cryptocurrency market reveals substantial losses, cautioning investors about potential misleading price increases."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd55d133c62ea695c6200b2c721489da8ce52c55d', id: 367 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-16T16:04:41.197Z ===
+
+=== Spawned rephraser for https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath at 2025-09-16T17:26:01.150Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___u_today_dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath.txt --twoStage invocation=https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758043572572.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 368,
+    "slug": "caution-amidst-crypto-volatility-ted-pillows-insights",
+    "title": "Caution Amidst Crypto Volatility: Ted Pillows' Insights",
+    "excerpt": "As the cryptocurrency market experiences significant fluctuations, expert Ted Pillows shares his insights on the current landscape, emphasizing caution for investors navigating this unpredictable terrain."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd55d133c62ea695c6200b2c721489da8ce52c55d', id: 368 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-16T17:26:14.829Z ===
+
+=== Spawned rephraser for https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath at 2025-09-16T18:07:59.930Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___u_today_dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath.txt --twoStage invocation=https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758046090259.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 369,
+    "slug": "concerns-rise-amidst-cryptocurrency-market-decline",
+    "title": "Concerns Rise Amidst Cryptocurrency Market Decline",
+    "excerpt": "As the cryptocurrency market experiences a significant downturn, experts are warning investors about the potential risks and dynamics at play, particularly highlighting the influence of market manipulation and external economic factors."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd55d133c62ea695c6200b2c721489da8ce52c55d', id: 369 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-16T18:08:10.957Z ===

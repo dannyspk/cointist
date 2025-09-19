@@ -1,0 +1,128 @@
+
+=== Spawned fetch_and_dump for https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/ at 2025-09-14T05:21:51.536Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_government-considering-compensat.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757827311498.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_government-considering-compensat.txt
+Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757827320759.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 295,
+    "slug": "compensation-considerations-for-unpaid-carers-affected-by-allowance-scandal",
+    "title": "Compensation Considerations for Unpaid Carers Affected by Allowance Scandal",
+    "excerpt": "The UK government is examining potential compensation avenues for those impacted by the carer’s allowance scandal, which has financially burdened thousands of unpaid carers. Recent findings have shed light on the administrative issues within the Department for Work and Pensions (DWP) that have exacerbated these challenges."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '9d988b5893ae9dcaf2485b6d3cec126dcf236861', id: 295 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T05:22:03.204Z ===
+
+
+=== child exit code=0 at 2025-09-14T05:22:03.235Z ===
+
+=== Spawned fetch_and_dump for https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/ at 2025-09-14T06:20:31.628Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_government-considering-compensat.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757830831593.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_government-considering-compensat.txt
+Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757830841882.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 297,
+    "slug": "government-explores-restitution-for-carers-affected-by-allowance-controversy",
+    "title": "Government Explores Restitution for Carers Affected by Allowance Controversy",
+    "excerpt": "The UK government is considering compensation for unpaid carers who have faced financial difficulties due to recent controversies surrounding the carer’s allowance. This situation has led to thousands falling into debt amid heightened scrutiny of existing benefit regulations."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '9d988b5893ae9dcaf2485b6d3cec126dcf236861', id: 297 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T06:20:44.430Z ===
+
+
+=== child exit code=0 at 2025-09-14T06:20:44.444Z ===
+
+=== Spawned fetch_and_dump for https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/ at 2025-09-14T07:00:08.292Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_government-considering-compensat.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757833208280.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_government-considering-compensat.txt
+Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757833218818.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 305,
+    "slug": "compensation-considerations-for-carers-affected-by-allowance-mismanagement",
+    "title": "Compensation Considerations for Carers Affected by Allowance Mismanagement",
+    "excerpt": "The UK government is examining the possibility of compensation for unpaid carers impacted by violations of benefit rules, as thousands face significant financial repercussions from stringent regulations."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '9d988b5893ae9dcaf2485b6d3cec126dcf236861', id: 305 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T07:00:21.040Z ===
+
+
+=== child exit code=0 at 2025-09-14T07:00:21.049Z ===
+
+=== Spawned fetch_and_dump for https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/ at 2025-09-14T10:16:35.289Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_government-considering-compensat.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757844995218.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_government-considering-compensat.txt
+Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845010211.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 326,
+    "slug": "compensation-considerations-for-unpaid-carers-affected-by-allowance-scandal",
+    "title": "Compensation Considerations for Unpaid Carers Affected by Allowance Scandal",
+    "excerpt": "The recent scandal surrounding carer allowances has prompted significant governmental action and public discussion regarding compensation for unpaid carers. A thorough examination of the benefits system and its implications reveals the various challenges faced by those who provide essential care without financial recognition."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '9d988b5893ae9dcaf2485b6d3cec126dcf236861', id: 326 }
+Updated selection files from rephraser log. Items: 3
+
+=== child exit code=0 at 2025-09-14T10:16:54.010Z ===
+
+
+=== child exit code=0 at 2025-09-14T10:16:54.039Z ===

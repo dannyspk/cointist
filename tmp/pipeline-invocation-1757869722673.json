@@ -1,0 +1,31 @@
+{
+  "startedAt": 1757869722673,
+  "invocationToken": "cece0b6d6038fcd39967",
+  "selected": [
+    {
+      "id": "https://www.newsbtc.com/news/solana/solana-sol-bulls-complete-bullish-breakout-eyes-360-mid-term-target/",
+      "title": "Solana (SOL) Bulls Complete Bullish Breakout — Eye $360 Mid-Term Target",
+      "url": "https://www.newsbtc.com/news/solana/solana-sol-bulls-complete-bullish-breakout-eyes-360-mid-term-target/",
+      "slug": "solana-sol-bulls-complete-bullish-breakout-eyes-360-mid-term-target",
+      "oldSlug": "solana-sol-bulls-complete-bullish-breakout-eyes-360-mid-term-target",
+      "href": "/articles/solana-sol-bulls-complete-bullish-breakout-eyes-360-mid-term-target"
+    },
+    {
+      "id": "https://cryptoslate.com/institutions-like-strategy-and-metaplanet-now-hold-12-3-of-the-total-bitcoin-supply/",
+      "title": "Institutions like Strategy and Metaplanet now hold 12.3% of the total Bitcoin supply",
+      "url": "https://cryptoslate.com/institutions-like-strategy-and-metaplanet-now-hold-12-3-of-the-total-bitcoin-supply/",
+      "slug": "institutions-like-strategy-and-metaplanet-now-hold-12-3-of-the-total-bitcoin-supply",
+      "oldSlug": "institutions-like-strategy-and-metaplanet-now-hold-12-3-of-the-total-bitcoin-supply",
+      "href": "/articles/institutions-like-strategy-and-metaplanet-now-hold-12-3-of-the-total-bitcoin-supply"
+    },
+    {
+      "id": "https://coinspectator.com/mainstream/2025/09/14/many-americans-use-ai-chatbots-for-financial-advice-some-with-regret/",
+      "title": "Many Americans use AI chatbots for financial advice, some with regret",
+      "url": "https://coinspectator.com/mainstream/2025/09/14/many-americans-use-ai-chatbots-for-financial-advice-some-with-regret/",
+      "slug": "many-americans-use-ai-chatbots-for-financial-advice-some-with-regret",
+      "oldSlug": "many-americans-use-ai-chatbots-for-financial-advice-some-with-regret",
+      "href": "/articles/many-americans-use-ai-chatbots-for-financial-advice-some-with-regret"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

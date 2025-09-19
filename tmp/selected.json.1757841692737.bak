@@ -1,0 +1,19 @@
+{
+  "count": 2,
+  "items": [
+    {
+      "id": 313,
+      "slug": "decentralized-indexing-the-future-of-web3-amid-challenges",
+      "title": "Decentralized Indexing: The Future of Web3 Amid Challenges",
+      "excerpt": "Decentralized indexing is becoming increasingly crucial for the functionality of Web3 and decentralized applications (dApps). This article delves into The Graph's role in this evolving landscape, the challenges it faces, and the potential impact on the broader ecosystem."
+    },
+    {
+      "id": 314,
+      "slug": "increased-bitcoin-allocations-anticipated-in-traditional-finance",
+      "title": "Increased Bitcoin Allocations Anticipated in Traditional Finance",
+      "excerpt": "Jordi Visser has projected a significant rise in Bitcoin allocations within traditional finance by the end of the year, reflecting a growing confidence among institutional investors."
+    }
+  ],
+  "createdAt": "2025-09-14T09:19:56.135Z",
+  "source": "C:\\cointistreact\\tmp\\pipeline-rephraser.log"
+}

@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://u.today/bitcoin-up-99-in-yearly-gains-surpassing-altcoin-dominance at 2025-09-16T18:18:24.129Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___u_today_bitcoin-up-99-in-yearly-gains-surpassing-altcoin-dominance.txt --twoStage invocation=https://u.today/bitcoin-up-99-in-yearly-gains-surpassing-altcoin-dominance ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758046716140.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 370,
+    "slug": "bitcoin-s-remarkable-yearly-performance-amid-altcoin-growth",
+    "title": "Bitcoin's Remarkable Yearly Performance Amid Altcoin Growth",
+    "excerpt": "This year has seen Bitcoin achieve impressive gains, even as altcoins experience significant growth in trading volume. The evolving dynamics of the cryptocurrency market, influenced by regulatory decisions and investor sentiment, are reshaping the landscape for both Bitcoin and altcoins."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '90287cc4d763dad55ffe644511840d5554fee898', id: 370 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-16T18:18:37.543Z ===

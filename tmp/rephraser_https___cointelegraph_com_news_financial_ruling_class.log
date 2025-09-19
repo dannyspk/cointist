@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/financial-ruling-class at 2025-09-17T14:05:32.983Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_financial-ruling-class_utm_source_rss_feed_utm_me.txt --twoStage invocation=https://cointelegraph.com/news/financial-ruling-class ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758117949493.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 378,
+    "slug": "the-shift-from-charismatic-leadership-to-decentralized-governance-in-crypto",
+    "title": "The Shift from Charismatic Leadership to Decentralized Governance in Crypto",
+    "excerpt": "The cryptocurrency landscape is undergoing a significant transformation as the industry pivots from traditional charismatic leadership models towards decentralized governance structures. This shift is driven by the vulnerabilities associated with centralized authority and the growing influence of Decentralized Autonomous Organizations (DAOs)."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'c2330076b6ae6666c48e4e7072e41f1f980110ec', id: 378 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-17T14:05:51.490Z ===

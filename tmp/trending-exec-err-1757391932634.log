@@ -1,0 +1,1 @@
+Command failed: C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch-trending-aggregator.js --sources=reddit,google,decrypt,nitter,coinmarketcap,forbes,coindesk --hours=24 --out=C:\cointistreact\tmp\trending-aggregator-1757391921230.json

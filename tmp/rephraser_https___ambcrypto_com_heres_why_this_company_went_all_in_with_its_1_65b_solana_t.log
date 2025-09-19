@@ -1,0 +1,7 @@
+
+=== Spawned rephraser for https://ambcrypto.com/heres-why-this-company-went-all-in-with-its-1-65b-solana-treasury-play/ at 2025-09-13T06:30:54.810Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_heres-why-this-company-went-all-in-with-its-1-65b-solana-t.txt --twoStage invocation=https://ambcrypto.com/heres-why-this-company-went-all-in-with-its-1-65b-solana-treasury-play/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757745063887.html
+Upserted rephrase to Supabase { sha: '582b37d5b1517105a7fad8c5c4fdaa802ffa5275', id: null }
+
+=== child exit code=0 at 2025-09-13T06:31:05.032Z ===

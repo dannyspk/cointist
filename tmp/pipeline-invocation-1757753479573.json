@@ -1,0 +1,14 @@
+{
+  "startedAt": 1757753479573,
+  "invocationToken": "2b1bea85878f0b56b8f2",
+  "selected": [
+    {
+      "id": "https://www.newsbtc.com/news/dogecoin/dogecoin-eyes-historic-surge/",
+      "title": "Dogecoin Breaks Out, Eyes Historic Surge Between $0.41–$0.97 – What To Expect",
+      "url": "https://www.newsbtc.com/news/dogecoin/dogecoin-eyes-historic-surge/",
+      "slug": "dogecoin-eyes-historic-surge",
+      "href": "/articles/dogecoin-eyes-historic-surge"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

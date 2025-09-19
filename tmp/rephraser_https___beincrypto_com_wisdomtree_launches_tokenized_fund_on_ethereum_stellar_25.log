@@ -1,0 +1,48 @@
+
+=== Spawned rephraser for https://beincrypto.com/wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25-minimum/ at 2025-09-13T14:56:47.026Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25.txt --twoStage invocation=https://beincrypto.com/wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25-minimum/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775419354.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 261,
+    "slug": "wisdomtree-introduces-innovative-tokenized-fund-to-democratize-private-credit"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '2d90abd5ef9214f2d1b33ca9e0edea2b690ce6c9', id: 261 }
+
+=== child exit code=0 at 2025-09-13T14:57:02.202Z ===
+
+=== Spawned rephraser for https://beincrypto.com/wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25-minimum/ at 2025-09-13T14:57:32.388Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25.txt --twoStage invocation=https://beincrypto.com/wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25-minimum/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775466346.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 263,
+    "slug": "wisdomtree-launches-tokenized-fund-to-broaden-access-to-private-credit"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '2d90abd5ef9214f2d1b33ca9e0edea2b690ce6c9', id: 263 }
+
+=== child exit code=0 at 2025-09-13T14:57:50.724Z ===

@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757841576290,
+  "invocationToken": "55f639db7608f7570f9e",
+  "selected": [
+    {
+      "id": "https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "TradFi to ramp up Bitcoin allocations by year-end, Wall Street veteran tips",
+      "url": "https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction",
+      "oldSlug": null,
+      "href": "/articles/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction"
+    },
+    {
+      "id": "https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/",
+      "title": "The Graph vs. the Gatekeepers: Can Decentralized Indexing Save Web3?",
+      "url": "https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/",
+      "slug": "the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3",
+      "oldSlug": null,
+      "href": "/articles/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

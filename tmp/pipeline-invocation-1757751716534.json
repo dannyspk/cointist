@@ -1,0 +1,14 @@
+{
+  "startedAt": 1757751716534,
+  "invocationToken": "9438e3bc0a06717f1207",
+  "selected": [
+    {
+      "id": "https://www.newsbtc.com/news/ethereum/ethereum-validator-slashing/",
+      "title": "Ethereum Validator Slashing Puts Cardano’s Resilience In Focus – Here’s Why",
+      "url": "https://www.newsbtc.com/news/ethereum/ethereum-validator-slashing/",
+      "slug": "ethereum-validator-slashing",
+      "href": "/articles/ethereum-validator-slashing"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

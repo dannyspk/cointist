@@ -1,0 +1,70 @@
+// Central author metadata used by the site (leads, image filenames)
+export const AUTHORS_META = {
+  'Ayesha Rahman': {
+    lead: 'Ayesha spent years shipping fintech products for cross-border payouts before switching to journalism. She covers how families, freelancers, and SMEs adopt crypto rails in places where banking is slow or expensive. Her work combines ground interviews with flows data and policy analysis, clarifying what “financial inclusion” looks like when stablecoins meet mobile money and agent networks.',
+    file: '/authors/ayesha.webp'
+  },
+  'Arjun Mehta': {
+    lead: 'Arjun breaks apart token designs and L2 architectures with reproducible math. He focuses on what accrues value, what dilutes it, and how validator and sequencer incentives shape outcomes. Expect clear models, transparent assumptions, and charts teams can re-create to test their own scenarios.',
+    file: '/authors/arjun.webp'
+  },
+  'Nila Perera': {
+    lead: 'Nila covers crypto through a markets lens—rates, liquidity, and positioning. She reads ETF flows and derivatives curves alongside miner behavior to explain impulse and trend. Her pieces bridge the gap between macro tourists and crypto-native traders.',
+    file: '/authors/nila.webp'
+  },
+  'Hana Sato': {
+    lead: 'Hana evaluates crypto apps by their smallest details—seed flows, fee clarity, empty-state design, and recovery UX. She publishes teardown notes and heuristics that product teams can adopt immediately, with special attention to Asia’s gaming-led adoption.',
+    file: '/authors/Hana.webp'
+  },
+  'Minh Nguyen': {
+    lead: 'Minh writes for teams that have to defend production systems. His incident reports focus on root causes and remediation, not sensationalism. He maintains a pattern library of common exploit vectors and practical checklists for prevention and response.',
+    file: '/authors/minh.webp'
+  },
+  'Camila Duarte': {
+    lead: 'Camila tracks how liquidity moves—between venues, chains, and new RWA primitives. She pairs on-chain data with interviews across Brazil’s fintech and exchange ecosystem, mapping incentives that quietly drive adoption ahead of the headlines.',
+    file: '/authors/camila.webp'
+  },
+  'Santiago Álvarez': {
+    lead: 'Santiago’s beat is lived experience: miners negotiating energy, merchants surviving inflation, and families choosing self-custody. He blends narrative with data to show how Bitcoin functions off-exchange and off-Twitter.',
+    file: '/authors/orig/santiago.webp'
+  },
+  'Emilia Nowak': {
+    lead: 'Emilia translates EU regulation into operations. Her work unpacks definitions, thresholds, and gray areas founders miss—paired with examples from real authorization journeys. Expect citations, checklists, and timelines teams can adopt.',
+    file: '/authors/Emilia.webp'
+  },
+  'Luca De Santis': {
+    lead: 'Luca reports on the hidden machinery of blockchains. He compares client diversity, failure modes, and operator economics—clarifying where performance gains come from and what they cost in decentralization and resilience.',
+    file: '/authors/luca.webp'
+  },
+  'Freja Lindholm': {
+    lead: 'Freja focuses on measurable energy impacts: curtailment usage, grid services, and renewable integration. Her case studies weigh claims against data and regulation, helping readers see when mining is a liability—and when it’s a grid asset.',
+    file: '/authors/freja.webp'
+  }
+  ,
+  'Zara Rauf': {
+    lead: 'Real-time markets reporter focused on BTC/ETH, ETF flows, and funding/OI. Files fast, confirms rigorously, and updates live posts as facts evolve.',
+    file: '/authors/orig/zara.webp'
+  },
+  'Rohan Khanna': {
+    lead: 'Macro-aware daily briefs tying crypto to rates, DXY, and risk appetite. One-screen reads for open/close handovers.',
+    file: '/authors/orig/rohan.webp'
+  },
+  'Kai Yamamoto': {
+    lead: 'APAC incident coverage—exchange outages, sequencer pauses, bridge advisories—with verifiable source links and status pages.',
+    file: 'Kai Yamamot.png'
+  },
+  'Marta Silva': {
+    lead: 'EU session wraps blending policy headlines, flows, and crypto-equity proxies to set the U.S. open.',
+    file: '/authors/marta.webp'
+  },
+  'Tomasz Mazur': {
+    lead: 'Turns funding, basis, and options skew into transparent, reproducible signals for traders.',
+    file: '/authors/orig/Tomasz.webp'
+  },
+  'Luz Valdés': {
+    lead: 'LatAm filings, listings, and outages—bilingual sourcing and document excerpts for instant verification.',
+    file: '/authors/Luz.webp'
+  }
+}
+
+export default AUTHORS_META;

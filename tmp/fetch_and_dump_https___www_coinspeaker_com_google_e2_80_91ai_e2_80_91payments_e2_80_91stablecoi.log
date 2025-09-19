@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://www.coinspeaker.com/google%e2%80%91ai%e2%80%91payments%e2%80%91stablecoin%e2%80%91coinbase/ at 2025-09-16T15:46:56.705Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.coinspeaker.com/google%e2%80%91ai%e2%80%91payments%e2%80%91stablecoin%e2%80%91coinbase/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_google_e2_80_91ai_e2_80_91payments_e2_80_91stablecoi.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758037616651.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_google_e2_80_91ai_e2_80_91payments_e2_80_91stablecoi.txt
+Spawned rephraser for https://www.coinspeaker.com/google‑ai‑payments‑stablecoin‑coinbase/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758037639532.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 365,
+    "slug": "google-and-coinbase-collaborate-on-ai-and-payment-solutions",
+    "title": "Google and Coinbase Collaborate on AI and Payment Solutions",
+    "excerpt": "Google Cloud has launched an initiative aimed at integrating artificial intelligence into payment technologies through a partnership with Coinbase, focusing on enhancing stablecoin transactions and financial services. This collaboration is poised to impact the cryptocurrency landscape significantly."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '057c6d5e32c6ec9120444f544f379451b84fd18c', id: 365 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-16T15:47:22.827Z ===
+
+
+=== child exit code=0 at 2025-09-16T15:47:23.689Z ===

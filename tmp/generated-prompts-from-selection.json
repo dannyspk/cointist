@@ -1,0 +1,40 @@
+{
+  "generated": [
+    {
+      "id": 146,
+      "slug": "crypto-exchange-gemini-raises-us-ipo-target-to-433-3-million-dgvbbz",
+      "prompts": {
+        "hero_editorial": "Editorial hero image for article about Gemini raising its IPO target to $433.3M. Subject: a symbolic single exchange building silhouette with a subtle upward arrow motif integrated into the facade. Environment: dusk city skyline, soft backlight, minimal crowd. Composition: centered subject, shallow depth of field, 16:9 crop, modern muted teal and slate palette, subtle film grain, high detail on the building, no text or logos. Output: PNG 16:9.",
+        "photoreal": "Photorealistic scene of a modern trading floor desk with multiple monitors showing green upward crypto charts; a subtle abstract coin motif on a frosted glass partition. Lighting: warm natural window light, shallow depth of field, 16:9, no readable text or brand names, high detail.",
+        "flat_vector": "Flat vector illustration: stylized exchange building icon with ascending bar/arrow motif, clean geometric shapes, limited palette (teal, blue, gray), lots of white space, center composition, 16:9, PNG, no text or logos."
+      }
+    },
+    {
+      "id": 147,
+      "slug": "gamestop-posts-narrower-loss-in-q2-as-bitcoin-holdings-lift-",
+      "prompts": {
+        "hero_editorial": "Editorial hero image: a simplified retail storefront silhouette with a glowing coin motif in the window to represent Bitcoin lifting the company; warm evening lighting, muted oranges and navy, 16:9, no logos or readable text, subtle depth and grain, PNG.",
+        "photoreal": "Photorealistic scene: close-up of a retail counter with a receipt and a small physical coin (symbolic, no brand names), soft studio lighting, shallow depth of field, 16:9, high detail, no logos.",
+        "flat_vector": "Flat vector composition: stylized storefront and a large coin icon behind it, simple lines, pastel palette, center composition, 16:9, PNG, no logos or text."
+      }
+    },
+    {
+      "id": 148,
+      "slug": "crypto-payroll-solutions-transforming-fintech-startups-in-as",
+      "prompts": {
+        "hero_editorial": "Editorial hero: a modern office scene with a payroll dashboard on a laptop screen and faceless employees (silhouettes) nearby; subtle crypto coin motif integrated into UI elements, calm teal and coral palette, 16:9, PNG, no logos or text.",
+        "photoreal": "Photorealistic image: overhead view of a team meeting table with documents, laptop showing a payroll UI with non-readable charts, soft daylight, shallow depth of field, 16:9, no brand names or logos.",
+        "flat_vector": "Flat vector illustration: isometric fintech workspace with tiny people icons and stylized coin symbols, pastel palette, clear shapes, 16:9, PNG, no logos or text."
+      }
+    },
+    {
+      "id": 149,
+      "slug": "employment-data-revision-washes-60b-from-crypto-market-cap-c",
+      "prompts": {
+        "hero_editorial": "Editorial hero image: abstract representation of market contraction — overlapping translucent shapes cascading downward with a subtle line chart in the background, muted grays and red accents, 16:9, PNG, no text.",
+        "photoreal": "Photorealistic scene: an empty trading desk with a tablet displaying a red downward chart and scattered papers, moody cool lighting, shallow depth of field, 16:9, no logos.",
+        "flat_vector": "Flat vector concept: minimalist downward arrow motif integrated with a globe grid, limited palette (charcoal, muted red), 16:9, PNG, no logos or text."
+      }
+    }
+  ]
+}

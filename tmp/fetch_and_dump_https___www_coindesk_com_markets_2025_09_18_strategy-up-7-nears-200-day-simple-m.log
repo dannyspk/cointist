@@ -1,0 +1,11 @@
+
+=== Spawned fetch_and_dump for https://www.coindesk.com/markets/2025/09/18/strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies at 2025-09-18T15:39:08.810Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.coindesk.com/markets/2025/09/18/strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies --out=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_markets_2025_09_18_strategy-up-7-nears-200-day-simple-m.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758209948774.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_markets_2025_09_18_strategy-up-7-nears-200-day-simple-m.txt
+Spawned rephraser for https://www.coindesk.com/markets/2025/09/18/strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies
+[rephraser] model= gpt-5
+Error: fetch failed
+
+=== child exit code=2 at 2025-09-18T15:42:26.051Z ===
+
+
+=== child exit code=0 at 2025-09-18T15:42:26.160Z ===

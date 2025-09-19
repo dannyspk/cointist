@@ -1,0 +1,74 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  // Using a local SQLite file for development. This keeps local edits
+  // confined to `prisma/dev.db`. Change back to Postgres/Supabase for prod.
+  url      = "file:./prisma/dev.db"
+}
+
+model Article {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  category    String
+  author      String?
+  coverImage  String?
+  thumbnail   String?
+  subcategory String?
+  tags        Json?
+  ogTitle     String?
+  ogDescription String?
+  ogImage     String?
+  excerpt     String?
+  content     String?
+  published   Boolean  @default(false)
+  publishedAt DateTime?
+  scheduledAt DateTime?
+  // alt text for cover and thumbnail
+  coverAlt    String?
+  thumbnailAlt String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  pinned      Boolean  @default(false)
+  pinnedAt    DateTime?
+  featuredOnly Boolean @default(false)
+}
+
+model ArticleVersion {
+  id        Int      @id @default(autoincrement())
+  articleId Int
+  title     String
+  excerpt   String?
+  content   String
+  data      Json?
+  createdAt DateTime @default(now())
+  @@index([articleId])
+}
+
+// Page view events for analytics
+model PageView {
+  id        Int      @id @default(autoincrement())
+  articleId Int?
+  slug      String?
+  path      String?
+  referrer  String?
+  ipHash    String?
+  uaHash    String?
+  sessionId String?
+  isBot     Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+// Daily aggregated views per article (computed job)
+model PageViewDaily {
+  id        Int      @id @default(autoincrement())
+  articleId Int?
+  slug      String?
+  day       DateTime
+  views     Int      @default(0)
+  uniques   Int      @default(0)
+  @@index([articleId, day])
+}

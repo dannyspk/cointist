@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757821894121,
+  "invocationToken": "346b906ce6bddfdb77fa",
+  "selected": [
+    {
+      "id": "https://www.newsbtc.com/bitcoin-news/bitcoin-breaks-term-holder-breakeven-rally/",
+      "title": "Bitcoin Breaks Above Mid-Term Holder Breakeven – Is A Fresh Rally Brewing?",
+      "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-breaks-term-holder-breakeven-rally/",
+      "slug": "bitcoin-breaks-term-holder-breakeven-rally",
+      "oldSlug": null,
+      "href": "/articles/bitcoin-breaks-term-holder-breakeven-rally"
+    },
+    {
+      "id": "https://coinspectator.com/mainstream/2025/09/13/rachel-reeves-accused-of-going-into-hiding-after-uk-economy-flatlines-under-the-weight-of-tax-hikes/",
+      "title": "Rachel Reeves accused of ‘going into hiding’ after UK economy flatlines under the weight of tax hikes",
+      "url": "https://coinspectator.com/mainstream/2025/09/13/rachel-reeves-accused-of-going-into-hiding-after-uk-economy-flatlines-under-the-weight-of-tax-hikes/",
+      "slug": "rachel-reeves-accused-of-going-into-hiding-after-uk-economy-flatlines-under-the-weight-of-tax-hikes",
+      "oldSlug": null,
+      "href": "/articles/rachel-reeves-accused-of-going-into-hiding-after-uk-economy-flatlines-under-the-weight-of-tax-hikes"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

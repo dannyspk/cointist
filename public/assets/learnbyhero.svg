@@ -1,0 +1,130 @@
+<svg width="820" height="820" viewBox="0 0 820 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ====== GRADIENTS & FILTERS ====== -->
+  <defs>
+    <!-- Rich gold -->
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE05C"/>
+      <stop offset="0.45" stop-color="#FFD033"/>
+      <stop offset="0.8" stop-color="#FFC20F"/>
+      <stop offset="1" stop-color="#F7B500"/>
+    </linearGradient>
+
+    <!-- Brighter rim highlight -->
+    <linearGradient id="goldHighlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF7B3"/>
+      <stop offset="1" stop-color="#FFD95E" />
+    </linearGradient>
+
+    <!-- Subtle shadow underneath cap top -->
+    <linearGradient id="capShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C48900" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7A5300" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Inner coin glow -->
+    <radialGradient id="coinGlow" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#FFF4B0"/>
+      <stop offset="1" stop-color="#FFC21A"/>
+    </radialGradient>
+
+    <!-- Soft outer glow for sparkles -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Emboss effect (light & shadow) -->
+    <filter id="emboss" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="4" specularConstant="0.55" specularExponent="20" lighting-color="#FFF7C9" result="spec">
+        <fePointLight x="-200" y="-200" z="300"/>
+      </feSpecularLighting>
+      <feComposite in="spec" in2="SourceAlpha" operator="in" result="specOut"/>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </defs>
+
+  <!-- ====== BACKGROUND (transparent) ====== -->
+  <rect width="100%" height="100%" fill="none"/>
+
+  <!-- ====== GRADUATION CAP ====== -->
+  <!-- Mortarboard top (rhombus) -->
+  <g transform="translate(90,55)">
+    <path d="M320 0L615 165L320 330L25 165L320 0Z" fill="url(#gold)" filter="url(#emboss)"/>
+    <!-- underside shadow wedge -->
+    <path d="M70 226L320 360L570 226V295L320 430L70 295V226Z" fill="url(#capShadow)"/>
+    <!-- Cap band (curved) -->
+    <path d="M110 260C110 210 197 172 320 172C443 172 530 210 530 260V360C530 410 443 448 320 448C197 448 110 410 110 360V260Z"
+          fill="url(#gold)"/>
+    <!-- Inner band shading -->
+    <path d="M120 322C120 284 202 256 320 256C438 256 520 284 520 322V352C520 390 438 418 320 418C202 418 120 390 120 352V322Z"
+          fill="url(#capShadow)"/>
+
+    <!-- Button / knot on top -->
+    <circle cx="362" cy="145" r="22" fill="url(#gold)" filter="url(#emboss)"/>
+
+    <!-- Tassel string -->
+    <path d="M150 420C150 370 180 342 222 320C258 301 305 278 335 236C358 205 374 172 362 145"
+          fill="none" stroke="#E6A900" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Tassel joint -->
+    <circle cx="150" cy="420" r="20" fill="url(#gold)"/>
+
+    <!-- Tassel end -->
+    <path d="M120 520C120 493 133 458 150 458C167 458 180 493 180 520C180 548 167 560 150 560C133 560 120 548 120 520Z"
+          fill="url(#gold)" filter="url(#emboss)"/>
+  </g>
+
+  <!-- ====== COIN ====== -->
+  <g transform="translate(360,480)">
+    <!-- Outer shadow ellipse (soft) -->
+    <ellipse cx="145" cy="165" rx="150" ry="30" fill="#000" opacity="0.08"/>
+    <!-- Coin base -->
+    <circle cx="145" cy="145" r="145" fill="url(#gold)"/>
+    <!-- Rim -->
+    <circle cx="145" cy="145" r="145" fill="none" stroke="#FFD457" stroke-width="14"/>
+    <!-- Inner face -->
+    <circle cx="145" cy="145" r="118" fill="url(#coinGlow)" />
+    <!-- Inner ring -->
+    <circle cx="145" cy="145" r="118" fill="none" stroke="#FFE487" stroke-width="6" opacity="0.8"/>
+
+    <!-- ETH-style faceted mark -->
+    <g transform="translate(145,145) scale(1.0)">
+      <!-- top tetra -->
+      <path d="M0 -78L-40 -5L0 -25L40 -5L0 -78Z" fill="#FFD34A" stroke="#EFB21A" stroke-width="2"/>
+      <!-- middle kite -->
+      <path d="M0 -25L-40 -5L0 15L40 -5L0 -25Z" fill="#FFC52A" stroke="#EFB21A" stroke-width="2"/>
+      <!-- lower facets -->
+      <path d="M0 15L-38 5L0 78L0 15Z" fill="#FFB90F" stroke="#EFB21A" stroke-width="2"/>
+      <path d="M0 15L0 78L38 5L0 15Z" fill="#FFCA28" stroke="#EFB21A" stroke-width="2"/>
+    </g>
+
+    <!-- Specular highlight -->
+    <ellipse cx="105" cy="105" rx="75" ry="38" fill="white" opacity="0.18"/>
+  </g>
+
+  <!-- ====== SPARKLES ====== -->
+  <g filter="url(#glow)" stroke="#FFE781" stroke-width="8" stroke-linecap="round">
+    <!-- big star upper-right -->
+    <g transform="translate(690,110) scale(1.2)">
+      <path d="M0 -22V22M-22 0H22"/>
+      <circle r="2" fill="#FFF7BE"/>
+    </g>
+    <!-- mid star right-center -->
+    <g transform="translate(720,330) scale(0.9)">
+      <path d="M0 -18V18M-18 0H18"/>
+      <circle r="1.8" fill="#FFF7BE"/>
+    </g>
+    <!-- small star lower-left -->
+    <g transform="translate(160,620) scale(0.85)">
+      <path d="M0 -16V16M-16 0H16"/>
+      <circle r="1.6" fill="#FFF7BE"/>
+    </g>
+  </g>
+
+  <!-- Gentle overall sheen on cap top -->
+  <path d="M180 145C270 90 420 90 620 190" fill="none" stroke="url(#goldHighlight)" stroke-width="14" opacity="0.45"/>
+</svg>

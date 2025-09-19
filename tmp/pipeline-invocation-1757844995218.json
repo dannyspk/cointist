@@ -1,0 +1,31 @@
+{
+  "startedAt": 1757844995218,
+  "invocationToken": "394df111e2aa866b7e96",
+  "selected": [
+    {
+      "id": "https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/",
+      "title": "Government considering compensation for victims of carer’s allowance scandal",
+      "url": "https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/",
+      "slug": "government-considering-compensation-for-victims-of-carers-allowance-scandal",
+      "oldSlug": null,
+      "href": "/articles/government-considering-compensation-for-victims-of-carers-allowance-scandal"
+    },
+    {
+      "id": "https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/",
+      "title": "‘Worldcoin is an important project’- Will WLD reclaim $2 after Tom Lee’s backing?",
+      "url": "https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/",
+      "slug": "worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing",
+      "oldSlug": null,
+      "href": "/articles/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing"
+    },
+    {
+      "id": "https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/",
+      "title": "The Graph vs. the Gatekeepers: Can Decentralized Indexing Save Web3?",
+      "url": "https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/",
+      "slug": "the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3",
+      "oldSlug": null,
+      "href": "/articles/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

@@ -1,0 +1,35 @@
+{
+  "startedAt": 1757750338871,
+  "invocationToken": "0be5145c60c8921c8590",
+  "selected": [
+    {
+      "id": "https://www.newsbtc.com/news/ondo-finance-surges-20-weekly-amid-hype-and-growing-defi-demand/",
+      "title": "Ondo Finance Surges 20% Weekly Amid Hype and Growing DeFi Demand",
+      "url": "https://www.newsbtc.com/news/ondo-finance-surges-20-weekly-amid-hype-and-growing-defi-demand/",
+      "slug": "ondo-finance-surges-20-weekly-amid-hype-and-growing-defi-demand",
+      "href": "/articles/ondo-finance-surges-20-weekly-amid-hype-and-growing-defi-demand"
+    },
+    {
+      "id": "https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Kalshi ‘ready to defend’ prediction markets amid Massachusetts lawsuit",
+      "url": "https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "prediction-market-kalshi-massachusetts-lawsuit",
+      "href": "/articles/prediction-market-kalshi-massachusetts-lawsuit"
+    },
+    {
+      "id": "https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/",
+      "title": "XRP – Why a 20% upside is possible if THESE levels hold",
+      "url": "https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/",
+      "slug": "xrp-why-20-upside-possible-if-these-levels-hold",
+      "href": "/articles/xrp-why-20-upside-possible-if-these-levels-hold"
+    },
+    {
+      "id": "https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/",
+      "title": "Crypto Investment Slows, August Funding Sinks To $2 Billion",
+      "url": "https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/",
+      "slug": "crypto-investment-slows-august-funding-sinks-to-2-billion",
+      "href": "/articles/crypto-investment-slows-august-funding-sinks-to-2-billion"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

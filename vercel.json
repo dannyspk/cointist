@@ -1,0 +1,22 @@
+{
+  "crons": [
+    {
+      "path": "/api/generate-sitemap-news",
+      "schedule": "0 */6 * * *",
+      "method": "POST",
+      "headers": {
+        "x-sitemap-secret": "<REPLACE_WITH_SECRET>"
+      }
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/advertise",
+      "destination": "https://storage.googleapis.com/cointist-images/advertise.html"
+    },
+    {
+      "source": "/advertise/:path*",
+      "destination": "https://storage.googleapis.com/cointist-images/advertise/:path*"
+    }
+  ]
+}

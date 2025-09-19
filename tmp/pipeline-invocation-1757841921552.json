@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757841921552,
+  "invocationToken": "4c891fbdbff7c41a8cea",
+  "selected": [
+    {
+      "id": "https://cryptopotato.com/ripples-xrp-returns-to-top-100-global-assets-by-market-cap-as-bitcoin-battles-silver/",
+      "title": "Ripple’s XRP Returns to Top 100 Global Assets by Market Cap as Bitcoin Battles Silver",
+      "url": "https://cryptopotato.com/ripples-xrp-returns-to-top-100-global-assets-by-market-cap-as-bitcoin-battles-silver/",
+      "slug": "ripples-xrp-returns-to-top-100-global-assets-by-market-cap-as-bitcoin-battles-silver",
+      "oldSlug": null,
+      "href": "/articles/ripples-xrp-returns-to-top-100-global-assets-by-market-cap-as-bitcoin-battles-silver"
+    },
+    {
+      "id": "https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "TradFi to ramp up Bitcoin allocations by year-end, Wall Street veteran tips",
+      "url": "https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction",
+      "oldSlug": null,
+      "href": "/articles/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

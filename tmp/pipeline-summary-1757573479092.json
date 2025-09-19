@@ -1,0 +1,41 @@
+{
+  "runAt": "2025-09-11T06:51:19.094Z",
+  "count": 5,
+  "items": [
+    {
+      "id": 168,
+      "slug": "the-context-of-the-investment",
+      "coverImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/arthur-hayes-decrypt-style-03-gID_7.png",
+      "thumbnail": null,
+      "excerpt": "Renowned crypto figure Arthur Hayes is taking proactive steps in the crypto landscape by investing close to $1 million in Ethena. This strategic maneuver comes right before a crucial vote related to Hyperliquid, a decentralized trading platform that has been generating significant attention within the blockchain community."
+    },
+    {
+      "id": 169,
+      "slug": "a-step-towards-regulation-and-support",
+      "coverImage": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "thumbnail": null,
+      "excerpt": "In a significant development within the realm of cryptocurrency, Russia is exploring the idea of creating a dedicated bank aimed at facilitating the management of digital assets. This comes in response to the increasing incidences of fraud within the cryptocurrency ecosystem and the pressing need for support for local miners."
+    },
+    {
+      "id": 170,
+      "slug": "assessing-the-new-regulatory-environment",
+      "coverImage": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "thumbnail": null,
+      "excerpt": "In a notable development within the financial sector, Hong Kong's monetary regulatory bodies are weighing potential adjustments to current capital rules for banks that hold cryptocurrency. This policy amendment, if enacted, could significantly impact how banking institutions manage their digital asset portfolios."
+    },
+    {
+      "id": 171,
+      "slug": "details-of-the-outage",
+      "coverImage": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "thumbnail": null,
+      "excerpt": "On October 17, 2023, Coinbase, the leading cryptocurrency exchange listed on NASDAQ under the ticker symbol COIN, encountered a significant outage that affected users' ability to send and receive digital currency through its platform. This disruption arose amidst a period of heightened trading activity in the crypto markets, leaving many users frustrated and seeking clarity from the exchange."
+    },
+    {
+      "id": 172,
+      "slug": "market-movements-and-trends",
+      "coverImage": "https://cdn.sanity.io/images/s3y3vcno/production/c3ad1ca94d411cad42e591b240ed9e57fd6f7bc9-3840x2160.png",
+      "thumbnail": null,
+      "excerpt": "In a remarkable turn of events, the cryptocurrency market witnessed Dogecoin taking center stage with significant gains, while Bitcoin ascended to a notable value of $114,000. This surge has opened up potential trading opportunities for investors as they position themselves for the BTC catch-up trade."
+    }
+  ]
+}

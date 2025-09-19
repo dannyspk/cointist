@@ -1,0 +1,28 @@
+
+=== Spawned rephraser for https://cryptobriefing.com/circle-unveils-cctp-v2-for-usdc-crosschain-transfers-with-stellar/ at 2025-09-18T15:10:52.208Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptobriefing_com_circle-unveils-cctp-v2-for-usdc-crosschain-transfers-.txt --twoStage invocation=https://cryptobriefing.com/circle-unveils-cctp-v2-for-usdc-crosschain-transfers-with-stellar/ ===
+[rephraser] model= gpt-5
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758208314085.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 382,
+    "slug": "circle-expands-cctp-v2-to-stellar-for-direct-usdc-transfers",
+    "title": "Circle expands CCTP V2 to Stellar for direct USDC transfers",
+    "excerpt": "Circle has expanded CCTP V2 to Stellar, enabling direct USDC transfers across networks. The integration brings Stellar into Circle’s Cross-Chain Transfer Protocol, maintaining USD Coin"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '2123ae7ec703dc9e8ca487ea2eee77dda465bda4', id: 382 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-18T15:11:56.917Z ===

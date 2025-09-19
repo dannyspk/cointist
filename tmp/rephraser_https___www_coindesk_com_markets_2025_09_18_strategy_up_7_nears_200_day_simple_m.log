@@ -1,0 +1,6 @@
+
+=== Spawned rephraser for https://www.coindesk.com/markets/2025/09/18/strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies at 2025-09-18T15:39:12.484Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_markets_2025_09_18_strategy-up-7-nears-200-day-simple-m.txt --twoStage invocation=https://www.coindesk.com/markets/2025/09/18/strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies ===
+[rephraser] model= gpt-5
+Error: fetch failed
+
+=== child exit code=2 at 2025-09-18T15:42:26.051Z ===

@@ -1,0 +1,24 @@
+
+=== Spawned rephraser for https://beincrypto.com/ai-crypto-bingx-financial-dignity/ at 2025-09-13T15:29:46.695Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_ai-crypto-bingx-financial-dignity_.txt --twoStage invocation=https://beincrypto.com/ai-crypto-bingx-financial-dignity/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757777399239.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 270,
+    "slug": "empowering-financial-dignity-through-ai-driven-innovations-in-crypto"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'a64ee3f613ec89ac948702bcb377edf37bad055d', id: 270 }
+
+=== child exit code=0 at 2025-09-13T15:30:03.740Z ===

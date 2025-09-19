@@ -1,0 +1,503 @@
+{
+  "generatedAt": "2025-09-15T16:12:38.641Z",
+  "title": "Crypto Market Update: Top Gainers and Losers",
+  "snapshot": "The crypto market shows strong upward momentum with a breadth of 7/1. Dogecoin leads the gainers with an 11% increase.",
+  "highlights": [
+    "Dogecoin (DOGE) up 11%",
+    "Solana (SOL) gains 8%",
+    "Ethereum (ETH) rises 4%",
+    "Cardano (ADA) remains flat at 0%",
+    "XRP down 2%",
+    "Bitcoin (BTC) declines 2%"
+  ],
+  "headlines": [
+    "DOGE Surges to Lead Gainers",
+    "SOL Posts Impressive 8% Increase",
+    "ETH Continues to Climb",
+    "ADA Holds Steady Amid Market Fluctuations",
+    "XRP and BTC Experience Minor Losses",
+    "Market Breadth Indicates Bullish Sentiment"
+  ],
+  "reports": [
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "priceSummary": "First: $112,214.4\nLast:  $114,800.74\nLow:   $110,880.76\nHigh:  $116,632.51\nChange: 2.30%",
+      "signals": {
+        "last": 114800.74,
+        "change": 2.3048200587446988,
+        "rsi": 42.10251100982038,
+        "lastSMA8": 114801.99375000001,
+        "lastSMA21": 115329.39571428571,
+        "volumeSpike": false,
+        "sweep": false,
+        "maxDropPct": 1.5927909371781654,
+        "lowerHighs": false
+      },
+      "metrics": {
+        "currentPrice": 114757,
+        "marketCap": 2286706427424,
+        "circulatingSupply": 19921303
+      },
+      "data": {
+        "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Strategy Adds $60 Million to Bitcoin Treasury in Smallest Buy in a Month",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339475/strategy-adds-60-million-bitcoin-treasury-smallest-buy-month",
+            "publishedAt": "2025-09-15T15:44:17.000Z",
+            "description": "But the firm didn’t fund the acquisition through common shares."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Strategy Adds $60 Million to Bitcoin Treasury in Smallest Buy in a Month",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339475/strategy-adds-60-million-bitcoin-treasury-smallest-buy-month",
+          "publishedAt": "2025-09-15T15:44:17.000Z",
+          "description": "But the firm didn’t fund the acquisition through common shares."
+        }
+      ]
+    },
+    {
+      "id": "ethereum",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "priceSummary": "First: $4,311.48\nLast:  $4,495.94\nLow:   $4,284.94\nHigh:  $4,756.81\nChange: 4.28%",
+      "signals": {
+        "last": 4495.94,
+        "change": 4.2783452549936465,
+        "rsi": 29.114121897826067,
+        "lastSMA8": 4515.45625,
+        "lastSMA21": 4577.340476190477,
+        "volumeSpike": false,
+        "sweep": true,
+        "maxDropPct": 3.5793636496212726,
+        "lowerHighs": true
+      },
+      "metrics": {
+        "currentPrice": 4493.86,
+        "marketCap": 542262548875,
+        "circulatingSupply": 120704642.1054955
+      },
+      "data": {
+        "snapshot": "A fast liquidity sweep (~3.6% drop) occurred during the week, grabbing stops before the partial recovery. Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Coinbase Is Considering Launching a Token for Ethereum Network Base",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339467/coinbase-is-considering-launching-a-token-for-ethereum-network-base",
+            "publishedAt": "2025-09-15T15:03:41.000Z",
+            "description": "Ethereum layer-2 network Base is \"exploring\" a token launch, Coinbase confirmed on Monday, in a pivot from previous messaging."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Coinbase Is Considering Launching a Token for Ethereum Network Base",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339467/coinbase-is-considering-launching-a-token-for-ethereum-network-base",
+          "publishedAt": "2025-09-15T15:03:41.000Z",
+          "description": "Ethereum layer-2 network Base is \"exploring\" a token launch, Coinbase confirmed on Monday, in a pivot from previous messaging."
+        }
+      ]
+    },
+    {
+      "id": "ripple",
+      "name": "XRP",
+      "symbol": "XRP",
+      "priceSummary": "First: $2.97\nLast:  $3.03\nLow:   $2.94\nHigh:  $3.18\nChange: 2.01%",
+      "signals": {
+        "last": 3.0294,
+        "change": 2.006869149437661,
+        "rsi": 49.9608762661733,
+        "lastSMA8": 3.0038625,
+        "lastSMA21": 3.02332380952381,
+        "volumeSpike": false,
+        "sweep": true,
+        "maxDropPct": 3.476842791911279,
+        "lowerHighs": false
+      },
+      "metrics": {
+        "currentPrice": 3.03,
+        "marketCap": 180622766910,
+        "circulatingSupply": 59610205486
+      },
+      "data": {
+        "snapshot": "A fast liquidity sweep (~3.5% drop) occurred during the week, grabbing stops before the partial recovery.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+        }
+      ]
+    },
+    {
+      "id": "tether",
+      "name": "Tether",
+      "symbol": "USDT",
+      "priceSummary": "First: $1\nLast:  $1\nLow:   $1\nHigh:  $1\nChange: 0.04%",
+      "signals": {
+        "last": 1.0003655105685325,
+        "change": 0.03986780621506063,
+        "rsi": 30.18542660784813,
+        "lastSMA8": 1.0004686009422517,
+        "lastSMA21": 1.000605800173822,
+        "volumeSpike": false,
+        "sweep": false,
+        "maxDropPct": 0.036309388411123106,
+        "lowerHighs": true
+      },
+      "metrics": {
+        "currentPrice": 1,
+        "marketCap": 170319039334,
+        "circulatingSupply": 170251299953.0489
+      },
+      "data": {
+        "snapshot": " Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Crypto Lender Maple Expands to Tether-Backed Plasma",
+            "source": "coindesk",
+            "url": "https://www.coindesk.com/business/2025/09/15/crypto-lender-maple-expands-to-tether-backed-plasma-with-syrupusdt",
+            "publishedAt": "2025-09-15T14:41:26.000Z",
+            "description": "The deployment marks first syrupUSDT launch beyond Ethereum as Maple targets $5B in assets by year-end."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Crypto Lender Maple Expands to Tether-Backed Plasma",
+          "source": "coindesk",
+          "url": "https://www.coindesk.com/business/2025/09/15/crypto-lender-maple-expands-to-tether-backed-plasma-with-syrupusdt",
+          "publishedAt": "2025-09-15T14:41:26.000Z",
+          "description": "The deployment marks first syrupUSDT launch beyond Ethereum as Maple targets $5B in assets by year-end."
+        }
+      ]
+    },
+    {
+      "id": "binancecoin",
+      "name": "BNB",
+      "symbol": "BNB",
+      "priceSummary": "First: $878.5\nLast:  $914.88\nLow:   $873.16\nHigh:  $942.38\nChange: 4.14%",
+      "signals": {
+        "last": 914.88,
+        "change": 4.141149686966419,
+        "rsi": 37.343581959152644,
+        "lastSMA8": 917.6750000000001,
+        "lastSMA21": 924.1566666666669,
+        "volumeSpike": false,
+        "sweep": false,
+        "maxDropPct": 2.478135671237567,
+        "lowerHighs": false
+      },
+      "metrics": {
+        "currentPrice": 914.64,
+        "marketCap": 127277816118,
+        "circulatingSupply": 139186986.41
+      },
+      "data": {
+        "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+        }
+      ]
+    },
+    {
+      "id": "solana",
+      "name": "Solana",
+      "symbol": "SOL",
+      "priceSummary": "First: $215.42\nLast:  $233\nLow:   $211.62\nHigh:  $248.68\nChange: 8.16%",
+      "signals": {
+        "last": 233,
+        "change": 8.160802153931861,
+        "rsi": 34.51104252873711,
+        "lastSMA8": 234.7075,
+        "lastSMA21": 238.6042857142857,
+        "volumeSpike": false,
+        "sweep": true,
+        "maxDropPct": 6.393191352049047,
+        "lowerHighs": true
+      },
+      "metrics": {
+        "currentPrice": 232.35,
+        "marketCap": 126065079948,
+        "circulatingSupply": 542566221.6273707
+      },
+      "data": {
+        "snapshot": "A fast liquidity sweep (~6.4% drop) occurred during the week, grabbing stops before the partial recovery. Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Solana Gets First Billion-Dollar Publicly Traded Treasury as Forward Industries Buys 6.8M SOL",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339463/solana-first-billion-dollar-publicly-traded-treasury-forward-industries-6-8m-sol",
+            "publishedAt": "2025-09-15T14:43:08.000Z",
+            "description": "Forward Industries announced a purchase of nearly 7 million SOL, becoming the largest publicly traded Solana treasury firm—by far."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Solana Gets First Billion-Dollar Publicly Traded Treasury as Forward Industries Buys 6.8M SOL",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339463/solana-first-billion-dollar-publicly-traded-treasury-forward-industries-6-8m-sol",
+          "publishedAt": "2025-09-15T14:43:08.000Z",
+          "description": "Forward Industries announced a purchase of nearly 7 million SOL, becoming the largest publicly traded Solana treasury firm—by far."
+        }
+      ]
+    },
+    {
+      "id": "usd-coin",
+      "name": "USDC",
+      "symbol": "USDC",
+      "priceSummary": "First: $1\nLast:  $1\nLow:   $1\nHigh:  $1\nChange: -0.01%",
+      "signals": {
+        "last": 0.9997103367005796,
+        "change": -0.009116035978052084,
+        "rsi": 45.45758754109923,
+        "lastSMA8": 0.9997352767437858,
+        "lastSMA21": 0.9997622384792161,
+        "volumeSpike": false,
+        "sweep": false,
+        "maxDropPct": 0.012729828345960684,
+        "lowerHighs": false
+      },
+      "metrics": {
+        "currentPrice": 0.999709,
+        "marketCap": 72989090424,
+        "circulatingSupply": 73010313939.15979
+      },
+      "data": {
+        "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+        }
+      ]
+    },
+    {
+      "id": "dogecoin",
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "priceSummary": "First: $0.24\nLast:  $0.26\nLow:   $0.23\nHigh:  $0.3\nChange: 10.83%",
+      "signals": {
+        "last": 0.26341,
+        "change": 10.82547963648602,
+        "rsi": 35.6522906522509,
+        "lastSMA8": 0.26362250000000004,
+        "lastSMA21": 0.27182761904761904,
+        "volumeSpike": false,
+        "sweep": true,
+        "maxDropPct": 7.765507935944324,
+        "lowerHighs": true
+      },
+      "metrics": {
+        "currentPrice": 0.263305,
+        "marketCap": 39725438831,
+        "circulatingSupply": 150924576383.7052
+      },
+      "data": {
+        "snapshot": "A fast liquidity sweep (~7.8% drop) occurred during the week, grabbing stops before the partial recovery. Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+        }
+      ]
+    },
+    {
+      "id": "tron",
+      "name": "TRON",
+      "symbol": "TRX",
+      "priceSummary": "First: $0.33\nLast:  $0.35\nLow:   $0.33\nHigh:  $0.35\nChange: 3.65%",
+      "signals": {
+        "last": 0.34554644773960486,
+        "change": 3.650389696356399,
+        "rsi": 31.986230307561286,
+        "lastSMA8": 0.3487526490410362,
+        "lastSMA21": 0.3486051819263971,
+        "volumeSpike": false,
+        "sweep": false,
+        "maxDropPct": 1.628634226295859,
+        "lowerHighs": false
+      },
+      "metrics": {
+        "currentPrice": 0.34277,
+        "marketCap": 32480444104,
+        "circulatingSupply": 94664286603.4597
+      },
+      "data": {
+        "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "France, Austria and Italy Urge Stronger EU Oversight of Crypto Markets Under MiCA",
+            "source": "coindesk",
+            "url": "https://www.coindesk.com/policy/2025/09/15/france-austria-and-italy-urge-stronger-eu-oversight-of-crypto-markets-under-mica",
+            "publishedAt": "2025-09-15T15:03:04.000Z",
+            "description": "Regulators seek direct ESMA supervision and tighter rules on non-EU platforms to boost investor protection."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "France, Austria and Italy Urge Stronger EU Oversight of Crypto Markets Under MiCA",
+          "source": "coindesk",
+          "url": "https://www.coindesk.com/policy/2025/09/15/france-austria-and-italy-urge-stronger-eu-oversight-of-crypto-markets-under-mica",
+          "publishedAt": "2025-09-15T15:03:04.000Z",
+          "description": "Regulators seek direct ESMA supervision and tighter rules on non-EU platforms to boost investor protection."
+        }
+      ]
+    },
+    {
+      "id": "cardano",
+      "name": "Cardano",
+      "symbol": "ADA",
+      "priceSummary": "First: $0.86\nLast:  $0.86\nLow:   $0.86\nHigh:  $0.95\nChange: -0.29%",
+      "signals": {
+        "last": 0.8586,
+        "change": -0.29032632679130727,
+        "rsi": 32.218064068353414,
+        "lastSMA8": 0.8612500000000001,
+        "lastSMA21": 0.8781904761904762,
+        "volumeSpike": false,
+        "sweep": true,
+        "maxDropPct": 5.067080607606172,
+        "lowerHighs": false
+      },
+      "metrics": {
+        "currentPrice": 0.856517,
+        "marketCap": 31327706240,
+        "circulatingSupply": 36516438056.75004
+      },
+      "data": {
+        "snapshot": "A fast liquidity sweep (~5.1% drop) occurred during the week, grabbing stops before the partial recovery.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+        }
+      ]
+    }
+  ]
+}

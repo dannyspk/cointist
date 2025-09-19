@@ -1,0 +1,34 @@
+{
+  "runAt": "2025-08-26T21:59:01.359Z",
+  "count": 4,
+  "items": [
+    {
+      "id": 31,
+      "slug": "trump-jumps-on-crypto-s-perpetual-motion-machine-bandwagon-b",
+      "coverImage": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "thumbnail": null,
+      "excerpt": "In a surprising twist of events in the financial sector, former President Donald Trump has expressed enthusiasm for cryptocurrency, positioning himself alongside the growing digital currency narrative. His recent remarks suggest an alignment with what he refers to as the “perpetual motion machine” of crypto, an industry that continually draws interest from investors and the general public alike."
+    },
+    {
+      "id": 32,
+      "slug": "programmable-assets-the-next-chapter-in-crypto-banking-onesa",
+      "coverImage": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "thumbnail": null,
+      "excerpt": "In the rapidly evolving world of cryptocurrency, the advent of programmable assets marks a significant milestone in the development of digital banking services. OneSafe, a prominent player in this space, is poised to leverage these assets to enhance the functionalities of traditional banking."
+    },
+    {
+      "id": 33,
+      "slug": "bitcoin-news-today-u-s-commerce-dept-to-publish-gdp-data-on-",
+      "coverImage": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
+      "thumbnail": null,
+      "excerpt": "In a groundbreaking move, the U.S. Department of Commerce has announced its intention to publish Gross Domestic Product (GDP) data utilizing blockchain technology. This initiative aims to enhance transparency and reliability in the reporting of key economic indicators, promising to revolutionize how economic data is accessed and utilized by businesses and individuals alike."
+    },
+    {
+      "id": 34,
+      "slug": "xrp-jumps-6-to-top-market-gainers-as-bitcoin-retakes-111k",
+      "coverImage": "https://cdn.sanity.io/images/s3y3vcno/production/d502eb0a60fc0021f07f61d4384c701994c880c0-5160x4128.jpg",
+      "thumbnail": null,
+      "excerpt": "In a surprising turn of events, XRP has emerged as one of the top performers in the cryptocurrency market, experiencing a remarkable 6% increase. This surge comes concurrently with Bitcoin's resurgence, as it retakes the impressive milestone of $111,000."
+    }
+  ]
+}

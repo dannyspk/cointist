@@ -1,0 +1,50 @@
+
+=== Spawned rephraser for https://coinspectator.com/mainstream/2025/09/13/rachel-reeves-accused-of-going-into-hiding-after-uk-economy-flatlines-under-the-weight-of-tax-hikes/ at 2025-09-14T03:51:36.809Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_13_rachel-reeves-accused-of-going-i.txt --twoStage invocation=https://coinspectator.com/mainstream/2025/09/13/rachel-reeves-accused-of-going-into-hiding-after-uk-economy-flatlines-under-the-weight-of-tax-hikes/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821904583.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 284,
+    "slug": "criticism-of-rachel-reeves-amidst-uk-economic-stagnation"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '764105728f949256816f29378bf596e2ddd0c1c7', id: 284 }
+
+=== child exit code=0 at 2025-09-14T03:51:46.701Z ===
+
+=== Spawned rephraser for https://coinspectator.com/mainstream/2025/09/13/rachel-reeves-accused-of-going-into-hiding-after-uk-economy-flatlines-under-the-weight-of-tax-hikes/ at 2025-09-14T04:59:09.114Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_13_rachel-reeves-accused-of-going-i.txt --twoStage invocation=https://coinspectator.com/mainstream/2025/09/13/rachel-reeves-accused-of-going-into-hiding-after-uk-economy-flatlines-under-the-weight-of-tax-hikes/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757825957162.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 291,
+    "slug": "rachel-reeves-faces-criticism-as-uk-economic-growth-stagnates",
+    "title": "Rachel Reeves Faces Criticism as UK Economic Growth Stagnates",
+    "excerpt": "The ongoing economic challenges in the UK have led to significant scrutiny of Rachel Reeves, highlighting concerns over her visibility amidst these struggles."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '764105728f949256816f29378bf596e2ddd0c1c7', id: 291 }
+
+=== child exit code=0 at 2025-09-14T04:59:19.109Z ===

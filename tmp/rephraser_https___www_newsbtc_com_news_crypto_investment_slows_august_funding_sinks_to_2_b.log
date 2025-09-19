@@ -1,0 +1,168 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ at 2025-09-13T07:53:12.376Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_crypto-investment-slows-august-funding-sinks-to-2-b.txt --twoStage invocation=https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750002781.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 233,
+    "slug": "trends-in-cryptocurrency-investment-funding-declines-and-market-shifts"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 233 }
+
+=== child exit code=0 at 2025-09-13T07:53:23.453Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ at 2025-09-13T07:59:01.232Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_crypto-investment-slows-august-funding-sinks-to-2-b.txt --twoStage invocation=https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750349719.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 234,
+    "slug": "shifting-trends-in-crypto-investment-a-closer-look-at-august-2025"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 234 }
+
+=== child exit code=0 at 2025-09-13T07:59:10.536Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ at 2025-09-13T08:01:48.565Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_crypto-investment-slows-august-funding-sinks-to-2-b.txt --twoStage invocation=https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750518508.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 238,
+    "slug": "trends-in-crypto-investment-analyzing-recent-funding-changes"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 238 }
+
+=== child exit code=0 at 2025-09-13T08:01:59.778Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ at 2025-09-13T08:16:50.909Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_crypto-investment-slows-august-funding-sinks-to-2-b.txt --twoStage invocation=https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757751419465.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 240,
+    "slug": "crypto-funding-trends-a-shift-in-investor-behavior-and-market-dynamics"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 240 }
+
+=== child exit code=0 at 2025-09-13T08:17:00.093Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ at 2025-09-13T08:46:42.247Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_crypto-investment-slows-august-funding-sinks-to-2-b.txt --twoStage invocation=https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757753211335.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 245,
+    "slug": "trends-in-crypto-investment-analyzing-august-s-funding-decline"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 245 }
+
+=== child exit code=0 at 2025-09-13T08:46:52.033Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ at 2025-09-13T09:27:30.891Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_crypto-investment-slows-august-funding-sinks-to-2-b.txt --twoStage invocation=https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757755662087.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 247,
+    "slug": "trends-in-crypto-investment-august-sees-significant-funding-decline"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 247 }
+
+=== child exit code=0 at 2025-09-13T09:27:42.831Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ at 2025-09-13T09:31:58.990Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_crypto-investment-slows-august-funding-sinks-to-2-b.txt --twoStage invocation=https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757755930708.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 248,
+    "slug": "decline-in-crypto-funding-august-sees-reduced-investment"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '3ea2b7b9de0a8a3e67562ec6604d7087b0562d70', id: 248 }
+
+=== child exit code=0 at 2025-09-13T09:32:11.448Z ===

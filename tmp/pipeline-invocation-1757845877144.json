@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757845877144,
+  "invocationToken": "8c2382d506bd072777c2",
+  "selected": [
+    {
+      "id": "https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/",
+      "title": "‘Worldcoin is an important project’- Will WLD reclaim $2 after Tom Lee’s backing?",
+      "url": "https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/",
+      "slug": "worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing",
+      "oldSlug": null,
+      "href": "/articles/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing"
+    },
+    {
+      "id": "https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "TradFi to ramp up Bitcoin allocations by year-end, Wall Street veteran tips",
+      "url": "https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction",
+      "oldSlug": null,
+      "href": "/articles/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

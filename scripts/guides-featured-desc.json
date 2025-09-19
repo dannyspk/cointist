@@ -1,0 +1,22 @@
+{
+  "stablecoins-explained": "Understand how stablecoins keep a stable value, their types, and the trade-offs between centralization and resilience.",
+  "governance-daos": "A concise guide to DAOs: how on-chain governance works, common voting models, and pitfalls to avoid when designing incentives.",
+  "staking-yields": "How staking generates yields, validator risks, and strategies to evaluate reward sustainability and security.",
+  "defi-primitives": "The building blocks of DeFi: lending, automated market makers, and composability — what they do and why they matter.",
+  "privacy-identity": "Practical approaches to privacy and identity on-chain: trade-offs, threat models, and user-friendly patterns.",
+  "bridges-interoperability": "How cross-chain bridges move value, the technical risks involved, and best practices for safe transfers.",
+  "nfts-gaming": "NFTs in gaming explained: ownership, play-to-earn mechanics, and what truly drives long-term value for players.",
+  "stablecoins-payments": "How stablecoins enable crypto payments, the UX challenges, and what merchants should evaluate before accepting them.",
+  "what-is-web3": "A practical overview of Web3: decentralization goals, common misconceptions, and everyday user experiences today.",
+  "wallets-101-custodial-vs-non-custodial": "Choosing a wallet: pros and cons of custodial vs non-custodial solutions, and how to manage keys safely.",
+  "real-world-asset-tokenization-rwas": "Intro to tokenized real-world assets: use cases, legal considerations, and why liquidity is still the hard part.",
+  "markets-liquidity": "Why liquidity matters: how markets price assets, common liquidity metrics, and risks during stress events.",
+  "dexs-amms": "How DEXs and AMMs price tokens, the role of liquidity providers, and common impermanent loss scenarios.",
+  "how-defi-protocols-work": "A clear walkthrough of DeFi protocol primitives: pools, oracles, and how incentives align participants.",
+  "bridges-cross-chain-interoperability": "Cross-chain interoperability explained: routing, finality, and how to reduce slippage and bridge risk.",
+  "daos": "DAOs 101: coordinating groups on-chain, from proposal mechanics to treasury management and real-world governance trade-offs.",
+  "oracles-data-feeds": "How oracles provide off-chain data to smart contracts, attack vectors to watch for, and decentralization trade-offs.",
+  "lending-borrowing-protocols": "How lending protocols match borrowers and lenders, collateral models, liquidations, and interest dynamics.",
+  "blockchain-basics": "A friendly introduction to blockchains: transactions, consensus, and what decentralization really means for users.",
+  "staking-yield-farming": "An overview of staking vs yield farming: mechanics, composability risks, and how yields are generated and eroded."
+}

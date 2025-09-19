@@ -1,0 +1,21 @@
+{
+  "startedAt": 1757749988813,
+  "invocationToken": "c91f045f795398dec1ec",
+  "selected": [
+    {
+      "id": "https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/",
+      "title": "XRP – Why a 20% upside is possible if THESE levels hold",
+      "url": "https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/",
+      "slug": "xrp-why-20-upside-possible-if-these-levels-hold",
+      "href": "/articles/xrp-why-20-upside-possible-if-these-levels-hold"
+    },
+    {
+      "id": "https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/",
+      "title": "Crypto Investment Slows, August Funding Sinks To $2 Billion",
+      "url": "https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/",
+      "slug": "crypto-investment-slows-august-funding-sinks-to-2-billion",
+      "href": "/articles/crypto-investment-slows-august-funding-sinks-to-2-billion"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

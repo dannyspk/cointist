@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2025-09-15T15:29:20.367Z",
+  "dataSource": "binance-klines",
+  "priceSummary": "First: $4,339.02\nLast:  $4,491.67\nLow:   $4,284.94\nHigh:  $4,756.81\nChange: 3.52%",
+  "signals": {
+    "last": 4491.67,
+    "change": 3.518075510138225,
+    "rsi": 28.585917901102732,
+    "lastSMA8": 4516.24875,
+    "lastSMA21": 4582.635238095238,
+    "volumeSpike": false,
+    "sweep": true,
+    "maxDropPct": 3.6709387411963537,
+    "lowerHighs": true
+  },
+  "futuresAvailable": true,
+  "futures": {
+    "ticker24": {
+      "lastPrice": 4489.3,
+      "priceChangePercent": -2.155
+    },
+    "premium": {
+      "markPrice": 4489.24353876,
+      "lastFundingRate": 0.00003368
+    },
+    "openInterest": {
+      "openInterest": 1976734.36
+    },
+    "fundingSummary": {
+      "recentAvg": 0.000078019,
+      "sampleCount": 10
+    }
+  },
+  "data": {
+    "snapshot": "Ethereum's price has increased by 3.52% to $4,491.67, showing signs of a potential reversal despite lower highs.",
+    "chronology": [
+      "First price recorded: $4,339.02",
+      "Price reached a low of $4,284.94.",
+      "Price peaked at $4,756.81.",
+      "Current price stands at $4,491.67.",
+      "Change observed: +3.52%.",
+      "Volume spike noted: false."
+    ],
+    "technicalReadout": [
+      "RSI is at 28.59, indicating potential oversold conditions.",
+      "Last SMA (8) is $4,516.25, suggesting short-term resistance.",
+      "Last SMA (21) is $4,582.64, indicating longer-term resistance.",
+      "Lower highs trend observed.",
+      "Maximum drop percentage recorded at 3.67%.",
+      "Sweep signal detected."
+    ],
+    "levels": [
+      "Immediate Resistance: 3.8k",
+      "Supply Zone: 4.0k–4.2k",
+      "Demand Zone: 3.4k",
+      "Sweep Low / Support: 3.2k",
+      "Bear Targets: 3.0k / 2.8k"
+    ],
+    "scenarios": [
+      {
+        "title": "Bullish Reversal",
+        "text": "If Ethereum breaks above the last SMA (8) of $4,516.25, a bullish reversal could be confirmed."
+      },
+      {
+        "title": "Continued Downtrend",
+        "text": "Should prices decline below $4,284.94, the downtrend may continue with potential for further drops."
+      },
+      {
+        "title": "Sideways Movement",
+        "text": "If the price stabilizes around current levels, Ethereum may experience a period of consolidation."
+      }
+    ],
+    "checklist": [
+      "For demand zone longs: wait for a bullish reaction candle + above‑average buy volume; stop under sweep low.",
+      "For structured shorts: wait for a retest of resistance that fails and shows rejection volume; reduce size into expiries.",
+      "If price closes daily above key resistance with volume, reconsider bearish sizing.",
+      "Keep position sizing modest — the structure is still corrective and volatile."
+    ]
+  }
+}

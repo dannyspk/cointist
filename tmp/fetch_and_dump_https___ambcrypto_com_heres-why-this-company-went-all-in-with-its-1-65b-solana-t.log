@@ -1,0 +1,6 @@
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/heres-why-this-company-went-all-in-with-its-1-65b-solana-treasury-play/ at 2025-09-13T06:30:52.700Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/heres-why-this-company-went-all-in-with-its-1-65b-solana-treasury-play/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_heres-why-this-company-went-all-in-with-its-1-65b-solana-t.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757745052697.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_heres-why-this-company-went-all-in-with-its-1-65b-solana-t.txt
+Spawned rephraser for https://ambcrypto.com/heres-why-this-company-went-all-in-with-its-1-65b-solana-treasury-play/
+
+=== child exit code=0 at 2025-09-13T06:31:05.372Z ===

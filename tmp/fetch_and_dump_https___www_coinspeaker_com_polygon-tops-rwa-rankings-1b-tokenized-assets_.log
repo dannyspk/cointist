@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://www.coinspeaker.com/polygon-tops-rwa-rankings-1b-tokenized-assets/ at 2025-09-17T14:00:28.757Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.coinspeaker.com/polygon-tops-rwa-rankings-1b-tokenized-assets/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_polygon-tops-rwa-rankings-1b-tokenized-assets_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758117628738.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_polygon-tops-rwa-rankings-1b-tokenized-assets_.txt
+Spawned rephraser for https://www.coinspeaker.com/polygon-tops-rwa-rankings-1b-tokenized-assets/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758117645617.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 377,
+    "slug": "polygon-leads-rankings-in-tokenized-assets-worth-1-billion",
+    "title": "Polygon Leads Rankings in Tokenized Assets Worth $1 Billion",
+    "excerpt": "Polygon has emerged as a frontrunner in the realm of tokenized assets, achieving a remarkable valuation of $1 billion. This milestone not only highlights Polygon's innovative capabilities but also underscores the growing importance of real-world asset tokenization in the cryptocurrency landscape."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '5c2781641f3f873176f8137ce269a46aaf2aeb01', id: 377 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-17T14:00:47.524Z ===
+
+
+=== child exit code=0 at 2025-09-17T14:00:47.582Z ===

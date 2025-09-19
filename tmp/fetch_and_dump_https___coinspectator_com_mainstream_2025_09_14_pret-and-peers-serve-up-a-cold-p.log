@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://coinspectator.com/mainstream/2025/09/14/pret-and-peers-serve-up-a-cold-platter-of-uk-high-street-gloom/ at 2025-09-14T09:52:35.340Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/mainstream/2025/09/14/pret-and-peers-serve-up-a-cold-platter-of-uk-high-street-gloom/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_pret-and-peers-serve-up-a-cold-p.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757843555334.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_pret-and-peers-serve-up-a-cold-p.txt
+Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/pret-and-peers-serve-up-a-cold-platter-of-uk-high-street-gloom/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757843568212.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 321,
+    "slug": "high-street-retail-struggles-insights-from-pret-and-competitors",
+    "title": "High Street Retail Struggles: Insights from Pret and Competitors",
+    "excerpt": "The UK high street is currently facing significant challenges, as evidenced by an examination of Pret and its competitors. This article delves into Pret's performance amidst shifting consumer behaviors and highlights essential strategies for navigating the evolving retail landscape."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '62bc64110e3fde469a4e4e5720aa60cb8fb8aad5', id: 321 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T09:52:50.505Z ===
+
+
+=== child exit code=0 at 2025-09-14T09:52:50.543Z ===

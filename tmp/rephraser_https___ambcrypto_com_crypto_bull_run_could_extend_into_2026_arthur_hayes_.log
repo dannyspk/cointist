@@ -1,0 +1,54 @@
+
+=== Spawned rephraser for https://ambcrypto.com/crypto-bull-run-could-extend-into-2026-arthur-hayes/ at 2025-09-14T06:54:58.622Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_crypto-bull-run-could-extend-into-2026-arthur-hayes_.txt --twoStage invocation=https://ambcrypto.com/crypto-bull-run-could-extend-into-2026-arthur-hayes/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757832908702.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 303,
+    "slug": "future-projections-for-bitcoin-insights-from-arthur-hayes",
+    "title": "Future Projections for Bitcoin: Insights from Arthur Hayes",
+    "excerpt": "Arthur Hayes shares his outlook on Bitcoin's potential trajectory, suggesting the possibility of a bull market extending into 2026 due to various macroeconomic influences."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'f3051d195fdb69d2a1f95e17e6afcdc662acde98', id: 303 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T06:55:12.511Z ===
+
+=== Spawned rephraser for https://ambcrypto.com/crypto-bull-run-could-extend-into-2026-arthur-hayes/ at 2025-09-14T09:44:32.118Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_crypto-bull-run-could-extend-into-2026-arthur-hayes_.txt --twoStage invocation=https://ambcrypto.com/crypto-bull-run-could-extend-into-2026-arthur-hayes/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757843080677.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 319,
+    "slug": "extended-bullish-outlook-for-bitcoin-insights-from-arthur-hayes",
+    "title": "Extended Bullish Outlook for Bitcoin: Insights from Arthur Hayes",
+    "excerpt": "Arthur Hayes has expressed a bullish perspective on Bitcoin's future, envisioning a continuation of the crypto rally potentially extending into 2026, driven by various macroeconomic factors."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'f3051d195fdb69d2a1f95e17e6afcdc662acde98', id: 319 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T09:44:43.151Z ===

@@ -1,0 +1,101 @@
+{
+  "generatedAt": "2025-09-12T04:07:24.925Z",
+  "changes": [
+    {
+      "file": "pages/admin.js",
+      "changes": 1
+    },
+    {
+      "file": "pages/articles/rr.js",
+      "changes": 1
+    },
+    {
+      "file": "pages/authors.js",
+      "changes": 25
+    },
+    {
+      "file": "pages/index.js",
+      "changes": 1
+    },
+    {
+      "file": "pages/_document.js",
+      "changes": 1
+    },
+    {
+      "file": "public/assets/Desktop/blockchain-basics.html",
+      "changes": 3
+    },
+    {
+      "file": "public/assets/site.js",
+      "changes": 2
+    },
+    {
+      "file": "public/pages/about.html",
+      "changes": 1
+    },
+    {
+      "file": "public/pages/contact.html",
+      "changes": 1
+    },
+    {
+      "file": "public/styles/learnby-path.css",
+      "changes": 1
+    },
+    {
+      "file": "scripts/generateIco.js",
+      "changes": 1
+    },
+    {
+      "file": "scripts/integration-upload-image.js",
+      "changes": 1
+    },
+    {
+      "file": "scripts/upsert-wallets-101-supabase.js",
+      "changes": 3
+    },
+    {
+      "file": "scripts/upsert-wallets-101-to-guides-supabase.js",
+      "changes": 3
+    },
+    {
+      "file": "scripts/upsert-wallets-101.js",
+      "changes": 3
+    },
+    {
+      "file": "src/components/ArticleLayout.js",
+      "changes": 2
+    },
+    {
+      "file": "src/components/EditorsPickList.js",
+      "changes": 1
+    },
+    {
+      "file": "src/components/MarketMarquee.js",
+      "changes": 2
+    },
+    {
+      "file": "src/data/authors.js",
+      "changes": 15
+    },
+    {
+      "file": "tmp/track3-html/nfts-gaming.html",
+      "changes": 1
+    },
+    {
+      "file": "tmp/track3-html/privacy-identity.html",
+      "changes": 1
+    },
+    {
+      "file": "tmp/track3-html/stablecoins-payments.html",
+      "changes": 1
+    },
+    {
+      "file": "tmp/webp-report.json",
+      "changes": 133
+    },
+    {
+      "file": "tmp_mock.html",
+      "changes": 1
+    }
+  ]
+}

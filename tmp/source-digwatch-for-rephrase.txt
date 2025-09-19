@@ -1,0 +1,43 @@
+Source: https://dig.watch/updates/south-korea-to-grant-crypto-firms-venture-company-status
+Selector: puppeteer-render
+
+Home | Updates | South Korea to grant crypto firms venture company status
+
+11 Sep 2025
+South Korea to grant crypto firms venture company status
+
+The Ministry of SMEs and Startups removed restrictions on crypto trading and brokerage businesses to stimulate growth in the sector.
+
+South Korea will grant cryptocurrency firms ‘venture company’ status from 16 September, giving them access to tax breaks, financing support, and other incentives. The move follows a partial revision of the Venture Business Act removing restrictions on crypto trading and brokerage.
+
+The regulatory change aims to stimulate growth in the crypto and blockchain sectors. Advantages include research and development grants, credit guarantees, and the ability for existing venture companies to expand into crypto without losing their status.
+
+Minister Han Seong-sook said the measure will help create a transparent and responsible ecosystem for venture capital and innovation.
+
+Crypto firms were first restricted in October 2018, and the ban’s removal reflects industry maturity and better user protections. Officials expect the change to accelerate growth in virtual asset trading, blockchain technologies, smart contracts, and cybersecurity.
+
+South Korea’s crypto industry has already benefited from a friendlier environment under President Lee Jae-myung. The market is projected to reach $1.1 billion in revenue in 2025 and $1.3 billion by 2026, with exchange users surpassing 16 million, over 30% of the population.
+
+Would you like to learn more about AI, tech and digital diplomacy? If so, ask our Diplo chatbot! 
+
+Related topics
+Capacity developmentCryptocurrenciesDevelopmentDigital business modelsEconomicInfrastructureLegal and regulatory
+Related technologies
+Blockchain
+Related videos
+Related news
+Small business revival could hinge on AI-driven tools
+AI and AFM deliver real-time macrophage phenotyping
+NotebookLM turns notes into flashcards podcasts and quizzes
+Google Cloud scraps transfer fees to win multicloud users
+Photonic chips open the path to sustainable AI by training with light
+Harvard develops AI to identify life-changing gene-drug combinations
+Latest news
+EU considers social media restrictions for minors
+Meta and TikTok win court challenge over EU fee
+AI-generated film sparks copyright battle as it heads to Cannes
+Claude AI gains powerful file editing tools for documents and spreadsheets
+Google Cloud scraps transfer fees to win multicloud users
+Oracle and OpenAI drive record $300B investment in cloud for AI
+
+More news

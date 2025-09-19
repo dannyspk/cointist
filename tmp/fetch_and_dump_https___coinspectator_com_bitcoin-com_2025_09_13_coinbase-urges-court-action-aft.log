@@ -1,0 +1,29 @@
+
+=== Spawned fetch_and_dump for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-urges-court-action-after-sec-watchdog-confirms-lost-gensler-texts/ at 2025-09-13T07:12:12.133Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-urges-court-action-after-sec-watchdog-confirms-lost-gensler-texts/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-urges-court-action-aft.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757747532122.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-urges-court-action-aft.txt
+Spawned rephraser for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-urges-court-action-after-sec-watchdog-confirms-lost-gensler-texts/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757747543096.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 226,
+    "slug": "coinbase-fights-back-as-sec-faces-scrutiny-over-lost-text-messages"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '220f45f8fde4b3e15c4731bde81e556ed89f00dc', id: 226 }
+
+=== child exit code=0 at 2025-09-13T07:12:24.142Z ===
+
+
+=== child exit code=0 at 2025-09-13T07:12:24.226Z ===

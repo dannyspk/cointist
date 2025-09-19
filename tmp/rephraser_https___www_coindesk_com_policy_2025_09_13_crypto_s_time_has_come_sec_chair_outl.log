@@ -1,0 +1,122 @@
+
+=== Spawned rephraser for https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance at 2025-09-13T14:37:11.692Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_policy_2025_09_13_crypto-s-time-has-come-sec-chair-outl.txt --twoStage invocation=https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774249545.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 254,
+    "slug": "sec-chair-paul-atkins-envisions-a-new-era-for-digital-assets"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 254 }
+
+=== child exit code=0 at 2025-09-13T14:37:30.140Z ===
+
+=== Spawned rephraser for https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance at 2025-09-13T14:51:10.703Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_policy_2025_09_13_crypto-s-time-has-come-sec-chair-outl.txt --twoStage invocation=https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775083186.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 260,
+    "slug": "sec-chair-paul-atkins-vision-for-the-future-of-crypto-markets"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 260 }
+
+=== child exit code=0 at 2025-09-13T14:51:24.956Z ===
+
+=== Spawned rephraser for https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance at 2025-09-13T15:21:06.679Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_policy_2025_09_13_crypto-s-time-has-come-sec-chair-outl.txt --twoStage invocation=https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757776884515.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 267,
+    "slug": "sec-chair-paul-atkins-envisions-a-new-era-for-on-chain-markets"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 267 }
+
+=== child exit code=0 at 2025-09-13T15:21:26.383Z ===
+
+=== Spawned rephraser for https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance at 2025-09-13T15:51:53.844Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_policy_2025_09_13_crypto-s-time-has-come-sec-chair-outl.txt --twoStage invocation=https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757778727007.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 273,
+    "slug": "sec-s-vision-for-on-chain-markets-and-its-implications-for-crypto"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 273 }
+
+=== child exit code=0 at 2025-09-13T15:52:07.983Z ===
+
+=== Spawned rephraser for https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance at 2025-09-14T04:40:40.542Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_policy_2025_09_13_crypto-s-time-has-come-sec-chair-outl.txt --twoStage invocation=https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757824848177.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 289,
+    "slug": "the-future-of-on-chain-markets-sec-s-vision-under-project-crypto",
+    "title": "The Future of On-Chain Markets: SEC’s Vision Under Project Crypto",
+    "excerpt": "In a significant address delivered in Paris, SEC Chair Paul Atkins outlined a transformative vision for digital assets, emphasizing the importance of clear regulatory frameworks under Project Crypto."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4dd1fe9d01d0f3b92c85a6bc67804bfd76b52e5e', id: 289 }
+
+=== child exit code=0 at 2025-09-14T04:40:50.326Z ===

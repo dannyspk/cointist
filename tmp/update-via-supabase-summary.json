@@ -1,0 +1,517 @@
+{
+  "generatedAt": "2025-09-12T04:18:41.862Z",
+  "updates": [
+    {
+      "table": "Article",
+      "column": "coverImage",
+      "found": 37,
+      "updated": 37,
+      "details": [
+        {
+          "id": 14,
+          "slug": "eth-touched-4k-flippening-or-bull-trap",
+          "from": "/uploads/1755798307443-footer-left-img.png",
+          "to": "/uploads/1755798307443-footer-left-img.webp"
+        },
+        {
+          "id": 173,
+          "slug": "arthur-hayes-ethena-$1m",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/the-context-of-the-investment.png",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/the-context-of-the-investment.webp"
+        },
+        {
+          "id": 41,
+          "slug": "crypto-s-greatest-pr-campaign-why-declaring-bitcoin-dead-keeps-it-alive",
+          "from": "/uploads/1756078037222-20250825_0341_Bitcoin's-Resilient-Revival_simple_compose_01k3f3svwfej08yv5qrwrqs4b5.png",
+          "to": "/uploads/1756078037222-20250825_0341_Bitcoin's-Resilient-Revival_simple_compose_01k3f3svwfej08yv5qrwrqs4b5.webp"
+        },
+        {
+          "id": 43,
+          "slug": "liquidity-wars-exchanges-custodians-and-the-silent-battle-for-institutional-crypto",
+          "from": "/uploads/1756124836594-20250825_0503_Crypto-Tug-of-War_remix_01k3f8erqwe9vs7c2v4r2sg7rd.png",
+          "to": "/uploads/1756124836594-20250825_0503_Crypto-Tug-of-War_remix_01k3f8erqwe9vs7c2v4r2sg7rd.webp"
+        },
+        {
+          "id": 170,
+          "slug": "assessing-the-new-regulatory-environment",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/assessing-the-new-regulatory-environment.png",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/assessing-the-new-regulatory-environment.webp"
+        },
+        {
+          "id": 36,
+          "slug": "the-illusion-of-liquidity-why-crypto-markets-aren-t-as-deep-as-they-seem",
+          "from": "/uploads/1756044738701-20250824_1858_Dramatic-Crypto-Illusion_remix_01k3e5tj1tft1adjbgb2da255n.png",
+          "to": "/uploads/1756044738701-20250824_1858_Dramatic-Crypto-Illusion_remix_01k3e5tj1tft1adjbgb2da255n.webp"
+        },
+        {
+          "id": 44,
+          "slug": "unlocking-the-potential-of-solana-the-rising-choice-for-institutional-investors",
+          "from": "/uploads/1756308775237-ChatGPT-Image-Aug-27,-2025,-04_56_00-AM.png",
+          "to": "/uploads/1756308775237-ChatGPT-Image-Aug-27,-2025,-04_56_00-AM.webp"
+        },
+        {
+          "id": 169,
+          "slug": "russia-considers-establishing-a-cryptocurrency-bank-to-tackle-fraud-and-aid-miners",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/a-step-towards-regulation-and-support.png",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/a-step-towards-regulation-and-support.webp"
+        },
+        {
+          "id": 171,
+          "slug": "details-of-the-outage",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/details-of-the-outage.png",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/details-of-the-outage.webp"
+        },
+        {
+          "id": 40,
+          "slug": "tokenization-mirage-why-real-world-assets-aren-t-flooding-blockchains-yet",
+          "from": "/uploads/1756044557786-20250824_1845_Asset-Tokenization-Challenges_simple_compose_01k3e54k94e3fs4jvcfnxx2ysw.png",
+          "to": "/uploads/1756044557786-20250824_1845_Asset-Tokenization-Challenges_simple_compose_01k3e54k94e3fs4jvcfnxx2ysw.webp"
+        },
+        {
+          "id": 39,
+          "slug": "blockchain-beyond-speculation-the-forgotten-role-of-settlement-finality",
+          "from": "/uploads/1756044591380-20250824_1840_Settlement-Finality-Focus_simple_compose_01k3e4vg5mf9yvkejh017q0hqj.png",
+          "to": "/uploads/1756044591380-20250824_1840_Settlement-Finality-Focus_simple_compose_01k3e4vg5mf9yvkejh017q0hqj.webp"
+        },
+        {
+          "id": 37,
+          "slug": "decentralization-s-dilemma-governance-power-and-the-myth-of-community",
+          "from": "/uploads/1756044530411-20250824_1826_Decentralization-and-Community-Myth_remix_01k3e417y9fp38yv11hqwkqph2.png",
+          "to": "/uploads/1756044530411-20250824_1826_Decentralization-and-Community-Myth_remix_01k3e417y9fp38yv11hqwkqph2.webp"
+        },
+        {
+          "id": 38,
+          "slug": "the-energy-debate-has-moved-on-bitcoin-mining-in-an-era-of-grid-transformation",
+          "from": "/uploads/1756044626036-20250824_1840_Bitcoin-Mining-&-Energy_simple_compose_01k3e4tps6fzw9bx0qz6h91sty.png",
+          "to": "/uploads/1756044626036-20250824_1840_Bitcoin-Mining-&-Energy_simple_compose_01k3e4tps6fzw9bx0qz6h91sty.webp"
+        },
+        {
+          "id": 42,
+          "slug": "remittances-2-0-how-mexico-became-ground-zero-for-crypto-s-real-adoption-story",
+          "from": "/uploads/1756348838917-1756079500643-20250825_0318_Mexican-Crypto-Exchange_remix_01k3f2f2j3f48rjbq6hzcgad3s.png",
+          "to": "/uploads/1756348838917-1756079500643-20250825_0318_Mexican-Crypto-Exchange_remix_01k3f2f2j3f48rjbq6hzcgad3s.webp"
+        },
+        {
+          "id": 75,
+          "slug": "solana-surpasses-bitcoin-analyst-suggests-it-could-emulate-ether-s-200-surge",
+          "from": "/uploads/1756962469790-ChatGPT-Image-Sep-4,-2025,-10_07_31-AM.png",
+          "to": "/uploads/1756962469790-ChatGPT-Image-Sep-4,-2025,-10_07_31-AM.webp"
+        },
+        {
+          "id": 201,
+          "slug": "uk-push-for-blockchain-strategy-gains-momentum-following-coinbase-support",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/1757620907766-1757620522069-20250911_2220_Corrected-Coinbase-Text_remix_01k4wwjd1qfzvv42pydwv7atd0.png",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/1757620907766-1757620522069-20250911_2220_Corrected-Coinbase-Text_remix_01k4wwjd1qfzvv42pydwv7atd0.webp"
+        },
+        {
+          "id": 172,
+          "slug": "market-movements-and-trends",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/market-movements-and-trends.png",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/market-movements-and-trends.webp"
+        },
+        {
+          "id": 22,
+          "slug": "regulators-ai-scams",
+          "from": "/assets/article-22-pexels-7567537-blockchain-analytics-1200w.jpg",
+          "to": "/assets/article-22-pexels-7567537-blockchain-analytics-1200w.webp"
+        },
+        {
+          "id": 23,
+          "slug": "ethereum-small-businesses",
+          "from": "/assets/article-23-pexels-14902679-ethereum-payments-1200w.jpg",
+          "to": "/assets/article-23-pexels-14902679-ethereum-payments-1200w.webp"
+        },
+        {
+          "id": 24,
+          "slug": "ai-smart-contracts-legal",
+          "from": "/assets/article-24-pexels-8370345-smart-contracts-1200w.jpg",
+          "to": "/assets/article-24-pexels-8370345-smart-contracts-1200w.webp"
+        }
+      ]
+    },
+    {
+      "table": "Article",
+      "column": "thumbnail",
+      "found": 38,
+      "updated": 38,
+      "details": [
+        {
+          "id": 173,
+          "slug": "arthur-hayes-ethena-$1m",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/the-context-of-the-investment.png",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/the-context-of-the-investment.webp"
+        },
+        {
+          "id": 14,
+          "slug": "eth-touched-4k-flippening-or-bull-trap",
+          "from": "/uploads/1755884693984-ChatGPT-Image-Aug-11,-2025,-05_07_15-AM.png",
+          "to": "/uploads/1755884693984-ChatGPT-Image-Aug-11,-2025,-05_07_15-AM.webp"
+        },
+        {
+          "id": 41,
+          "slug": "crypto-s-greatest-pr-campaign-why-declaring-bitcoin-dead-keeps-it-alive",
+          "from": "/uploads/1756078028366-20250825_0341_Bitcoin's-Resilient-Revival_simple_compose_01k3f3svwfej08yv5qrwrqs4b5.png",
+          "to": "/uploads/1756078028366-20250825_0341_Bitcoin's-Resilient-Revival_simple_compose_01k3f3svwfej08yv5qrwrqs4b5.webp"
+        },
+        {
+          "id": 43,
+          "slug": "liquidity-wars-exchanges-custodians-and-the-silent-battle-for-institutional-crypto",
+          "from": "/uploads/1756124842888-20250825_0503_Crypto-Tug-of-War_remix_01k3f8erqwe9vs7c2v4r2sg7rd.png",
+          "to": "/uploads/1756124842888-20250825_0503_Crypto-Tug-of-War_remix_01k3f8erqwe9vs7c2v4r2sg7rd.webp"
+        },
+        {
+          "id": 36,
+          "slug": "the-illusion-of-liquidity-why-crypto-markets-aren-t-as-deep-as-they-seem",
+          "from": "/uploads/1756044738701-20250824_1858_Dramatic-Crypto-Illusion_remix_01k3e5tj1tft1adjbgb2da255n.png",
+          "to": "/uploads/1756044738701-20250824_1858_Dramatic-Crypto-Illusion_remix_01k3e5tj1tft1adjbgb2da255n.webp"
+        },
+        {
+          "id": 42,
+          "slug": "remittances-2-0-how-mexico-became-ground-zero-for-crypto-s-real-adoption-story",
+          "from": "/uploads/1756348847859-1756079500643-20250825_0318_Mexican-Crypto-Exchange_remix_01k3f2f2j3f48rjbq6hzcgad3s.png",
+          "to": "/uploads/1756348847859-1756079500643-20250825_0318_Mexican-Crypto-Exchange_remix_01k3f2f2j3f48rjbq6hzcgad3s.webp"
+        },
+        {
+          "id": 29,
+          "slug": "with-ethereum-soaring-and-institutional-eyes-turning-to-ai-based-stablecoins-this-altcoin-emerges-as-one-to-watch",
+          "from": "/uploads/1756233349506-RCOBitmart1.png",
+          "to": "/uploads/1756233349506-RCOBitmart1.webp"
+        },
+        {
+          "id": 75,
+          "slug": "solana-surpasses-bitcoin-analyst-suggests-it-could-emulate-ether-s-200-surge",
+          "from": "/uploads/1756962470683-ChatGPT-Image-Sep-4,-2025,-10_07_31-AM.png",
+          "to": "/uploads/1756962470683-ChatGPT-Image-Sep-4,-2025,-10_07_31-AM.webp"
+        },
+        {
+          "id": 201,
+          "slug": "uk-push-for-blockchain-strategy-gains-momentum-following-coinbase-support",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/1757620907766-1757620522069-20250911_2220_Corrected-Coinbase-Text_remix_01k4wwjd1qfzvv42pydwv7atd0.png",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/1757620907766-1757620522069-20250911_2220_Corrected-Coinbase-Text_remix_01k4wwjd1qfzvv42pydwv7atd0.webp"
+        },
+        {
+          "id": 44,
+          "slug": "unlocking-the-potential-of-solana-the-rising-choice-for-institutional-investors",
+          "from": "/uploads/1756308789382-ChatGPT-Image-Aug-27,-2025,-04_56_00-AM.png",
+          "to": "/uploads/1756308789382-ChatGPT-Image-Aug-27,-2025,-04_56_00-AM.webp"
+        },
+        {
+          "id": 22,
+          "slug": "regulators-ai-scams",
+          "from": "/assets/article-22-pexels-7567537-blockchain-analytics-96sq.jpg",
+          "to": "/assets/article-22-pexels-7567537-blockchain-analytics-96sq.webp"
+        },
+        {
+          "id": 23,
+          "slug": "ethereum-small-businesses",
+          "from": "/assets/article-23-pexels-14902679-ethereum-payments-96sq.jpg",
+          "to": "/assets/article-23-pexels-14902679-ethereum-payments-96sq.webp"
+        },
+        {
+          "id": 24,
+          "slug": "ai-smart-contracts-legal",
+          "from": "/assets/article-24-pexels-8370345-smart-contracts-96sq.jpg",
+          "to": "/assets/article-24-pexels-8370345-smart-contracts-96sq.webp"
+        },
+        {
+          "id": 170,
+          "slug": "assessing-the-new-regulatory-environment",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/assessing-the-new-regulatory-environment-96sq.jpg",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/assessing-the-new-regulatory-environment-96sq.webp"
+        },
+        {
+          "id": 169,
+          "slug": "russia-considers-establishing-a-cryptocurrency-bank-to-tackle-fraud-and-aid-miners",
+          "from": "https://storage.googleapis.com/cointist-images/uploads/a-step-towards-regulation-and-support-96sq.jpg",
+          "to": "https://storage.googleapis.com/cointist-images/uploads/a-step-towards-regulation-and-support-96sq.webp"
+        },
+        {
+          "id": 35,
+          "slug": "xrp-surges-6-amidst-bitcoin-s-climb-beyond-111k",
+          "from": "/uploads/1756317107214-pexels-arturoaez225-30268012-(1).jpg",
+          "to": "/uploads/1756317107214-pexels-arturoaez225-30268012-(1).webp"
+        },
+        {
+          "id": 165,
+          "slug": "context-of-india-s-reluctance",
+          "from": "/assets/article-165-pexels-6638840-reluctance-96sq.jpg",
+          "to": "/assets/article-165-pexels-6638840-reluctance-96sq.webp"
+        },
+        {
+          "id": 166,
+          "slug": "ongoing-delays-at-the-sec",
+          "from": "/assets/article-166-pexels-32703985-ongoing-96sq.jpg",
+          "to": "/assets/article-166-pexels-32703985-ongoing-96sq.webp"
+        },
+        {
+          "id": 40,
+          "slug": "tokenization-mirage-why-real-world-assets-aren-t-flooding-blockchains-yet",
+          "from": "/uploads/1756044557786-20250824_1845_Asset-Tokenization-Challenges_simple_compose_01k3e54k94e3fs4jvcfnxx2ysw-thumb.jpg",
+          "to": "/uploads/1756044557786-20250824_1845_Asset-Tokenization-Challenges_simple_compose_01k3e54k94e3fs4jvcfnxx2ysw-thumb.webp"
+        },
+        {
+          "id": 25,
+          "slug": "macro-crypto-forecasts",
+          "from": "/assets/article-25-pexels-7111593-macro-finance-96sq.jpg",
+          "to": "/assets/article-25-pexels-7111593-macro-finance-96sq.webp"
+        }
+      ]
+    },
+    {
+      "table": "Guides",
+      "column": "coverImage",
+      "found": 23,
+      "updated": 23,
+      "details": [
+        {
+          "id": 84,
+          "slug": "systemic-risk-credit-contagion-and-the-evolution-of-defi-insurance-markets",
+          "from": "https://fcrhqoiobfkggehbkukh.supabase.co/storage/v1/object/public/images/uploads/1756952424749-insurance.png",
+          "to": "https://fcrhqoiobfkggehbkukh.supabase.co/storage/v1/object/public/images/uploads/1756952424749-insurance.webp"
+        },
+        {
+          "id": 57,
+          "slug": "bridges-interoperability",
+          "from": "/uploads/1756871920901-bridges.png",
+          "to": "/uploads/1756871920901-bridges.webp"
+        },
+        {
+          "id": 85,
+          "slug": "delegates-cartels-and-the-political-economy-of-on-chain-governance",
+          "from": "/uploads/1756953844209-cartels.png",
+          "to": "/uploads/1756953844209-cartels.webp"
+        },
+        {
+          "id": 51,
+          "slug": "defi-primitives",
+          "from": "/uploads/1756869929916-ChatGPT-Image-Sep-3,-2025,-08_20_52-AM.png",
+          "to": "/uploads/1756869929916-ChatGPT-Image-Sep-3,-2025,-08_20_52-AM.webp"
+        },
+        {
+          "id": 56,
+          "slug": "what-is-web3",
+          "from": "/uploads/1756873771184-web3.png",
+          "to": "/uploads/1756873771184-web3.webp"
+        },
+        {
+          "id": 86,
+          "slug": "liquidity-fragmentation-and-the-rise-of-modular-settlement-layers",
+          "from": "/uploads/1756954709918-modular.png",
+          "to": "/uploads/1756954709918-modular.webp"
+        },
+        {
+          "id": 53,
+          "slug": "nfts-gaming",
+          "from": "/uploads/1756873478969-nfts.png",
+          "to": "/uploads/1756873478969-nfts.webp"
+        },
+        {
+          "id": 55,
+          "slug": "stablecoins-payments",
+          "from": "/uploads/1756870728786-stablecoins.png",
+          "to": "/uploads/1756870728786-stablecoins.webp"
+        },
+        {
+          "id": 59,
+          "slug": "real-world-asset-tokenization-rwas",
+          "from": "/uploads/1756876188933-rwa.png",
+          "to": "/uploads/1756876188933-rwa.webp"
+        },
+        {
+          "id": 60,
+          "slug": "markets-liquidity",
+          "from": "/uploads/1756876494344-markets.png",
+          "to": "/uploads/1756876494344-markets.webp"
+        },
+        {
+          "id": 61,
+          "slug": "dexs-amms",
+          "from": "/uploads/1756924107787-defi-protocols.png",
+          "to": "/uploads/1756924107787-defi-protocols.webp"
+        },
+        {
+          "id": 87,
+          "slug": "mev-order-flow-auctions-and-the-institutionalization-of-on-chain-trading",
+          "from": "/uploads/1756954975089-mev.png",
+          "to": "/uploads/1756954975089-mev.webp"
+        },
+        {
+          "id": 88,
+          "slug": "from-raw-blockchain-data-to-predictive-alpha-the-science-of-on-chain-analytics",
+          "from": "/uploads/1756955118243-analytics.png",
+          "to": "/uploads/1756955118243-analytics.webp"
+        },
+        {
+          "id": 62,
+          "slug": "bridges-cross-chain-interoperability",
+          "from": "/uploads/1756929655254-bridgesinter.png",
+          "to": "/uploads/1756929655254-bridgesinter.webp"
+        },
+        {
+          "id": 58,
+          "slug": "how-defi-protocols-work",
+          "from": "/uploads/1756873313752-defivariant.png",
+          "to": "/uploads/1756873313752-defivariant.webp"
+        },
+        {
+          "id": 63,
+          "slug": "oracles-data-feeds",
+          "from": "/uploads/1756928842063-oracles.png",
+          "to": "/uploads/1756928842063-oracles.webp"
+        },
+        {
+          "id": 66,
+          "slug": "lending-borrowing-how-crypto-loans-and-collateral-work",
+          "from": "/uploads/1756928952865-lending-borrowing.png",
+          "to": "/uploads/1756928952865-lending-borrowing.webp"
+        },
+        {
+          "id": 89,
+          "slug": "tokenized-treasuries-private-credit-and-the-institutional-path-to-real-world-assets",
+          "from": "/uploads/1756955221844-rwa.png",
+          "to": "/uploads/1756955221844-rwa.webp"
+        },
+        {
+          "id": 50,
+          "slug": "governance-daos",
+          "from": "/uploads/1756872353418-daos.png",
+          "to": "/uploads/1756872353418-daos.webp"
+        },
+        {
+          "id": 3,
+          "slug": "wallets-101-custodial-vs-non-custodial",
+          "from": "/uploads/1756871394455-wallets.png",
+          "to": "/uploads/1756871394455-wallets.webp"
+        }
+      ]
+    },
+    {
+      "table": "Guides",
+      "column": "thumbnail",
+      "found": 23,
+      "updated": 23,
+      "details": [
+        {
+          "id": 55,
+          "slug": "stablecoins-payments",
+          "from": "/uploads/1756870754193-stablecoins.png",
+          "to": "/uploads/1756870754193-stablecoins.webp"
+        },
+        {
+          "id": 84,
+          "slug": "systemic-risk-credit-contagion-and-the-evolution-of-defi-insurance-markets",
+          "from": "https://fcrhqoiobfkggehbkukh.supabase.co/storage/v1/object/public/images/uploads/1756952424749-insurance.png",
+          "to": "https://fcrhqoiobfkggehbkukh.supabase.co/storage/v1/object/public/images/uploads/1756952424749-insurance.webp"
+        },
+        {
+          "id": 54,
+          "slug": "privacy-identity",
+          "from": "/uploads/1756871246813-privacy-security.png",
+          "to": "/uploads/1756871246813-privacy-security.webp"
+        },
+        {
+          "id": 57,
+          "slug": "bridges-interoperability",
+          "from": "/uploads/1756871925435-bridges.png",
+          "to": "/uploads/1756871925435-bridges.webp"
+        },
+        {
+          "id": 85,
+          "slug": "delegates-cartels-and-the-political-economy-of-on-chain-governance",
+          "from": "/uploads/1756953857658-cartels.png",
+          "to": "/uploads/1756953857658-cartels.webp"
+        },
+        {
+          "id": 51,
+          "slug": "defi-primitives",
+          "from": "/uploads/1756869939487-ChatGPT-Image-Sep-3,-2025,-08_20_52-AM.png",
+          "to": "/uploads/1756869939487-ChatGPT-Image-Sep-3,-2025,-08_20_52-AM.webp"
+        },
+        {
+          "id": 56,
+          "slug": "what-is-web3",
+          "from": "/uploads/1756873784236-web3.png",
+          "to": "/uploads/1756873784236-web3.webp"
+        },
+        {
+          "id": 86,
+          "slug": "liquidity-fragmentation-and-the-rise-of-modular-settlement-layers",
+          "from": "/uploads/1756954712361-modular.png",
+          "to": "/uploads/1756954712361-modular.webp"
+        },
+        {
+          "id": 53,
+          "slug": "nfts-gaming",
+          "from": "/uploads/1756873483795-nfts.png",
+          "to": "/uploads/1756873483795-nfts.webp"
+        },
+        {
+          "id": 59,
+          "slug": "real-world-asset-tokenization-rwas",
+          "from": "/uploads/1756876191848-rwa.png",
+          "to": "/uploads/1756876191848-rwa.webp"
+        },
+        {
+          "id": 60,
+          "slug": "markets-liquidity",
+          "from": "/uploads/1756876498669-markets.png",
+          "to": "/uploads/1756876498669-markets.webp"
+        },
+        {
+          "id": 61,
+          "slug": "dexs-amms",
+          "from": "/uploads/1756924122371-defi-protocols.png",
+          "to": "/uploads/1756924122371-defi-protocols.webp"
+        },
+        {
+          "id": 87,
+          "slug": "mev-order-flow-auctions-and-the-institutionalization-of-on-chain-trading",
+          "from": "/uploads/1756954975237-mev.png",
+          "to": "/uploads/1756954975237-mev.webp"
+        },
+        {
+          "id": 88,
+          "slug": "from-raw-blockchain-data-to-predictive-alpha-the-science-of-on-chain-analytics",
+          "from": "/uploads/1756955122798-analytics.png",
+          "to": "/uploads/1756955122798-analytics.webp"
+        },
+        {
+          "id": 62,
+          "slug": "bridges-cross-chain-interoperability",
+          "from": "/uploads/1756929656951-bridgesinter.png",
+          "to": "/uploads/1756929656951-bridgesinter.webp"
+        },
+        {
+          "id": 58,
+          "slug": "how-defi-protocols-work",
+          "from": "/uploads/1756873318398-defivariant.png",
+          "to": "/uploads/1756873318398-defivariant.webp"
+        },
+        {
+          "id": 63,
+          "slug": "oracles-data-feeds",
+          "from": "/uploads/1756928850002-oracles.png",
+          "to": "/uploads/1756928850002-oracles.webp"
+        },
+        {
+          "id": 66,
+          "slug": "lending-borrowing-how-crypto-loans-and-collateral-work",
+          "from": "/uploads/1756928953845-lending-borrowing.png",
+          "to": "/uploads/1756928953845-lending-borrowing.webp"
+        },
+        {
+          "id": 89,
+          "slug": "tokenized-treasuries-private-credit-and-the-institutional-path-to-real-world-assets",
+          "from": "/uploads/1756955225442-rwa.png",
+          "to": "/uploads/1756955225442-rwa.webp"
+        },
+        {
+          "id": 3,
+          "slug": "wallets-101-custodial-vs-non-custodial",
+          "from": "/uploads/1756871398055-wallets.png",
+          "to": "/uploads/1756871398055-wallets.webp"
+        }
+      ]
+    }
+  ]
+}

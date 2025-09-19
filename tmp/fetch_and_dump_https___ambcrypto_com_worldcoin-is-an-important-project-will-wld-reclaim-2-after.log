@@ -1,0 +1,151 @@
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/ at 2025-09-14T07:00:08.322Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_worldcoin-is-an-important-project-will-wld-reclaim-2-after.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757833208280.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_worldcoin-is-an-important-project-will-wld-reclaim-2-after.txt
+Spawned rephraser for https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757833220222.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 306,
+    "slug": "worldcoin-s-future-can-wld-reach-2-following-tom-lee-s-endorsement",
+    "title": "Worldcoin's Future: Can WLD Reach $2 Following Tom Lee's Endorsement?",
+    "excerpt": "Following Tom Lee's recent endorsement, Worldcoin (WLD) is gaining attention regarding its potential to reach $2. With significant movements in its price and backing from major investors, the market sentiment around WLD is showing signs of optimism."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '21e271facd48ae77b0e10b1bcbe0f4429dd3fcca', id: 306 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T07:00:22.194Z ===
+
+
+=== child exit code=0 at 2025-09-14T07:00:22.226Z ===
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/ at 2025-09-14T08:06:42.643Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_worldcoin-is-an-important-project-will-wld-reclaim-2-after.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757837202626.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_worldcoin-is-an-important-project-will-wld-reclaim-2-after.txt
+Spawned rephraser for https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757837217213.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 307,
+    "slug": "worldcoin-s-future-can-wld-reach-2-following-tom-lee-s-endorsement",
+    "title": "Worldcoin's Future: Can WLD Reach $2 Following Tom Lee's Endorsement?",
+    "excerpt": "Worldcoin (WLD) is generating excitement in the market thanks to Tom Lee's recent endorsement. This article examines the factors that could drive WLD toward a $2 valuation amidst a backdrop of significant developments in the cryptocurrency landscape."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '21e271facd48ae77b0e10b1bcbe0f4429dd3fcca', id: 307 }
+node:fs:3085
+  binding.copyFile(
+          ^
+
+Error: EBUSY: resource busy or locked, copyfile 'C:\cointistreact\tmp\selection-from-pipeline.json' -> 'C:\cointistreact\tmp\selection-from-pipeline.json.1757837219973.bak'
+    at Object.copyFileSync (node:fs:3085:11)
+    at Object.<anonymous> (C:\cointistreact\scripts\update-selection-from-rephraser-log.js:82:6)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function._load (node:internal/modules/cjs/loader:1282:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'copyfile',
+  path: 'C:\\cointistreact\\tmp\\selection-from-pipeline.json',
+  dest: 'C:\\cointistreact\\tmp\\selection-from-pipeline.json.1757837219973.bak'
+}
+
+Node.js v22.17.0
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T08:07:01.017Z ===
+
+
+=== child exit code=0 at 2025-09-14T08:07:01.329Z ===
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/ at 2025-09-14T10:16:35.344Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_worldcoin-is-an-important-project-will-wld-reclaim-2-after.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757844995218.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_worldcoin-is-an-important-project-will-wld-reclaim-2-after.txt
+Spawned rephraser for https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845009786.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 327,
+    "slug": "worldcoin-s-potential-analyzing-tom-lee-s-influence-on-wld-prices",
+    "title": "Worldcoin's Potential: Analyzing Tom Lee's Influence on WLD Prices",
+    "excerpt": "Tom Lee's endorsement of Worldcoin [WLD] highlights its significance in the advancing AI landscape, suggesting a potential rebound for the cryptocurrency after recent fluctuations."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '21e271facd48ae77b0e10b1bcbe0f4429dd3fcca', id: 327 }
+Updated selection files from rephraser log. Items: 3
+
+=== child exit code=0 at 2025-09-14T10:16:53.971Z ===
+
+
+=== child exit code=0 at 2025-09-14T10:16:54.008Z ===
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/ at 2025-09-14T10:31:17.161Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_worldcoin-is-an-important-project-will-wld-reclaim-2-after.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757845877144.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_worldcoin-is-an-important-project-will-wld-reclaim-2-after.txt
+Spawned rephraser for https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845888486.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 329,
+    "slug": "future-prospects-for-worldcoin-insights-from-tom-lee-s-endorsement",
+    "title": "Future Prospects for Worldcoin: Insights from Tom Lee's Endorsement",
+    "excerpt": "Tom Lee's recent support for Worldcoin [WLD] highlights its potential in the realms of artificial intelligence and tokenization, suggesting a positive outlook for the crypto asset."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '21e271facd48ae77b0e10b1bcbe0f4429dd3fcca', id: 329 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T10:31:30.656Z ===
+
+
+=== child exit code=0 at 2025-09-14T10:31:30.683Z ===

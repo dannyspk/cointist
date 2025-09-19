@@ -1,0 +1,21 @@
+{
+  "startedAt": 1757774226425,
+  "invocationToken": "9dcb61c10f705ca0da16",
+  "selected": [
+    {
+      "id": "https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/",
+      "title": "Bitcoin prices stall – But THESE signals say BTC rally isn’t over!",
+      "url": "https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/",
+      "slug": "bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over",
+      "href": "/articles/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over"
+    },
+    {
+      "id": "https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance",
+      "title": "‘Crypto’s Time Has Come’: SEC Chair Outlines Vision for On-Chain Markets and Agentic Finance",
+      "url": "https://www.coindesk.com/policy/2025/09/13/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance",
+      "slug": "crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance",
+      "href": "/articles/crypto-s-time-has-come-sec-chair-outlines-vision-for-on-chain-markets-and-agentic-finance"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

@@ -1,0 +1,54 @@
+
+=== Spawned rephraser for https://crypto.news/dogecoin-price-rejects-from-resistance-at-0-30-but-will-support-at-0-24-hold/ at 2025-09-17T10:36:15.256Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_dogecoin-price-rejects-from-resistance-at-0-30-but-will-supp.txt --twoStage invocation=https://crypto.news/dogecoin-price-rejects-from-resistance-at-0-30-but-will-support-at-0-24-hold/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758105381794.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 372,
+    "slug": "analyzing-dogecoin-s-recent-price-movements-and-market-structure",
+    "title": "Analyzing Dogecoin's Recent Price Movements and Market Structure",
+    "excerpt": "Dogecoin has recently displayed notable price fluctuations that reflect its evolving market dynamics. This article delves into the technical aspects of Dogecoin's price action, identifies significant resistance and support levels, and explores the implications of its current bullish market structure."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'ddae35c0f976208d6054971efb71cb9f152087a6', id: 372 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-17T10:36:24.096Z ===
+
+=== Spawned rephraser for https://crypto.news/dogecoin-price-rejects-from-resistance-at-0-30-but-will-support-at-0-24-hold/ at 2025-09-17T11:08:32.694Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_dogecoin-price-rejects-from-resistance-at-0-30-but-will-supp.txt --twoStage invocation=https://crypto.news/dogecoin-price-rejects-from-resistance-at-0-30-but-will-support-at-0-24-hold/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758107326397.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 374,
+    "slug": "dogecoin-price-analysis-resistance-and-support-dynamics",
+    "title": "Dogecoin Price Analysis: Resistance and Support Dynamics",
+    "excerpt": "As Dogecoin continues to navigate the cryptocurrency landscape, analysts are closely monitoring its price movements, particularly around key resistance and support levels that could influence future trends."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'ddae35c0f976208d6054971efb71cb9f152087a6', id: 374 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-17T11:08:49.132Z ===

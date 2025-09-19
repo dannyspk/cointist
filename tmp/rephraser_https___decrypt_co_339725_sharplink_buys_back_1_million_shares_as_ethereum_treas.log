@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://decrypt.co/339725/sharplink-buys-back-1-million-shares-as-ethereum-treasury-sits-at-3-8-billion at 2025-09-16T15:47:01.699Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___decrypt_co_339725_sharplink-buys-back-1-million-shares-as-ethereum-treas.txt --twoStage invocation=https://decrypt.co/339725/sharplink-buys-back-1-million-shares-as-ethereum-treasury-sits-at-3-8-billion ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758037634315.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 364,
+    "slug": "sharplink-s-strategic-buyback-amidst-ethereum-s-large-treasury",
+    "title": "Sharplink's Strategic Buyback Amidst Ethereum's Large Treasury",
+    "excerpt": "Sharplink has recently made headlines by repurchasing 1 million shares, a move that coincides with Ethereum's substantial treasury of $3.8 billion. This buyback signals the company's focus on increasing shareholder value while navigating a fluctuating cryptocurrency market."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '05ea19a5a112343e28ffc6f54c25a5db135d4cf5', id: 364 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-16T15:47:17.116Z ===

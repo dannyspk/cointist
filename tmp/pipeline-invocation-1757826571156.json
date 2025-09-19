@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757826571156,
+  "invocationToken": "ec15a435c2d70ead4192",
+  "selected": [
+    {
+      "id": "https://www.coinspeaker.com/ai-governance-is-a-red-flag-vitalik-buterin-offers-an-alternative/",
+      "title": "AI Governance is a Red Flag: Vitalik Buterin Offers an Alternative",
+      "url": "https://www.coinspeaker.com/ai-governance-is-a-red-flag-vitalik-buterin-offers-an-alternative/",
+      "slug": "ai-governance-is-a-red-flag-vitalik-buterin-offers-an-alternative",
+      "oldSlug": null,
+      "href": "/articles/ai-governance-is-a-red-flag-vitalik-buterin-offers-an-alternative"
+    },
+    {
+      "id": "https://www.newsbtc.com/news/solana/1314-target-solana-after-cup-and-handle-breakout/",
+      "title": "Analyst Sets Bold $1,314 Target For Solana After Cup-And-Handle Breakout",
+      "url": "https://www.newsbtc.com/news/solana/1314-target-solana-after-cup-and-handle-breakout/",
+      "slug": "1314-target-solana-after-cup-and-handle-breakout",
+      "oldSlug": null,
+      "href": "/articles/1314-target-solana-after-cup-and-handle-breakout"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

@@ -1,0 +1,28 @@
+{
+  "startedAt": 1757775448780,
+  "invocationToken": "2d0a0590a507d67d200c",
+  "selected": [
+    {
+      "id": "https://beincrypto.com/wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25-minimum/",
+      "title": "WisdomTree Launches Tokenized Fund on Ethereum & Stellar: $25 Minimum",
+      "url": "https://beincrypto.com/wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25-minimum/",
+      "slug": "wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25-minimum",
+      "href": "/articles/wisdomtree-launches-tokenized-fund-on-ethereum-stellar-25-minimum"
+    },
+    {
+      "id": "https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/",
+      "title": "Coinbase Clarifies Token Listing Process, Emphasizes Free Submissions and Transparency",
+      "url": "https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/",
+      "slug": "coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency",
+      "href": "/articles/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency"
+    },
+    {
+      "id": "https://ambcrypto.com/decentraland-why-mana-must-break-this-key-level-to-target-0-60/",
+      "title": "Decentraland – Why MANA must break this KEY level to target $0.60",
+      "url": "https://ambcrypto.com/decentraland-why-mana-must-break-this-key-level-to-target-0-60/",
+      "slug": "decentraland-why-mana-must-break-this-key-level-to-target-0-60",
+      "href": "/articles/decentraland-why-mana-must-break-this-key-level-to-target-0-60"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

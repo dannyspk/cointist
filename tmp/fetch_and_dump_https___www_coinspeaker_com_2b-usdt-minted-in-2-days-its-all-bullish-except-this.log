@@ -1,0 +1,96 @@
+
+=== Spawned fetch_and_dump for https://www.coinspeaker.com/2b-usdt-minted-in-2-days-its-all-bullish-except-this-one-signal/ at 2025-09-14T11:02:39.157Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.coinspeaker.com/2b-usdt-minted-in-2-days-its-all-bullish-except-this-one-signal/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_2b-usdt-minted-in-2-days-its-all-bullish-except-this.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757847759144.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_2b-usdt-minted-in-2-days-its-all-bullish-except-this.txt
+Spawned rephraser for https://www.coinspeaker.com/2b-usdt-minted-in-2-days-its-all-bullish-except-this-one-signal/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757847777504.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 332,
+    "slug": "recent-usdt-minting-surge-analyzing-market-signals",
+    "title": "Recent USDT Minting Surge: Analyzing Market Signals",
+    "excerpt": "A recent surge in the minting of $2 billion USDT in just two days has raised significant interest among market observers. This article explores the implications of this development on market sentiment and trading strategies."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '57c21787343b20a1a1d0332eb5c7d287a5373af4', id: 332 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T11:02:59.934Z ===
+
+
+=== child exit code=0 at 2025-09-14T11:02:59.980Z ===
+
+=== Spawned fetch_and_dump for https://www.coinspeaker.com/2b-usdt-minted-in-2-days-its-all-bullish-except-this-one-signal/ at 2025-09-14T13:47:07.686Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.coinspeaker.com/2b-usdt-minted-in-2-days-its-all-bullish-except-this-one-signal/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_2b-usdt-minted-in-2-days-its-all-bullish-except-this.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757857627681.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_2b-usdt-minted-in-2-days-its-all-bullish-except-this.txt
+Spawned rephraser for https://www.coinspeaker.com/2b-usdt-minted-in-2-days-its-all-bullish-except-this-one-signal/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757857642820.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 348,
+    "slug": "recent-usdt-minting-surge-sparks-both-optimism-and-caution-in-the-crypto-market",
+    "title": "Recent USDT Minting Surge Sparks Both Optimism and Caution in the Crypto Market",
+    "excerpt": "The recent minting of $2 billion in Tether (USDT) within a mere 48 hours has generated a mix of enthusiasm and skepticism in the cryptocurrency sector. This article delves into the effects of this surge on market sentiment and future trends."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '57c21787343b20a1a1d0332eb5c7d287a5373af4', id: 348 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T13:47:23.834Z ===
+
+
+=== child exit code=0 at 2025-09-14T13:47:23.851Z ===
+
+=== Spawned fetch_and_dump for https://www.coinspeaker.com/2b-usdt-minted-in-2-days-its-all-bullish-except-this-one-signal/ at 2025-09-14T14:04:03.528Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.coinspeaker.com/2b-usdt-minted-in-2-days-its-all-bullish-except-this-one-signal/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_2b-usdt-minted-in-2-days-its-all-bullish-except-this.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757858643521.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_2b-usdt-minted-in-2-days-its-all-bullish-except-this.txt
+Spawned rephraser for https://www.coinspeaker.com/2b-usdt-minted-in-2-days-its-all-bullish-except-this-one-signal/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757858658915.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 350,
+    "slug": "a-surge-in-usdt-minting-what-it-means-for-the-market",
+    "title": "A Surge in USDT Minting: What It Means for the Market",
+    "excerpt": "Recent data reveals a remarkable increase in USDT minting, with $2 billion generated in just two days. This surge is prompting analysts to examine its potential implications for cryptocurrency trends."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '57c21787343b20a1a1d0332eb5c7d287a5373af4', id: 350 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T14:04:20.341Z ===
+
+
+=== child exit code=0 at 2025-09-14T14:04:20.373Z ===

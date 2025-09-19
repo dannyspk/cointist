@@ -1,0 +1,6 @@
+
+=== Spawned fetch_and_dump for https://cryptonews.com/news/bitcoin-cash-price-prediction-grayscale-updates-etf-filing-is-bch-the-next-sleeper-to-explode/ at 2025-09-13T04:58:30.473Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://cryptonews.com/news/bitcoin-cash-price-prediction-grayscale-updates-etf-filing-is-bch-the-next-sleeper-to-explode/ --out=C:\cointistreact\tmp\source-for-rephrase-https___cryptonews_com_news_bitcoin-cash-price-prediction-grayscale-updates-etf-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757739510465.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___cryptonews_com_news_bitcoin-cash-price-prediction-grayscale-updates-etf-.txt
+Spawned rephraser for https://cryptonews.com/news/bitcoin-cash-price-prediction-grayscale-updates-etf-filing-is-bch-the-next-sleeper-to-explode/
+
+=== child exit code=0 at 2025-09-13T04:58:46.451Z ===

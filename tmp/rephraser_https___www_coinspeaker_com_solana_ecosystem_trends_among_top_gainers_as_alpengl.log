@@ -1,0 +1,57 @@
+
+=== Spawned rephraser for https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ at 2025-09-13T01:40:33.368Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_solana-ecosystem-trends-among-top-gainers-as-alpengl.txt --twoStage invocation=https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757727653915.html
+Supabase upsert error (rephraser) {
+  code: 'PGRST205',
+  details: null,
+  hint: "Perhaps you meant the table 'public.Article'",
+  message: "Could not find the table 'public.articles' in the schema cache"
+}
+
+=== child exit code=0 at 2025-09-13T01:40:54.648Z ===
+
+=== Spawned rephraser for https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ at 2025-09-13T01:56:52.694Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_solana-ecosystem-trends-among-top-gainers-as-alpengl.txt --twoStage invocation=https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757728623993.html
+
+=== child exit code=0 at 2025-09-13T01:57:04.011Z ===
+
+=== Spawned rephraser for https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ at 2025-09-13T02:03:38.875Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_solana-ecosystem-trends-among-top-gainers-as-alpengl.txt --twoStage invocation=https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757729031653.html
+
+=== child exit code=0 at 2025-09-13T02:03:52.527Z ===
+
+=== Spawned rephraser for https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ at 2025-09-13T02:04:05.363Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_solana-ecosystem-trends-among-top-gainers-as-alpengl.txt --twoStage invocation=https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757729056715.html
+
+=== child exit code=0 at 2025-09-13T02:04:16.746Z ===
+
+=== Spawned rephraser for https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ at 2025-09-13T02:06:58.102Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_solana-ecosystem-trends-among-top-gainers-as-alpengl.txt --twoStage invocation=https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757729231235.html
+
+=== child exit code=0 at 2025-09-13T02:07:11.304Z ===
+
+=== Spawned rephraser for https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ at 2025-09-13T02:34:00.716Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_solana-ecosystem-trends-among-top-gainers-as-alpengl.txt --twoStage invocation=https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757730853243.html
+Upserted rephrase to Supabase 7212592c47ee52b37aae9744df8672a4f8f80e56
+
+=== child exit code=0 at 2025-09-13T02:34:13.732Z ===
+
+=== Spawned rephraser for https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ at 2025-09-13T02:34:53.800Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_solana-ecosystem-trends-among-top-gainers-as-alpengl.txt --twoStage invocation=https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757730905426.html
+Upserted rephrase to Supabase 7212592c47ee52b37aae9744df8672a4f8f80e56
+
+=== child exit code=0 at 2025-09-13T02:35:06.283Z ===
+
+=== Spawned rephraser for https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ at 2025-09-13T02:43:50.728Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_solana-ecosystem-trends-among-top-gainers-as-alpengl.txt --twoStage invocation=https://www.coinspeaker.com/solana-ecosystem-trends-among-top-gainers-as-alpenglow-discussions-increase/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757731443476.html
+Upserted rephrase to Supabase 7212592c47ee52b37aae9744df8672a4f8f80e56
+
+=== child exit code=0 at 2025-09-13T02:44:04.870Z ===

@@ -1,0 +1,23 @@
+{
+  "startedAt": 1758046702595,
+  "invocationToken": "c8c5bf6764887b44b858",
+  "selected": [
+    {
+      "id": "https://cryptobriefing.com/tokenized-rwa-market-surpasses-30b-securitize-leads/",
+      "title": "Tokenized RWA market surpasses $30B as Securitize leads onchain asset movement",
+      "url": "https://cryptobriefing.com/tokenized-rwa-market-surpasses-30b-securitize-leads/",
+      "slug": "tokenized-rwa-market-surpasses-30b-securitize-leads",
+      "oldSlug": "tokenized-rwa-market-surpasses-30b-securitize-leads",
+      "href": "/articles/tokenized-rwa-market-surpasses-30b-securitize-leads"
+    },
+    {
+      "id": "https://u.today/bitcoin-up-99-in-yearly-gains-surpassing-altcoin-dominance",
+      "title": "Bitcoin up 99% in Yearly Gains, Surpassing Altcoin Dominance",
+      "url": "https://u.today/bitcoin-up-99-in-yearly-gains-surpassing-altcoin-dominance",
+      "slug": "bitcoin-up-99-in-yearly-gains-surpassing-altcoin-dominance",
+      "oldSlug": "bitcoin-up-99-in-yearly-gains-surpassing-altcoin-dominance",
+      "href": "/articles/bitcoin-up-99-in-yearly-gains-surpassing-altcoin-dominance"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

@@ -1,0 +1,48 @@
+
+=== Spawned rephraser for https://ambcrypto.com/decentraland-why-mana-must-break-this-key-level-to-target-0-60/ at 2025-09-13T14:57:32.515Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_decentraland-why-mana-must-break-this-key-level-to-target-.txt --twoStage invocation=https://ambcrypto.com/decentraland-why-mana-must-break-this-key-level-to-target-0-60/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775467228.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 264,
+    "slug": "decentraland-s-mana-key-resistance-levels-to-watch-for-future-growth"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1e652234ed94713e93f45afc911c06b69140c513', id: 264 }
+
+=== child exit code=0 at 2025-09-13T14:57:51.175Z ===
+
+=== Spawned rephraser for https://ambcrypto.com/decentraland-why-mana-must-break-this-key-level-to-target-0-60/ at 2025-09-13T16:21:55.464Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_decentraland-why-mana-must-break-this-key-level-to-target-.txt --twoStage invocation=https://ambcrypto.com/decentraland-why-mana-must-break-this-key-level-to-target-0-60/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757780526020.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 277,
+    "slug": "key-levels-for-decentraland-s-mana-a-path-to-0-60"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1e652234ed94713e93f45afc911c06b69140c513', id: 277 }
+
+=== child exit code=0 at 2025-09-13T16:22:08.052Z ===

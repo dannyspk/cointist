@@ -1,0 +1,24 @@
+
+=== Spawned rephraser for https://cryptobriefing.com/okx-x-layer-record-active-addresses-dex-fees/ at 2025-09-13T10:24:42.859Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptobriefing_com_okx-x-layer-record-active-addresses-dex-fees_.txt --twoStage invocation=https://cryptobriefing.com/okx-x-layer-record-active-addresses-dex-fees/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757759094640.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 251,
+    "slug": "okx-x-layer-achieves-milestones-with-record-active-users-and-dex-fees"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '9db08170fb44f08e60d51fbe0be1281d6a6b2d0f', id: 251 }
+
+=== child exit code=0 at 2025-09-13T10:24:55.978Z ===

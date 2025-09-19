@@ -1,0 +1,24 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/news/ondo-finance-surges-20-weekly-amid-hype-and-growing-defi-demand/ at 2025-09-13T07:59:02.873Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_ondo-finance-surges-20-weekly-amid-hype-and-growing.txt --twoStage invocation=https://www.newsbtc.com/news/ondo-finance-surges-20-weekly-amid-hype-and-growing-defi-demand/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750352976.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 236,
+    "slug": "ondo-finance-s-remarkable-growth-amid-rising-defi-interest"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '499f6ce371b3ecfc6bbf73b1073fdd9186f8eeb2', id: 236 }
+
+=== child exit code=0 at 2025-09-13T07:59:13.568Z ===

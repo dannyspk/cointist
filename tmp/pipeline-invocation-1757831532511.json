@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757831532511,
+  "invocationToken": "19594d32dbba220a81c6",
+  "selected": [
+    {
+      "id": "https://coinspectator.com/mainstream/2025/09/14/spanish-airport-owner-accuses-ryanair-of-lies-over-flight-cuts/",
+      "title": "Spanish airport owner accuses Ryanair of ‘lies’ over flight cuts",
+      "url": "https://coinspectator.com/mainstream/2025/09/14/spanish-airport-owner-accuses-ryanair-of-lies-over-flight-cuts/",
+      "slug": "spanish-airport-owner-accuses-ryanair-of-lies-over-flight-cuts",
+      "oldSlug": null,
+      "href": "/articles/spanish-airport-owner-accuses-ryanair-of-lies-over-flight-cuts"
+    },
+    {
+      "id": "https://coinspectator.com/mainstream/2025/09/14/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president/",
+      "title": "Russia uses priests and bots to sway election, says Moldovan president",
+      "url": "https://coinspectator.com/mainstream/2025/09/14/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president/",
+      "slug": "russia-uses-priests-and-bots-to-sway-election-says-moldovan-president",
+      "oldSlug": null,
+      "href": "/articles/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

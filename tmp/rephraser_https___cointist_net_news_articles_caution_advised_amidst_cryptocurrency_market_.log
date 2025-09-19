@@ -1,0 +1,4 @@
+
+=== Spawned rephraser for https://cointist.net/news/articles/caution-advised-amidst-cryptocurrency-market-losses at 2025-09-17T11:29:10.907Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=tmp/live-source.txt --twoStage invocation=https://cointist.net/news/articles/caution-advised-amidst-cryptocurrency-market-losses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758108555366.html

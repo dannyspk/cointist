@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://cryptonews.com/news/why-is-crypto-down-today-september-15-2025/ at 2025-09-15T11:34:45.737Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptonews_com_news_why-is-crypto-down-today-september-15-2025_.txt --twoStage invocation=https://cryptonews.com/news/why-is-crypto-down-today-september-15-2025/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757936102780.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 363,
+    "slug": "analysis-of-the-current-crypto-market-decline",
+    "title": "Analysis of the Current Crypto Market Decline",
+    "excerpt": "The cryptocurrency market has seen a modest decline in capitalization, yet certain factors are fostering optimism among investors. Insights from market experts suggest that this downturn may not signal the end of the ongoing bull cycle."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '69c242362777aedf74bd8db7698ca65a22eb58a0', id: 363 }
+Updated selection files from rephraser log. Items: 3
+
+=== child exit code=0 at 2025-09-15T11:35:06.793Z ===

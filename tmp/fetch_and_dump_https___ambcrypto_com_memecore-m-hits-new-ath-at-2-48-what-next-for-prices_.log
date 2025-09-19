@@ -1,0 +1,29 @@
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/memecore-m-hits-new-ath-at-2-48-what-next-for-prices/ at 2025-09-14T03:37:27.881Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/memecore-m-hits-new-ath-at-2-48-what-next-for-prices/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_memecore-m-hits-new-ath-at-2-48-what-next-for-prices_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757821047835.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_memecore-m-hits-new-ath-at-2-48-what-next-for-prices_.txt
+Spawned rephraser for https://ambcrypto.com/memecore-m-hits-new-ath-at-2-48-what-next-for-prices/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821058444.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 280,
+    "slug": "memecore-m-after-reaching-new-heights-what-lies-ahead-for-the-cryptocurrency"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '6f2121c6e9eda0c82ce295da9eacc82682c15e4c', id: 280 }
+
+=== child exit code=0 at 2025-09-14T03:37:40.111Z ===
+
+
+=== child exit code=0 at 2025-09-14T03:37:40.147Z ===

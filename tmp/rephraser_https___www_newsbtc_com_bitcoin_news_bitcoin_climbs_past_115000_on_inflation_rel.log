@@ -1,0 +1,24 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/bitcoin-news/bitcoin-climbs-past-115000-on-inflation-relief-and-etf-flows-but-bearish-signals-loom/ at 2025-09-13T16:12:44.714Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_bitcoin-news_bitcoin-climbs-past-115000-on-inflation-rel.txt --twoStage invocation=https://www.newsbtc.com/bitcoin-news/bitcoin-climbs-past-115000-on-inflation-relief-and-etf-flows-but-bearish-signals-loom/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757779976859.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 274,
+    "slug": "bitcoin-surges-past-115-000-amid-inflation-relief-and-etf-demand"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4c7f3879a0017373530d46a1dd44caf48e2fdb44', id: 274 }
+
+=== child exit code=0 at 2025-09-13T16:12:58.737Z ===

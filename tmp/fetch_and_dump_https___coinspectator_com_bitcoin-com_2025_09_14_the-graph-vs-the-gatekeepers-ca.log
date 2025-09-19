@@ -1,0 +1,64 @@
+
+=== Spawned fetch_and_dump for https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/ at 2025-09-14T09:19:36.339Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_14_the-graph-vs-the-gatekeepers-ca.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757841576290.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_14_the-graph-vs-the-gatekeepers-ca.txt
+Spawned rephraser for https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841591467.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 313,
+    "slug": "decentralized-indexing-the-future-of-web3-amid-challenges",
+    "title": "Decentralized Indexing: The Future of Web3 Amid Challenges",
+    "excerpt": "Decentralized indexing is becoming increasingly crucial for the functionality of Web3 and decentralized applications (dApps). This article delves into The Graph's role in this evolving landscape, the challenges it faces, and the potential impact on the broader ecosystem."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '6e4a9b67ab601e88be9dd5715e1bf6fda58043a8', id: 313 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T09:19:55.560Z ===
+
+
+=== child exit code=0 at 2025-09-14T09:19:55.963Z ===
+
+=== Spawned fetch_and_dump for https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/ at 2025-09-14T10:16:35.401Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_14_the-graph-vs-the-gatekeepers-ca.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757844995218.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_14_the-graph-vs-the-gatekeepers-ca.txt
+Spawned rephraser for https://coinspectator.com/bitcoin-com/2025/09/14/the-graph-vs-the-gatekeepers-can-decentralized-indexing-save-web3/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845010377.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 328,
+    "slug": "decentralized-indexing-a-new-hope-for-web3",
+    "title": "Decentralized Indexing: A New Hope for Web3?",
+    "excerpt": "As decentralized applications (dApps) continue to grow in popularity, the need for effective blockchain indexing becomes increasingly critical. This article explores the significance of decentralized indexing within the Web3 landscape, with a focus on The Graph and the evolving challenges it faces."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '6e4a9b67ab601e88be9dd5715e1bf6fda58043a8', id: 328 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T10:16:53.773Z ===
+
+
+=== child exit code=0 at 2025-09-14T10:16:53.863Z ===

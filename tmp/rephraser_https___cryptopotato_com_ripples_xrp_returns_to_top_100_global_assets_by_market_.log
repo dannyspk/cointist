@@ -1,0 +1,54 @@
+
+=== Spawned rephraser for https://cryptopotato.com/ripples-xrp-returns-to-top-100-global-assets-by-market-cap-as-bitcoin-battles-silver/ at 2025-09-14T09:25:24.203Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptopotato_com_ripples-xrp-returns-to-top-100-global-assets-by-market-.txt --twoStage invocation=https://cryptopotato.com/ripples-xrp-returns-to-top-100-global-assets-by-market-cap-as-bitcoin-battles-silver/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841931752.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 315,
+    "slug": "ripple-s-xrp-reclaims-its-spot-among-the-top-global-assets",
+    "title": "Ripple's XRP Reclaims Its Spot Among the Top Global Assets",
+    "excerpt": "Ripple's XRP has successfully returned to the top 100 global assets by market capitalization, boasting a valuation of around $185 billion. This recovery follows a significant rebound in its trading price, now positioned at $3.10."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'eefa517c27c7edb36169b6b8c09c24f36d1d0c6e', id: 315 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T09:25:33.986Z ===
+
+=== Spawned rephraser for https://cryptopotato.com/ripples-xrp-returns-to-top-100-global-assets-by-market-cap-as-bitcoin-battles-silver/ at 2025-09-14T10:00:08.011Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptopotato_com_ripples-xrp-returns-to-top-100-global-assets-by-market-.txt --twoStage invocation=https://cryptopotato.com/ripples-xrp-returns-to-top-100-global-assets-by-market-cap-as-bitcoin-battles-silver/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757844015200.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 323,
+    "slug": "ripple-s-xrp-reclaims-position-among-top-global-assets",
+    "title": "Ripple's XRP Reclaims Position Among Top Global Assets",
+    "excerpt": "Ripple's XRP has made a notable return to the top 100 global assets, currently valued at around $185 billion following a recent market recovery."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'eefa517c27c7edb36169b6b8c09c24f36d1d0c6e', id: 323 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T10:00:21.575Z ===

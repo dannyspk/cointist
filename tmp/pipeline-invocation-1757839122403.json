@@ -1,0 +1,15 @@
+{
+  "startedAt": 1757839122403,
+  "invocationToken": "291b2eabcf60b072b00b",
+  "selected": [
+    {
+      "id": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "what-happened-in-crypto-today",
+      "oldSlug": null,
+      "href": "/articles/what-happened-in-crypto-today"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

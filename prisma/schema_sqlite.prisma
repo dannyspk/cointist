@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Article {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  category    String
+  author      String?
+  coverImage  String?
+  thumbnail   String?
+  subcategory String?
+  tags        Json?
+  ogTitle     String?
+  ogDescription String?
+  ogImage     String?
+  excerpt     String?
+  content     String?
+  published   Boolean  @default(false)
+  publishedAt DateTime?
+  scheduledAt DateTime?
+  coverAlt    String?
+  thumbnailAlt String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  pinned      Boolean  @default(false)
+  pinnedAt    DateTime?
+}
+
+model ArticleVersion {
+  id        Int      @id @default(autoincrement())
+  articleId Int
+  title     String
+  excerpt   String?
+  content   String
+  data      Json?
+  createdAt DateTime @default(now())
+  @@index([articleId])
+}

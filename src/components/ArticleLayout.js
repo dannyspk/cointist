@@ -1,0 +1,448 @@
+import React, { useEffect, useState } from 'react'
+import Head from 'next/head'
+import Image from 'next/image'
+import { format } from 'date-fns'
+import styles from '../../styles/article-published.module.css'
+import LatestNews from './LatestNews'
+import AUTHORS_META from '../data/authors'
+import SOCIALS from '../data/socials'
+
+export default function ArticleLayout({ article }) {
+  if (!article) return null
+
+  // Estimate reading time from plain-text word count (~200 wpm)
+  const plain = (article.content || '').replace(/<[^>]+>/g, ' ')
+  const words = plain.trim().split(/\s+/).filter(Boolean).length || 0
+  const readingTime = Math.max(1, Math.round(words / 200))
+  // Prefer createdAt for displayed/structured date, fall back to publishedAt/updatedAt
+  const rawPublished = article.createdAt || article.created_at || article.publishedAt || article.published_at || article.updatedAt || article.updated_at || null
+  const publishedDate = rawPublished ? new Date(rawPublished) : null
+  const publishedLabel = publishedDate ? publishedDate.toLocaleDateString() : ''
+
+  // Small in-file mapping of author -> short profile lead and image filename
+  // Authors meta imported from src/data/authors (keeps leads and image filenames in one place)
+
+  const authorMeta = AUTHORS_META[article.author] || null;
+  // Normalize image src values so Next/Image always receives either an
+  // absolute URL (http/https) or a path starting with a leading '/'.
+  // Be defensive: accept strings, arrays, and objects (e.g. { url }) and
+  // strip srcset-like descriptors ("400w", "2x") or comma-separated lists
+  // which were the cause of "w parameter (width) cannot be an array".
+  const normalizeSrc = (s) => {
+    if (!s) return s
+    try {
+      let raw = ''
+      // arrays -> take first element
+      if (Array.isArray(s)) {
+        raw = String(s[0] || '').trim()
+      } else if (s && typeof s === 'object') {
+        // common object shapes: { url }, { src }, { path }
+        raw = String(s.url || s.src || s.path || '').trim()
+      } else {
+        raw = String(s).trim()
+      }
+
+      if (!raw) return raw
+
+      // If multiple comma-separated candidates exist (srcset-like), pick first
+      if (raw.indexOf(',') !== -1) raw = raw.split(',')[0]
+
+      // Remove any width/density descriptors (e.g. " 400w" or " 2x")
+      raw = raw.split(/\s+/)[0]
+
+      // Strip surrounding quotes or parentheses
+      raw = raw.replace(/^['"\(]+|['"\)]+$/g, '')
+
+      if (/^https?:\/\//i.test(raw)) return raw
+      return raw.startsWith('/') ? raw : `/${raw}`
+    } catch (e) {
+      return typeof s === 'string' ? s : String(s)
+    }
+  }
+
+  // Build author meta file path safely: AUTHORS_META.file may already contain a leading '/authors/...' path
+  const authorMetaPath = (() => {
+    if (!authorMeta || !authorMeta.file) return '/assets/author-avatar.webp'
+    const f = String(authorMeta.file).trim()
+    if (!f) return '/assets/author-avatar.webp'
+    // if file already looks like a path (starts with '/'), use it as-is; otherwise assume it's a filename under /authors/orig/
+    return f.startsWith('/') ? f : `/authors/orig/${f}`
+  })()
+
+  const sidebarThumb = normalizeSrc(article.authorImage || article.authorAvatar || authorMetaPath);
+
+  // helper to create anchor id slugs from author names (matches ids in /pages/authors.js)
+  const authorSlug = (name) => {
+    if (!name) return ''
+    return String(name).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+  }
+
+  // local UI state for like/share buttons in the author box
+  const [userLikes, setUserLikes] = useState(0)
+  const [totalLikes, setTotalLikes] = useState(typeof article.likeCount === 'number' ? article.likeCount : 0)
+  const [shareOpen, setShareOpen] = useState(false)
+
+  useEffect(()=>{
+    try{
+      if (!article || !article.id) return
+      const key = `article_likes_user_${article.id}`
+      const tkey = `article_likes_total_${article.id}`
+      const saved = parseInt(localStorage.getItem(key) || '0', 10) || 0
+      const totalSaved = parseInt(localStorage.getItem(tkey) || String(typeof article.likeCount === 'number' ? article.likeCount : 0), 10) || 0
+      setUserLikes(saved)
+      setTotalLikes(totalSaved)
+    }catch(e){}
+  }, [article && article.id])
+
+  // Debug helper: log a small summary of article.content so we can confirm
+  // the raw HTML includes the expected class names (kicker, lead, container).
+  useEffect(()=>{
+    try{
+      const html = String(article && article.content ? article.content : '')
+      if (!html) return console.debug && console.debug('ArticleLayout: content is empty')
+      const checks = {
+        length: html.length,
+        hasKicker: /class=["']?kicker/.test(html),
+        hasLead: /class=["']?lead/.test(html),
+        hasContainer: /class=["']?container/.test(html)
+      }
+      console.debug && console.debug('ArticleLayout: content checks', checks)
+    }catch(e){ console.debug && console.debug('ArticleLayout: content check error', e) }
+  }, [article && article.content])
+
+  // Additional DOM-level checks to see if .aside / .foot nodes exist after
+  // the HTML is injected, and whether their computed styles match expectations.
+  useEffect(()=>{
+    try{
+      if (typeof window === 'undefined') return
+      const root = document.querySelector('.' + (styles.articleBody && styles.articleBody.split(' ')[0])) || document.querySelector('.articleBody')
+      if (!root) return
+      const asideNodes = root.querySelectorAll('.aside')
+      const footNodes = root.querySelectorAll('.foot')
+      const info = {
+        asideCount: asideNodes.length,
+        footCount: footNodes.length
+      }
+      console.debug && console.debug('ArticleLayout: DOM checks (counts)', info)
+      if (asideNodes.length > 0){
+        const el = asideNodes[0]
+        const cs = window.getComputedStyle(el)
+        console.debug && console.debug('ArticleLayout: first .aside', { tag: el.tagName, className: el.className, outerHTML: el.outerHTML.slice(0,300), bg: cs.backgroundColor, border: cs.borderTopWidth + ' ' + cs.borderTopStyle + ' ' + cs.borderTopColor })
+      }
+      if (footNodes.length > 0){
+        const el = footNodes[0]
+        const cs = window.getComputedStyle(el)
+        console.debug && console.debug('ArticleLayout: first .foot', { tag: el.tagName, className: el.className, outerHTML: el.outerHTML.slice(0,300), color: cs.color, borderTop: cs.borderTop })
+      }
+    }catch(e){ console.debug && console.debug('ArticleLayout: DOM check error', e) }
+  }, [article && article.content])
+
+  useEffect(()=>{
+    try{
+      const root = document.querySelector('.' + (styles.articleBody && styles.articleBody.split(' ')[0])) || document.querySelector('.articleBody')
+      if (!root) return
+      root.querySelectorAll('h2').forEach(h=>{ if (!h.classList.contains('articleH2')) h.classList.add('articleH2') })
+      root.querySelectorAll('h3').forEach(h=>{ if (!h.classList.contains('articleH3')) h.classList.add('articleH3') })
+    }catch(e){ /* noop */ }
+  }, [article])
+
+  // derive a dynamic kicker label from the article DB fields
+  const kickerLabel = (() => {
+    try{
+      const omitSuffixForSub = ['latest', 'featured']
+      if (article.subcategory){
+        const base = String(article.subcategory).toUpperCase()
+        const shouldOmit = omitSuffixForSub.includes(String(article.subcategory).toLowerCase())
+        return shouldOmit ? base : base + ' • ANALYSIS'
+      }
+      if (article.kicker){
+        const s = String(article.kicker)
+        if (s.includes('•')) return s
+        return s.toUpperCase() + ' • ANALYSIS'
+      }
+      if (Array.isArray(article.tags) && article.tags.length){
+        const base = String(article.tags[0]).toUpperCase()
+        return base + ' • ANALYSIS'
+      }
+      if (article.category){
+        const base = String(article.category).toUpperCase()
+        if (String(article.category).toLowerCase() === 'news') return base
+        return base + ' • ANALYSIS'
+      }
+    }catch(e){}
+    return 'FEATURED • ANALYSIS'
+  })()
+
+  return (
+    <>
+      <Head>
+  <link rel="stylesheet" href="/styles/guides-layout.css" />
+        <title>{article.title ? `${article.title} • Cointist` : 'Cointist'}</title>
+        <meta name="description" content={article.excerpt || (String(article.content || '').replace(/<[^>]+>/g,' ').trim().slice(0,150))} />
+        <meta property="og:title" content={article.title || 'Cointist'} />
+        <meta property="og:description" content={article.excerpt || ''} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={article.title || 'Cointist'} />
+        <meta name="twitter:description" content={article.excerpt || ''} />
+        {/* Article JSON-LD for rich results */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": article.title || 'Cointist Article',
+          "description": article.excerpt || (String(article.content || '').replace(/<[^>]+>/g,' ').trim().slice(0,150)),
+          "image": article.coverImage || undefined,
+          "datePublished": rawPublished || undefined,
+          "author": article.author ? { "@type": "Person", "name": article.author } : undefined,
+          "publisher": {
+            "@type": "Organization",
+            "name": "Cointist",
+            "logo": { "@type": "ImageObject", "url": "https://cointist.com/assets/logo.png" },
+            "sameAs": SOCIALS.map(s => s.url)
+          }
+        }) }} />
+      </Head>
+      <div className={styles.pageGrid}>
+        <main className={styles.articleWrap}>
+          <nav className={styles.breadcrumb} />
+
+          <div className={styles.articleHero}>
+            <h1 className={styles.articleTitle}>{article.title}</h1>
+            {article.excerpt ? <p className={styles.articleDek}>{article.excerpt}</p> : null}
+            {/* hero author thumbnail removed (we keep detailed author box below the article) */}
+          </div>
+
+          {article.coverImage ? (
+            <figure className={styles.figure}>
+              {/* ensure cover image is a valid src for next/image */}
+              <Image src={normalizeSrc(article.coverImage)} alt="cover" width={1200} height={600} style={{width:'100%',height:'auto'}} />
+              {article.imageCaption ? <figcaption className={styles.figcap}>{article.imageCaption}</figcaption> : null}
+            </figure>
+          ) : null}
+
+          {
+            // Ensure imported HTML has a wrapper with expected class names.
+            // If the stored fragment doesn't include a top-level "container",
+            // wrap it so our scoped :global(.container) rules apply.
+            (()=>{
+              const raw = String(article.content || '')
+              const needsWrap = !/class=["']?container/.test(raw)
+              const payload = needsWrap ? (`<div class="container">${raw}</div>`) : raw
+              return <article className={styles.articleBody} dangerouslySetInnerHTML={{ __html: payload }} />
+            })()
+          }
+
+          {/* Detailed author box: appears below article content and above LatestNews */}
+          {(() => {
+            const name = article.author || '';
+            const meta = AUTHORS_META[name] || null;
+            const thumb = normalizeSrc(article.authorImage || article.authorAvatar || authorMetaPath);
+            if (!name) return null;
+            return (
+              <section className={styles.articleAuthorBox} aria-label={`About the author ${name}`}>
+                <div className={styles.authorRow}>
+                      <a href={`/authors#${authorSlug(name)}`} aria-label={`Author profile: ${name}`}>
+                        <Image src={thumb} alt={name} width={80} height={80} style={{ borderRadius:8, objectFit:'cover' }} />
+                      </a>
+                  <div className={styles.authorCol}>
+                    <div className={styles.authorName}>{name}</div>
+                    {/* show canonical profile lead from AUTHORS_META; if missing, fall back to article.authorTitle */}
+                    {meta ? <div className={styles.authorLead}>{meta.lead}</div> : (article.authorTitle ? <div className={styles.authorLead}>{article.authorTitle}</div> : null)}
+                  </div>
+                </div>
+              </section>
+            )
+          })()}
+        </main>
+
+        <aside className={styles.sidebar}>
+          <section className={styles.sidebarCard + ' ' + styles.authorBox}>
+            <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+              <a href={`/authors#${authorSlug(article.author)}`} aria-label={`Author profile: ${article.author}`}>
+                <Image
+                  src={sidebarThumb}
+                  alt={(article.author || 'Author')}
+                  width={56}
+                  height={56}
+                  className={styles.avatar}
+                  style={{ borderRadius:8, objectFit:'cover' }}
+                />
+              </a>
+              <div>
+                <div className={styles.authorName}>{article.author || 'Cointist Research'}</div>
+                <div className={styles.authorMeta}>{article.authorTitle || ''}</div>
+              </div>
+            </div>
+            <div style={{ marginTop:12 }}>
+              <div className={styles.authorPublished}>{publishedLabel ? publishedLabel + ' • ' : ''}{readingTime} min read</div>
+            </div>
+            <div className={styles.authorActions} style={{position:'relative'}}>
+              <button
+                aria-pressed={userLikes > 0}
+                title={userLikes >= 2 ? 'Like (limit reached)' : 'Like'}
+                onClick={()=>{
+                  try{
+                    if (!article || !article.id) return
+                    const key = `article_likes_user_${article.id}`
+                    const tkey = `article_likes_total_${article.id}`
+                    const current = parseInt(localStorage.getItem(key) || '0', 10) || 0
+                    if (current >= 2) return
+                    const next = current + 1
+                    localStorage.setItem(key, String(next))
+                    setUserLikes(next)
+                    const totalCurrent = parseInt(localStorage.getItem(tkey) || String(totalLikes || 0), 10) || 0
+                    const totalNext = totalCurrent + 1
+                    localStorage.setItem(tkey, String(totalNext))
+                    setTotalLikes(totalNext)
+                  }catch(e){ console.debug && console.debug('like error', e) }
+                }}
+                className={styles.likeBtn}
+              >
+                <Image src="/likebtn.png" alt="" aria-hidden className={styles.btnIcon} width={18} height={18} style={{objectFit:'contain'}} />
+                <span className="btnLabel">Like</span>
+                <span style={{marginLeft:8, fontWeight:700}}>{totalLikes > 0 ? ` ${totalLikes}` : ''}</span>
+              </button>
+
+              <div style={{position:'relative'}}>
+                <button className={styles.shareBtn} onClick={()=>setShareOpen(s=>!s)} aria-expanded={shareOpen} aria-haspopup="menu">
+                  <Image src="/sharebtn.png" alt="" aria-hidden className={styles.btnIcon} width={18} height={18} style={{objectFit:'contain'}} />
+                  <span className="btnLabel">Share</span>
+                </button>
+                {shareOpen ? (
+                  <div role="menu" style={{position:'absolute', right:0, top:'40px', background:'rgba(6,10,12,0.98)', padding:8, borderRadius:8, boxShadow:'0 8px 24px rgba(0,0,0,0.6)', zIndex:12000}}>
+                    <button style={{display:'flex', gap:8, alignItems:'center', padding:'8px 10px', background:'transparent', border:'none', color:'#fff', cursor:'pointer'}} onClick={()=>{
+                      const url = (typeof window !== 'undefined' && window.location) ? window.location.href : ''
+                      const text = article && article.title ? article.title : ''
+                      const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
+                      window.open(shareUrl, '_blank', 'noopener')
+                      setShareOpen(false)
+                    }} role="menuitem">🐦 Tweet</button>
+
+                    <button style={{display:'flex', gap:8, alignItems:'center', padding:'8px 10px', background:'transparent', border:'none', color:'#fff', cursor:'pointer'}} onClick={async ()=>{
+                      try{
+                        const url = (typeof window !== 'undefined' && window.location) ? window.location.href : ''
+                        await navigator.clipboard.writeText(url)
+                        setShareOpen(false)
+                        alert('Link copied to clipboard')
+                      }catch(e){ console.debug && console.debug('copy failed', e); setShareOpen(false) }
+                    }} role="menuitem">🔗 Copy link</button>
+
+                    <button style={{display:'flex', gap:8, alignItems:'center', padding:'8px 10px', background:'transparent', border:'none', color:'#fff', cursor:'pointer'}} onClick={()=>{
+                      try{
+                        const url = (typeof window !== 'undefined' && window.location) ? window.location.href : ''
+                        const text = article && article.title ? article.title : ''
+                        if (navigator.share) {
+                          navigator.share({ title: text, url }).catch(()=>{})
+                        } else {
+                          const mailto = `mailto:?subject=${encodeURIComponent(text)}&body=${encodeURIComponent(url)}`
+                          window.open(mailto, '_blank')
+                        }
+                      }catch(e){ console.debug && console.debug('share api error', e) }
+                      setShareOpen(false)
+                    }} role="menuitem">✉️ More</button>
+                  </div>
+                ) : null}
+              </div>
+            </div>
+          </section>
+
+          <section className={styles.sidebarCard + ' ' + styles.editors}>
+            <EditorsPick currentId={article.id} />
+          </section>
+
+          <section className={styles.sidebarCard + ' ' + styles.subscribeCard}>
+            <h3>Subscribe</h3>
+            <p className={styles.subscribeCopy}>Get alpha, market structure, and hand‑picked charts in your inbox.</p>
+            <form className={styles.subscribeForm} onSubmit={(e)=>{e.preventDefault(); alert('Thanks!');}}>
+              <input type="email" placeholder="you@domain.com" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </section>
+        </aside>
+      </div>
+
+      {/* Latest News - full-width section below article */}
+      <LatestNews article={article} />
+    </>
+  )
+}
+
+function EditorsPick({ currentId }){
+  const [items, setItems] = useState(null)
+  const [loading, setLoading] = useState(true)
+
+      useEffect(()=>{
+    let mounted = true
+    async function load(){
+      try{
+  const qs = new URLSearchParams({ pinned: 'true', page: '1', pageSize: '6', includeOpinions: '1', featuredOnly: '0' })
+  const res = await fetch('/api/articles?' + qs.toString())
+        if (!res.ok) throw new Error('Failed to load editors pick')
+        const json = await res.json()
+        if (!mounted) return
+        let list = Array.isArray(json.data) ? json.data : (json.data || [])
+        // exclude current article
+        list = list.filter(it => !(currentId && it.id === currentId))
+        // ensure at least 4 items: if not enough, fetch a broader list and merge
+        if (list.length < 4){
+          try{
+            const qs2 = new URLSearchParams({ page: '1', pageSize: '12', featuredOnly: '0' })
+            const res2 = await fetch('/api/articles?' + qs2.toString())
+            if (res2.ok){
+              const json2 = await res2.json()
+              const more = Array.isArray(json2.data) ? json2.data : (json2.data || [])
+              const map = new Map()
+              ;[...list, ...more].forEach(it=>{
+                if (currentId && it.id === currentId) return
+                const key = it.id || it.slug || it.title || Math.random()
+                if (!map.has(key)) map.set(key, it)
+              })
+              list = Array.from(map.values())
+            }
+          }catch(e){ /* ignore */ }
+        }
+        setItems(list.slice(0,6))
+      }catch(e){
+        console.debug && console.debug('EditorsPick load error', e)
+        if (mounted) setItems([])
+      }finally{ if (mounted) setLoading(false) }
+    }
+    load()
+    return ()=>{ mounted = false }
+  }, [currentId])
+
+  const placeholder = '/assets/cryptoreport.webp'
+
+  return (
+    <div>
+      <h3>Editor's Pick</h3>
+      <div className={styles.editorsList}>
+        {loading && !items ? (
+          [0,1,2].map(i=> (
+            <article key={i} className={styles.editorsItem} aria-hidden>
+              <a className={styles.editorsThumb} href="#"><img src={placeholder} alt="Editor placeholder thumbnail" /></a>
+              <div className={styles.editorsMeta}>
+                <div className={styles.editorsTitle} style={{color:'#fff'}}>Loading…</div>
+                <div className={styles.editorsByline}>Cointist Desk</div>
+              </div>
+            </article>
+          ))
+        ) : null}
+
+        {Array.isArray(items) && items.map(it=> (
+          <article key={it.id || it.slug || it.title} className={styles.editorsItem}>
+            <a className={styles.editorsThumb} href={it.slug ? `/articles/${it.slug}` : '#'}>
+              <img src={it.thumbnail || it.coverImage || placeholder} alt={it.thumbnailAlt || it.title || ''} />
+            </a>
+            <div className={styles.editorsMeta}>
+              <div className={styles.editorsTitle}><a href={it.slug ? `/articles/${it.slug}` : '#'} style={{color:'#fff',textDecoration:'none'}}>{it.title}</a></div>
+              <div className={styles.editorsByline}>
+                {it.author || 'Cointist Desk'}{(it.createdAt || it.created_at || it.publishedAt) ? ' · ' + format(new Date(it.createdAt || it.created_at || it.publishedAt), 'MMM d') : ''}
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  )
+}

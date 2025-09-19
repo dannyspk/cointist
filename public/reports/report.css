@@ -1,0 +1,152 @@
+/* Report stylesheet — improved typography, spacing, and color hierarchy */
+:root{ --bg:#071018; --card:#061217; --muted:#98a2ad; --accent:#ffb94d; --accent-2:#ffd57f; --glass:rgba(255,255,255,0.03); --text:#e6eef6; --card-elev: 0 10px 30px rgba(3,6,10,0.6); }
+html,body{ height:100%; margin:0;  background: linear-gradient(180deg,#071018 0%, #0b1b25 50%, #05121a 100%) no-repeat fixed; background-size:cover; color:var(--text); -webkit-font-smoothing:antialiased; }
+.wrapper{ max-width:1080px; margin:36px auto; padding:15px; }
+.title{ display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:14px; }
+.brand h1{ color:var(--accent); margin:0; font-size:22px; letter-spacing:0.2px; }
+.muted{ color:#e6eef6; }
+
+.card{ background:linear-gradient(180deg, rgba(255,255,255,0.018), rgba(255,255,255,0.01)); padding:20px; border-radius:12px; margin-bottom:14px; box-shadow:var(--card-elev); border:1px solid rgba(255,255,255,0.03); }
+.snapshot-title{ font-size:15px; margin:0 0 8px 0;     color: var(--accent-2); font-weight:700; }
+.page-title{ display: inline-flex; text-align:left; color: var(--accent-2); }
+.snapshot-text{ color:#e6eef6; font-size:15px; line-height:1.45; text-align: center;padding-top: 4px; padding-left: 100px;}
+
+/* Page heading: highlight site name, show section and subject */
+.page-title h1{ display:inline-flex; align-items:baseline; gap:8px; font-size:26px; margin:0; font-weight:800; }
+.page-title .site-name{ color: #44f798; font-weight:900; font-size:22px; letter-spacing:0.4px; text-transform: uppercase; }
+.page-title .divider{ color:rgba(255,255,255,0.2); margin:0 6px; font-weight:700; }
+.page-title .page-section{ color:var(--text); font-weight:700; text-transform:uppercase; letter-spacing:1px; font-size:18px; background:transparent; border-radius:6px; }
+.page-title .chevron{ color:rgba(255, 226, 98, 0.938); margin:0 8px; font-size:22px; }
+.page-title .subject{ color:var(--text); font-weight:500;  font-size:18px; text-transform:uppercase;  }
+
+@media(max-width:700px){ .page-title h1{ font-size:20px; } .page-title .site-name{ font-size:20px; } .page-title .subject{ font-size:16px; } }
+
+.section-title{ font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    color: #61efae;
+    font-weight: 800;
+    margin: 6px 0 0 0; }
+.grid{ display:block; }
+.aside{ padding-left:0; }
+.price-summary{ background:#041217; padding:14px; border-radius:8px; white-space:pre-wrap; font-family:Menlo,ui-monospace,SFMono-Regular,Consolas,monospace; color:#61efae; box-sizing:border-box; }
+.levels{ display:flex; gap:8px; flex-wrap:wrap; margin-top:8px }
+.level{ background:rgba(255,255,255,0.02); color:var(--accent-2); padding:6px 10px; border-radius:999px; font-weight:600; font-size:13px; }
+
+.scenarios p{ margin:8px 0; color:#e6eef6; }
+ul.clean{ padding-left:18px; margin:8px 0; color:#e6eef6; }
+
+.checklist{ padding-left:18px; margin:8px 0; color:#e6eef6; }
+.checklist li{ margin:8px 0;     letter-spacing: -0.4px;
+ }
+
+.computed-list .small-row{ display:flex; align-items:center; padding:10px 0; border-bottom:1px dashed rgba(255,255,255,0.03); }
+/* Label/value layout: label may wrap, value stays on one right-aligned line */
+.computed-list .small-row .label{ color:#9aaab0; font-weight:600; flex:1 1 60%; white-space:normal; word-break:break-word; }
+.computed-list .small-row .value{ font-weight:800; font-size: 14px; font-family:Menlo,ui-monospace,SFMono-Regular,Consolas,monospace; color:var(--text); flex:0 0 auto; white-space:nowrap; margin-left:12px; text-align:right; }
+
+/* Unified inner-panel for numeric/stat blocks */
+.inner-panel{ background:#041217; padding:14px; border-radius:10px; border:1px solid rgba(255,255,255,0.03); box-sizing:border-box; }
+
+/* Apply inner-panel to computed signals and aside content for consistent look */
+.card .computed-list, .card.side-title .content .computed-list, .aside-card .content, .price-summary{ background:#041217; padding:14px; border-radius:8px; box-sizing:border-box; }
+.card .computed-list .small-row .value, .card.side-title .content .computed-list .small-row .value, .aside-card .content .small-row .value, .price-summary{ font-family:Menlo,ui-monospace,SFMono-Regular,Consolas,monospace; }
+.card .computed-list .small-row .label, .card.side-title .content .computed-list .small-row .label, .aside-card .content .small-row .label{ color:#111212; }
+
+/* aside-card: compact left column and right-aligned values */
+.aside-card{ grid-template-columns:160px 1fr; }
+.aside-card .left-title{ white-space:normal; }
+/* Improve contrast and spacing for compact futures/aside panels */
+.aside-card .content{ background:#9afec0; padding:16px; border-radius:8px; min-width: 186px; color: #041217 !important }
+.aside-card .content .small-row{ display:flex; justify-content:space-between; padding:8px 0; }
+.aside-card .content .small-row .label{ color:#041217 ; font-weight:700; font-size:14px;font-family:Menlo,ui-monospace,SFMono-Regular,Consolas,monospace; }
+.aside-card .content .small-row .value{ text-align:right; color:#041217 ; font-weight:800; font-size:14px; font-family:Menlo,ui-monospace,SFMono-Regular,Consolas,monospace; }
+.aside-cardsv .content{ background:#9afec0; padding:6px; border-radius:8px; min-width: 186px; color: #041217 !important }
+
+.futures-list .small-row{ padding:6px 0; }
+
+.footer{ font-size:12px; color:#e6eef6; margin-top:10px; }
+
+@media(min-width:880px){ .grid{ display:grid; grid-template-columns:1fr 360px; gap:14px } .aside{ padding-left:12px; } }
+
+/* Report cover grid (used in BTC weekly preview) */
+.page-cover-grid{ display:grid; grid-template-columns: 1fr 320px; gap:20px; align-items:start; margin: 18px 0 24px; }
+.page-cover-grid .cover-left img{ width:100%; height:420px; object-fit:cover; border-radius:12px; box-shadow: 0 12px 30px rgba(0,0,0,0.5); display:block; }
+.report-meta{ border-radius:12px; background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); box-shadow: var(--card-elev); }
+.report-eyebrow{ color: var(--accent-2); font-weight:800; letter-spacing:1px; margin-bottom:8px; }
+.report-title{ margin: 6px 0 8px 0; color: var(--text); font-size:22px; }
+.report-summary{ color: var(--muted); margin-bottom:12px; }
+.report-by{ color:#dff7ea; margin-bottom:6px; }
+.report-date{ color:#9bb0ac; font-size:13px; }
+
+@media (max-width:700px){
+	.page-cover-grid{ grid-template-columns: 1fr; }
+	.page-cover-grid .cover-left img{ height: 200px; }
+	.report-meta{ width:100%; }
+}
+
+/* Chronology / technical readout layout (improves spacing and legibility) */
+.card.chronology{
+	/* legacy alias for side-title layout */
+	display:grid;
+	grid-template-columns:220px 1fr;
+	gap:24px;
+	align-items:start;
+}
+.card.chronology .chronology-title{ font-size:13px; text-transform:uppercase; letter-spacing:2px; color:var(--accent-2); font-weight:800; margin:4px 0 0 0; }
+.card.chronology .chrono-content{ display:flex; gap:28px; }
+.card.chronology .chronology-list, .card.chronology .technical-list{ flex:1; }
+.card.chronology .chronology-list ul, .card.chronology .technical-list ul{ padding-left:18px; margin:0; color:#e6eef6; line-height:1.95; font-size:15px; }
+.card.chronology .chronology-list li, .card.chronology .technical-list li{ margin-bottom:12px; }
+.card.chronology .technical-list h4{ margin:0 0 8px 0; color:#ffffffcc; }
+.card.chronology .chronology-list, .card.chronology .technical-list{ max-width:46ch; }
+
+/* Reusable two-column card variant with heading in the left column */
+.card.side-title{
+	display:grid;
+	grid-template-columns:157px 1fr;
+	gap:20px;
+	align-items:stretch;
+    min-height: 370px;
+}
+.card.side-title .left-title{ font-size:13px; text-transform:uppercase; letter-spacing:1.8px; color: #61efae; font-weight:800; margin:6px 0 0 0; }
+.card.side-title .content{ display:flex; flex-direction:column; gap:12px; }
+.card.side-title .content ul{ padding-left:18px; margin:0; color:#e6eef6; line-height:1.95; font-size:15px; }
+.card.side-title .content li{ margin-bottom:21px; }
+.card.side-title .content h4{ margin:0 0 8px 0; color:#ffffffcc; }
+.card.side-title .content{ max-width:60ch; letter-spacing: -0.4px; }
+.contents {margin-left: 30px !important;}
+@media(max-width:1150px){ .card.side-title .content{ max-width:70ch; } }
+@media(max-width:879px){ .card.side-title{ grid-template-columns:1fr; } .card.side-title .left-title{ margin-bottom:8px; } }
+
+/* aside-card: compact left column and right-aligned values */
+
+
+/* Scenario syntheses grid */
+.scenario-full{ padding:14px 18px; }
+.scenario-grid{margin-left: 5px !important;}
+.scenario-grid{ display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:22px; }
+.scenario{ background:transparent; padding:0; }
+.scenario-title{ color:#ffffffcc; margin-bottom:6px; font-weight:500; }
+.scenario-text{ color:#e6eef6; line-height:1.6; font-size:15px; }
+
+@media(max-width:1200px){ .scenario-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:700px){ .scenario-grid{ grid-template-columns:1fr; } }
+
+/* Make global site footer full-bleed and match report styling */
+footer.site-footer, .site-footer{
+	width: 100vw;
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
+	background: linear-gradient(180deg, rgba(255,255,255,0.012), rgba(255,255,255,0.007));
+	border-top: 1px solid rgba(255,255,255,0.03);
+	
+	box-shadow: var(--card-elev);
+	color: var(--text);
+}
+
+/* Ensure footer internal elements use readable colors on the report */
+footer.site-footer .foot, .site-footer .foot{ background:transparent; }
+footer.site-footer .footer-main .footer-desc, .site-footer .footer-main .footer-desc{ color:var(--text); }
+footer.site-footer a, .site-footer a{ color:var(--text); }
+

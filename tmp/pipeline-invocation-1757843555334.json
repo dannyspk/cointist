@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757843555334,
+  "invocationToken": "36943eeb2ed26048ba24",
+  "selected": [
+    {
+      "id": "https://coinspectator.com/mainstream/2025/09/14/pret-and-peers-serve-up-a-cold-platter-of-uk-high-street-gloom/",
+      "title": "Pret and peers serve up a cold platter of UK high-street gloom",
+      "url": "https://coinspectator.com/mainstream/2025/09/14/pret-and-peers-serve-up-a-cold-platter-of-uk-high-street-gloom/",
+      "slug": "pret-and-peers-serve-up-a-cold-platter-of-uk-high-street-gloom",
+      "oldSlug": null,
+      "href": "/articles/pret-and-peers-serve-up-a-cold-platter-of-uk-high-street-gloom"
+    },
+    {
+      "id": "https://coinspectator.com/mainstream/2025/09/14/french-companies-borrowing-costs-fall-below-governments-as-debt-fears-intensify/",
+      "title": "French companies’ borrowing costs fall below government’s as debt fears intensify",
+      "url": "https://coinspectator.com/mainstream/2025/09/14/french-companies-borrowing-costs-fall-below-governments-as-debt-fears-intensify/",
+      "slug": "french-companies-borrowing-costs-fall-below-governments-as-debt-fears-intensify",
+      "oldSlug": null,
+      "href": "/articles/french-companies-borrowing-costs-fall-below-governments-as-debt-fears-intensify"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

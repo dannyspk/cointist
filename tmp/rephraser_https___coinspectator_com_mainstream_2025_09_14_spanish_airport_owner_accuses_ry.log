@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/spanish-airport-owner-accuses-ryanair-of-lies-over-flight-cuts/ at 2025-09-14T06:32:15.725Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_spanish-airport-owner-accuses-ry.txt --twoStage invocation=https://coinspectator.com/mainstream/2025/09/14/spanish-airport-owner-accuses-ryanair-of-lies-over-flight-cuts/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757831543438.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 300,
+    "slug": "controversy-erupts-as-aena-accuses-ryanair-of-misleading-claims-about-flight-reductions",
+    "title": "Controversy Erupts as Aena Accuses Ryanair of Misleading Claims About Flight Reductions",
+    "excerpt": "Aena has publicly criticized Ryanair for allegedly making false claims regarding its flight cancellations, sparking tensions between the airline and airport authorities. The accusations come amidst a backdrop of operational challenges faced by Ryanair."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'a7e0168b7de570b58e4e7a924ec9cc1c114b5a00', id: 300 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T06:32:25.670Z ===

@@ -1,0 +1,54 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/news/bitcoin/heres-how-the-bitcoin-price-macro-correction-could-play-out-next/ at 2025-09-14T06:44:56.265Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_bitcoin_heres-how-the-bitcoin-price-macro-correctio.txt --twoStage invocation=https://www.newsbtc.com/news/bitcoin/heres-how-the-bitcoin-price-macro-correction-could-play-out-next/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757832305121.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 302,
+    "slug": "potential-scenarios-for-bitcoin-price-movement-in-the-coming-days",
+    "title": "Potential Scenarios for Bitcoin Price Movement in the Coming Days",
+    "excerpt": "As Bitcoin navigates a significant decline from its all-time highs, analysts are assessing future price movements and market implications."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '40773467e5e93bea80479811f68776394310cc3e', id: 302 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T06:45:07.240Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/bitcoin/heres-how-the-bitcoin-price-macro-correction-could-play-out-next/ at 2025-09-14T09:37:38.095Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_bitcoin_heres-how-the-bitcoin-price-macro-correctio.txt --twoStage invocation=https://www.newsbtc.com/news/bitcoin/heres-how-the-bitcoin-price-macro-correction-could-play-out-next/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757842667028.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 317,
+    "slug": "analyzing-bitcoin-s-potential-price-movements-amid-macro-correction-speculation",
+    "title": "Analyzing Bitcoin's Potential Price Movements Amid Macro Correction Speculation",
+    "excerpt": "Recent price trends in Bitcoin have prompted analysts to assess its potential movements, particularly in light of macroeconomic corrections. Key resistance levels and indicators suggest critical points for traders to monitor moving forward."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '40773467e5e93bea80479811f68776394310cc3e', id: 317 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T09:37:49.502Z ===

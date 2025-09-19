@@ -1,0 +1,69 @@
+
+=== Spawned rephraser for https://www.theblock.co/post/371254/solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate?utm_source=rss&utm_medium=rss at 2025-09-18T21:48:55.803Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=tmp\source-for-rephrase.txt --twoStage invocation=https://www.theblock.co/post/371254/solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate?utm_source=rss&utm_medium=rss ===
+[rephraser] model= gpt-5
+Error: OpenAI Responses API error: 429 {
+  "error": {
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+    "type": "insufficient_quota",
+    "param": null,
+    "code": "insufficient_quota"
+  }
+}
+
+=== child exit code=2 at 2025-09-18T21:49:07.356Z ===
+
+=== Spawned rephraser for https://www.theblock.co/post/371254/solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate?utm_source=rss&utm_medium=rss at 2025-09-18T21:58:32.016Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=tmp\source-for-rephrase.txt --twoStage invocation=https://www.theblock.co/post/371254/solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate?utm_source=rss&utm_medium=rss ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758232797796.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 387,
+    "slug": "solana-foundation-cathie-woods-and-ark-invest-back-300-million-plan-to-seed-solmate-sol-treasury",
+    "title": "Solana Foundation, Cathie Woods and Ark Invest back $300 million plan to seed Solmate SOL treasury",
+    "excerpt": "Key Solana ecosystem stakeholders, including the Solana Foundation, Cathie Woods and Ark Invest, have agreed to participate in a"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '71a56ea241aa80f674a610d2682fd4d3aa0156b2', id: 387 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-18T22:00:00.714Z ===
+
+=== Spawned rephraser for https://www.theblock.co/post/371254/solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate?utm_source=rss&utm_medium=rss at 2025-09-18T22:05:40.489Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=tmp\source-for-rephrase_stealth.txt --twoStage invocation=https://www.theblock.co/post/371254/solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate?utm_source=rss&utm_medium=rss ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758233196926.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 388,
+    "slug": "brera-holdings-rebrands-as-solmate-after-oversubscribed-300-million-pipe",
+    "title": "Brera Holdings rebrands as Solmate after oversubscribed $300 million PIPE",
+    "excerpt": "Brera Holdings said it will rebrand as Solmate following an oversubscribed $300 million PIPE that drew high-profile backers, while outlining leadership changes, a Sol acquisition plan and a strategy to expand crypto infrastructure in the UAE. The company also signaled ambitions for dual listings and will retain its sports businesses as it shifts focus to Web"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '71a56ea241aa80f674a610d2682fd4d3aa0156b2', id: 388 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-18T22:06:39.731Z ===

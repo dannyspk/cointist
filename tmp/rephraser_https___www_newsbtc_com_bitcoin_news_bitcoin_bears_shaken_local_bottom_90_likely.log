@@ -1,0 +1,24 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/bitcoin-news/bitcoin-bears-shaken-local-bottom-90-likely-set/ at 2025-09-13T07:05:49.159Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_bitcoin-news_bitcoin-bears-shaken-local-bottom-90-likely.txt --twoStage invocation=https://www.newsbtc.com/bitcoin-news/bitcoin-bears-shaken-local-bottom-90-likely-set/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757747160546.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 225,
+    "slug": "bitcoin-s-resilience-is-the-bottom-truly-behind-us"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '28e69a824dbfe7d41fb129b00260fc56590d9a44', id: 225 }
+
+=== child exit code=0 at 2025-09-13T07:06:02.101Z ===

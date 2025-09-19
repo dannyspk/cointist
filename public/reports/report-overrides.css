@@ -1,0 +1,162 @@
+/* Scoped overrides to protect report headings and grid from global site CSS */
+.report-root h4.section-title {
+  color: #61efae!important;
+  font-weight: 700 !important;
+}
+
+.report-root .card{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0.01));
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    box-shadow: var(--card-elev);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.report-root .cardsv{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0.01));
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    box-shadow: var(--card-elev);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+
+
+
+}
+
+.report-root h2.report-title, .report-root h3.snapshot-title {color:#ffd57f !important;}
+
+.report-root h2, .report-root h3, .report-root h4 {
+  margin: 0 0 12px 0 !important;
+}
+.report-root .grid{
+  display: grid !important;
+  grid-template-columns: 1fr 360px !important;
+  gap: 14px !important;
+}
+.report-root .page-cover-grid{
+  grid-template-columns: 1fr 320px !important;
+}
+.report-root .page-cover-grid img{ object-fit: cover !important; height: auto !important; }
+
+/* Scoped typographic defaults to avoid global overrides */
+.report-root .report-title{ font-size:22px !important; }
+.report-root .snapshot-title{ font-size:15px !important; color: var(--accent-2) !important; }
+
+/* Quick metrics box: spacing, alignment, and typography */
+.report-root .quick-metrics{
+  background: linear-gradient(180deg, rgba(255,255,255,0.012), rgba(255,255,255,0.008));
+  padding: 14px !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255,255,255,0.035) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  max-height: 505px;
+}
+.report-root .quick-metrics .metrics-heading{
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  letter-spacing: 0.6px !important;
+  color: #dfeee6 !important;
+}
+.report-root .quick-metrics .metrics-list{
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 6px !important;
+  padding: 6px 0 0 0 !important;
+}
+.report-root .quick-metrics .small-row{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 6px 0 !important;
+  border-bottom: 1px dashed rgba(255,255,255,0.03) !important;
+}
+.report-root .quick-metrics .small-row .label{
+  color: #9fbfb0 !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  flex: 1 1 auto !important;
+  white-space: normal !important;
+}
+.report-root .quick-metrics .small-row .value{
+  font-weight: 800 !important;
+  font-size: 14px !important;
+  font-family: Menlo, ui-monospace, SFMono-Regular, Consolas, monospace !important;
+  color: var(--text) !important;
+  margin-left: 12px !important;
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
+  text-align: right !important;
+}
+
+.report-root .quick-metrics .small-row .value .staked-line{ font-weight:800; font-size:14px; }
+.report-root .quick-metrics .small-row .value .validators-line{ color:#9bb0ac; font-size:12px; margin-top:2px; }
+.report-root .quick-metrics .small-row .value { max-width: 170px; }
+
+/* Slightly tighter report summary and metadata typography */
+.report-root .report-summary{ font-size:13px !important; line-height:1.45 !important; color: #cce6d7 !important; }
+.report-root .report-by{ margin-top:8px !important; font-size:13px !important; }
+.report-root .report-date{ font-size:12px !important; color:#9bb0ac !important; }
+
+/* Multi-coin compact list */
+.report-root .reports-list{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 380px;
+  overflow: auto;
+  /* add space on the right so the scrollbar sits slightly away from content */
+  padding-right: 12px;
+  /* keep scrollbar area reserved in supporting browsers to avoid overlap */
+  scrollbar-gutter: stable both-edges;
+}
+
+/* Custom scrollbar for modern browsers */
+.report-root .reports-list::-webkit-scrollbar{ height:12px; width:12px; }
+.report-root .reports-list::-webkit-scrollbar-track{ background: transparent; }
+.report-root .reports-list::-webkit-scrollbar-thumb{ background: rgba(255,255,255,0.06); border-radius:8px; border: 2px solid transparent; background-clip: padding-box; }
+.report-root .reports-list::-webkit-scrollbar-thumb:hover{ background: rgba(255,255,255,0.12); }
+
+/* Firefox */
+.report-root .reports-list{ scrollbar-width: thin; scrollbar-color: rgba(175, 249, 150, 0.933) transparent; }
+.report-root .report-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 6px;
+  /* leave a small right margin so content doesn't butt against the scrollbar */
+  margin-right: 6px;
+}
+.report-root .report-row .left{ flex: 1 1 60%; }
+.report-root .report-row .right{ flex: 0 0 160px; text-align: right; }
+.report-root .report-row .name{ font-weight:700; }
+.report-root .report-row .meta{ font-size:12px; color:#cfe3d1; }
+.report-root .report-row + .report-row{ border-top: 1px solid rgba(255,255,255,0.02); }
+
+/* Allow futures readout to be rendered as simple stacked content when .no-grid is present */
+.report-root .aside-card.no-grid .content{ display:block !important; grid-template-columns: none !important; }
+.report-root .aside-card.no-grid .content .small-row{ display:block !important; padding:8px 0 !important; }
+
+/* Mobile-specific tweaks: ensure readable spacing and single-column flow */
+@media (max-width:700px) {
+  .report-root .wrapper{ padding:12px !important; margin:18px auto !important; }
+  .report-root .grid{ display:block !important; grid-template-columns: none !important; gap:12px !important; }
+  .report-root .page-cover-grid{ grid-template-columns: 1fr !important; }
+  .report-root .page-cover-grid .cover-left img{ height:180px !important; object-fit:cover !important; }
+  .report-root .card.side-title{ grid-template-columns:1fr !important; min-height: auto !important; }
+  .report-root .card.side-title .left-title{ margin-bottom:8px !important; }
+  .report-root .aside, .report-root .aside-card, .report-root .reports-list{ padding-left:0 !important; }
+  .report-root .quick-metrics .small-row .label{ font-size:13px !important; }
+  .report-root .quick-metrics .small-row .value{ font-size:13px !important; max-width:120px !important; }
+  .report-root .report-summary, .report-root .snapshot-text, .report-root .section-title{ font-size:14px !important; }
+  .report-root .scenario-grid{ grid-template-columns:1fr !important; }
+  .report-root .scenario{ padding:8px 0 !important; }
+  .report-root .card{ display:grid; grid-template-columns: 1fr !important; padding: 9px !important; }
+    .report-root .snapshot-text{ display: grid !important; grid-template-columns: 1fr !important; gap:8px !important; padding:0 !important; }
+
+
+}

@@ -1,0 +1,86 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ at 2025-09-13T06:35:53.452Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=c:\cointistreact\tmp\source-chainlink.txt --twoStage invocation=https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757745365469.html
+Upserted rephrase to Supabase { sha: '683c3d8f028ec9e2d03ea4f972dd0c0e6d2e747c', id: null }
+
+=== child exit code=0 at 2025-09-13T06:36:06.100Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ at 2025-09-13T06:39:29.833Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=c:\cointistreact\tmp\source-chainlink-2.txt --twoStage invocation=https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757745579280.html
+Upserted rephrase to Supabase { sha: '683c3d8f028ec9e2d03ea4f972dd0c0e6d2e747c', id: null }
+
+=== child exit code=0 at 2025-09-13T06:39:39.904Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ at 2025-09-13T06:44:07.570Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=c:\cointistreact\tmp\source-chainlink-3.txt --twoStage invocation=https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757745863236.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 220,
+    "slug": "chainlink-and-polymarket-collaborate-to-enhance-prediction-markets"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '683c3d8f028ec9e2d03ea4f972dd0c0e6d2e747c', id: 220 }
+
+=== child exit code=0 at 2025-09-13T06:44:24.690Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ at 2025-09-13T06:47:27.750Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=c:\cointistreact\tmp\source-chainlink-4.txt --twoStage invocation=https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757746057076.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 221,
+    "slug": "chainlink-and-polymarket-unite-to-transform-prediction-markets"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '683c3d8f028ec9e2d03ea4f972dd0c0e6d2e747c', id: 221 }
+
+=== child exit code=0 at 2025-09-13T06:47:38.637Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ at 2025-09-13T06:55:46.491Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=c:\cointistreact\tmp\source-chainlink-5.txt --twoStage invocation=https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757746558014.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 223,
+    "slug": "alliance-strengthens-chainlink-s-market-position-amid-strategic-growth"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '683c3d8f028ec9e2d03ea4f972dd0c0e6d2e747c', id: 223 }
+
+=== child exit code=0 at 2025-09-13T06:55:58.866Z ===

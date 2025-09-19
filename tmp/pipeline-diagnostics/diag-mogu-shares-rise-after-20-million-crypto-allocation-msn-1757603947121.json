@@ -1,0 +1,49 @@
+{
+  "runAt": "2025-09-11T15:19:07.117Z",
+  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWmJnYzJyYS1UcERTNURQOGJ1NVI4RUVfRm5ubEhrdW5RREF0cGxMZzJIR1F5dlJaaFpOYmhtMUpqMlRXSWF2YkdIc09wRkJhVVlHVEFtMVlzUVM5STBaQUxVczhGcnRIeDlsRUxDRklhSXZtaTRZb2tGWVZTb25FdVQ4RUs3Y1hMdjVaZDdmM2xFeFFUQW5HbjFhSUNIZHJ2aXJLRTlBaUcxdENaT0wxR1BmeDR2eHoxUkc0STZxZUcyN0E5VEVadzZDOA?oc=5",
+  "title": "MOGU Shares Rise After $20 Million Crypto Allocation - MSN",
+  "scaffoldConservative": {
+    "bullets": [
+      {
+        "kind": "entity",
+        "key": "Number",
+        "text": "hasAttribute(\"data-iml\")&&(a=Number(a."
+      },
+      {
+        "kind": "entity",
+        "key": "Array",
+        "text": "initAft=function(){f=0;e=Array."
+      },
+      {
+        "kind": "context",
+        "key": "context-0",
+        "text": "window."
+      },
+      {
+        "kind": "context",
+        "key": "context-1",
+        "text": "wiz_progress&&window."
+      },
+      {
+        "kind": "context",
+        "key": "context-2",
+        "text": "wiz_progress();window."
+      },
+      {
+        "kind": "context",
+        "key": "context-3",
+        "text": "wiz_tick&&window."
+      }
+    ],
+    "scaffoldText": "- ENTITY: Number \n  » hasAttribute(\"data-iml\")&&(a=Number(a.\n- ENTITY: Array \n  » initAft=function(){f=0;e=Array.\n- CONTEXT: window.\n- CONTEXT: wiz_progress&&window.\n- CONTEXT: wiz_progress();window.\n- CONTEXT: wiz_tick&&window."
+  },
+  "permissiveEntities": [
+    "Number",
+    "Array.prototype.slice.call"
+  ],
+  "permissiveNumbers": [],
+  "permissiveCoverage": 0,
+  "rephraseTitle": "MOGU Shares Rise After $20 Million Crypto Allocation - MSN — Rewritten",
+  "excerpt": "window.wiz_progress&&window.wiz_progress();window.wiz_tick&&window.wiz_tick('lW1Lhc');(function(){'use strict';var c=window,d=[];c.aft_counter=d;var e=[],f=0;function _recordIsAboveFold(a){if(!c._isLa",
+  "contentSnippet": ""
+}

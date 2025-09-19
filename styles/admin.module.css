@@ -1,0 +1,216 @@
+.container{
+  margin: 28px auto;
+  padding: 24px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background:  #fff;
+  /* Force readable dark text in admin regardless of system color-scheme */
+  /* admin-specific text color - change here to override site global colors */
+  --admin-text: #000;
+  color: var(--admin-text);
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(15,23,42,0.06);
+}
+
+/* Ensure admin article titles and links are dark/black (override site globals) */
+.container h1,
+.container h2,
+.container h3,
+.container .itemCard a,
+.container .itemRow .titleWrap,
+.container .itemCard .titleWrap,
+.container .itemRow .titleWrap a,
+.container .itemCard .titleWrap a,
+.container .titleWrap,
+.container .editorsTitle,
+.container .editorsTitle a {
+  color: var(--admin-text) !important;
+}
+
+.authRow{ margin-bottom: 12px; }
+.authInput{ width: 320px; padding: 8px 12px; border-radius: 8px; border: 1px solid #e6e9ef; }
+
+.form{ display: grid; gap: 10px; margin-bottom: 20px; }
+.input, .select, .textarea{ width: 100%; padding: 10px 12px; border-radius: 8px; border: 1px solid #e6e9ef;}
+.textarea{ min-height: 56px; resize: vertical; color: black; }
+
+.toolbar{ display:flex; gap:8px; margin-bottom:8px; }
+.toolbarButton{ background: #fff; border:1px solid #e6e9ef; padding:6px 10px; border-radius:8px; cursor:pointer; }
+
+.editorWrapper{ position:relative; border:1px solid rgba(255,255,255,0.04); padding:14px; min-height:360px; border-radius:12px;  }
+/* ensure editor content uses the admin text color */
+.editorWrapper, .editorWrapper * { color: inherit; }
+/* TipTap/ProseMirror specific tweaks */
+.editorWrapper .ProseMirror{
+  min-height: 360px;
+  width: 100%;
+  color: inherit;
+  line-height: 1.6;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+/* Ensure the editable root expands to fill the editor box */
+.editorWrapper .tiptap,
+.editorWrapper .ProseMirror {
+  display: block;
+  box-sizing: border-box;
+  height: auto; /* let content determine height, keep min-height below */
+  min-height: 360px;
+  padding: 6px 0; /* small inner padding so caret isn't flush to edges */
+  overflow: auto;
+}
+/* remove browser focus outlines and handle TipTap's focused class */
+.editorWrapper .ProseMirror:focus,
+.editorWrapper .ProseMirror-focused,
+.editorWrapper .tiptap.ProseMirror-focused {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove any accidental inner borders and ensure paragraphs are full-width */
+.editorWrapper .tiptap.ProseMirror,
+.editorWrapper .ProseMirror {
+  border: none !important;
+  box-shadow: none !important;
+}
+.editorWrapper .ProseMirror p,
+.editorWrapper .ProseMirror > p {
+  display: block !important;
+  width: 100% !important;
+  min-height: 1.2em !important;
+  margin: 0 0 0.75rem 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+.editorWrapper .ProseMirror img{ max-width: 100%; height: auto; display:block; margin:8px 0; }
+.editorWrapper .ProseMirror p{ margin: 0 0 0.75rem 0; }
+
+.coverRow{ display:flex; gap:16px; align-items:center; }
+.coverImg{ max-width:200px; max-height:120px; border-radius:8px; object-fit:cover; box-shadow: 0 4px 12px rgba(2,6,23,0.06); }
+.noCover{ color:var(--muted); }
+
+.btnPrimary, .btnSecondary, .btnDanger {
+  /* slightly smaller buttons for compact admin UI */
+  background: linear-gradient(90deg, #29f6a1, #14f195);
+  color: #08321a; /* darker text for contrast */
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  min-height: 34px;
+}
+.btnSecondary{ padding:6px 10px; font-weight:500; }
+.btnDanger{ background: linear-gradient(90deg, #fbe7d6 0%, #dff6e8 100%); color:#7b2a1a; }
+.btnPrimary:hover, .btnSecondary:hover, .btnDanger:hover { filter: brightness(0.96); transform: translateY(-1px); }
+
+.uploadForm{ margin-bottom:20px; }
+.uploadLabel{ display:inline-flex; gap:8px; align-items:center; cursor:pointer; }
+.uploadPreview{ margin-top:8px; }
+.uploadPreviewImg{ max-width:200px; max-height:120px; border-radius:8px; }
+
+.tabs{ margin-bottom:12px; display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.tab{ padding:6px 10px; border-radius:8px; background:#fff; border:1px solid #e6e9ef; cursor:pointer; }
+.tabActive{ background:var(--accent); color:#fff; border-color:transparent; }
+
+.itemCard{ border:1px solid #e6e9ef; padding:12px; border-radius:10px; display:flex; justify-content:space-between;  box-shadow: 0 2px 8px rgba(2,6,23,0.03); }
+.itemActions{ display:flex; flex-direction:column; gap:6px; min-width:160px; align-items:flex-end; }
+
+/* Compact actions row used for drafts */
+.itemActions .draftControls{ display:flex; gap:8px; align-items:center; }
+.itemActions .draftControls label{ display:flex; gap:8px; align-items:center; cursor:pointer; }
+.itemActions .draftControls input[type="checkbox"]{ width:16px; height:16px; }
+
+/* Move checkbox to left of the title area and align content */
+.itemRow{ display:flex; gap:12px; align-items:center; }
+.itemRow .titleWrap{ display:flex; flex-direction:column; }
+
+/* Ensure title text inside item cards uses admin text color (override site globals) */
+.itemCard .itemTitle, .itemCard .itemTitle a { color: var(--admin-text) !important; font-weight:700; }
+
+/* Small thumbnail shown to the right of action buttons */
+.itemThumb{ width:72px; height:52px; object-fit:cover; border-radius:6px; box-shadow: 0 2px 8px rgba(2,6,23,0.04); }
+
+/* Tag chips shown next to author in item list (compact) */
+.itemTag{ display:inline-block; margin-left:8px; padding:4px 8px; border-radius:999px; background:#f8fafc; color:#0b1220; font-size:12px; border:1px solid #e6e9ef; }
+
+/* Tooltip */
+.tooltip{ position:relative; }
+.tooltip:hover::after{ content: attr(data-tooltip); position:absolute; left:50%; transform:translateX(-50%); bottom:calc(100% + 8px); background:rgba(0,0,0,0.8); color:#fff; padding:6px 8px; border-radius:6px; font-size:12px; white-space:nowrap; }
+
+.smallMuted{ color:var(--muted); font-size:13px; }
+.pagination{ display:flex; gap:8px; align-items:center; margin-top:12px; }
+
+/* Two-column layout for better UX */
+.twoCol{ display:grid; /* main text/editor column = 70%, sidebar = 30% */ grid-template-columns: 70% 30%; gap:20px; align-items:start; }
+.leftCol{ display:flex; flex-direction:column; gap:12px; }
+.rightCol{ display:flex; flex-direction:column; gap:12px; }
+.coverBox{ border:1px dashed rgba(255,255,255,0.04); padding:12px; border-radius:12px; }
+
+/* Visible link style for item titles */
+.itemCard a {  text-underline-offset: 3px; color: #000; font-weight: 400; }
+.uploadActions{ display:flex; gap:8px; align-items:center; }
+.smallNote{ font-size:12px; color:var(--muted); }
+
+/* Modal styles */
+.modalBackdrop{ position:fixed; left:0; top:0; right:0; bottom:0; display:flex; align-items:center; justify-content:center; background:rgba(2,6,23,0.45); z-index:60; }
+.modal{ background:#fff; padding:18px; border-radius:10px; min-width:320px; box-shadow: 0 6px 24px rgba(2,6,23,0.2); }
+
+/* Raw HTML textarea used when toggling HTML edit mode in admin */
+.htmlTextarea{ width:100%; padding:12px; border-radius:8px; min-height:260px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace; color:inherit; resize:vertical; }
+/* Allow the raw HTML textarea to grow but avoid forcing it to fill the entire viewport */
+.editorWrapper .htmlTextarea{ min-height:260px; max-height:720px; height:auto; padding:12px; }
+
+/* Media modal thumbnail grid - compact thumbnails for quick picking */
+.mediaGrid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap:8px;
+  max-height:420px;
+  overflow-y:auto;
+  align-items:start;
+  justify-items:stretch;
+  padding-bottom:4px;
+}
+.mediaItem{
+  border:1px solid #eee;
+  padding:6px;
+  border-radius:6px;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  box-sizing:border-box;
+  align-items:stretch;
+  background:#fff;
+}
+.mediaItem:hover{ box-shadow:0 6px 18px rgba(2,6,23,0.06); }
+.mediaThumbWrap{ flex:0 0 72px; width:100%; overflow:hidden; }
+.mediaThumb{  height:72px; object-fit:cover; display:block; border-radius:6px; }
+.mediaName{ font-size:11px; margin:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.mediaActions{ display:flex; gap:6px; justify-content:space-between; }
+
+/* Toast styles */
+.toastContainer{ position:fixed; top:18px; right:18px; z-index:70; display:flex; flex-direction:column; gap:8px; }
+.toastList{ display:flex; flex-direction:column; gap:8px; }
+.toastItem{ display:flex; gap:10px; align-items:center; min-width:260px; padding:10px 14px; border-radius:8px; color:#fff; box-shadow:0 6px 18px rgba(2,6,23,0.12); font-size:14px; transform:translateY(-6px); opacity:0; animation:toastIn .28s forwards; }
+.toastIcon{ width:18px; height:18px; display:inline-block; flex:0 0 18px; }
+.toastInfo{ background:linear-gradient(90deg,#0ea5e9,#0369a1); }
+.toastSuccess{ background:linear-gradient(90deg,#34d399,#059669); }
+.toastError{ background:linear-gradient(90deg,#f97316,#dc2626); }
+.toastMsg{ flex:1; }
+
+/* Status banner shown near the top of the admin UI for inline feedback */
+.statusBox{ padding:10px 14px; border-radius:8px; margin-bottom:12px; color:#fff; display:flex; gap:8px; align-items:center; min-width:200px; box-shadow:0 6px 18px rgba(2,6,23,0.08); font-weight:600; }
+.statusInfo{ background:linear-gradient(90deg,#0ea5e9,#0369a1); }
+.statusSuccess{ background:linear-gradient(90deg,#34d399,#059669); }
+.statusError{ background:linear-gradient(90deg,#f97316,#dc2626); }
+
+@keyframes toastIn { from { opacity:0; transform:translateY(-6px) scale(.98); } to { opacity:1; transform:none; } }
+.toastOut { animation: toastOut .22s forwards; }
+@keyframes toastOut { from { opacity:1; transform:none; } to { opacity:0; transform:translateY(-6px) scale(.98); } }
+
+/* Tag chips input */
+.tagsInputWrap{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; padding:8px; border:1px solid #e6e9ef; border-radius:8px;  }
+.tagChip{ display:inline-flex; gap:8px; align-items:center; padding:6px 8px; border-radius:999px; background:#f1f5f9; color:#061217; font-size:13px; }
+.tagChip button{ background:transparent; border:none; color:#061217; cursor:pointer; padding:2px 4px; font-weight:700; }
+.tagInputField{ flex:1; min-width:120px; border:none; outline:none; padding:6px 6px; font-size:14px; background:transparent; }

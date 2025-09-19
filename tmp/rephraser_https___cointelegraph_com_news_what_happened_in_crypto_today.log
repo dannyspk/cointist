@@ -1,0 +1,54 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/what-happened-in-crypto-today at 2025-09-14T06:54:59.588Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_what-happened-in-crypto-today_utm_source_rss_feed.txt --twoStage invocation=https://cointelegraph.com/news/what-happened-in-crypto-today ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757832910100.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 304,
+    "slug": "today-s-highlights-in-the-crypto-space",
+    "title": "Today's Highlights in the Crypto Space",
+    "excerpt": "In the ever-evolving world of cryptocurrency, major trends and predictions are shaping the market landscape. Today's insights highlight the future of stablecoins, the lucrative role of ethical hackers, and potential developments in Bitcoin reserves."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'b431ea497743c593e10ff5173e1a8bad73c4aae0', id: 304 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T06:55:12.511Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/what-happened-in-crypto-today at 2025-09-14T08:38:47.489Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_what-happened-in-crypto-today_utm_source_rss_feed.txt --twoStage invocation=https://cointelegraph.com/news/what-happened-in-crypto-today ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757839135848.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 309,
+    "slug": "key-developments-in-the-cryptocurrency-sector-today",
+    "title": "Key Developments in the Cryptocurrency Sector Today",
+    "excerpt": "Today's insights reveal significant predictions and trends within the cryptocurrency landscape, including forecasts for Bitcoin investments and the evolving stablecoin market."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'b431ea497743c593e10ff5173e1a8bad73c4aae0', id: 309 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T08:38:58.914Z ===

@@ -1,0 +1,12 @@
+{
+  "count": 1,
+  "items": [
+    {
+      "id": 380,
+      "slug": "hello-world-message-used-in-quick-rephraser-test",
+      "title": "\"Hello world\" Message Used in Quick Rephraser Test",
+      "excerpt": "A brief trial message was issued to validate core rephrasing functionality. The test confirms the system can handle simple inputs and produce clean editorial output."
+    }
+  ],
+  "createdAt": "2025-09-18T12:39:03.524Z"
+}

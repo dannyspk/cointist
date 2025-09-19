@@ -1,0 +1,21 @@
+{
+  "startedAt": 1757775862425,
+  "invocationToken": "1c1180b7e82888e88d17",
+  "selected": [
+    {
+      "id": "https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/",
+      "title": "Mixed Fortunes for PUMP Traders: Nearly Half in Profit, Others Deep in the Red",
+      "url": "https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/",
+      "slug": "nearly-half-pumpfun-traders-book-profits",
+      "href": "/articles/nearly-half-pumpfun-traders-book-profits"
+    },
+    {
+      "id": "https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/",
+      "title": "AI won’t replace you, but the rigid systems we build around it might | Opinion",
+      "url": "https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/",
+      "slug": "ai-wont-replace-you-but-rigid-systems-around-it-might",
+      "href": "/articles/ai-wont-replace-you-but-rigid-systems-around-it-might"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

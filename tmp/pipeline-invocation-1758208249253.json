@@ -1,0 +1,15 @@
+{
+  "startedAt": 1758208249253,
+  "invocationToken": "7ca4cda7b27ffa32696b",
+  "selected": [
+    {
+      "id": "https://cryptobriefing.com/circle-unveils-cctp-v2-for-usdc-crosschain-transfers-with-stellar/",
+      "title": "Circle unveils CCTP V2 for seamless USDC crosschain transfers with Stellar",
+      "url": "https://cryptobriefing.com/circle-unveils-cctp-v2-for-usdc-crosschain-transfers-with-stellar/",
+      "slug": "circle-unveils-cctp-v2-for-usdc-crosschain-transfers-with-stellar",
+      "oldSlug": "circle-unveils-cctp-v2-for-usdc-crosschain-transfers-with-stellar",
+      "href": "/articles/circle-unveils-cctp-v2-for-usdc-crosschain-transfers-with-stellar"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

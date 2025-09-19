@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757837202626,
+  "invocationToken": "7e9c8b72723e5411dbc9",
+  "selected": [
+    {
+      "id": "https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/",
+      "title": "‘Worldcoin is an important project’- Will WLD reclaim $2 after Tom Lee’s backing?",
+      "url": "https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/",
+      "slug": "worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing",
+      "oldSlug": null,
+      "href": "/articles/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing"
+    },
+    {
+      "id": "https://coinspectator.com/mainstream/2025/09/14/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president/",
+      "title": "Russia uses priests and bots to sway election, says Moldovan president",
+      "url": "https://coinspectator.com/mainstream/2025/09/14/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president/",
+      "slug": "russia-uses-priests-and-bots-to-sway-election-says-moldovan-president",
+      "oldSlug": null,
+      "href": "/articles/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

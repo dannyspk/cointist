@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://www.coinspeaker.com/ai-governance-is-a-red-flag-vitalik-buterin-offers-an-alternative/ at 2025-09-14T05:09:31.167Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.coinspeaker.com/ai-governance-is-a-red-flag-vitalik-buterin-offers-an-alternative/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_ai-governance-is-a-red-flag-vitalik-buterin-offers-a.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757826571156.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_coinspeaker_com_ai-governance-is-a-red-flag-vitalik-buterin-offers-a.txt
+Spawned rephraser for https://www.coinspeaker.com/ai-governance-is-a-red-flag-vitalik-buterin-offers-an-alternative/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757826583413.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 294,
+    "slug": "vitalik-buterin-raises-concerns-about-ai-governance-in-crypto",
+    "title": "Vitalik Buterin Raises Concerns About AI Governance in Crypto",
+    "excerpt": "Vitalik Buterin has expressed apprehensions regarding the governance of artificial intelligence (AI) within the cryptocurrency realm. This article discusses his insights and alternative approaches to navigate these emerging challenges."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '80b90f27675a8ef530a3f7ca681943a96232fbbb', id: 294 }
+No Supabase select responses found in log.
+
+=== child exit code=0 at 2025-09-14T05:09:45.153Z ===
+
+
+=== child exit code=0 at 2025-09-14T05:09:45.193Z ===

@@ -1,0 +1,66 @@
+
+=== Spawned fetch_and_dump for https://www.newsbtc.com/news/hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range/ at 2025-09-18T15:39:08.870Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.newsbtc.com/news/hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_hyperliquid-hits-new-all-time-high-will-momentum-pu.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758209948774.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_hyperliquid-hits-new-all-time-high-will-momentum-pu.txt
+Spawned rephraser for https://www.newsbtc.com/news/hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range/
+[rephraser] model= gpt-5
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758210092214.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 385,
+    "slug": "hype-nears-60-as-hyperliquid-upgrade-fuels-rally-technicals-flag-wedge-risk",
+    "title": "HYPE Nears $60 as Hyperliquid Upgrade Fuels Rally, Technicals Flag Wedge Risk",
+    "excerpt": null
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '8213211f361b3ef5e329628c4009651a5da35f3d', id: 385 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-18T15:41:34.461Z ===
+
+
+=== child exit code=0 at 2025-09-18T15:41:34.586Z ===
+
+=== Spawned fetch_and_dump for https://www.newsbtc.com/news/hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range/ at 2025-09-18T15:52:18.457Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.newsbtc.com/news/hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_hyperliquid-hits-new-all-time-high-will-momentum-pu.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758210738438.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_hyperliquid-hits-new-all-time-high-will-momentum-pu.txt
+Spawned rephraser for https://www.newsbtc.com/news/hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range/
+[rephraser] model= gpt-5
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758210849529.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 386,
+    "slug": "hype-nears-60-as-hyperliquid-s-upgrades-and-record-fees-propel-rally-amid-wedge-risk",
+    "title": "HYPE nears $60 as Hyperliquid’s upgrades and record fees propel rally amid wedge risk",
+    "excerpt": "HYPE surged to $58.77 following a $57.40 high, testing the $60 psychological level as Hyperliquid’s latest upgrades and record fees stoke momentum. A rising wedge near $59.36 and cooling signals on lower timeframes temper the advance."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '8213211f361b3ef5e329628c4009651a5da35f3d', id: 386 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-18T15:54:14.450Z ===
+
+
+=== child exit code=0 at 2025-09-18T15:54:14.536Z ===

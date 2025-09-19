@@ -1,0 +1,21 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/bitcoin-price-relevance-stock-gold-markets-arthur-hayes at 2025-09-13T03:59:00.588Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_bitcoin-price-relevance-stock-gold-markets-arthur.txt --twoStage invocation=https://cointelegraph.com/news/bitcoin-price-relevance-stock-gold-markets-arthur-hayes ===
+[rephraser] model= gpt-4o-mini
+
+=== Spawned rephraser for https://cointelegraph.com/news/bitcoin-price-relevance-stock-gold-markets-arthur-hayes at 2025-09-13T03:59:06.678Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_bitcoin-price-relevance-stock-gold-markets-arthur.txt --twoStage invocation=https://cointelegraph.com/news/bitcoin-price-relevance-stock-gold-markets-arthur-hayes ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757735951511.html
+Upserted rephrase to Supabase a79c005d3947298584d22ff42e8657c52060c4d5
+
+=== child exit code=0 at 2025-09-13T03:59:13.446Z ===
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757735956978.html
+Upserted rephrase to Supabase a79c005d3947298584d22ff42e8657c52060c4d5
+
+=== child exit code=0 at 2025-09-13T03:59:17.640Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/bitcoin-price-relevance-stock-gold-markets-arthur-hayes at 2025-09-13T03:59:46.234Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_bitcoin-price-relevance-stock-gold-markets-arthur.txt --twoStage invocation=https://cointelegraph.com/news/bitcoin-price-relevance-stock-gold-markets-arthur-hayes ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757735997278.html
+Upserted rephrase to Supabase a79c005d3947298584d22ff42e8657c52060c4d5
+
+=== child exit code=0 at 2025-09-13T03:59:57.698Z ===

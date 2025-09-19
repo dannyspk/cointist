@@ -1,0 +1,15 @@
+{
+  "startedAt": 1758117928022,
+  "invocationToken": "7e2c1088d77050c1c0b5",
+  "selected": [
+    {
+      "id": "https://cointelegraph.com/news/financial-ruling-class?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "DAOs must replace crypto cult leaders",
+      "url": "https://cointelegraph.com/news/financial-ruling-class?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "financial-ruling-class",
+      "oldSlug": "financial-ruling-class",
+      "href": "/articles/financial-ruling-class"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

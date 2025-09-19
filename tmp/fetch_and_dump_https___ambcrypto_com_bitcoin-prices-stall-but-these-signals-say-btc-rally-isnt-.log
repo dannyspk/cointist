@@ -1,0 +1,176 @@
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ at 2025-09-13T14:37:06.430Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757774226425.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt
+Spawned rephraser for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774242605.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 253,
+    "slug": "bitcoin-s-current-stalemate-analyzing-market-dynamics-and-future-prospects"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 253 }
+
+=== child exit code=0 at 2025-09-13T14:37:23.321Z ===
+
+
+=== child exit code=0 at 2025-09-13T14:37:23.340Z ===
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ at 2025-09-13T14:46:25.386Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757774785367.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt
+Spawned rephraser for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774801598.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 257,
+    "slug": "bitcoin-s-price-stagnation-analyzing-key-market-signals-for-future-movement"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 257 }
+
+=== child exit code=0 at 2025-09-13T14:46:44.109Z ===
+
+
+=== child exit code=0 at 2025-09-13T14:46:44.272Z ===
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ at 2025-09-13T14:51:07.153Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757775067115.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt
+Spawned rephraser for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775081572.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 259,
+    "slug": "assessing-bitcoin-s-current-position-retail-dominance-and-future-potentials"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 259 }
+
+=== child exit code=0 at 2025-09-13T14:51:22.917Z ===
+
+
+=== child exit code=0 at 2025-09-13T14:51:22.941Z ===
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ at 2025-09-13T15:21:04.175Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757776864160.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt
+Spawned rephraser for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757776885105.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 268,
+    "slug": "analyzing-bitcoin-s-market-dynamics-what-lies-ahead-for-btc-prices"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 268 }
+
+=== child exit code=0 at 2025-09-13T15:21:26.702Z ===
+
+
+=== child exit code=0 at 2025-09-13T15:21:26.713Z ===
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ at 2025-09-13T15:29:41.892Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757777381878.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt
+Spawned rephraser for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757777398970.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 269,
+    "slug": "market-dynamics-understanding-bitcoin-s-current-phase"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 269 }
+
+=== child exit code=0 at 2025-09-13T15:30:05.494Z ===
+
+
+=== child exit code=0 at 2025-09-13T15:30:05.504Z ===
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ at 2025-09-14T04:40:37.708Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757824837696.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-.txt
+Spawned rephraser for https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757824848884.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 290,
+    "slug": "retail-traders-take-the-lead-analyzing-bitcoin-s-market-movements",
+    "title": "Retail Traders Take the Lead: Analyzing Bitcoin's Market Movements",
+    "excerpt": "Bitcoin's market dynamics are shifting as retail traders gain influence, leading to a period of price stagnation. This article explores recent movements in Bitcoin's landscape, highlighting key trends and behavior among different investor types."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '940e2c65870c8f693cd0fd6c1d5b8973558d1361', id: 290 }
+
+=== child exit code=0 at 2025-09-14T04:40:50.809Z ===
+
+
+=== child exit code=0 at 2025-09-14T04:40:50.848Z ===

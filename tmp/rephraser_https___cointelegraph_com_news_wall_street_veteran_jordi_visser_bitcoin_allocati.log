@@ -1,0 +1,108 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction at 2025-09-14T09:19:41.601Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_wall-street-veteran-jordi-visser-bitcoin-allocati.txt --twoStage invocation=https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841593767.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 314,
+    "slug": "increased-bitcoin-allocations-anticipated-in-traditional-finance",
+    "title": "Increased Bitcoin Allocations Anticipated in Traditional Finance",
+    "excerpt": "Jordi Visser has projected a significant rise in Bitcoin allocations within traditional finance by the end of the year, reflecting a growing confidence among institutional investors."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1e7a94d66ef6ac9ac1c845b60d38d5062ec59236', id: 314 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T09:19:56.280Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction at 2025-09-14T09:25:25.060Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_wall-street-veteran-jordi-visser-bitcoin-allocati.txt --twoStage invocation=https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841933867.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 316,
+    "slug": "traditional-finance-set-to-increase-bitcoin-allocations-by-year-end",
+    "title": "Traditional Finance Set to Increase Bitcoin Allocations by Year-End",
+    "excerpt": "Jordi Visser anticipates a significant rise in Bitcoin allocations within US financial institutions by the end of 2023. This outlook is supported by recent industry insights and positive market trends."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1e7a94d66ef6ac9ac1c845b60d38d5062ec59236', id: 316 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T09:25:35.869Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction at 2025-09-14T10:00:08.702Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_wall-street-veteran-jordi-visser-bitcoin-allocati.txt --twoStage invocation=https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757844017411.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 324,
+    "slug": "predictions-for-increased-bitcoin-allocations-in-traditional-finance",
+    "title": "Predictions for Increased Bitcoin Allocations in Traditional Finance",
+    "excerpt": "Traditional financial institutions are poised for an uptick in Bitcoin allocations before the end of the year, according to Wall Street's Jordi Visser. This shift aligns with broader trends among institutional investors and significant market inflows."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1e7a94d66ef6ac9ac1c845b60d38d5062ec59236', id: 324 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T10:00:19.893Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction at 2025-09-14T10:31:20.422Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_wall-street-veteran-jordi-visser-bitcoin-allocati.txt --twoStage invocation=https://cointelegraph.com/news/wall-street-veteran-jordi-visser-bitcoin-allocations-tradfi-prediction ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757845889283.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 330,
+    "slug": "traditional-finance-set-to-increase-bitcoin-allocations-predicts-jordi-visser",
+    "title": "Traditional Finance Set to Increase Bitcoin Allocations, Predicts Jordi Visser",
+    "excerpt": "Wall Street expert Jordi Visser expects traditional finance sectors to boost their Bitcoin allocations before the end of the year, highlighting a significant shift in investment strategies."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1e7a94d66ef6ac9ac1c845b60d38d5062ec59236', id: 330 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T10:31:31.563Z ===

@@ -1,0 +1,96 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/us-government-strategic-bitcoin-reserve-chances-high-alex-thorn at 2025-09-13T06:51:38.436Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_us-government-strategic-bitcoin-reserve-chances-h.txt --twoStage invocation=https://cointelegraph.com/news/us-government-strategic-bitcoin-reserve-chances-high-alex-thorn ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757746308474.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 222,
+    "slug": "potential-formation-of-a-u-s-strategic-bitcoin-reserve-insights-and-opinions"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '58d780d4d1b6c848bdab78ab0908ab60480bbe38', id: 222 }
+
+=== child exit code=0 at 2025-09-13T06:51:50.262Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/us-government-strategic-bitcoin-reserve-chances-high-alex-thorn at 2025-09-13T07:02:55.999Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_us-government-strategic-bitcoin-reserve-chances-h.txt --twoStage invocation=https://cointelegraph.com/news/us-government-strategic-bitcoin-reserve-chances-high-alex-thorn ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757746987470.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 224,
+    "slug": "potential-formation-of-a-us-strategic-bitcoin-reserve-insights-and-opinions"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '58d780d4d1b6c848bdab78ab0908ab60480bbe38', id: 224 }
+
+=== child exit code=0 at 2025-09-13T07:03:08.520Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/us-government-strategic-bitcoin-reserve-chances-high-alex-thorn at 2025-09-13T07:26:23.801Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_us-government-strategic-bitcoin-reserve-chances-h.txt --twoStage invocation=https://cointelegraph.com/news/us-government-strategic-bitcoin-reserve-chances-high-alex-thorn ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757748392276.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 228,
+    "slug": "potential-formation-of-a-us-strategic-bitcoin-reserve-in-2023"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '58d780d4d1b6c848bdab78ab0908ab60480bbe38', id: 228 }
+
+=== child exit code=0 at 2025-09-13T07:26:33.906Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/us-government-strategic-bitcoin-reserve-chances-high-alex-thorn at 2025-09-13T07:30:12.485Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_us-government-strategic-bitcoin-reserve-chances-h.txt --twoStage invocation=https://cointelegraph.com/news/us-government-strategic-bitcoin-reserve-chances-high-alex-thorn ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757748621279.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 229,
+    "slug": "potential-formation-of-a-u-s-strategic-bitcoin-reserve-insights-and-implications"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '58d780d4d1b6c848bdab78ab0908ab60480bbe38', id: 229 }
+
+=== child exit code=0 at 2025-09-13T07:30:22.161Z ===

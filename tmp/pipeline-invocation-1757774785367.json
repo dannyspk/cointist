@@ -1,0 +1,21 @@
+{
+  "startedAt": 1757774785367,
+  "invocationToken": "05ea3801198ae564a580",
+  "selected": [
+    {
+      "id": "https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/",
+      "title": "Bitcoin prices stall – But THESE signals say BTC rally isn’t over!",
+      "url": "https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/",
+      "slug": "bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over",
+      "href": "/articles/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over"
+    },
+    {
+      "id": "https://crypto.news/cometa-global-focuses-on-investment-and-management-of-mainstream-crypto/",
+      "title": "Cometa.Global focuses on investment and management of mainstream crypto",
+      "url": "https://crypto.news/cometa-global-focuses-on-investment-and-management-of-mainstream-crypto/",
+      "slug": "cometa-global-focuses-on-investment-and-management-of-mainstream-crypto",
+      "href": "/articles/cometa-global-focuses-on-investment-and-management-of-mainstream-crypto"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

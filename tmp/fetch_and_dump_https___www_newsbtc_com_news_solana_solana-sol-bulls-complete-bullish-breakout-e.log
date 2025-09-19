@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://www.newsbtc.com/news/solana/solana-sol-bulls-complete-bullish-breakout-eyes-360-mid-term-target/ at 2025-09-14T17:08:42.685Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.newsbtc.com/news/solana/solana-sol-bulls-complete-bullish-breakout-eyes-360-mid-term-target/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_solana_solana-sol-bulls-complete-bullish-breakout-e.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757869722673.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_solana_solana-sol-bulls-complete-bullish-breakout-e.txt
+Spawned rephraser for https://www.newsbtc.com/news/solana/solana-sol-bulls-complete-bullish-breakout-eyes-360-mid-term-target/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757869744647.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 358,
+    "slug": "solana-sol-experiences-bullish-breakout-with-promising-targets",
+    "title": "Solana (SOL) Experiences Bullish Breakout with Promising Targets",
+    "excerpt": "Solana has seen a significant increase in its price, marking a 20.89% rise over the last week, and establishing a bullish outlook with multiple potential targets."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4464fc250bd217b03af27676852ee3cdd8572033', id: 358 }
+Updated selection files from rephraser log. Items: 3
+
+=== child exit code=0 at 2025-09-14T17:09:05.879Z ===
+
+
+=== child exit code=0 at 2025-09-14T17:09:06.176Z ===

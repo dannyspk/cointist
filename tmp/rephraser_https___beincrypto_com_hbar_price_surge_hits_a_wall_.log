@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://beincrypto.com/hbar-price-surge-hits-a-wall/ at 2025-09-14T11:30:12.558Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_hbar-price-surge-hits-a-wall_.txt --twoStage invocation=https://beincrypto.com/hbar-price-surge-hits-a-wall/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757849423960.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 333,
+    "slug": "hbar-price-rally-faces-increasing-bearish-sentiment",
+    "title": "HBAR Price Rally Faces Increasing Bearish Sentiment",
+    "excerpt": "HBAR's recent surge of nearly 15% marks its strongest performance since July, but on-chain metrics and market sentiment suggest a potential downturn."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '77edf5bb39a5b2a755137e7353a4e471677c3186', id: 333 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T11:30:25.844Z ===

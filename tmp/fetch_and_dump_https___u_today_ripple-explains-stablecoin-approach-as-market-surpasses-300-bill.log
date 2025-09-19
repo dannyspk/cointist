@@ -1,0 +1,65 @@
+
+=== Spawned fetch_and_dump for https://u.today/ripple-explains-stablecoin-approach-as-market-surpasses-300-billion at 2025-09-17T16:48:49.684Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://u.today/ripple-explains-stablecoin-approach-as-market-surpasses-300-billion --out=C:\cointistreact\tmp\source-for-rephrase-https___u_today_ripple-explains-stablecoin-approach-as-market-surpasses-300-bill.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758127729567.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___u_today_ripple-explains-stablecoin-approach-as-market-surpasses-300-bill.txt
+Spawned rephraser for https://u.today/ripple-explains-stablecoin-approach-as-market-surpasses-300-billion
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758127743148.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 379,
+    "slug": "ripple-s-vision-for-stablecoins-and-market-developments",
+    "title": "Ripple's Vision for Stablecoins and Market Developments",
+    "excerpt": "Ripple continues to shape the landscape of stablecoins, emphasizing the need for robust infrastructure and transparency. Insights from industry leaders highlight the importance of interoperability and recent trends that could redefine the stablecoin market."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cb037151264e991b2cf1d4fd6478bf3b1bd25e73', id: 379 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-17T16:49:07.478Z ===
+
+
+=== child exit code=0 at 2025-09-17T16:49:07.516Z ===
+
+=== Spawned fetch_and_dump for https://u.today/ripple-explains-stablecoin-approach-as-market-surpasses-300-billion at 2025-09-18T12:41:33.678Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://u.today/ripple-explains-stablecoin-approach-as-market-surpasses-300-billion --out=C:\cointistreact\tmp\source-for-rephrase-https___u_today_ripple-explains-stablecoin-approach-as-market-surpasses-300-bill.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758199293664.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___u_today_ripple-explains-stablecoin-approach-as-market-surpasses-300-bill.txt
+Spawned rephraser for https://u.today/ripple-explains-stablecoin-approach-as-market-surpasses-300-billion
+[rephraser] model= gpt-5
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758199370771.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 381,
+    "slug": "ripple-sets-out-rlusd-pillars-and-xrp-ledger-privacy-plans-as-stablecoin-cap-hits-302-billion",
+    "title": "Ripple sets out $RLUSD pillars and XRP Ledger privacy plans as stablecoin cap hits $302 billion",
+    "excerpt": "Ripple outlined core pillars for $RLUSD—interoperability, transparency and scale—and previewed privacy enhancements for the XRP Ledger via RippleX’s Confidential MPT. The update arrives as the stablecoin market cap reaches $302 billion, according to CoinMarketCap."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cb037151264e991b2cf1d4fd6478bf3b1bd25e73', id: 381 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-18T12:42:59.876Z ===
+
+
+=== child exit code=0 at 2025-09-18T12:43:04.304Z ===

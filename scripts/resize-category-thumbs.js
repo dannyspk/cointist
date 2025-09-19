@@ -1,0 +1,43 @@
+const fs = require('fs')
+const path = require('path')
+const sharp = require('sharp')
+
+async function main(){
+  const projectRoot = process.cwd()
+  const uploadsDir = path.join(projectRoot, 'public', 'uploads')
+  const outDir = path.join(projectRoot, 'public', 'resized')
+  if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true })
+
+  // Images used by pages/mock/home-with-guides.js Learn by Category
+  const images = [
+    '/uploads/bitcoinguide.webp',
+    '/uploads/ethereumguide.webp',
+    '/uploads/privacyguides.webp',
+    '1756483546781-ChatGPT-Image-Aug-29,-2025,-08_59_31-PM.png'
+  ]
+
+  const width = 360
+  const height = 120
+
+  for (const name of images){
+    const src = path.join(uploadsDir, name)
+    if (!fs.existsSync(src)){
+      console.warn('missing', src)
+      continue
+    }
+    const ext = path.extname(name)
+    const base = path.basename(name, ext).replace(/[^a-z0-9-_]/gi, '_')
+    const outName = `${base}-${width}x${height}${ext}`
+    const outPath = path.join(outDir, outName)
+    try{
+      await sharp(src)
+        .resize(width, height, { fit: 'cover', position: 'attention' })
+        .toFile(outPath)
+      console.log('wrote', outPath)
+    }catch(err){
+      console.error('error processing', src, err.message || err)
+    }
+  }
+}
+
+main().catch(err => { console.error(err); process.exit(1) })

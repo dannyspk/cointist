@@ -1,0 +1,4 @@
+Source: https://cryptoslate.com/defi-looks-vast-with-160b-in-tvl-but-capital-concentrates-in-a-handful-of-protocols/
+Selector: .content
+
+What is CryptoSlate Alpha?CryptoSlate Alpha requires a one-time purchase of our membership NFT using SOL, the native token of Solana. Connecting your Solana wallet is required to complete the purchase. Learn more ›Connected to AlphaWelcome! 👋 You are connected to CryptoSlate Alpha. To manage your wallet connection, click the button below.Disclaimer: By purchasing CryptoSlate Alpha membership, you accept and recognize that you will be bound by the terms and conditions of your third-party digital wallet provider, as well as any applicable terms and conditions of the Access Foundation. CryptoSlate shall have no responsibility or liability with regard to the provision, access, use, security, integrity, value, or legal status of your your digital wallet. For more information, visit our terms page.

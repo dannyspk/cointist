@@ -1,0 +1,21 @@
+{
+  "startedAt": 1757759080011,
+  "invocationToken": "772723eb25e5d1c74dda",
+  "selected": [
+    {
+      "id": "https://cryptobriefing.com/okx-x-layer-record-active-addresses-dex-fees/",
+      "title": "OKX X Layer hits record 71,400 active addresses and tops $1M in DEX fees, second only to BNB Chain",
+      "url": "https://cryptobriefing.com/okx-x-layer-record-active-addresses-dex-fees/",
+      "slug": "okx-x-layer-record-active-addresses-dex-fees",
+      "href": "/articles/okx-x-layer-record-active-addresses-dex-fees"
+    },
+    {
+      "id": "https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/",
+      "title": "Coinbase Clarifies Token Listing Process, Emphasizes Free Submissions and Transparency",
+      "url": "https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/",
+      "slug": "coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency",
+      "href": "/articles/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "generationTime": 10,
+  "id": 150389750,
+  "output": [
+    "https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/generations/5db00fd1-50b4-4f02-9648-8ed7d2f285f9.png"
+  ],
+  "proxy_links": [
+    "https://cdn2.stablediffusionapi.com/generations/5db00fd1-50b4-4f02-9648-8ed7d2f285f9.png"
+  ],
+  "meta": {
+    "model_id": "seedream-t2i",
+    "prompt": "photorealistic editorial feature photo for: unlocking the potential of solana: the rising choice for institutional investors. excerpt: as the landscape of blockchain technology continues to evolve, solana is emerging as a formidable player in the realm of institutional adoption. increasingly recognized for its impressive speed and scalability, this blockchain is becoming an appealing option for investors looking to capitalize on the next generation of financial infrastructure.. keywords: institutional, blockchain, investors, solana, infrastructure, increasingly. no logos, no watermarks, journalistic tone.",
+    "width": "1024",
+    "height": "1024",
+    "samples": 1
+  }
+}

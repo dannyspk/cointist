@@ -1,0 +1,96 @@
+
+=== Spawned rephraser for https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/ at 2025-09-13T07:53:10.506Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_xrp-why-20-upside-possible-if-these-levels-hold_.txt --twoStage invocation=https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750001376.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 232,
+    "slug": "xrp-s-potential-for-a-20-surge-key-levels-to-monitor"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'f969e840bb91f2b3ff96a02f42b31f68f0233416', id: 232 }
+
+=== child exit code=0 at 2025-09-13T07:53:22.504Z ===
+
+=== Spawned rephraser for https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/ at 2025-09-13T07:59:00.824Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_xrp-why-20-upside-possible-if-these-levels-hold_.txt --twoStage invocation=https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750356965.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 237,
+    "slug": "potential-for-xrp-to-surge-20-key-levels-to-monitor"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'f969e840bb91f2b3ff96a02f42b31f68f0233416', id: 237 }
+
+=== child exit code=0 at 2025-09-13T07:59:17.566Z ===
+
+=== Spawned rephraser for https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/ at 2025-09-13T08:03:01.123Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_xrp-why-20-upside-possible-if-these-levels-hold_.txt --twoStage invocation=https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750590720.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 239,
+    "slug": "xrp-price-analysis-20-upside-potential-if-key-levels-are-maintained"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'f969e840bb91f2b3ff96a02f42b31f68f0233416', id: 239 }
+
+=== child exit code=0 at 2025-09-13T08:03:11.350Z ===
+
+=== Spawned rephraser for https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/ at 2025-09-13T08:19:07.678Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_xrp-why-20-upside-possible-if-these-levels-hold_.txt --twoStage invocation=https://ambcrypto.com/xrp-why-20-upside-possible-if-these-levels-hold/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757751556356.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 241,
+    "slug": "potential-for-xrp-to-surge-20-key-levels-to-monitor"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'f969e840bb91f2b3ff96a02f42b31f68f0233416', id: 241 }
+
+=== child exit code=0 at 2025-09-13T08:19:16.945Z ===

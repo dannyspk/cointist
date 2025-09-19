@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2025-09-12T04:04:15.243Z",
+  "changed": [
+    {
+      "file": "public/assets/site.js",
+      "count": 13,
+      "replacement": "/assets/bitcoin-btc-logo.webp"
+    },
+    {
+      "file": "public/pages/about.html",
+      "count": 5,
+      "replacement": "/assets/twitter.webp"
+    },
+    {
+      "file": "public/pages/contact.html",
+      "count": 2,
+      "replacement": "/assets/youtube.webp"
+    },
+    {
+      "file": "public/styles/learnby-path.css",
+      "count": 2,
+      "replacement": "/assets/guides/featured-hardware.webp"
+    },
+    {
+      "file": "scripts/resize-category-thumbs.js",
+      "count": 3,
+      "replacement": "/uploads/bitcoinguide.webp"
+    },
+    {
+      "file": "tmp_mock.html",
+      "count": 7,
+      "replacement": "/assets/twitter.webp"
+    }
+  ]
+}

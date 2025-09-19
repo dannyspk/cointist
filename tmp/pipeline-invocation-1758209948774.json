@@ -1,0 +1,23 @@
+{
+  "startedAt": 1758209948774,
+  "invocationToken": "609428c61d38d29699ba",
+  "selected": [
+    {
+      "id": "https://www.coindesk.com/markets/2025/09/18/strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies",
+      "title": "Strategy Up 7%, Nears 200 Day Simple Moving Average as Bitcoin Rallies",
+      "url": "https://www.coindesk.com/markets/2025/09/18/strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies",
+      "slug": "strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies",
+      "oldSlug": "strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies",
+      "href": "/articles/strategy-up-7-nears-200-day-simple-moving-average-as-bitcoin-rallies"
+    },
+    {
+      "id": "https://www.newsbtc.com/news/hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range/",
+      "title": "Hyperliquid Hits New All-Time High: Will Momentum Push HYPE Into a Higher Range?",
+      "url": "https://www.newsbtc.com/news/hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range/",
+      "slug": "hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range",
+      "oldSlug": "hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range",
+      "href": "/articles/hyperliquid-hits-new-all-time-high-will-momentum-push-hype-into-a-higher-range"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

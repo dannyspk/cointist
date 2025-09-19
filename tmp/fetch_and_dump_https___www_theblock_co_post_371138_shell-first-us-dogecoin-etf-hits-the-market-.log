@@ -1,0 +1,10 @@
+
+=== Spawned fetch_and_dump for https://www.theblock.co/post/371138/shell-first-us-dogecoin-etf-hits-the-market-using-unique-legal-structure?utm_source=rss&utm_medium=rss at 2025-09-18T21:27:53.687Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.theblock.co/post/371138/shell-first-us-dogecoin-etf-hits-the-market-using-unique-legal-structure?utm_source=rss&utm_medium=rss --out=C:\cointistreact\tmp\source-for-rephrase-https___www_theblock_co_post_371138_shell-first-us-dogecoin-etf-hits-the-market-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758230873677.json ===
+Fetch error: HTTP 403
+
+=== child exit code=3 at 2025-09-18T21:27:56.322Z ===
+
+=== Spawned fetch_and_dump for https://www.theblock.co/post/371138/shell-first-us-dogecoin-etf-hits-the-market-using-unique-legal-structure?utm_source=rss&utm_medium=rss at 2025-09-18T21:35:44.396Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.theblock.co/post/371138/shell-first-us-dogecoin-etf-hits-the-market-using-unique-legal-structure?utm_source=rss&utm_medium=rss --out=C:\cointistreact\tmp\source-for-rephrase-https___www_theblock_co_post_371138_shell-first-us-dogecoin-etf-hits-the-market-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758231344387.json ===
+Fetch error: HTTP 403
+
+=== child exit code=3 at 2025-09-18T21:35:49.243Z ===

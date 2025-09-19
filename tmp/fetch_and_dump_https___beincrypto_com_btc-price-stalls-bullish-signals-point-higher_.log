@@ -1,0 +1,64 @@
+
+=== Spawned fetch_and_dump for https://beincrypto.com/btc-price-stalls-bullish-signals-point-higher/ at 2025-09-14T10:50:56.398Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://beincrypto.com/btc-price-stalls-bullish-signals-point-higher/ --out=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_btc-price-stalls-bullish-signals-point-higher_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757847056390.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_btc-price-stalls-bullish-signals-point-higher_.txt
+Spawned rephraser for https://beincrypto.com/btc-price-stalls-bullish-signals-point-higher/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757847079876.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 331,
+    "slug": "bitcoin-s-price-consolidation-analyzing-market-signals-for-future-movements",
+    "title": "Bitcoin's Price Consolidation: Analyzing Market Signals for Future Movements",
+    "excerpt": "Bitcoin is experiencing a phase of consolidation as it trades below the resistance level of $115,892. Despite some bullish sentiments, various market signals could influence its future price trajectory."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4b3653445faa0967b1ffe6634a6d368be3d8830f', id: 331 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T10:51:22.800Z ===
+
+
+=== child exit code=0 at 2025-09-14T10:51:22.842Z ===
+
+=== Spawned fetch_and_dump for https://beincrypto.com/btc-price-stalls-bullish-signals-point-higher/ at 2025-09-14T13:15:45.776Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://beincrypto.com/btc-price-stalls-bullish-signals-point-higher/ --out=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_btc-price-stalls-bullish-signals-point-higher_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757855745766.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_btc-price-stalls-bullish-signals-point-higher_.txt
+Spawned rephraser for https://beincrypto.com/btc-price-stalls-bullish-signals-point-higher/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757855755884.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 344,
+    "slug": "bitcoin-s-price-consolidation-analyzing-current-market-signals",
+    "title": "Bitcoin's Price Consolidation: Analyzing Current Market Signals",
+    "excerpt": "As Bitcoin struggles to break through a critical resistance level, on-chain indicators reveal bullish signals and an unprecedented number of wallet addresses holding balances, suggesting that market interest remains strong."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4b3653445faa0967b1ffe6634a6d368be3d8830f', id: 344 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T13:15:57.256Z ===
+
+
+=== child exit code=0 at 2025-09-14T13:15:57.284Z ===

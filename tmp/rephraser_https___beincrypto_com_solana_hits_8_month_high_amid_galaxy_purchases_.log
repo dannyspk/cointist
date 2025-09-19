@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://beincrypto.com/solana-hits-8-month-high-amid-galaxy-purchases/ at 2025-09-14T13:08:59.758Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_solana-hits-8-month-high-amid-galaxy-purchases_.txt --twoStage invocation=https://beincrypto.com/solana-hits-8-month-high-amid-galaxy-purchases/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757855349862.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 343,
+    "slug": "galaxy-digital-s-strategic-acquisition-propels-solana-to-new-heights",
+    "title": "Galaxy Digital's Strategic Acquisition Propels Solana to New Heights",
+    "excerpt": "Galaxy Digital's substantial investment in Solana has significantly boosted its standing in the market, with key acquisitions leading to a dramatic increase in SOL's price. This move reflects a long-term vision as the company actively engages in enhancing Solana's influence within the capital markets."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '22f83d6f10f1f59c3eac923db3f48e50e355626f', id: 343 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T13:09:11.150Z ===

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blockchain Basics • Cointist Guides</title>
+  <meta name="description" content="Understand how blockchains work: blocks, consensus, finality, and the trade-offs behind throughput and decentralization." />
+  <meta name="theme-color" content="#0b0d10" />
+  <link rel="canonical" href="https://cointist.net/guides/blockchain-basics" />
+  <meta property="og:title" content="Blockchain Basics • Cointist Guides" />
+  <meta property="og:description" content="Blocks, consensus, finality, and trade-offs across PoW and PoS—explained plainly." />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="/assets/guides/blockchain-hero.webp" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"Blockchain Basics",
+    "about":["Blockchain","Consensus","Proof of Work","Proof of Stake"],
+    "author":{"@type":"Organization","name":"Cointist"},
+    "publisher":{"@type":"Organization","name":"Cointist","logo":{"@type":"ImageObject","url":"https://cointist.net/assets/logo.png"}},
+    "datePublished":"2025-08-28",
+    "dateModified":"2025-08-28",
+    "image":"https://cointist.net/assets/guides/blockchain-hero.png"
+  }
+  </script>
+  <style>
+:root{
+  --bg:#0b0d10; --ink:#e7edea; --muted:#9aa7a7;
+  --card:#11151a; --border:#1e2630; --pill:#1a2027;
+  --accent:#2ce561; --gold:#e6c679; --shadow:0 6px 20px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.65 system-ui,-apple-system,"SF Pro Text","SF Pro Display",Segoe UI,Roboto,Arial,sans-serif}
+.hero{border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(230,198,121,.06),rgba(44,229,97,.03))}
+.hero-inner{max-width:1120px;margin:0 auto;padding:28px 20px}
+.crumbs{color:var(--muted);font-size:13px;margin-bottom:10px}
+.crumbs a{color:var(--muted);text-decoration:none}
+.crumbs span{opacity:.6;margin:0 .4rem}
+.hero h1{font-size:34px;margin:0 0 8px;background:linear-gradient(90deg,var(--gold),var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .meta{display:flex;gap:14px;flex-wrap:wrap;color:#cfd8d5;font-size:13px}
+.kpi{display:inline-flex;align-items:center;gap:6px;background:var(--pill);border:1px solid var(--border);padding:4px 10px;border-radius:999px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;align-items:start}
+@media (max-width:1060px){.grid{grid-template-columns:1fr}}
+.definition{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow);margin:22px 0}
+.definition h3{margin:0 0 8px;font-size:12px;letter-spacing:.12em;color:#b6c4c0}
+.definition p{margin:0;color:#e9f3ef}
+article{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+h2{margin:22px 0 10px;font-size:24px}
+h3{margin:16px 0 8px;font-size:18px}
+p{margin:12px 0}
+ul,ol{margin:10px 0 10px 18px}
+.divider{height:1px;background:var(--border);margin:22px 0}
+.callout{border-left:3px solid var(--accent);background:#0f1419;border:1px solid var(--border);padding:12px 14px;border-radius:8px;color:#dfe8e4}
+.table{overflow:auto} table{width:100%;border-collapse:collapse}
+th,td{border:1px solid var(--border);padding:10px 12px;text-align:left}
+code{background:#0e1318;border:1px solid var(--border);border-radius:6px;padding:2px 6px}
+.related{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;margin-top:24px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--pill);border:1px solid var(--border);font-size:13px;color:#cfe7d8;text-decoration:none}
+.toc{position:sticky;top:24px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
+.toc h4{margin:0 0 10px;font-size:14px;letter-spacing:.08em;color:#c9d6d2}
+.toc ol{margin:0;padding-left:18px}
+.toc a{color:#e7f4ef;text-decoration:none}
+.toc a:hover{border-bottom:1px dashed var(--accent)}
+.note{color:#8aa399;font-size:12px;margin-top:14px}
+</style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="crumbs"><a href="/education">Education</a> <span>/</span> <a href="/education/web3-foundations">Web3 Foundations</a></div>
+      <h1>Blockchain Basics</h1>
+      <div class="meta">
+        <span class="kpi">Beginner</span>
+        <span class="kpi">12–15 min read</span>
+        <span class="kpi">Last updated: Aug 28, 2025</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div class="grid">
+      <div>
+        <aside class="definition">
+          <h3>DEFINITION</h3>
+          <p><strong>Blockchain</strong> is a shared, append-only ledger that many computers synchronize using consensus rules. It records who owns what and how code should run—publicly and verifiably.</p>
+        </aside>
+
+        <article>
+          <h2 id="why">Why blockchains matter</h2>
+          <p>Blockchains let strangers agree on a shared state—balances, program outcomes—without a central operator. That enables money-like assets, programmable finance, and portable identity on the open internet.</p>
+
+          <div class="divider"></div>
+
+          <h2 id="blocks">How blocks link</h2>
+          <p>Transactions are bundled into blocks. Each block points to the previous block’s hash, forming an immutable chain. Changing history would require recomputing or re-signing the entire tail of the chain.</p>
+          <p><img alt="Chain of blocks" src="/assets/guides/blockchain-chain.webp" style="width:100%;border:1px solid var(--border);border-radius:10px"/></p>
+
+          <div class="divider"></div>
+
+          <h2 id="consensus">Consensus (PoW vs PoS)</h2>
+          <p>Consensus decides who proposes the next block and how the network agrees it’s valid. Two dominant designs:</p>
+          <ul>
+            <li><strong>Proof of Work (PoW):</strong> miners burn electricity to find valid hashes—hard to fake, costly to attack.</li>
+            <li><strong>Proof of Stake (PoS):</strong> validators lock tokens to propose/attest blocks; misbehavior can be slashed.</li>
+          </ul>
+          <p><img alt="PoW vs PoS comparison" src="/assets/guides/blockchain-pow-pos.webp" style="width:100%;border:1px solid var(--border);border-radius:10px"/></p>
+
+          <div class="divider"></div>
+
+          <h2 id="finality">Finality & forks</h2>
+          <p>Some systems offer <em>probabilistic</em> finality (confidence rises with more blocks). Others offer <em>economic</em> or <em>deterministic</em> finality where reorganizing finalized blocks would destroy or slash value.</p>
+
+          <div class="divider"></div>
+
+          <h2 id="tradeoffs">Trade-offs & scalability</h2>
+          <p>Throughput, latency, and decentralization tug against each other. Designs use L2s, sharding, and data-availability layers to scale while keeping verifiability.</p>
+        </article>
+
+        <aside class="related">
+          <h3>Related Guides</h3>
+          <div class="chips">
+            <a class="chip" href="/guides/what-is-web3">What Is Web3?</a>
+            <a class="chip" href="/guides/wallets-101">Wallets 101</a>
+            <a class="chip" href="/guides/stablecoins-explained">Stablecoins Explained</a>
+          </div>
+          <p class="note">Educational content. Not financial advice.</p>
+        </aside>
+      </div>
+
+      <aside class="toc">
+        <h4>On this page</h4>
+        <ol>
+          <li><a href="#why">Why blockchains matter</a></li>
+          <li><a href="#blocks">How blocks link</a></li>
+          <li><a href="#consensus">Consensus (PoW vs PoS)</a></li>
+          <li><a href="#finality">Finality & forks</a></li>
+          <li><a href="#tradeoffs">Trade-offs & scalability</a></li>
+        </ol>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "startedAt": 1758232906580,
+  "invocationToken": "f9e6a6ae9dd8be32109f",
+  "selected": [
+    {
+      "id": "https://www.theblock.co/post/371254/solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate?utm_source=rss&utm_medium=rss",
+      "title": "Solana Foundation, Cathie Wood’s Ark Invest join $300 million placement for new SOL treasury Solmate",
+      "url": "https://www.theblock.co/post/371254/solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate?utm_source=rss&utm_medium=rss",
+      "slug": "solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate",
+      "oldSlug": "solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate",
+      "href": "/articles/solana-foundation-cathie-woods-ark-invest-join-300-million-placement-for-new-sol-treasury-solmate"
+    },
+    {
+      "id": "https://www.theblock.co/post/371248/bnb-hits-1000-for-first-time-as-altcoins-outpace-bitcoin-after-fed-rate-cut?utm_source=rss&utm_medium=rss",
+      "title": "BNB hits $1,000 for first time as altcoins outpace bitcoin after Fed rate cut",
+      "url": "https://www.theblock.co/post/371248/bnb-hits-1000-for-first-time-as-altcoins-outpace-bitcoin-after-fed-rate-cut?utm_source=rss&utm_medium=rss",
+      "slug": "bnb-hits-1000-for-first-time-as-altcoins-outpace-bitcoin-after-fed-rate-cut",
+      "oldSlug": "bnb-hits-1000-for-first-time-as-altcoins-outpace-bitcoin-after-fed-rate-cut",
+      "href": "/articles/bnb-hits-1000-for-first-time-as-altcoins-outpace-bitcoin-after-fed-rate-cut"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

@@ -1,0 +1,5 @@
+
+=== Spawned fetch_and_dump for https://www.theblock.co/post/370941/rex-osprey-launches-first-of-its-kind-xrp-etf-under-unique-legal-structure?utm_source=rss&utm_medium=rss at 2025-09-18T15:14:34.067Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.theblock.co/post/370941/rex-osprey-launches-first-of-its-kind-xrp-etf-under-unique-legal-structure?utm_source=rss&utm_medium=rss --out=C:\cointistreact\tmp\source-for-rephrase-https___www_theblock_co_post_370941_rex-osprey-launches-first-of-its-kind-xrp-et.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758208474056.json ===
+Fetch error: HTTP 403
+
+=== child exit code=3 at 2025-09-18T15:14:36.877Z ===

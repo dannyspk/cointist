@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://cryptoslate.com/defi-looks-vast-with-160b-in-tvl-but-capital-concentrates-in-a-handful-of-protocols/ at 2025-09-17T13:54:38.285Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://cryptoslate.com/defi-looks-vast-with-160b-in-tvl-but-capital-concentrates-in-a-handful-of-protocols/ --out=C:\cointistreact\tmp\source-for-rephrase-https___cryptoslate_com_defi-looks-vast-with-160b-in-tvl-but-capital-concentrate.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758117278232.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___cryptoslate_com_defi-looks-vast-with-160b-in-tvl-but-capital-concentrate.txt
+Spawned rephraser for https://cryptoslate.com/defi-looks-vast-with-160b-in-tvl-but-capital-concentrates-in-a-handful-of-protocols/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758117297217.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 376,
+    "slug": "defi-landscape-160-billion-in-total-value-locked-but-concentration-risks-remain",
+    "title": "DeFi Landscape: $160 Billion in Total Value Locked but Concentration Risks Remain",
+    "excerpt": "The decentralized finance (DeFi) sector has reached a significant milestone, with a total value locked (TVL) of $160 billion. However, this growth is accompanied by concentration risks that could impact the stability and accessibility of the market."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '9ac7407fcb32de9ceefb9f9132283f734e1aba61', id: 376 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-17T13:54:59.686Z ===
+
+
+=== child exit code=0 at 2025-09-17T13:54:59.728Z ===

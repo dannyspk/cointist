@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://cryptoslate.com/institutions-like-strategy-and-metaplanet-now-hold-12-3-of-the-total-bitcoin-supply/ at 2025-09-14T17:08:42.727Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://cryptoslate.com/institutions-like-strategy-and-metaplanet-now-hold-12-3-of-the-total-bitcoin-supply/ --out=C:\cointistreact\tmp\source-for-rephrase-https___cryptoslate_com_institutions-like-strategy-and-metaplanet-now-hold-12-3-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757869722673.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___cryptoslate_com_institutions-like-strategy-and-metaplanet-now-hold-12-3-.txt
+Spawned rephraser for https://cryptoslate.com/institutions-like-strategy-and-metaplanet-now-hold-12-3-of-the-total-bitcoin-supply/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757869741695.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 357,
+    "slug": "growing-institutional-influence-in-bitcoin-holdings",
+    "title": "Growing Institutional Influence in Bitcoin Holdings",
+    "excerpt": "Institutional investors are making significant strides within the Bitcoin market, collectively controlling a notable portion of its total supply. This article explores the implications of their growing presence on price dynamics, regulatory considerations, and future trends in cryptocurrency adoption."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '9694e033789065997be5d880c8c65a41de2c7d66', id: 357 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T17:09:03.806Z ===
+
+
+=== child exit code=0 at 2025-09-14T17:09:03.893Z ===

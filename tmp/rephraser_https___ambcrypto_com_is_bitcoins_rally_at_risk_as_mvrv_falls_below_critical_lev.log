@@ -1,0 +1,72 @@
+
+=== Spawned rephraser for https://ambcrypto.com/is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-level/ at 2025-09-13T07:20:29.047Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-lev.txt --twoStage invocation=https://ambcrypto.com/is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-level/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757748037993.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 227,
+    "slug": "analyzing-bitcoin-s-current-market-dynamics-amid-mvrv-decline"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '5a6826e2049dc5ea7e36015b9788f6719b0e612f', id: 227 }
+
+=== child exit code=0 at 2025-09-13T07:20:39.461Z ===
+
+=== Spawned rephraser for https://ambcrypto.com/is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-level/ at 2025-09-13T07:34:15.415Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-lev.txt --twoStage invocation=https://ambcrypto.com/is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-level/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757748865399.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 230,
+    "slug": "assessing-bitcoin-s-market-stability-mvrv-and-liquidity-challenges"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '5a6826e2049dc5ea7e36015b9788f6719b0e612f', id: 230 }
+
+=== child exit code=0 at 2025-09-13T07:34:26.563Z ===
+
+=== Spawned rephraser for https://ambcrypto.com/is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-level/ at 2025-09-13T07:40:34.719Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-lev.txt --twoStage invocation=https://ambcrypto.com/is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-level/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757749246057.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 231,
+    "slug": "bitcoin-s-market-dynamics-analyzing-mvrv-and-liquidity-challenges"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '5a6826e2049dc5ea7e36015b9788f6719b0e612f', id: 231 }
+
+=== child exit code=0 at 2025-09-13T07:40:47.179Z ===

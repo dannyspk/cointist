@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy & Identity – Track 3 – Cointist Guides</title>
+  <style>
+:root{
+  --bg:#0b0d10; --ink:#e7edea; --muted:#9aa7a7;
+  --card:#11151a; --border:#1e2630; --pill:#1a2027;
+  --accent:#2ce561; --gold:#e6c679; --shadow:0 6px 20px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.65 system-ui,-apple-system,"SF Pro Text","SF Pro Display",Segoe UI,Roboto,Arial,sans-serif}
+.hero{border-bottom:1px solid var(--border);background:linear-gradient(180deg,rgba(230,198,121,.06),rgba(44,229,97,.03))}
+.hero-inner{max-width:1120px;margin:0 auto;padding:28px 20px}
+.crumbs{color:var(--muted);font-size:13px;margin-bottom:10px}
+.crumbs a{color:var(--muted);text-decoration:none}
+.crumbs span{opacity:.6;margin:0 .4rem}
+.hero h1{font-size:34px;margin:0 0 8px;background:linear-gradient(90deg,var(--gold),var(--accent));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .meta{display:flex;gap:14px;flex-wrap:wrap;color:#cfd8d5;font-size:13px}
+.kpi{display:inline-flex;align-items:center;gap:6px;background:var(--pill);border:1px solid var(--border);padding:4px 10px;border-radius:999px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:28px;align-items:start}
+@media (max-width:1060px){.grid{grid-template-columns:1fr}}
+.definition{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px;box-shadow:var(--shadow);margin:22px 0}
+.definition h3{margin:0 0 8px;font-size:12px;letter-spacing:.12em;color:#b6c4c0}
+.definition p{margin:0;color:#e9f3ef}
+article{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+h2{margin:22px 0 10px;font-size:24px}
+h3{margin:16px 0 8px;font-size:18px}
+p{margin:12px 0}
+ul,ol{margin:10px 0 10px 18px}
+.divider{height:1px;background:var(--border);margin:22px 0}
+.callout{border-left:3px solid var(--accent);background:#0f1419;border:1px solid var(--border);padding:12px 14px;border-radius:8px;color:#dfe8e4}
+.table{overflow:auto} table{width:100%;border-collapse:collapse}
+th,td{border:1px solid var(--border);padding:10px 12px;text-align:left}
+code{background:#0e1318;border:1px solid var(--border);border-radius:6px;padding:2px 6px}
+.related{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;margin-top:24px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--pill);border:1px solid var(--border);font-size:13px;color:#cfe7d8;text-decoration:none}
+.toc{position:sticky;top:24px;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
+.toc h4{margin:0 0 10px;font-size:14px;letter-spacing:.08em;color:#c9d6d2}
+.toc ol{margin:0;padding-left:18px}
+.toc a{color:#e7f4ef;text-decoration:none}
+.toc a:hover{border-bottom:1px dashed var(--accent)}
+.note{color:#8aa399;font-size:12px;margin-top:14px}
+
+
+/* Track 3 KPI bar */
+.kpi-bar{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 6px 0}
+.kpi-pill{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 12px;border-radius:999px;
+  border:1px solid var(--border);
+  position:relative; overflow:hidden;
+  background:linear-gradient(180deg, rgba(41,246,161,.08), rgba(44,229,97,.04));
+}
+.kpi-pill::before{
+  content:""; position:absolute; inset:0;
+  background:linear-gradient(90deg, #29f6a133, #2ce56122);
+  pointer-events:none;
+}
+.kpi-ico{
+  width:12px;height:12px;border-radius:3px;
+  background:linear-gradient(90deg, var(--accent-2), var(--accent));
+  box-shadow:0 0 10px rgba(44,229,97,.35);
+}
+.kpi-text{font-size:13px;color:#e6f4ee}
+.kpi-sub{font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="crumbs">Track 3 · <a href="/education/applications">Applications</a></div>
+      <h1>Privacy & Identity</h1>
+      <div class="meta">
+        <span class="kpi">Intermediate</span>
+        <span class="kpi">10–14 min read</span>
+      </div>
+    </div>
+  </section>
+  
+<article>
+  <aside class="definition"><h3>DEFINITION</h3><p>Privacy preserves selective disclosure; identity binds attestations to users. Together they enable compliant, user‑controlled access and reputation.</p></aside>
+
+  <div class="divider"></div>
+
+  <h2 id="privacy">Privacy tools</h2>
+  <p>Zero-knowledge proofs, stealth addresses, and mixers-with-guardrails. Weigh usability vs compliance friction.</p>
+
+  <div class="divider"></div>
+
+  <h2 id="identity">Identity layers</h2>
+  <p>Verifiable credentials, ENS-style naming, and soulbound/bound tokens for reputation and access control.</p>
+
+  <div class="divider"></div>
+
+  <h2 id="metrics">Metrics & KPIs</h2>
+  <div class="kpi-bar">
+<div class="kpi-pill">
+  <span class="kpi-ico" aria-hidden="true"></span>
+  <div>
+    <div class="kpi-text"><strong>Proof cost</strong></div>
+    <div class="kpi-sub">Gas/time to generate & verify ZKPs</div>
+  </div>
+</div>
+<div class="kpi-pill">
+  <span class="kpi-ico" aria-hidden="true"></span>
+  <div>
+    <div class="kpi-text"><strong>Anonymity set</strong></div>
+    <div class="kpi-sub">Users in the privacy pool</div>
+  </div>
+</div>
+<div class="kpi-pill">
+  <span class="kpi-ico" aria-hidden="true"></span>
+  <div>
+    <div class="kpi-text"><strong>Credential adoption</strong></div>
+    <div class="kpi-sub">VC issuers/verifiers growth</div>
+  </div>
+</div>
+<div class="kpi-pill">
+  <span class="kpi-ico" aria-hidden="true"></span>
+  <div>
+    <div class="kpi-text"><strong>Recovery rate</strong></div>
+    <div class="kpi-sub">Account recovery success/time</div>
+  </div>
+</div>
+<div class="kpi-pill">
+  <span class="kpi-ico" aria-hidden="true"></span>
+  <div>
+    <div class="kpi-text"><strong>False positive rate</strong></div>
+    <div class="kpi-sub">Risk scoring precision</div>
+  </div>
+</div>
+<div class="kpi-pill">
+  <span class="kpi-ico" aria-hidden="true"></span>
+  <div>
+    <div class="kpi-text"><strong>Latency impact</strong></div>
+    <div class="kpi-sub">Added wait due to proofs</div>
+  </div>
+</div>
+</div>
+
+  <div class="divider"></div>
+
+  <h2 id="risks">Risk notes</h2>
+  <ul>
+    <li>Jurisdictional restrictions and evolving rules.</li>
+    <li>Metadata leakage (timing, amounts) still deanonymizes.</li>
+  </ul>
+
+  <p><img alt="Cover – Privacy & Identity" src="../assets/img/privacy-identity.webp" style="max-width:100%;border:1px solid var(--border);border-radius:10px"/></p>
+</article>
+
+</body>
+</html>

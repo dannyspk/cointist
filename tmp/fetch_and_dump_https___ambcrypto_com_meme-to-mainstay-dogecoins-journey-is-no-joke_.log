@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://ambcrypto.com/meme-to-mainstay-dogecoins-journey-is-no-joke/ at 2025-09-14T09:11:29.239Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://ambcrypto.com/meme-to-mainstay-dogecoins-journey-is-no-joke/ --out=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_meme-to-mainstay-dogecoins-journey-is-no-joke_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757841089205.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_meme-to-mainstay-dogecoins-journey-is-no-joke_.txt
+Spawned rephraser for https://ambcrypto.com/meme-to-mainstay-dogecoins-journey-is-no-joke/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757841105116.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 312,
+    "slug": "dogecoin-the-transformation-of-a-meme-into-a-financial-asset",
+    "title": "Dogecoin: The Transformation of a Meme into a Financial Asset",
+    "excerpt": "The journey of Dogecoin, from a simple internet meme to a recognized financial asset, highlights its cultural resonance and the evolving landscape of cryptocurrency. This article delves into key events and trends that have shaped Dogecoin's rise and the implications of its potential as an ETF."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'e65ff9bf54f808cf6ff5bb5700792e68ec6c553f', id: 312 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T09:11:48.516Z ===
+
+
+=== child exit code=0 at 2025-09-14T09:11:48.897Z ===

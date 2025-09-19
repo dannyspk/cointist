@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2025-09-15T15:17:02.070Z",
+  "dataSource": "binance-klines",
+  "priceSummary": "First: $112,398\nLast:  $114,468.52\nLow:   $110,880.76\nHigh:  $116,632.51\nChange: 1.84%",
+  "signals": {
+    "last": 114468.52,
+    "change": 1.8421324222850977,
+    "rsi": 37.344340605120976,
+    "lastSMA8": 114747.26249999998,
+    "lastSMA21": 115351.29428571428,
+    "volumeSpike": false,
+    "sweep": false,
+    "maxDropPct": 1.7606247854445554,
+    "lowerHighs": false
+  },
+  "futuresAvailable": true,
+  "futures": {
+    "ticker24": {
+      "lastPrice": 114415.4,
+      "priceChangePercent": -0.767
+    },
+    "premium": {
+      "markPrice": 114412.80852536,
+      "lastFundingRate": 0.00008874
+    },
+    "openInterest": {
+      "openInterest": 88991.171
+    },
+    "fundingSummary": {
+      "recentAvg": 0.000045036,
+      "sampleCount": 10
+    }
+  },
+  "data": {
+    "snapshot": "The market shows a slight upward movement with a 1.84% change, closing at $114,468.52. RSI indicates a potential oversold condition.",
+    "chronology": [
+      "Price opened at $112,398.",
+      "Reached a low of $110,880.76.",
+      "Hit a high of $116,632.51.",
+      "Closed at $114,468.52.",
+      "Notable change of 1.84% during the session.",
+      "RSI recorded at 37.34, suggesting possible oversold conditions.",
+      "No significant volume spikes or sweeps observed."
+    ],
+    "technicalReadout": [
+      "Current price is below both the 8-day and 21-day simple moving averages.",
+      "Last SMA 8 is $114,747.26.",
+      "Last SMA 21 is $115,351.29.",
+      "Max drop percentage observed is 1.76%.",
+      "No lower highs indicated in the current trend.",
+      "Volume remains stable with no spikes."
+    ],
+    "levels": [
+      "Immediate Resistance: 114k",
+      "Supply Zone: 116k–118k",
+      "Demand Zone: 109k",
+      "Sweep Low / Support: 107k",
+      "Bear Targets: 105k / 102k"
+    ],
+    "scenarios": [
+      {
+        "title": "Bullish Reversal",
+        "text": "If the price breaks above the 21-day SMA, a bullish trend may emerge, targeting the recent high of $116,632.51."
+      },
+      {
+        "title": "Continued Downtrend",
+        "text": "Should the price fall below $110,880.76, it may indicate a continuation of the downtrend, with potential targets at lower support levels."
+      },
+      {
+        "title": "Sideways Movement",
+        "text": "With no significant volume spikes, the price may consolidate in a range between $110,880.76 and $116,632.51 until a clearer trend emerges."
+      }
+    ],
+    "checklist": [
+      "For demand zone longs (~109k): wait for a bullish reaction candle + above‑average buy volume; stop under 107k.",
+      "For H&S shorts: wait for a retest of ~112–112.5k that fails and shows rejection volume; reduce size into expiries.",
+      "If price closes daily above 118k with volume, reconsider bearish sizing and prefer bullish setups.",
+      "Keep position sizing modest (1–2% capital per trade) — the structure is still corrective and volatile."
+    ]
+  }
+}

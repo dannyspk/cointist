@@ -1,0 +1,53 @@
+{
+  "ranAt": 1757607331663,
+  "results": [
+    {
+      "model": "gpt-5",
+      "ok": true,
+      "excerpt": " On September 11, 2025, BingX unveiled AI Master.",
+      "rawStatus": 200
+    },
+    {
+      "model": "gpt-5-2025-08-07",
+      "ok": false,
+      "excerpt": "{\"id\":\"resp_68c2f58cdb7081979bf19f823b0520e409fbaf836a75a9b3\",\"object\":\"response\",\"created_at\":1757607309,\"status\":\"completed\",\"background\":false,\"error\":null,\"incomplete_details\":null,\"instructions\":null,\"max_output_tokens\":220,\"max_tool_calls\":null,\"model\":\"gpt-5-2025-08-07\",\"output\":[{\"id\":\"rs_68",
+      "rawStatus": 200
+    },
+    {
+      "model": "gpt-5o",
+      "ok": false,
+      "excerpt": "{\"error\":{\"message\":\"The requested model 'gpt-5o' does not exist.\",\"type\":\"invalid_request_error\",\"param\":\"model\",\"code\":\"model_not_found\"}}",
+      "rawStatus": 400
+    },
+    {
+      "model": "gpt-5o-mini",
+      "ok": false,
+      "excerpt": "{\"error\":{\"message\":\"The requested model 'gpt-5o-mini' does not exist.\",\"type\":\"invalid_request_error\",\"param\":\"model\",\"code\":\"model_not_found\"}}",
+      "rawStatus": 400
+    },
+    {
+      "model": "gpt-5-mini",
+      "ok": false,
+      "excerpt": "{\"id\":\"resp_68c2f594f954819aa0c98a7e159e87fc01b1c1b8d094a466\",\"object\":\"response\",\"created_at\":1757607317,\"status\":\"incomplete\",\"background\":false,\"error\":null,\"incomplete_details\":{\"reason\":\"max_output_tokens\"},\"instructions\":null,\"max_output_tokens\":220,\"max_tool_calls\":null,\"model\":\"gpt-5-mini-20",
+      "rawStatus": 200
+    },
+    {
+      "model": "gpt-5.1",
+      "ok": false,
+      "excerpt": "{\"error\":{\"message\":\"The requested model 'gpt-5.1' does not exist.\",\"type\":\"invalid_request_error\",\"param\":\"model\",\"code\":\"model_not_found\"}}",
+      "rawStatus": 400
+    },
+    {
+      "model": "gpt-4o",
+      "ok": true,
+      "excerpt": " On September 11, 2025, BingX introduced AI Master.",
+      "rawStatus": 200
+    },
+    {
+      "model": "gpt-4o-mini",
+      "ok": true,
+      "excerpt": " On September 11, 2025, BingX introduced AI Master.",
+      "rawStatus": 200
+    }
+  ]
+}

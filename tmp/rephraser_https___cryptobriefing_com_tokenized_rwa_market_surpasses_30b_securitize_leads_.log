@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://cryptobriefing.com/tokenized-rwa-market-surpasses-30b-securitize-leads/ at 2025-09-16T18:18:24.354Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptobriefing_com_tokenized-rwa-market-surpasses-30b-securitize-leads_.txt --twoStage invocation=https://cryptobriefing.com/tokenized-rwa-market-surpasses-30b-securitize-leads/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758046717195.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 371,
+    "slug": "tokenized-real-world-assets-market-exceeds-30-billion",
+    "title": "Tokenized Real-World Assets Market Exceeds $30 Billion",
+    "excerpt": "The market for tokenized real-world assets (RWAs) has surpassed $30 billion, reflecting a significant shift in how traditional assets are being managed and traded. This milestone underscores the growing acceptance and integration of tokenization within the financial sector."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'bb184da3acd0c5e8c65df284638556cb9f8620ca', id: 371 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-16T18:18:37.932Z ===

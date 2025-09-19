@@ -1,0 +1,10 @@
+
+=== Spawned fetch_and_dump for https://cryptopotato.com/can-ripples-xrp-smash-through-5-in-2025-we-asked-3-ai-models/ at 2025-09-14T13:05:27.049Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://cryptopotato.com/can-ripples-xrp-smash-through-5-in-2025-we-asked-3-ai-models/ --out=C:\cointistreact\tmp\source-for-rephrase-https___cryptopotato_com_can-ripples-xrp-smash-through-5-in-2025-we-asked-3-ai-m.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757855127038.json ===
+Fetch error: HTTP 403
+
+=== child exit code=3 at 2025-09-14T13:05:29.179Z ===
+
+=== Spawned fetch_and_dump for https://cryptopotato.com/can-ripples-xrp-smash-through-5-in-2025-we-asked-3-ai-models/ at 2025-09-14T13:07:09.240Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://cryptopotato.com/can-ripples-xrp-smash-through-5-in-2025-we-asked-3-ai-models/ --out=C:\cointistreact\tmp\source-for-rephrase-https___cryptopotato_com_can-ripples-xrp-smash-through-5-in-2025-we-asked-3-ai-m.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757855229229.json ===
+Fetch error: HTTP 403
+
+=== child exit code=3 at 2025-09-14T13:07:10.925Z ===

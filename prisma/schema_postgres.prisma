@@ -1,0 +1,51 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Use a Postgres database (for example a Supabase-exported SQL file imported into a
+// local Postgres instance). Set DATABASE_URL in your environment.
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Article {
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  category    String
+  author      String?
+  coverImage  String?
+  thumbnail   String?
+  subcategory String?
+  tags        Json?
+  ogTitle     String?
+  ogDescription String?
+  ogImage     String?
+  excerpt     String?
+  content     String?
+  published   Boolean  @default(false)
+  publishedAt DateTime?
+  scheduledAt DateTime?
++
+  // alt text for cover and thumbnail
+  coverAlt    String?
+  thumbnailAlt String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  pinned      Boolean  @default(false)
+  pinnedAt    DateTime?
+  featuredOnly Boolean @default(false)
+}
+
+model ArticleVersion {
+  id        Int      @id @default(autoincrement())
+  articleId Int
+  title     String
+  excerpt   String?
+  content   String
+  data      Json?
+  createdAt DateTime @default(now())
+  @@index([articleId])
+}
+

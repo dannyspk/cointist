@@ -1,0 +1,96 @@
+
+=== Spawned fetch_and_dump for https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath at 2025-09-16T16:04:15.792Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath --out=C:\cointistreact\tmp\source-for-rephrase-https___u_today_dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758038655765.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___u_today_dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath.txt
+Spawned rephraser for https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758038679575.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 367,
+    "slug": "caution-advised-amidst-cryptocurrency-market-losses",
+    "title": "Caution Advised Amidst Cryptocurrency Market Losses",
+    "excerpt": "Recent commentary by Ted Pillows on the state of the cryptocurrency market reveals substantial losses, cautioning investors about potential misleading price increases."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd55d133c62ea695c6200b2c721489da8ce52c55d', id: 367 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-16T16:04:41.197Z ===
+
+
+=== child exit code=0 at 2025-09-16T16:04:41.609Z ===
+
+=== Spawned fetch_and_dump for https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath at 2025-09-16T17:25:57.130Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath --out=C:\cointistreact\tmp\source-for-rephrase-https___u_today_dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758043557112.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___u_today_dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath.txt
+Spawned rephraser for https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758043572572.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 368,
+    "slug": "caution-amidst-crypto-volatility-ted-pillows-insights",
+    "title": "Caution Amidst Crypto Volatility: Ted Pillows' Insights",
+    "excerpt": "As the cryptocurrency market experiences significant fluctuations, expert Ted Pillows shares his insights on the current landscape, emphasizing caution for investors navigating this unpredictable terrain."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd55d133c62ea695c6200b2c721489da8ce52c55d', id: 368 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-16T17:26:14.829Z ===
+
+
+=== child exit code=0 at 2025-09-16T17:26:15.607Z ===
+
+=== Spawned fetch_and_dump for https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath at 2025-09-16T18:07:58.491Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath --out=C:\cointistreact\tmp\source-for-rephrase-https___u_today_dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758046078476.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___u_today_dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath.txt
+Spawned rephraser for https://u.today/dont-trust-fake-pumps-ted-pillows-on-crypto-bloodbath
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758046090259.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 369,
+    "slug": "concerns-rise-amidst-cryptocurrency-market-decline",
+    "title": "Concerns Rise Amidst Cryptocurrency Market Decline",
+    "excerpt": "As the cryptocurrency market experiences a significant downturn, experts are warning investors about the potential risks and dynamics at play, particularly highlighting the influence of market manipulation and external economic factors."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd55d133c62ea695c6200b2c721489da8ce52c55d', id: 369 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-16T18:08:10.957Z ===
+
+
+=== child exit code=0 at 2025-09-16T18:08:11.014Z ===

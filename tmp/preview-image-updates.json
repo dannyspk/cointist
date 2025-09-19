@@ -1,0 +1,261 @@
+{
+  "generatedAt": "2025-09-12T04:16:29.267Z",
+  "checks": [
+    {
+      "table": "Article",
+      "column": "coverImage",
+      "exists": true,
+      "count": 37,
+      "samples": [
+        {
+          "id": 14,
+          "slug": "eth-touched-4k-flippening-or-bull-trap",
+          "coverImage": "/uploads/1755798307443-footer-left-img.png"
+        },
+        {
+          "id": 173,
+          "slug": "arthur-hayes-ethena-$1m",
+          "coverImage": "https://storage.googleapis.com/cointist-images/uploads/the-context-of-the-investment.png"
+        },
+        {
+          "id": 22,
+          "slug": "regulators-ai-scams",
+          "coverImage": "/assets/article-22-pexels-7567537-blockchain-analytics-1200w.jpg"
+        },
+        {
+          "id": 23,
+          "slug": "ethereum-small-businesses",
+          "coverImage": "/assets/article-23-pexels-14902679-ethereum-payments-1200w.jpg"
+        },
+        {
+          "id": 24,
+          "slug": "ai-smart-contracts-legal",
+          "coverImage": "/assets/article-24-pexels-8370345-smart-contracts-1200w.jpg"
+        },
+        {
+          "id": 41,
+          "slug": "crypto-s-greatest-pr-campaign-why-declaring-bitcoin-dead-keeps-it-alive",
+          "coverImage": "/uploads/1756078037222-20250825_0341_Bitcoin's-Resilient-Revival_simple_compose_01k3f3svwfej08yv5qrwrqs4b5.png"
+        },
+        {
+          "id": 43,
+          "slug": "liquidity-wars-exchanges-custodians-and-the-silent-battle-for-institutional-crypto",
+          "coverImage": "/uploads/1756124836594-20250825_0503_Crypto-Tug-of-War_remix_01k3f8erqwe9vs7c2v4r2sg7rd.png"
+        },
+        {
+          "id": 170,
+          "slug": "assessing-the-new-regulatory-environment",
+          "coverImage": "https://storage.googleapis.com/cointist-images/uploads/assessing-the-new-regulatory-environment.png"
+        },
+        {
+          "id": 36,
+          "slug": "the-illusion-of-liquidity-why-crypto-markets-aren-t-as-deep-as-they-seem",
+          "coverImage": "/uploads/1756044738701-20250824_1858_Dramatic-Crypto-Illusion_remix_01k3e5tj1tft1adjbgb2da255n.png"
+        },
+        {
+          "id": 35,
+          "slug": "xrp-surges-6-amidst-bitcoin-s-climb-beyond-111k",
+          "coverImage": "/uploads/1756317100529-pexels-arturoaez225-30268012-(1).jpg"
+        }
+      ]
+    },
+    {
+      "table": "Article",
+      "column": "thumbnail",
+      "exists": true,
+      "count": 38,
+      "samples": [
+        {
+          "id": 14,
+          "slug": "eth-touched-4k-flippening-or-bull-trap",
+          "thumbnail": "/uploads/1755884693984-ChatGPT-Image-Aug-11,-2025,-05_07_15-AM.png"
+        },
+        {
+          "id": 173,
+          "slug": "arthur-hayes-ethena-$1m",
+          "thumbnail": "https://storage.googleapis.com/cointist-images/uploads/the-context-of-the-investment.png"
+        },
+        {
+          "id": 22,
+          "slug": "regulators-ai-scams",
+          "thumbnail": "/assets/article-22-pexels-7567537-blockchain-analytics-96sq.jpg"
+        },
+        {
+          "id": 23,
+          "slug": "ethereum-small-businesses",
+          "thumbnail": "/assets/article-23-pexels-14902679-ethereum-payments-96sq.jpg"
+        },
+        {
+          "id": 24,
+          "slug": "ai-smart-contracts-legal",
+          "thumbnail": "/assets/article-24-pexels-8370345-smart-contracts-96sq.jpg"
+        },
+        {
+          "id": 41,
+          "slug": "crypto-s-greatest-pr-campaign-why-declaring-bitcoin-dead-keeps-it-alive",
+          "thumbnail": "/uploads/1756078028366-20250825_0341_Bitcoin's-Resilient-Revival_simple_compose_01k3f3svwfej08yv5qrwrqs4b5.png"
+        },
+        {
+          "id": 43,
+          "slug": "liquidity-wars-exchanges-custodians-and-the-silent-battle-for-institutional-crypto",
+          "thumbnail": "/uploads/1756124842888-20250825_0503_Crypto-Tug-of-War_remix_01k3f8erqwe9vs7c2v4r2sg7rd.png"
+        },
+        {
+          "id": 170,
+          "slug": "assessing-the-new-regulatory-environment",
+          "thumbnail": "https://storage.googleapis.com/cointist-images/uploads/assessing-the-new-regulatory-environment-96sq.jpg"
+        },
+        {
+          "id": 36,
+          "slug": "the-illusion-of-liquidity-why-crypto-markets-aren-t-as-deep-as-they-seem",
+          "thumbnail": "/uploads/1756044738701-20250824_1858_Dramatic-Crypto-Illusion_remix_01k3e5tj1tft1adjbgb2da255n.png"
+        },
+        {
+          "id": 35,
+          "slug": "xrp-surges-6-amidst-bitcoin-s-climb-beyond-111k",
+          "thumbnail": "/uploads/1756317107214-pexels-arturoaez225-30268012-(1).jpg"
+        }
+      ]
+    },
+    {
+      "table": "Guides",
+      "column": "coverImage",
+      "exists": true,
+      "count": 23,
+      "samples": [
+        {
+          "id": 84,
+          "slug": "systemic-risk-credit-contagion-and-the-evolution-of-defi-insurance-markets",
+          "coverImage": "https://fcrhqoiobfkggehbkukh.supabase.co/storage/v1/object/public/images/uploads/1756952424749-insurance.png"
+        },
+        {
+          "id": 57,
+          "slug": "bridges-interoperability",
+          "coverImage": "/uploads/1756871920901-bridges.png"
+        },
+        {
+          "id": 85,
+          "slug": "delegates-cartels-and-the-political-economy-of-on-chain-governance",
+          "coverImage": "/uploads/1756953844209-cartels.png"
+        },
+        {
+          "id": 51,
+          "slug": "defi-primitives",
+          "coverImage": "/uploads/1756869929916-ChatGPT-Image-Sep-3,-2025,-08_20_52-AM.png"
+        },
+        {
+          "id": 56,
+          "slug": "what-is-web3",
+          "coverImage": "/uploads/1756873771184-web3.png"
+        },
+        {
+          "id": 86,
+          "slug": "liquidity-fragmentation-and-the-rise-of-modular-settlement-layers",
+          "coverImage": "/uploads/1756954709918-modular.png"
+        },
+        {
+          "id": 53,
+          "slug": "nfts-gaming",
+          "coverImage": "/uploads/1756873478969-nfts.png"
+        },
+        {
+          "id": 55,
+          "slug": "stablecoins-payments",
+          "coverImage": "/uploads/1756870728786-stablecoins.png"
+        },
+        {
+          "id": 59,
+          "slug": "real-world-asset-tokenization-rwas",
+          "coverImage": "/uploads/1756876188933-rwa.png"
+        },
+        {
+          "id": 60,
+          "slug": "markets-liquidity",
+          "coverImage": "/uploads/1756876494344-markets.png"
+        }
+      ]
+    },
+    {
+      "table": "Guides",
+      "column": "cover",
+      "exists": false,
+      "error": "Table/column not found or invalid: Guides"
+    },
+    {
+      "table": "Guides",
+      "column": "cover_image",
+      "exists": false,
+      "error": "Table/column not found or invalid: Guides"
+    },
+    {
+      "table": "Guides",
+      "column": "thumbnail",
+      "exists": true,
+      "count": 23,
+      "samples": [
+        {
+          "id": 84,
+          "slug": "systemic-risk-credit-contagion-and-the-evolution-of-defi-insurance-markets",
+          "thumbnail": "https://fcrhqoiobfkggehbkukh.supabase.co/storage/v1/object/public/images/uploads/1756952424749-insurance.png"
+        },
+        {
+          "id": 57,
+          "slug": "bridges-interoperability",
+          "thumbnail": "/uploads/1756871925435-bridges.png"
+        },
+        {
+          "id": 85,
+          "slug": "delegates-cartels-and-the-political-economy-of-on-chain-governance",
+          "thumbnail": "/uploads/1756953857658-cartels.png"
+        },
+        {
+          "id": 51,
+          "slug": "defi-primitives",
+          "thumbnail": "/uploads/1756869939487-ChatGPT-Image-Sep-3,-2025,-08_20_52-AM.png"
+        },
+        {
+          "id": 56,
+          "slug": "what-is-web3",
+          "thumbnail": "/uploads/1756873784236-web3.png"
+        },
+        {
+          "id": 86,
+          "slug": "liquidity-fragmentation-and-the-rise-of-modular-settlement-layers",
+          "thumbnail": "/uploads/1756954712361-modular.png"
+        },
+        {
+          "id": 53,
+          "slug": "nfts-gaming",
+          "thumbnail": "/uploads/1756873483795-nfts.png"
+        },
+        {
+          "id": 55,
+          "slug": "stablecoins-payments",
+          "thumbnail": "/uploads/1756870754193-stablecoins.png"
+        },
+        {
+          "id": 59,
+          "slug": "real-world-asset-tokenization-rwas",
+          "thumbnail": "/uploads/1756876191848-rwa.png"
+        },
+        {
+          "id": 60,
+          "slug": "markets-liquidity",
+          "thumbnail": "/uploads/1756876498669-markets.png"
+        }
+      ]
+    },
+    {
+      "table": "Guides",
+      "column": "thumbnail_image",
+      "exists": false,
+      "error": "Table/column not found or invalid: Guides"
+    },
+    {
+      "table": "Guides",
+      "column": "thumb",
+      "exists": false,
+      "error": "Table/column not found or invalid: Guides"
+    }
+  ]
+}

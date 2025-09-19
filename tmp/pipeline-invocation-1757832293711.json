@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757832293711,
+  "invocationToken": "0459a476c9117f634423",
+  "selected": [
+    {
+      "id": "https://ambcrypto.com/ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight/",
+      "title": "Ethereum bulls lead, $14M shorts liquidated – $5000 in sight?",
+      "url": "https://ambcrypto.com/ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight/",
+      "slug": "ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight",
+      "oldSlug": null,
+      "href": "/articles/ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight"
+    },
+    {
+      "id": "https://www.newsbtc.com/news/bitcoin/heres-how-the-bitcoin-price-macro-correction-could-play-out-next/",
+      "title": "Here’s How The Bitcoin Price Macro Correction Could Play Out Next",
+      "url": "https://www.newsbtc.com/news/bitcoin/heres-how-the-bitcoin-price-macro-correction-could-play-out-next/",
+      "slug": "heres-how-the-bitcoin-price-macro-correction-could-play-out-next",
+      "oldSlug": null,
+      "href": "/articles/heres-how-the-bitcoin-price-macro-correction-could-play-out-next"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

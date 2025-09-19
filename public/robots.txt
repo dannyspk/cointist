@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://cointist.net/sitemap.xml
+# Crawlers: please follow the sitemap above. Updated 2025-08-25

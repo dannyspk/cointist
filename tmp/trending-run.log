@@ -1,0 +1,332 @@
+﻿node : [rss-fetch] trying https://decrypt.co/feed (attempt 1/1)
+At line:1 char:1
++ node "c:\cointistreact\scripts\fetch-trending-aggregator.js" --hours= ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([rss-fetch] try...d (attempt 1/1):String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[rss-fetch] trying https://nitter.net/search/rss?q=crypto%20OR%20blockchain (attempt 1/1)
+[rss-fetch] trying https://coinmarketcap.com/headlines/rss/ (attempt 1/1)
+[rss-fetch] trying https://www.forbes.com/crypto/index.xml (attempt 1/1)
+[rss-fetch] trying https://www.coindesk.com/feed (attempt 1/1)
+[rss-fetch] trying https://cointelegraph.com/rss (attempt 1/1)
+[rss-fetch] trying https://www.coinspeaker.com/rss (attempt 1/1)
+[rss-fetch] trying https://cryptonews.com/rss (attempt 1/1)
+[rss-fetch] trying https://thedailyhodl.com/rss (attempt 1/1)
+[rss-fetch] trying https://cointelegraph.com/rss (attempt 1/1)
+[rss-fetch] trying https://cointelegraph.com/rss (attempt 1/1)
+[rss-fetch] trying https://coinjournal.net/rss (attempt 1/1)
+[rss-fetch] trying https://cryptopotato.com/rss (attempt 1/1)
+[rss-fetch] trying https://coinsutra.com/rss (attempt 1/1)
+[rss-fetch] trying https://ambcrypto.com/rss (attempt 1/1)
+[rss-fetch] trying https://www.newsbtc.com/rss (attempt 1/1)
+[rss-fetch] trying https://bitcoinmagazine.com/rss (attempt 1/1)
+[rss-fetch] trying https://beincrypto.com/rss (attempt 1/1)
+[rss-fetch] trying https://btcmanager.com/rss (attempt 1/1)
+[rss-fetch] trying https://u.today/rss (attempt 1/1)
+[rss-fetch] trying https://www.cryptobriefing.com/rss (attempt 1/1)
+[rss-fetch] trying https://www.theblock.co/rss (attempt 1/1)
+[rss-fetch] trying https://coinrivet.com/rss (attempt 1/1)
+[rss-fetch] trying https://coinmarketcal.com/rss (attempt 1/1)
+[rss-fetch] trying https://coinpaprika.com/rss (attempt 1/1)
+[rss-fetch] trying https://cryptoslate.com/rss (attempt 1/1)
+[rss-fetch] trying https://blockworks.co/rss (attempt 1/1)
+[rss-fetch] trying https://thedefiant.io/rss (attempt 1/1)
+[rss-fetch] trying https://coinspectator.com/rss (attempt 1/1)
+[rss-fetch] non-OK response for https://cryptonews.com/rss: 403 Forbidden
+[rss-fetch] non-OK response for https://www.forbes.com/crypto/index.xml: 404 Not Found
+[rss-fetch] trying https://cryptonews.com/feed (attempt 1/1)
+[rss-fetch] non-OK response for https://nitter.net/search/rss?q=crypto%20OR%20blockchain: 
+429 Too Many Requests
+[rss-fetch] 429 for https://nitter.net/search/rss?q=crypto%20OR%20blockchain, backing off 
+800ms
+[rss-fetch] non-OK response for https://coinsutra.com/rss: 403 Forbidden
+[rss-fetch] trying https://coinsutra.com/feed (attempt 1/1)
+[rss-fetch] non-OK response for https://cryptonews.com/feed: 403 Forbidden
+[rss-fetch] non-OK response for https://cryptopotato.com/rss: 403 Forbidden
+[rss-fetch] trying https://www.coindesk.com/feed (attempt 1/1)
+[rss-fetch] non-OK response for https://coinsutra.com/feed: 403 Forbidden
+[rss-fetch] trying https://u.today/feed (attempt 1/1)
+[rss-fetch] trying https://cryptonews.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://cryptopotato.com/feed (attempt 1/1)
+[rss-fetch] non-OK response for https://coinmarketcal.com/rss: 403 Forbidden
+[rss-fetch] trying https://coinsutra.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://coinmarketcal.com/feed (attempt 1/1)
+[rss-fetch] non-OK response for https://coinsutra.com/feed/: 403 Forbidden
+[rss-fetch] trying https://coinsutra.com/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://cryptopotato.com/feed: 403 Forbidden
+[rss-fetch] non-OK response for https://coinsutra.com/rss.xml: 403 Forbidden
+[rss-fetch] non-OK response for https://coinmarketcal.com/feed: 403 Forbidden
+[rss-fetch] trying https://nitter.snopyta.org/search/rss?q=crypto%20OR%20blockchain 
+(attempt 1/1)
+[rss-fetch] trying https://cryptopotato.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://coinsutra.com/feeds/latest (attempt 1/1)
+[rss-fetch] non-OK response for https://u.today/feed: 404 Not Found
+[rss-fetch] trying https://coinmarketcal.com/feed/ (attempt 1/1)
+[rss-fetch] non-OK response for https://www.theblock.co/rss: 404 Not Found
+[rss-fetch] error fetching https://nitter.snopyta.org/search/rss?q=crypto%20OR%20blockchain 
+(attempt 1): request to https://nitter.snopyta.org/search/rss?q=crypto%20OR%20blockchain 
+failed, reason: getaddrinfo ENOTFOUND nitter.snopyta.org
+[rss-fetch] trying https://nitter.eu/search/rss?q=crypto%20OR%20blockchain (attempt 1/1)
+[rss-fetch] non-OK response for https://coinsutra.com/feeds/latest: 403 Forbidden
+[rss-fetch] trying https://thedefiant.io/feed (attempt 1/1)
+[rss-fetch] trying https://u.today/feed/ (attempt 1/1)
+[rss-fetch] trying https://www.coinspeaker.com/feed (attempt 1/1)
+[rss-fetch] trying https://www.theblock.co/feed (attempt 1/1)
+[rss-fetch] trying https://www.coindesk.com/feed (attempt 1/1)
+[rss-fetch] trying https://coinsutra.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] non-OK response for https://coinpaprika.com/rss: 404 Not Found
+[rss-fetch] non-OK response for https://www.theblock.co/feed: 403 Forbidden
+[rss-fetch] non-OK response for https://beincrypto.com/rss: 404 Not Found
+[rss-fetch] non-OK response for https://coinsutra.com/feeds/posts/default?alt=rss: 403 
+Forbidden
+[rss-fetch] non-OK response for https://coinmarketcal.com/feed/: 403 Forbidden
+[rss-fetch] trying https://coinpaprika.com/feed (attempt 1/1)
+[rss-fetch] trying https://www.theblock.co/feed/ (attempt 1/1)
+[rss-fetch] non-OK response for https://cryptopotato.com/feed/: 403 Forbidden
+[rss-fetch] trying https://beincrypto.com/feed (attempt 1/1)
+[rss-fetch] trying https://coinmarketcal.com/rss.xml (attempt 1/1)
+[rss-fetch] trying https://cryptopotato.com/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://www.theblock.co/feed/: 403 Forbidden
+[rss-fetch] trying https://coinjournal.net/feed (attempt 1/1)
+[rss-fetch] non-OK response for https://u.today/feed/: 404 Not Found
+[rss-fetch] trying https://www.theblock.co/rss.xml (attempt 1/1)
+[rss-fetch] trying https://thedefiant.io/feed/ (attempt 1/1)
+[rss-fetch] trying https://u.today/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://coinmarketcap.com/headlines/rss/: 404 Not Found
+[rss-fetch] error fetching https://btcmanager.com/rss (attempt 1): about:blank:30:52: 
+attribute without value.
+[rss-fetch] trying https://blockworks.co/feed (attempt 1/1)
+[rss-fetch] trying https://www.theblock.co/feeds/latest (attempt 1/1)
+[rss-fetch] non-OK response for https://coinmarketcal.com/rss.xml: 403 Forbidden
+[rss-fetch] non-OK response for https://cryptopotato.com/rss.xml: 403 Forbidden
+[rss-fetch] trying https://beincrypto.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://btcmanager.com/feed (attempt 1/1)
+[rss-fetch] non-OK response for https://www.theblock.co/feeds/latest: 403 Forbidden
+[rss-fetch] trying https://coinmarketcal.com/feeds/latest (attempt 1/1)
+[rss-fetch] trying https://cryptopotato.com/feeds/latest (attempt 1/1)
+[rss-fetch] trying https://beincrypto.com/rss.xml (attempt 1/1)
+[rss-fetch] trying https://www.theblock.co/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] trying https://www.cryptobriefing.com/feed (attempt 1/1)
+[rss-fetch] error fetching https://nitter.eu/search/rss?q=crypto%20OR%20blockchain (attempt 
+1): about:blank:1:9: incorrect syntax.
+[rss-fetch] non-OK response for https://u.today/rss.xml: 404 Not Found
+[rss-fetch] non-OK response for https://www.theblock.co/feeds/posts/default?alt=rss: 403 
+Forbidden
+[rss-fetch] trying https://u.today/feeds/latest (attempt 1/1)
+[rss-fetch] trying https://www.coindesk.com/rss (attempt 1/1)
+[rss-fetch] trying https://thedefiant.io/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://coinmarketcal.com/feeds/latest: 403 Forbidden
+[rss-fetch] non-OK response for https://cryptopotato.com/feeds/latest: 403 Forbidden
+[rss-fetch] trying https://blockworks.co/feed/ (attempt 1/1)
+[rss-fetch] trying https://cryptonews.com/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://cryptonews.com/rss.xml: 403 Forbidden
+[rss-fetch] non-OK response for https://thedefiant.io/rss.xml: 404 Not Found
+[rss-fetch] trying https://coinmarketcal.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] trying https://cryptopotato.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] trying https://cryptonews.com/feeds/latest (attempt 1/1)
+[rss-fetch] trying https://thedefiant.io/feeds/latest (attempt 1/1)
+[rss-fetch] non-OK response for https://cryptonews.com/feeds/latest: 403 Forbidden
+[rss-fetch] error fetching https://beincrypto.com/rss.xml (attempt 1): 
+about:blank:268:107568: disallowed character in entity name.
+[rss-fetch] trying https://www.coindesk.com/rss (attempt 1/1)
+[rss-fetch] non-OK response for https://u.today/feeds/latest: 404 Not Found
+[rss-fetch] trying https://cryptonews.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] non-OK response for https://cryptopotato.com/feeds/posts/default?alt=rss: 403 
+Forbidden
+[rss-fetch] non-OK response for https://cryptonews.com/feeds/posts/default?alt=rss: 403 
+Forbidden
+[rss-fetch] trying https://beincrypto.com/feeds/latest (attempt 1/1)
+[rss-fetch] trying https://u.today/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] trying https://www.coinspeaker.com/feed/ (attempt 1/1)
+[rss-fetch] non-OK response for https://coinmarketcal.com/feeds/posts/default?alt=rss: 403 
+Forbidden
+[rss-fetch] trying https://coinjournal.net/feed/ (attempt 1/1)
+[rss-fetch] error fetching https://btcmanager.com/feed (attempt 1): about:blank:30:52: 
+attribute without value.
+[rss-fetch] trying https://www.cryptobriefing.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://blockworks.co/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://coinpaprika.com/feed: 404 Not Found
+[rss-fetch] trying https://thedefiant.io/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] trying https://btcmanager.com/feed/ (attempt 1/1)
+[rss-fetch] non-OK response for https://u.today/feeds/posts/default?alt=rss: 404 Not Found
+[rss-fetch] trying https://coinpaprika.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://www.coindesk.com/rss (attempt 1/1)
+[rss-fetch] trying https://www.coinspeaker.com/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://beincrypto.com/feeds/latest: 404 Not Found
+[rss-fetch] trying https://coinjournal.net/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://blockworks.co/rss.xml: 404 Not Found
+[rss-fetch] trying https://www.cryptobriefing.com/rss.xml (attempt 1/1)
+[rss-fetch] trying https://beincrypto.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] trying https://blockworks.co/feeds/latest (attempt 1/1)
+[rss-fetch] non-OK response for https://coinjournal.net/rss.xml: 404 Not Found
+[rss-fetch] trying https://coinjournal.net/feeds/latest (attempt 1/1)
+[rss-fetch] non-OK response for https://www.coinspeaker.com/rss.xml: 404 Not Found
+[rss-fetch] trying https://www.coinspeaker.com/feeds/latest (attempt 1/1)
+[rss-fetch] non-OK response for https://www.coinspeaker.com/feeds/latest: 404 Not Found
+[rss-fetch] error fetching https://thedailyhodl.com/rss (attempt 1): timeout
+[rss-fetch] error fetching https://bitcoinmagazine.com/rss (attempt 1): timeout
+[rss-fetch] error fetching https://coinrivet.com/rss (attempt 1): timeout
+[rss-fetch] error fetching https://cryptoslate.com/rss (attempt 1): timeout
+[rss-fetch] non-OK response for https://coinjournal.net/feeds/latest: 404 Not Found
+[rss-fetch] trying https://www.coinspeaker.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] trying https://thedailyhodl.com/feed (attempt 1/1)
+[rss-fetch] trying https://bitcoinmagazine.com/feed (attempt 1/1)
+[rss-fetch] trying https://coinrivet.com/feed (attempt 1/1)
+[rss-fetch] trying https://cryptoslate.com/feed (attempt 1/1)
+[rss-fetch] non-OK response for https://www.coinspeaker.com/feeds/posts/default?alt=rss: 
+404 Not Found
+[rss-fetch] trying https://coinjournal.net/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] non-OK response for https://blockworks.co/feeds/latest: 404 Not Found
+[rss-fetch] non-OK response for https://beincrypto.com/feeds/posts/default?alt=rss: 404 Not 
+Found
+[rss-fetch] trying https://blockworks.co/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] non-OK response for https://www.cryptobriefing.com/rss.xml: 404 Not Found
+[rss-fetch] trying https://www.coindesk.com/arc/outboundfeeds/rss/ (attempt 1/1)
+[rss-fetch] non-OK response for https://coinjournal.net/feeds/posts/default?alt=rss: 404 
+Not Found
+[rss-fetch] trying https://www.cryptobriefing.com/feeds/latest (attempt 1/1)
+[rss-fetch] trying https://btcmanager.com/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://coinpaprika.com/feed/: 404 Not Found
+[rss-fetch] trying https://coinpaprika.com/rss.xml (attempt 1/1)
+[rss-fetch] trying https://www.coindesk.com/arc/outboundfeeds/rss/ (attempt 1/1)
+[rss-fetch] non-OK response for https://blockworks.co/feeds/posts/default?alt=rss: 404 Not 
+Found
+[rss-fetch] non-OK response for https://coinpaprika.com/rss.xml: 404 Not Found
+[rss-fetch] trying https://www.coindesk.com/arc/outboundfeeds/rss/ (attempt 1/1)
+[rss-fetch] trying https://coinpaprika.com/feeds/latest (attempt 1/1)
+[rss-fetch] error fetching https://btcmanager.com/rss.xml (attempt 1): about:blank:30:52: 
+attribute without value.
+[rss-fetch] error fetching https://www.cryptobriefing.com/feeds/latest (attempt 1): 
+about:blank:1:9: incorrect syntax.
+[rss-fetch] trying https://btcmanager.com/feeds/latest (attempt 1/1)
+[rss-fetch] trying https://www.cryptobriefing.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] non-OK response for https://coinpaprika.com/feeds/latest: 404 Not Found
+[rss-fetch] trying https://coinpaprika.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] trying https://news.google.com/rss/search?q=site:coindesk.com+crypto (attempt 
+1/1)
+[rss-fetch] non-OK response for https://coinpaprika.com/feeds/posts/default?alt=rss: 404 
+Not Found
+[rss-fetch] non-OK response for https://www.cryptobriefing.com/feeds/posts/default?alt=rss: 
+404 Not Found
+[rss-fetch] error fetching https://btcmanager.com/feeds/latest (attempt 1): 
+about:blank:30:52: attribute without value.
+[rss-fetch] trying https://btcmanager.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] error fetching https://thedailyhodl.com/feed (attempt 1): timeout
+[rss-fetch] error fetching https://bitcoinmagazine.com/feed (attempt 1): timeout
+[rss-fetch] error fetching https://coinrivet.com/feed (attempt 1): timeout
+[rss-fetch] error fetching https://cryptoslate.com/feed (attempt 1): timeout
+[rss-fetch] trying https://thedailyhodl.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://bitcoinmagazine.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://coinrivet.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://cryptoslate.com/feed/ (attempt 1/1)
+[rss-fetch] trying https://news.google.com/rss/search?q=coindesk+crypto (attempt 1/1)
+[rss-fetch] error fetching https://btcmanager.com/feeds/posts/default?alt=rss (attempt 1): 
+about:blank:30:52: attribute without value.
+[rss-fetch] trying https://news.google.com/rss/search?q=coindesk (attempt 1/1)
+[rss-fetch] trying https://cryptoslate.com/rss.xml (attempt 1/1)
+[rss-fetch] error fetching https://thedailyhodl.com/feed/ (attempt 1): timeout
+[rss-fetch] error fetching https://bitcoinmagazine.com/feed/ (attempt 1): timeout
+[rss-fetch] error fetching https://coinrivet.com/feed/ (attempt 1): timeout
+[rss-fetch] trying https://thedailyhodl.com/rss.xml (attempt 1/1)
+[rss-fetch] trying https://bitcoinmagazine.com/rss.xml (attempt 1/1)
+[rss-fetch] trying https://coinrivet.com/rss.xml (attempt 1/1)
+[rss-fetch] non-OK response for https://cryptoslate.com/rss.xml: 404 Not Found
+[rss-fetch] trying https://cryptoslate.com/feeds/latest (attempt 1/1)
+[rss-fetch] non-OK response for https://bitcoinmagazine.com/rss.xml: 404 Not Found
+[rss-fetch] error fetching https://cryptoslate.com/feeds/latest (attempt 1): 
+about:blank:2:1: disallowed character.
+[rss-fetch] trying https://bitcoinmagazine.com/feeds/latest (attempt 1/1)
+[rss-fetch] trying https://cryptoslate.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] non-OK response for https://coinrivet.com/rss.xml: 404 Not Found
+[rss-fetch] trying https://coinrivet.com/feeds/latest (attempt 1/1)
+[rss-fetch] non-OK response for https://cryptoslate.com/feeds/posts/default?alt=rss: 404 
+Not Found
+[rss-fetch] error fetching https://bitcoinmagazine.com/feeds/latest (attempt 1): 
+about:blank:1:9: incorrect syntax.
+[rss-fetch] trying https://bitcoinmagazine.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] error fetching https://thedailyhodl.com/rss.xml (attempt 1): timeout
+[rss-fetch] trying https://thedailyhodl.com/feeds/latest (attempt 1/1)
+[rss-fetch] non-OK response for https://bitcoinmagazine.com/feeds/posts/default?alt=rss: 
+404 Not Found
+[rss-fetch] error fetching https://coinrivet.com/feeds/latest (attempt 1): 
+about:blank:22:76: attribute without value.
+[rss-fetch] trying https://coinrivet.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] non-OK response for https://coinrivet.com/feeds/posts/default?alt=rss: 404 Not 
+Found
+[rss-fetch] error fetching https://thedailyhodl.com/feeds/latest (attempt 1): timeout
+[rss-fetch] trying https://thedailyhodl.com/feeds/posts/default?alt=rss (attempt 1/1)
+[rss-fetch] error fetching https://thedailyhodl.com/feeds/posts/default?alt=rss (attempt 
+1): timeout
+Aggregated 23 unique articles from: decrypt, nitter, coinmarketcap, forbes, coindesk, cointelegraph, coinspeaker, cryptonews, thedailyhodl, cointelegraphuk, cointelegraphasia, coinjournal, cryptopotato, coinsutra, ambcrypto, newsbtc, bitcoinmagazine, beincrypto, btcmanager, utoday, cryptobriefing, theblock, coinrivet, coinmarketcal, coinpaprika, cryptoslate, blockworks, thedefiant, coinspectator
+1. Chainlink And Polymarket Forge New Alliance: LINK Forecasted To Outperform XRP By 2030
+   newsbtc ΓÇó 2025-09-13T06:00:55.000Z
+   https://www.newsbtc.com/news/chainlink/chainlink-and-polymarket-forge-new-alliance-link-forecasted-to-outperform-xrp-by-2030/
+2. Is BitcoinΓÇÖs rally at risk as MVRV falls below critical level?
+   ambcrypto ΓÇó 2025-09-13T06:00:44.000Z
+   https://ambcrypto.com/is-bitcoins-rally-at-risk-as-mvrv-falls-below-critical-level/
+3. ΓÇÿStrong chanceΓÇÖ US will form Strategic Bitcoin Reserve this year: Alex Thorn
+   cointelegraph ΓÇó 2025-09-13T05:39:08.000Z
+   https://cointelegraph.com/news/us-government-strategic-bitcoin-reserve-chances-high-alex-thorn?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+4. ΓÇÿStrong chanceΓÇÖ US will form Strategic Bitcoin Reserve this year: Alex Thorn
+   coinspectator ΓÇó 2025-09-13T05:39:08.000Z
+   https://coinspectator.com/cointelegraph/2025/09/13/strong-chance-us-will-form-strategic-bitcoin-reserve-this-year-alex-thorn/
+5. Coinbase Urges Court Action After SEC Watchdog Confirms Lost Gensler Texts
+   coinspectator ΓÇó 2025-09-13T05:30:10.000Z
+   https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-urges-court-action-after-sec-watchdog-confirms-lost-gensler-texts/
+6. Bitcoin Bears ShakenΓÇöAnalyst Says Local Bottom 90% Likely Set
+   newsbtc ΓÇó 2025-09-13T05:00:31.000Z
+   https://www.newsbtc.com/bitcoin-news/bitcoin-bears-shaken-local-bottom-90-likely-set/
+7. Bitcoin Bears ShakenΓÇöAnalyst Says Local Bottom 90% Likely Set
+   coinspectator ΓÇó 2025-09-13T05:00:31.000Z
+   https://coinspectator.com/newsbtc/2025/09/13/bitcoin-bears-shaken-analyst-says-local-bottom-90-likely-set/
+8. Dogecoin Breaks Out, Eyes Historic Surge Between $0.41ΓÇô$0.97 ΓÇô What To Expect
+   newsbtc ΓÇó 2025-09-13T04:00:59.000Z
+   https://www.newsbtc.com/news/dogecoin/dogecoin-eyes-historic-surge/
+9. Dogecoin Breaks Out, Eyes Historic Surge Between $0.41ΓÇô$0.97 ΓÇô What To Expect
+   coinspectator ΓÇó 2025-09-13T04:00:59.000Z
+   https://coinspectator.com/newsbtc/2025/09/13/dogecoin-breaks-out-eyes-historic-surge-between-0-41-0-97-what-to-expect/
+10. HereΓÇÖs why this company went ALL IN with its $1.65B Solana Treasury play
+   ambcrypto ΓÇó 2025-09-13T04:00:28.000Z
+   https://ambcrypto.com/heres-why-this-company-went-all-in-with-its-1-65b-solana-treasury-play/
+11. Weekly Summary: Prop Firms Sneak Into India Through ΓÇ£EducationΓÇ¥; CySECΓÇÖs New CFD Limits Downplayed by Brokers
+   coinspectator ΓÇó 2025-09-13T04:00:00.000Z
+   https://coinspectator.com/mainstream/2025/09/13/weekly-summary-prop-firms-sneak-into-india-through-education-cysecs-new-cfd-limits-downplayed-by-brokers/
+12. Bitcoiners chasing a quick Lambo are heading for a wipeout: Arthur Hayes
+   cointelegraph ΓÇó 2025-09-13T03:44:17.000Z
+   https://cointelegraph.com/news/bitcoin-price-relevance-stock-gold-markets-arthur-hayes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+13. Bitcoiners chasing a quick Lambo are heading for a wipeout: Arthur Hayes
+   coinspectator ΓÇó 2025-09-13T03:44:17.000Z
+   https://coinspectator.com/cointelegraph/2025/09/13/bitcoiners-chasing-a-quick-lambo-are-heading-for-a-wipeout-arthur-hayes/
+14. Charlie KirkΓÇÖs widow pays tribute to ΓÇÿperfectΓÇÖ husband and says her cries ΓÇÿwill echo around the worldΓÇÖ
+   coinspectator ΓÇó 2025-09-13T03:44:00.000Z
+   https://coinspectator.com/mainstream/2025/09/13/charlie-kirks-widow-pays-tribute-to-perfect-husband-and-says-her-cries-will-echo-around-the-world/
+15. Cryptoquant Maps EthereumΓÇÖs Next Test: $5.2K Realized-Price Band
+   coinspectator ΓÇó 2025-09-13T03:30:41.000Z
+   https://coinspectator.com/bitcoin-com/2025/09/13/cryptoquant-maps-ethereums-next-test-5-2k-realized-price-band/
+16. Dogecoin Defies Odds, Jumps 21% Even As ETF Debut Gets Pushed Back
+   newsbtc ΓÇó 2025-09-13T03:00:59.000Z
+   https://www.newsbtc.com/altcoin/dogecoin-defies-odds-jumps-21-even-as-etf-debut-gets-pushed-back/
+17. Dogecoin Defies Odds, Jumps 21% Even As ETF Debut Gets Pushed Back
+   coinspectator ΓÇó 2025-09-13T03:00:59.000Z
+   https://coinspectator.com/newsbtc/2025/09/13/dogecoin-defies-odds-jumps-21-even-as-etf-debut-gets-pushed-back/
+18. Bitcoin ΓÇô Will BTCΓÇÖs next rally hit $140K as miner behavior shifts?
+   ambcrypto ΓÇó 2025-09-13T03:00:11.000Z
+   https://ambcrypto.com/bitcoin-will-btcs-next-rally-hit-140k-as-miner-behavior-shifts/
+19. Ondo Finance Surges 20% Weekly Amid Hype and Growing DeFi Demand
+   newsbtc ΓÇó 2025-09-13T02:00:17.000Z
+   https://www.newsbtc.com/news/ondo-finance-surges-20-weekly-amid-hype-and-growing-defi-demand/
+20. Ondo Finance Surges 20% Weekly Amid Hype and Growing DeFi Demand
+   coinspectator ΓÇó 2025-09-13T02:00:17.000Z
+   https://coinspectator.com/newsbtc/2025/09/13/ondo-finance-surges-20-weekly-amid-hype-and-growing-defi-demand/
+21. Kalshi ΓÇÿready to defendΓÇÖ prediction markets amid Massachusetts lawsuit
+   cointelegraph ΓÇó 2025-09-13T01:07:35.000Z
+   https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound
+22. BitcoinΓÇÖs price surge past $115K spurs crypto stocks by double-digits
+   ambcrypto ΓÇó 2025-09-13T01:00:10.000Z
+   https://ambcrypto.com/bitcoins-price-surge-past-115k-spurs-crypto-stocks-by-double-digits-explained/
+23. Ethereum Validator Slashing Puts CardanoΓÇÖs Resilience In Focus ΓÇô HereΓÇÖs Why
+   newsbtc ΓÇó 2025-09-13T01:00:00.000Z
+   https://www.newsbtc.com/news/ethereum/ethereum-validator-slashing/
+Wrote 23 articles to c:\cointistreact\tmp\trending-aggregator-run.json

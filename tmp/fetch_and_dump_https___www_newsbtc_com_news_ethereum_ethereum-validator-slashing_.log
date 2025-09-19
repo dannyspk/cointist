@@ -1,0 +1,58 @@
+
+=== Spawned fetch_and_dump for https://www.newsbtc.com/news/ethereum/ethereum-validator-slashing/ at 2025-09-13T08:21:56.557Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.newsbtc.com/news/ethereum/ethereum-validator-slashing/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_ethereum_ethereum-validator-slashing_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757751716534.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_ethereum_ethereum-validator-slashing_.txt
+Spawned rephraser for https://www.newsbtc.com/news/ethereum/ethereum-validator-slashing/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757751728813.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 242,
+    "slug": "comparing-ethereum-and-cardano-insights-from-recent-validator-slashing"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '78b85dedd12061e8ed6a14a4f772406f7f9890de', id: 242 }
+
+=== child exit code=0 at 2025-09-13T08:22:09.386Z ===
+
+
+=== child exit code=0 at 2025-09-13T08:22:09.403Z ===
+
+=== Spawned fetch_and_dump for https://www.newsbtc.com/news/ethereum/ethereum-validator-slashing/ at 2025-09-13T08:39:44.104Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.newsbtc.com/news/ethereum/ethereum-validator-slashing/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_ethereum_ethereum-validator-slashing_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757752784087.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_ethereum_ethereum-validator-slashing_.txt
+Spawned rephraser for https://www.newsbtc.com/news/ethereum/ethereum-validator-slashing/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757752794668.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 244,
+    "slug": "comparing-staking-models-ethereum-s-challenges-and-cardano-s-strengths"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '78b85dedd12061e8ed6a14a4f772406f7f9890de', id: 244 }
+
+=== child exit code=0 at 2025-09-13T08:39:55.217Z ===
+
+
+=== child exit code=0 at 2025-09-13T08:39:55.255Z ===

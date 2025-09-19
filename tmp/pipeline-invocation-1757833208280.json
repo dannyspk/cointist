@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757833208280,
+  "invocationToken": "b3fe4f557b151447fbcf",
+  "selected": [
+    {
+      "id": "https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/",
+      "title": "Government considering compensation for victims of carer’s allowance scandal",
+      "url": "https://coinspectator.com/mainstream/2025/09/14/government-considering-compensation-for-victims-of-carers-allowance-scandal/",
+      "slug": "government-considering-compensation-for-victims-of-carers-allowance-scandal",
+      "oldSlug": null,
+      "href": "/articles/government-considering-compensation-for-victims-of-carers-allowance-scandal"
+    },
+    {
+      "id": "https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/",
+      "title": "‘Worldcoin is an important project’- Will WLD reclaim $2 after Tom Lee’s backing?",
+      "url": "https://ambcrypto.com/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing/",
+      "slug": "worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing",
+      "oldSlug": null,
+      "href": "/articles/worldcoin-is-an-important-project-will-wld-reclaim-2-after-tom-lees-backing"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

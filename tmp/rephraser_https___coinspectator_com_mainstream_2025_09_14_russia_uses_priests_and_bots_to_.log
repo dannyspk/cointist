@@ -1,0 +1,54 @@
+
+=== Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president/ at 2025-09-14T06:32:15.726Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_russia-uses-priests-and-bots-to-.txt --twoStage invocation=https://coinspectator.com/mainstream/2025/09/14/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757831542884.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 299,
+    "slug": "allegations-of-russian-influence-in-moldova-s-elections",
+    "title": "Allegations of Russian Influence in Moldova's Elections",
+    "excerpt": "Moldovan President Maia Sandu has accused Russia of attempting to manipulate the country's elections, raising significant concerns about the integrity of the electoral process amidst rising geopolitical tensions."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'a2058106216eb5fe519cefe72bbf78db4c054d5c', id: 299 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T06:32:25.256Z ===
+
+=== Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president/ at 2025-09-14T08:06:45.544Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_russia-uses-priests-and-bots-to-.txt --twoStage invocation=https://coinspectator.com/mainstream/2025/09/14/russia-uses-priests-and-bots-to-sway-election-says-moldovan-president/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757837215524.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 308,
+    "slug": "russia-s-tactics-in-moldovan-elections-an-inside-look",
+    "title": "Russia's Tactics in Moldovan Elections: An Inside Look",
+    "excerpt": "Amidst allegations of Russian interference, Moldova's President Maia Sandu highlights the complexities of foreign influence in her country’s electoral processes."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'a2058106216eb5fe519cefe72bbf78db4c054d5c', id: 308 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T08:07:00.236Z ===

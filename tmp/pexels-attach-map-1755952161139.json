@@ -1,0 +1,42 @@
+[
+  {
+    "id": 24,
+    "slug": "ai-smart-contracts-legal",
+    "saved": {
+      "full": "/assets/article-24-pexels-8370345-smart-contracts-1200w.webp",
+      "thumb": "/assets/article-24-pexels-8370345-smart-contracts-96sq.webp",
+      "photoId": 8370345,
+      "keyword": "smart contracts"
+    }
+  },
+  {
+    "id": 23,
+    "slug": "ethereum-small-businesses",
+    "saved": {
+      "full": "/assets/article-23-pexels-14902679-ethereum-payments-1200w.webp",
+      "thumb": "/assets/article-23-pexels-14902679-ethereum-payments-96sq.webp",
+      "photoId": 14902679,
+      "keyword": "ethereum payments"
+    }
+  },
+  {
+    "id": 25,
+    "slug": "macro-crypto-forecasts",
+    "saved": {
+      "full": "/assets/article-25-pexels-7111593-macro-finance-1200w.webp",
+      "thumb": "/assets/article-25-pexels-7111593-macro-finance-96sq.webp",
+      "photoId": 7111593,
+      "keyword": "macro finance"
+    }
+  },
+  {
+    "id": 22,
+    "slug": "regulators-ai-scams",
+    "saved": {
+      "full": "/assets/article-22-pexels-7567537-blockchain-analytics-1200w.webp",
+      "thumb": "/assets/article-22-pexels-7567537-blockchain-analytics-96sq.webp",
+      "photoId": 7567537,
+      "keyword": "blockchain analytics"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/bnb-investor-turns-1k-into-1m at 2025-09-18T22:06:19.822Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_bnb-investor-turns-1k-into-1m_utm_source_rss_feed.txt --twoStage invocation=https://cointelegraph.com/news/bnb-investor-turns-1k-into-1m ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758233350859.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 389,
+    "slug": "early-bnb-investor-s-1-000-stake-becomes-1-million-as-bnb-surpasses-1-000",
+    "title": "Early BNB Investor’s $1,000 Stake Becomes $1 Million as BNB Surpasses $1,000",
+    "excerpt": "An early BNB holder has seen a $1,000 stake grow to $1 million as BNB topped the $1,000 mark, prompting renewed attention from on-chain trackers and market strategists. Analysts and industry figures cite the milestone as evidence of long-term payoff, growing utility and broader market rotation into altcoins."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '10635b98467501ea54f6b5d494a86994c637aaef', id: 389 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-18T22:09:14.382Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/bnb-investor-turns-1k-into-1m at 2025-09-18T22:09:38.559Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_bnb-investor-turns-1k-into-1m_utm_source_rss_feed.txt --twoStage invocation=https://cointelegraph.com/news/bnb-investor-turns-1k-into-1m ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758233477340.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 390,
+    "slug": "1-000-fold-gain-for-early-bnb-investor-as-token-tops-1-000",
+    "title": "1,000-fold gain for early BNB investor as token tops $1,000",
+    "excerpt": "BNB surged to a fresh all-time high of $1,005, turning an early $1,000 stake into $1,000,000 over eight years for at least one investor. On-chain analytics and market commentators point to a mix of native utility, institutional flows and broader macro momentum behind the rally."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '10635b98467501ea54f6b5d494a86994c637aaef', id: 390 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-18T22:11:19.606Z ===

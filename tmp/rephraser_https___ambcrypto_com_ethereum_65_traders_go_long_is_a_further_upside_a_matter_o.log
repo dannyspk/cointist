@@ -1,0 +1,28 @@
+
+=== Spawned rephraser for https://ambcrypto.com/ethereum-65-traders-go-long-is-a-further-upside-a-matter-of-time/ at 2025-09-18T15:14:37.420Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_ethereum-65-traders-go-long-is-a-further-upside-a-matter-o.txt --twoStage invocation=https://ambcrypto.com/ethereum-65-traders-go-long-is-a-further-upside-a-matter-of-time/ ===
+[rephraser] model= gpt-5
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758208624147.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 383,
+    "slug": "ethereum-s-bullish-setup-builds-as-whales-buy-and-longs-dominate",
+    "title": "Ethereum’s bullish setup builds as whales buy and longs dominate",
+    "excerpt": "Ethereum’s near-term outlook brightened as a post-Fed bid from whales, shrinking exchange balances, and elevated leverage tilted sentiment bullish. Still, mid-sized holders nearing November 2021 profit levels introduce a tangible risk of supply hitting the market."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '5034fc63dc6b6aec19ee77568f736b32f62bddbb', id: 383 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-18T15:17:08.291Z ===

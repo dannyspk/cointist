@@ -1,0 +1,116 @@
+
+=== Spawned fetch_and_dump for https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/ at 2025-09-13T14:41:28.151Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/ --out=C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_ai-wont-replace-you-but-rigid-systems-around-it-might_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757774488112.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_ai-wont-replace-you-but-rigid-systems-around-it-might_.txt
+Spawned rephraser for https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774503588.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 255,
+    "slug": "rethinking-ai-integration-building-human-centric-systems-for-future-work"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1bd997b203a0deb0222d2a4097bf3fcdc21960f2', id: 255 }
+
+=== child exit code=0 at 2025-09-13T14:41:46.722Z ===
+
+
+=== child exit code=0 at 2025-09-13T14:41:46.780Z ===
+
+=== Spawned fetch_and_dump for https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/ at 2025-09-13T15:04:22.482Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/ --out=C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_ai-wont-replace-you-but-rigid-systems-around-it-might_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757775862425.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_ai-wont-replace-you-but-rigid-systems-around-it-might_.txt
+Spawned rephraser for https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775877666.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 265,
+    "slug": "rethinking-ai-integration-building-human-centric-systems-for-tomorrow-s-workforce"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1bd997b203a0deb0222d2a4097bf3fcdc21960f2', id: 265 }
+
+=== child exit code=0 at 2025-09-13T15:04:40.212Z ===
+
+
+=== child exit code=0 at 2025-09-13T15:04:40.338Z ===
+
+=== Spawned fetch_and_dump for https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/ at 2025-09-13T15:51:49.582Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/ --out=C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_ai-wont-replace-you-but-rigid-systems-around-it-might_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757778709577.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_ai-wont-replace-you-but-rigid-systems-around-it-might_.txt
+Spawned rephraser for https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757778723223.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 272,
+    "slug": "rethinking-ai-building-human-centered-systems-for-the-future-of-work"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1bd997b203a0deb0222d2a4097bf3fcdc21960f2', id: 272 }
+
+=== child exit code=0 at 2025-09-13T15:52:03.915Z ===
+
+
+=== child exit code=0 at 2025-09-13T15:52:03.937Z ===
+
+=== Spawned fetch_and_dump for https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/ at 2025-09-13T16:25:32.807Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/ --out=C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_ai-wont-replace-you-but-rigid-systems-around-it-might_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757780732799.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___crypto_news_ai-wont-replace-you-but-rigid-systems-around-it-might_.txt
+Spawned rephraser for https://crypto.news/ai-wont-replace-you-but-rigid-systems-around-it-might/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757780745917.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 279,
+    "slug": "reimagining-ai-the-importance-of-human-centric-systems"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1bd997b203a0deb0222d2a4097bf3fcdc21960f2', id: 279 }
+
+=== child exit code=0 at 2025-09-13T16:25:47.155Z ===
+
+
+=== child exit code=0 at 2025-09-13T16:25:47.174Z ===

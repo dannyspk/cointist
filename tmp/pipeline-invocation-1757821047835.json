@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757821047835,
+  "invocationToken": "7a5ec6b32e98f431c331",
+  "selected": [
+    {
+      "id": "https://www.newsbtc.com/news/solana/1314-target-solana-after-cup-and-handle-breakout/",
+      "title": "Analyst Sets Bold $1,314 Target For Solana After Cup-And-Handle Breakout",
+      "url": "https://www.newsbtc.com/news/solana/1314-target-solana-after-cup-and-handle-breakout/",
+      "slug": "1314-target-solana-after-cup-and-handle-breakout",
+      "oldSlug": null,
+      "href": "/articles/1314-target-solana-after-cup-and-handle-breakout"
+    },
+    {
+      "id": "https://ambcrypto.com/memecore-m-hits-new-ath-at-2-48-what-next-for-prices/",
+      "title": "MemeCore [M] hits new ATH at $2.48 – What next for prices?",
+      "url": "https://ambcrypto.com/memecore-m-hits-new-ath-at-2-48-what-next-for-prices/",
+      "slug": "memecore-m-hits-new-ath-at-2-48-what-next-for-prices",
+      "oldSlug": null,
+      "href": "/articles/memecore-m-hits-new-ath-at-2-48-what-next-for-prices"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

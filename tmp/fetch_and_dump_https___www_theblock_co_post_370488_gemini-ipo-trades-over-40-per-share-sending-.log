@@ -1,0 +1,5 @@
+
+=== Spawned fetch_and_dump for https://www.theblock.co/post/370488/gemini-ipo-trades-over-40-per-share-sending-winklevoss-led-firms-valuation-to-4-75-billion?utm_source=rss&utm_medium=rss at 2025-09-13T06:27:57.855Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.theblock.co/post/370488/gemini-ipo-trades-over-40-per-share-sending-winklevoss-led-firms-valuation-to-4-75-billion?utm_source=rss&utm_medium=rss --out=C:\cointistreact\tmp\source-for-rephrase-https___www_theblock_co_post_370488_gemini-ipo-trades-over-40-per-share-sending-.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757744877852.json ===
+Fetch error: HTTP 403
+
+=== child exit code=3 at 2025-09-13T06:27:59.500Z ===

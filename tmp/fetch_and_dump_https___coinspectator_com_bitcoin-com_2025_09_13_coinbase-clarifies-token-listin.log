@@ -1,0 +1,116 @@
+
+=== Spawned fetch_and_dump for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/ at 2025-09-13T10:17:21.556Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-clarifies-token-listin.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757758641525.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-clarifies-token-listin.txt
+Spawned rephraser for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757758653705.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 249,
+    "slug": "coinbase-enhances-transparency-in-token-listings"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '75f101ffdbd6e4cb5a1eadf47e69c3bdabde570c', id: 249 }
+
+=== child exit code=0 at 2025-09-13T10:17:35.780Z ===
+
+
+=== child exit code=0 at 2025-09-13T10:17:35.922Z ===
+
+=== Spawned fetch_and_dump for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/ at 2025-09-13T10:24:40.042Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-clarifies-token-listin.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757759080011.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-clarifies-token-listin.txt
+Spawned rephraser for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757759109071.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 252,
+    "slug": "coinbase-enhances-token-listing-procedures-with-emphasis-on-transparency"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '75f101ffdbd6e4cb5a1eadf47e69c3bdabde570c', id: 252 }
+
+=== child exit code=0 at 2025-09-13T10:25:09.829Z ===
+
+
+=== child exit code=0 at 2025-09-13T10:25:09.846Z ===
+
+=== Spawned fetch_and_dump for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/ at 2025-09-13T14:57:28.842Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-clarifies-token-listin.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757775448780.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-clarifies-token-listin.txt
+Spawned rephraser for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775463111.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 262,
+    "slug": "coinbase-enhances-token-listing-protocol-with-transparency"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '75f101ffdbd6e4cb5a1eadf47e69c3bdabde570c', id: 262 }
+
+=== child exit code=0 at 2025-09-13T14:57:49.941Z ===
+
+
+=== child exit code=0 at 2025-09-13T14:57:50.204Z ===
+
+=== Spawned fetch_and_dump for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/ at 2025-09-13T16:21:52.296Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-clarifies-token-listin.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757780512292.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_coinbase-clarifies-token-listin.txt
+Spawned rephraser for https://coinspectator.com/bitcoin-com/2025/09/13/coinbase-clarifies-token-listing-process-emphasizes-free-submissions-and-transparency/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757780524775.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 276,
+    "slug": "coinbase-enhances-transparency-in-its-token-listing-procedure"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '75f101ffdbd6e4cb5a1eadf47e69c3bdabde570c', id: 276 }
+
+=== child exit code=0 at 2025-09-13T16:22:06.437Z ===
+
+
+=== child exit code=0 at 2025-09-13T16:22:06.457Z ===

@@ -1,0 +1,577 @@
+/* advertise.css (extracted from user upload) */
+:root{
+  --ink:#ffffff;
+  --muted:#c9d1d9;
+  --gold:#ffd166;        /* champagne gold */
+  --neon:#2ce561;        /* neon green */
+  --warm:#f7f4e9;        /* warm white for text grad */
+}
+
+/* ===== HERO ===== */
+.ad-hero{
+  position:relative;
+  max-width:1200px;
+  margin:22px auto 28px;
+  border-radius:28px;
+  overflow:hidden;
+  padding:72px 24px 64px;
+  text-align:center;
+  isolation:isolate;
+  box-shadow:0 20px 80px rgba(44,229,97,.15);
+  background:linear-gradient(120deg,var(--gold),var(--neon),#69fe3c);
+  background-size:400% 400%;
+  animation:heroGrad 12s ease-in-out infinite;
+
+}
+@keyframes heroGrad{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+/* only one visible logo in hero (duplicate removed) */
+.ad-hero .logo{
+  height:64px; margin-bottom:14px;
+  filter:drop-shadow(0 6px 20px rgba(0,0,0,.35))
+}
+
+/* premium gradient text for tagline */
+.ad-hero .tagline{
+  font-family:"SF Pro Display","SF Pro Text",-apple-system,system-ui;
+  font-weight:800; letter-spacing:.01em; line-height:1.12;
+  font-size:clamp(32px,4.6vw,56px);
+  background:linear-gradient(90deg, var(--gold) 0%, var(--warm) 45%, var(--neon) 100%);
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  text-shadow:0 2px 10px rgba(0,0,0,.35);
+  margin:6px 0 10px;
+  background-size:180% 100%;
+  animation:tagShine 6.5s ease-in-out infinite;
+}
+@keyframes tagShine{
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+.ad-hero .sub{
+  max-width:820px; margin:0 auto 18px; font-size:clamp(16px,1.8vw,19px);
+  color:#0d0f10; font-weight:600;
+  background:rgba(255,255,255,.72);
+  display:inline-block; padding:10px 16px; border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,.12)
+}
+.ad-hero .cta{
+  display:inline-flex; align-items:center; gap:10px;
+  padding:14px 28px; border-radius:999px; font-weight:800; font-size:16px;
+  color:#0e1210; background:#fff;
+  box-shadow:0 10px 30px rgba(0,0,0,.25), 0 0 0 2px #fff inset;
+  transition:transform .15s ease, box-shadow .15s ease, background .2s ease;
+}
+.ad-hero .cta:hover{transform:translateY(-2px); box-shadow:0 18px 44px rgba(0,0,0,.28), 0 0 0 2px var(--gold) inset}
+
+/* ===== TRUST BAR ===== */
+.trustbar{
+  max-width:1100px; margin:10px auto 8px; padding:14px 16px;
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:16px;
+  opacity:.95;
+}
+.trustitem{
+  background:linear-gradient(135deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:12px; padding:12px 14px;
+  display:flex; align-items:center; gap:10px; justify-content:center;
+  backdrop-filter: blur(6px); color:var(--ink);
+}
+.trustitem svg{opacity:.9}
+
+/* ===== STATS ===== */
+.section{width:100vw; max-width:none; margin:0 -50vw 0 -50vw; left:50%; right:50%; position:relative; padding: 2px 0 20px 0; color:#2d2212; background:linear-gradient(90deg,#fffbe6 0%,#ffe9a3 50%,#ffd166 100%); box-shadow:none; border:none; border-radius:0; text-align:center; font-family:"SF Pro Display","SF Pro Text",-apple-system,system-ui}
+.section h2{
+  font-size:3.2rem; font-weight:900; line-height:1.1;
+  color:#0b0906; background:none; letter-spacing:-0.02em;
+      margin-top: 15px;
+}
+.section .subcopy{color:#4d3a1a; font-size:1.25rem; margin-bottom:2.5em; text-align:center; font-weight:500}
+.section .highlight{
+  color:#d89c3a; background:none; font-weight:900; font-size:inherit;
+  display:inline-block; position:relative; z-index:2;
+}
+.section-bgtext{
+  left:0; right:0; bottom:-.2em;
+  font-size:7vw; font-weight:900; color:#8251021a;
+  text-align:center; pointer-events:none; user-select:none; z-index:1;
+  font-family: Playfair Display, serif;
+}
+
+
+.stats {    
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 32px;
+  width: 100vw;
+  max-width: none;
+  margin: 0 auto 18px auto;
+  padding: 0 2vw;
+}
+.stat {
+  width: 210px;
+  min-height: 210px;
+  border-radius: 22px;
+  background: #f0fdee;
+  box-shadow: 0 0 18px 2px #11121144, 0 10px 30px rgba(44,229,97,.12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 18px 0;
+  position: relative;
+  text-align: center;
+}
+.stat svg {
+  width: 32px;
+  height: 32px;
+  margin: 18px auto 10px auto;
+  display: block;
+}
+.stat .num {
+  font-size: 28px;
+  font-weight: 900;
+  color: #222;
+}
+.stat .lab {
+  font-size: 17px;
+  color: #222;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.counter[data-target] {
+  opacity: .88;
+}
+
+/* ===== PACKAGES ===== */
+.advertise-page .cards{
+  margin-top:28px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:22px;
+  align-items:start;
+  padding-bottom: 36px;
+}
+.advertise-page .card{
+  position:relative;
+  border-radius:18px;
+  overflow:hidden;
+  background:#fff;
+  border:1px solid rgba(0,0,0,0.04);
+  padding:34px 26px;
+  min-height:200px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  box-shadow:0 12px 30px rgba(16,16,16,0.06);
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.advertise-page .card:hover{transform:translateY(-6px) scale(1.01); box-shadow:0 22px 56px rgba(16,16,16,0.12); border-color:rgba(44,229,97,0.12)}
+.advertise-page .card .ribbon{
+  position:absolute; top:14px; left:16px; font-size:12px; font-weight:800; letter-spacing:.04em;
+  background:linear-gradient(90deg,var(--gold),var(--neon)); color:#0b0c0d; padding:7px 12px; border-radius:999px;
+  box-shadow:0 6px 18px rgba(44,229,97,0.08);
+}
+.advertise-page .card h3{margin:6px 0 8px; font-size:20px; font-weight:800; color:#111}
+.advertise-page .card .price{font-weight:900; font-size:44px; color:var(--neon); margin-top:6px}
+.advertise-page .card .meta{color:#6b6b6b; font-size:14px; margin-top:8px}
+.advertise-page .card::after{
+  /* subtle decorative corner icon (faint) */
+  content:'';
+  position:absolute;
+  right:-18px;
+  bottom:-18px;
+  width:120px;
+  height:120px;
+  background:radial-gradient(circle at 40% 40%, rgba(44,229,97,0.12), rgba(255,255,255,0));
+  border-radius:16px;
+  pointer-events:none;
+  opacity:0.9;
+}
+
+/* ===== CAROUSEL (Testimonials) ===== */
+.carousel{
+  position:relative; overflow:hidden; border-radius:18px;
+  border:1px solid rgba(255,255,255,.06);
+  background: linear-gradient(145deg, #edd36cd9, #63ffac96) !important;
+  margin-left: 25px;;
+}
+.carousel-track{display:flex; transition:transform .45s ease}
+.testi{flex:0 0 100%; padding:28px 24px; text-align:center; color: #000000;}
+.testi q {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.testi .by{margin-top:8px; color:var(--muted); font-size:14px}
+.carousel .dots{display:flex; gap:8px; justify-content:center; padding:10px 0 16px}
+.carousel .dots button{
+  width:10px; height:10px; border-radius:999px; border:0; background:rgba(0,0,0,0.25); cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.12)
+}
+.carousel .dots button.active{background:linear-gradient(90deg,var(--gold),var(--neon))}
+
+/* Partners panel specific styling */
+.partners-panel{
+  padding:28px 26px;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  justify-content:center;
+  background: linear-gradient(180deg,#2b2b2b 0%, #111111 100%);
+  border-radius:18px;
+  padding-top: 15px;
+}
+
+.partners-panel h2{ color:#fff; }
+.partners-panel .carousel{
+  border-radius:12px;
+  background:transparent;
+  border:0;
+}
+.partners-panel .carousel-track{
+  display:flex; transition:transform .5s ease; will-change:transform;
+}
+.partners-panel .testi{
+  flex:0 0 100%;
+  padding:12px 8px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-end;
+}
+.partners-panel .testi q{
+  font-size:20px;
+  line-height:1.35;
+  font-weight:700;
+  color:#08110a;
+  background: linear-gradient(90deg,#efe6b7 0%, #9ceda6 100%);
+  padding:28px 40px;
+  border-radius:18px 0 0 18px;
+  width:100%;
+  max-width:920px;
+  box-shadow:0 18px 40px rgba(0,0,0,0.18);
+  text-align:left;
+}
+.partners-panel .testi .by{margin-top:14px; color:#ffffff; font-weight:600; align-self:flex-end}
+.partners-panel .dots{padding-top:14px}
+.partners-panel .dots button{width:12px; height:12px}
+.partners-panel .dots button.active{background:linear-gradient(90deg,var(--neon),var(--gold)); box-shadow:0 4px 10px rgba(44,229,97,0.18)}
+
+/* ===== CONTACT ===== */
+.contact{margin-top:0 !important; display:grid; grid-template-columns: 0.5fr 0.5fr;; gap:18px;}
+@media (max-width:920px){.contact{grid-template-columns:1fr}}
+.contact .panel{
+  background: linear-gradient(145deg,#26292ac6,#121416) !important;
+  box-shadow: 0 10px 28px rgba(0,0,0,.18);
+  border: 1px solid rgba(255, 255, 255, .06);
+  border-radius: 18px;
+  margin-left: 15px;
+}
+.mailto{
+  display:inline-flex; align-items:center; gap:10px; margin-top:12px; margin-bottom: 8px;
+  padding:12px 16px; border-radius:12px; font-weight:800; color:#040404;  background: linear-gradient(145deg, #edd36cd9, #63ffac96) !important;
+}
+.specs{font-size:14px; color:var(--muted); line-height:2.2}
+.specs-panel {
+  background: linear-gradient(145deg,#e5f3e2,#121416);
+  color: #fff !important;
+  margin-left: 0 !important;
+  margin-right: -90px !important;
+  border: 1px solid rgba(255, 255, 255, .06);
+  border-radius: 18px;
+}
+.specs-panel h2,
+.specs-panel ul,
+.specs-panel li,
+.specs-panel .subcopy,
+.specs-panel a {
+  color: #fff !important;
+}
+.partners-panel h2,
+.partners-panel .carousel,
+.partners-panel .carousel-track,
+.partners-panel .testi .by {
+  color: #ffffff;
+}
+
+
+/* ===== STICKY CTA (optional, part of main UX) ===== */
+.fab{
+  position:fixed; right:18px; bottom:18px; z-index:9999;
+  display:inline-flex; align-items:center; gap:10px; padding:12px 18px; font-weight:900;
+  background:#0b0d0e; color:#fff; border:1px solid rgba(255,255,255,.08); border-radius:999px;
+  box-shadow:0 18px 44px rgba(44,229,97,.22);
+  font-family: SF Pro Display, sans-serif;
+}
+.fab:hover{box-shadow:0 24px 64px rgba(44,229,97,.32)}
+
+/* Remove any black divider/gap between sections */ 
+.section + hr,
+.section + .divider,
+.section + div[style*="background:#222"],
+.section + div[style*="background:black"] {
+  display: none !important;
+  height: 0 !important;
+  background: none !important;
+  border: none !important;
+}
+
+.packages-section {
+
+  box-shadow: none !important;
+  border: none !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.packages-section + hr,
+.packages-section + .divider,
+.packages-section + div[style*="background:#222"],
+.packages-section + div[style*="background:black"],
+.packages-section + section[style*="background:#222"],
+.packages-section + section[style*="background:black"] {
+  display: none !important;
+  height: 0 !important;
+  background: none !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.choose-item svg {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+.choose-item:last-child svg {
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+.topbar-social {
+  margin-left: 38px !important;
+  padding-right: 8px !important;
+}
+
+/* Newsletter Subscriber Section Styles */
+.subscribe-band {
+  background: linear-gradient(135deg, #ffd166 0%, #e6d8b8 100%);
+  color: #222;
+  padding: 48px 0 38px 0;
+}
+.subscribe-band .container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.subscribe-band h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: #222;
+}
+.subscribe-band p {
+  font-size: 1.18rem;
+  font-weight: 500;
+  margin-bottom: 22px;
+  color: #222;
+}
+.subscribe-band form {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-end;
+  text-align: center;
+}
+.subscribe-band form label {
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 6px;
+  text-align: center;
+}
+.subscribe-band form input[type="text"],
+.subscribe-band form input[type="email"] {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #222;
+  font-size: 1.08rem;
+  padding: 8px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.subscribe-band form button[type="submit"] {
+  background: linear-gradient(90deg, #222 0%, #444 100%);
+  color: #ffd166;
+  font-weight: 700;
+  font-size: 1.18rem;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 0;
+  width: 100%;
+  margin-top: 8px;
+  box-shadow: 0 2px 12px 0 #ffd16633;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.subscribe-band form button[type="submit"]:hover {
+  background: linear-gradient(90deg, #444 0%, #222 100%);
+}
+
+@media (max-width: 700px) {
+  .specs-panel {
+    margin-left: 12px !important;
+    margin-right: 0 !important;
+    
+  }
+  .stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 0 4vw;
+    width: 100vw;
+    margin: 0 auto 12px auto;
+  }
+  .stat {
+    width: 92vw;
+    max-width: 340px;
+    min-height: 140px;
+    margin: 0 auto 12px auto;
+    padding: 18px 0 14px 0;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .subscribe-band .container {
+    justify-content: flex-start;
+    padding-left: 12px;
+  }
+  .subscribe-band h2,
+  .subscribe-band p {
+    text-align: left;
+  }
+  .subscribe-band form {
+    align-items: flex-end;
+    text-align: center;
+  }
+  /* Left-align the newsletter form elements on narrow screens */
+  .subscribe-band .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 12px;
+  }
+  .subscribe-band form {
+    align-items: flex-start !important;
+    text-align: left !important;
+    width: 100%;
+  }
+  /* the input row inside the form should stack vertically on mobile and stay left-padded */
+  .subscribe-band form > div {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: calc(100% - 24px) !important;
+    max-width: 760px !important;
+    margin: 0 12px !important;
+    text-align: left !important;
+  }
+  .subscribe-band form input[type="text"],
+  .subscribe-band form input[type="email"] {
+    text-align: left !important;
+    width: 100% !important;
+    border-bottom: 2px solid rgba(0,0,0,0.12) !important;
+    padding: 10px 8px !important;
+  }
+  .subscribe-band form label { text-align:left !important; }
+  .newsletter-btn { width: calc(100% - 24px) !important; margin: 8px 12px 0 12px !important; }
+.newsletter-btn {
+    width: 90%;
+    margin-left: 0;
+    margin-right:20px;
+
+  }
+  .fab {
+    display: none !important;
+  }
+}
+
+/* Fix contact/specs & partners visibility on small screens */
+@media (max-width: 920px) {
+  /* Undo full-bleed section behavior for stacked mobile layout */
+  .section.contact {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    max-width: 100% !important;
+    margin: 0 0px !important;
+    padding: 18px 12px !important;
+    box-sizing: border-box;
+  }
+
+  /* Also reset the generic .section full-bleed rules on mobile so content is not pushed off-screen */
+  .section {
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+
+    max-width: 100% !important;
+    margin: 0 0px !important;
+ 
+    box-sizing: border-box;
+  }
+
+  /* Ensure contact panels stack cleanly and don't overflow */
+  .contact {
+    display: block !important;
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+  .contact .panel {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+  /* Remove any negative offsets applied to specs-panel on desktop */
+  .specs-panel {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 12px !important;
+  }
+
+  /* Contain carousel slides inside the panel and prevent overlap */
+  .partners-panel {
+    overflow: hidden;
+    padding: 14px !important;
+    border-radius: 14px;
+  }
+  .partners-panel .carousel{
+    overflow: hidden;
+    margin: 0;
+    width: 100%; /* ensure slides are clipped inside panel */
+    box-sizing: border-box;
+  }
+  .partners-panel .carousel-track{display:flex;}
+  /* Force each slide to occupy full panel width to avoid partial overlap */
+  .partners-panel .testi{align-items:center; padding:12px 6px; min-width:100%; box-sizing:border-box}
+  .partners-panel .testi q{max-width:100% !important; width:100% !important; box-sizing:border-box; border-radius:12px; padding:18px 20px}
+  .partners-panel .testi .by{align-self:center}
+
+  /* Shrink dots and center them */
+  .partners-panel .dots{justify-content:center}
+  .partners-panel .dots button{width:10px; height:10px}
+}

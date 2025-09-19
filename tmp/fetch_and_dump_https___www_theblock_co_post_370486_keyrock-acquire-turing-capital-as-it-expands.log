@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://www.theblock.co/post/370486/keyrock-acquire-turing-capital-as-it-expands-into-asset-and-wealth-management?utm_source=rss&utm_medium=rss at 2025-09-16T15:46:56.668Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.theblock.co/post/370486/keyrock-acquire-turing-capital-as-it-expands-into-asset-and-wealth-management?utm_source=rss&utm_medium=rss --out=C:\cointistreact\tmp\source-for-rephrase-https___www_theblock_co_post_370486_keyrock-acquire-turing-capital-as-it-expands.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758037616651.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_theblock_co_post_370486_keyrock-acquire-turing-capital-as-it-expands.txt
+Spawned rephraser for https://www.theblock.co/post/370486/keyrock-acquire-turing-capital-as-it-expands-into-asset-and-wealth-management
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758037648046.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 366,
+    "slug": "keyrock-s-strategic-acquisition-of-turing-capital",
+    "title": "Keyrock's Strategic Acquisition of Turing Capital",
+    "excerpt": "Keyrock has announced its acquisition of Turing Capital, a strategic move designed to bolster its asset and wealth management offerings within the evolving cryptocurrency sector."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1fcb2e3eda43396d05e7e555271e17fc17c0d0d4', id: 366 }
+Updated selection files from rephraser log. Items: 3
+
+=== child exit code=0 at 2025-09-16T15:47:29.751Z ===
+
+
+=== child exit code=0 at 2025-09-16T15:47:30.516Z ===

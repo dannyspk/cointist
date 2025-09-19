@@ -1,0 +1,550 @@
+/* Published article styles — dedicated module to avoid admin styles
+   Ensures cover image sits in the content column and sidebar stays on the right. */
+
+.container{
+  max-width: var(--article-max);
+  margin: 36px auto;
+  padding: 0 20px;
+  color: var(--foreground);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 28px;
+  align-items: start;
+}
+.article{
+  /* Article content stays in the left column */
+  grid-column: 1 / span 1;
+}
+.headerTop{ grid-column: 1 / span 1; margin-bottom: 8px; }
+.title{ margin: 0 0 8px 0; font-size: 48px; line-height: 1.02; color: var(--accent); font-weight: 800; }
+.excerpt{ margin: 6px 0 16px 0; font-size: 18px; color:var(--foreground); opacity:0.92; }
+.metaRow{ display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.authorCard{ display:flex; align-items:center; gap:12px; }
+.avatar{
+  width:56px;
+  height:56px;
+  border-radius:8px;
+  overflow:hidden;
+  background:#0b0d0e;
+  display:inline-block;
+}
+.avatar img{ width:100%; height:100%; object-fit:cover; display:block; }
+.authorName{ font-weight:700; }
+.metaSmall{ font-size:13px; color:var(--muted); }
+.actions{ display:flex; align-items:center; gap:8px; }
+.tags{ display:flex; gap:6px; }
+.tag{ background: rgba(255,255,255,0.03); color:var(--muted); padding:6px 8px; border-radius:6px; font-size:13px; }
+.shareBtn{ background:transparent; border:1px solid rgba(255,255,255,0.06); padding:8px 10px; border-radius:8px; font-size:13px; color:var(--foreground); cursor:pointer; }
+.shareBtn:hover{ border-color:rgba(255,255,255,0.12); }
+/* Cover occupies the content column only (prevents it from pushing sidebar down) */
+.cover{ margin: 20px 0; grid-column:1 / span 1; }
+.coverImg{ width:100%; height:auto; max-height:510px; object-fit:cover; display:block; border-radius:12px; box-shadow: 0 10px 40px rgba(0,0,0,0.45); }
+.caption{ margin-top:8px; font-size:13px; color:var(--muted); }
+.content{ grid-column:1 / span 1; font-size:17px; line-height:1.78; color:var(--foreground); }
+.sidebar{ grid-column:2 / span 1; position:relative; }
+
+/* Page grid and hero/figure/article body styles to match the provided HTML */
+.pageGrid{ display:block; }
+
+/* Desktop/tablet: two-column grid starting at 721px */
+@media (min-width: 721px) {
+  .pageGrid{ display:grid; grid-template-columns: minmax(0,1fr) 400px; gap:36px; align-items:start; max-width:1290px; margin:0 auto; }
+}
+.breadcrumb{ height:0; }
+.articleHero{ margin-bottom:28px; }
+.heroAuthorRow{ display:flex; gap:12px; align-items:center; margin-top:12px }
+.heroAuthorThumb{ width:48px; height:48px; border-radius:8px; object-fit:cover }
+.articleKicker{ font-size: .85rem;
+    color: #5ce67e;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
+}
+.articleTitle{ font-size:44px; margin:12px 0 22px 0; color:rgb(255, 255, 255); line-height:1.04; font-weight:800;
+  /* Ensure article titles on the article layout are not clipped: allow wrapping */
+  overflow: visible; /* allow the title to expand if needed */
+  white-space: normal; /* allow wrapping across lines */
+  text-overflow: clip; /* don't use ellipsis */
+  word-break: break-word; /* break long words/URLs if necessary */
+}
+.articleDek{ font-size:16px; letter-spacing: -0.4px; color:#fcfcfc; opacity:0.95; max-width:780px; margin-top:8px; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; line-clamp:3; }
+.articleMeta{ margin-top:14px; color:var(--muted, #cbd5df); display:flex; gap:12px; align-items:center; font-size:14px; }   
+.dot{ width:6px; height:6px; border-radius:50%; background:rgba(255,255,255,0.06); display:inline-block; }
+
+.authorPublished{ margin-top:8px; font-size:13px; color:var(--muted); }
+
+.authorActions{ display:flex; gap:8px; align-items:center; }
+.likeBtn{ background: #ffffff; border: none; color: #061217; padding:8px 12px; border-radius:10px; cursor:pointer; font-weight:500; font-size:14px; min-width:72px; text-align:center; box-shadow: 0 4px 12px rgba(2,6,23,0.12); }
+.likeBtn:hover{ transform: translateY(-1px); box-shadow: 0 6px 18px rgba(2,6,23,0.14); }
+.likeBtn:focus{ outline: 3px solid rgba(34,197,94,0.12); }
+.likeBtn[aria-pressed="true"]{ background: linear-gradient(90deg,#ff7a7a,#ffb3b3); border-color: transparent; color:#061217; box-shadow: 0 6px 18px rgba(255,122,122,0.12); }
+.shareBtn{ background: #ffffff; border: none; color: #061217; padding:8px 12px; border-radius:10px; cursor:pointer; font-weight:500; font-size:14px; min-width:72px; text-align:center; box-shadow: 0 4px 12px rgba(2,6,23,0.12); }
+.shareBtn:hover{ transform: translateY(-1px); box-shadow: 0 6px 18px rgba(2,6,23,0.14); }
+.shareBtn:focus{ outline: 3px solid rgba(34,197,94,0.08); }
+.btnIcon{ display:inline-flex; width:18px; height:18px; margin-right:8px; vertical-align:middle; }
+.btnIcon svg{ display:block; width:100%; height:100%; }
+.btnLabel{ vertical-align:middle; }
+
+.figure{ margin:20px 0; }
+.figure img{ width:100%; max-width:720px; height:auto; object-fit:cover; border-radius:12px; box-shadow:0 8px 36px rgba(0,0,0,0.45); display:block; }
+.figcap{ margin-top:8px; color:#e6eef6; font-size:13px; }
+
+.articleBody{
+  font-size:17px;
+  line-height:1.78;
+  color: #fcfdff; /* softer off-white for better readability */
+  font-weight: 400;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  max-width: 68ch; /* slightly narrower measure (66-72ch ideal for long-form) */
+  hyphens: auto; /* allow soft hyphenation for long words */
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height: 1.9; /* more comfortable leading for long text */
+}
+
+/* Scoped helpers to support imported external article HTML (oped-style).
+   Use :global() for the child selectors because the imported HTML is raw
+   markup (not processed by CSS modules). We still scope the rules so they
+   only apply when the raw HTML appears inside the article body element. */
+.articleBody :global(.container){
+  max-width: 920px;
+  margin: 0 auto;
+}
+.articleBody :global(header.article-header){
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  padding-bottom: 18px;
+}
+.articleBody :global(.kicker){
+  font-size: .85rem;
+  color: var(--muted, #9aa0a6);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 6px;
+}
+.articleBody :global(h1){
+  font-weight: 800;
+  line-height: 1.12;
+  margin: 10px 0 8px;
+  font-size: clamp(1.9rem, 4.2vw, 2.4rem);
+  color: inherit; /* keep site font and color rules */
+}
+.articleBody :global(.meta){
+  color: var(--muted, #9aa0a6);
+  font-size: .95rem;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.articleBody :global(.meta .dot)::before{ content: "•"; margin: 0 10px; color: rgba(255,255,255,0.04); }
+.articleBody :global(p){ margin: 0 0 1.04em;  color: #ffffff; font-size: 16px; }
+.articleBody :global(p){
+  margin-bottom: 1.15em; /* slightly more breathing room between paragraphs */
+  orphans: 3; widows: 3;
+}
+.articleBody :global(.lead){ font-size: 1.15rem; color: #f0efe8; opacity: .96; }
+.articleBody :global(.dropcap)::first-letter{
+  float: left;
+  font-size: 3.4rem;
+  line-height: .85;
+  padding-right: .2rem;
+  margin-top: .18rem;
+  color: var(--accent, #29f6a1);
+  font-weight: 800;
+  text-shadow: 0 2px 16px rgba(0,0,0,0.25);
+}
+.articleBody :global(.callout){
+     background: linear-gradient(60deg, #4f7063 0%, #313e35 100%) transparent;
+  border: 1px solid rgba(255,255,255,0.04);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 1.2em 0;
+}
+.articleBody :global(blockquote){ margin: 1.6em 0; padding: 0 0 0 18px; border-left: 3px solid rgba(41,246,161,0.9); color: #f6f5ef; font-style: italic; opacity: .95; }
+.articleBody :global(.grid){ display: grid; gap: 18px; grid-template-columns: 1fr; }
+@media (min-width: 760px){ .articleBody :global(.grid.two) { grid-template-columns: 1fr 1fr; } .articleBody :global(.grid.three) { grid-template-columns: 1fr 1fr 1fr; } }
+.articleBody :global(.keytakeaways) li{ margin: .4em 0; }
+.articleBody :global(.aside){     background: linear-gradient(60deg, #4f7063 0%, #313e35 100%) transparent; border: 1px solid rgba(255,255,255,0.04); border-radius: 12px; padding: 14px 16px; color: #e0e6eb; font-size: .98rem; font-weight: 500; }
+.articleBody :global(.foot){ border-top: 1px dashed rgba(226, 216, 216, 0.04); margin-top: 34px; padding-top: 14px; color: var(--muted, #ebf1f7); font-size: .92rem; background: none !important; }
+.articleBody :global(.callout) strong{ font-weight:700; }
+.articleBody :global(.keytakeaways){ padding-left: 1rem; }
+
+
+/* Article content specifics */
+
+
+.articleBody blockquote{
+      border-left: 4px solid rgb(0 241 152);
+    background: linear-gradient(178deg, rgb(72 255 114 / 9%), #2e212100);
+    padding: 14px 16px;
+    color: #f5f0f0;
+    font-style: italic;
+    border-radius: 6px;
+}
+
+.articleBody img{ max-width:100%; height:auto; display:block; margin:18px 0; border-radius:8px; box-shadow: 0 8px 24px rgba(2,6,23,0.2); }
+.articleBody pre{ background:#071018; color:#e6eef6; padding:14px; border-radius:8px; overflow:auto; }
+.articleBody code{ background: rgba(255,255,255,0.03); padding:2px 6px; border-radius:6px; }
+
+/* subtle drop cap tweak for better contrast on dark backgrounds */
+/* Use a fallback so the drop-cap remains visible if --accent resolves to an unexpected value */
+.articleBody p:first-of-type::first-letter{
+  color: var(--accent, #29f6a1) !important;
+  -webkit-text-fill-color: var(--accent, #29f6a1) !important; /* safari/webkit fallback */
+}
+
+/* Improve long-form reading: wider headings, subtle weight increase for paragraphs,
+   and better spacing around block elements to avoid dense walls of text. */
+.articleBody :global(h2), .articleBody :global(h3) {
+  line-height: 1.18;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+}
+
+.articleBody :global(li) { margin-bottom: 0.6em; }
+
+/* Limit very long lines on very wide screens while keeping the site layout intact */
+@media (min-width: 1200px) {
+  .articleBody{ max-width: 72ch; }
+}
+
+.sidebarCard{ background: linear-gradient(180deg, rgb(239 215 161 / 6%), transparent) !important; padding:18px; border-radius:12px; margin-bottom:14px; color:#fff; text-align:left; position:relative; /* bottom-focused shadow only */ box-shadow: 0 10px 20px -10px rgba(0,0,0,0.45); }
+.sidebarCard h3{ margin:0 0 12px 0; text-align:left; font-size:22px; }
+.editorsList{ display:flex; flex-direction:column; gap:12px; }
+.editors{ margin-top:0; }
+.editorsItem{ display:flex; gap:12px; align-items:flex-start;margin-bottom: 15px; }
+.editorsThumb img{ width:100px; height:70px; object-fit:cover; border-radius:8px; }
+.editorsMeta{ flex:1; }
+.editorsKicker{ font-size:12px; color:#ffd54a; font-weight:700; margin-bottom:6px; }
+.editorsTitle a{ color:#fff; text-decoration:none; font-weight:600; }
+.editorsByline{ font-size:12px; line-height:1.25; color:#ffd54a; margin-top:6px; }
+
+.subscribeCopy{ margin:6px 0 12px 0; color:floralwhite; }
+.subscribeForm input{ width:100%; padding:8px 10px; margin-bottom:8px; border-radius:8px; background:transparent; border:1px solid rgba(255,255,255,0.06); color:var(--foreground); }
+.subscribeForm button{ background:linear-gradient(90deg,#29f6a1,#14f195); border:none; padding:8px 12px; border-radius:8px; cursor:pointer; }
+
+/* Typography inside article content */
+/*
+  Create a dedicated module-level H2 style so article headings don't rely on global
+  Cointist.css. We target H2s inside the article body and provide a reusable
+  `.articleH2` class for any markup that can include it.
+*/
+.articleH2,
+.content h2,
+.articleBody h2 {
+  font-size: 28px;
+  margin: 28px 0 12px;
+  text-align: left; /* ensure headings are left-aligned inside articles */
+  margin-left: 0;
+  
+}
+
+
+/* Ensure H3 headings inside imported/raw article HTML and layouts
+   receive the same gradient underline as H2. Covers both CSS module-scoped
+   article content and global `.wrap article h3` usage. */
+.articleBody :global(h3):after,
+.wrap article h3:after {
+  content: '';
+  display: block;
+  height: 6px;
+  width: 64px;
+  margin-top: 18px;
+  border-radius: 999px;
+  text-align: center;
+   background: linear-gradient(90deg, #29f6a1, #f6df7c);}
+
+.articleH3,
+.content h3,
+.articleBody h3 {
+  font-size:20px;
+  margin:20px 0 10px;
+  text-align:left;
+}
+.content p{ margin:14px 0; }
+.content img{ max-width:100%; height:auto; border-radius:8px; }
+.content blockquote{ border-left:3px solid rgba(255,255,255,0.06); padding-left:14px; color:var(--muted); font-style:italic; background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent); padding:12px 16px; border-radius:6px; }
+.content pre{ background:#0f1720; color:#e6eef6; padding:12px; border-radius:8px; overflow:auto; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Segoe UI Mono', monospace; }
+.content code{ background: rgba(255,255,255,0.02); padding:2px 6px; border-radius:6px; font-family:inherit; }
+.content table{ width:100%; border-collapse:collapse; margin:16px 0; }
+.content table th, .content table td{ border:1px solid rgba(255,255,255,0.04); padding:8px 10px; }
+
+/* Drop cap for first paragraph */
+.content p:first-of-type::first-letter{
+  float:left;
+  font-size:56px;
+  line-height:42px;
+  margin-right:12px;
+  font-weight:800;
+  color: var(--accent, #29f6a1) !important;
+  -webkit-text-fill-color: var(--accent, #29f6a1) !important;
+}
+
+/* Editor's pick styles (sidebar) */
+.editorsPick{ background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent); padding:18px; border-radius:12px; }
+.editorsTitle{ font-size:15px; margin:0 0 12px 0; color:var(--foreground); font-weight:700; }
+.pickList{ display:flex; flex-direction:column; gap:12px; }
+.pickItem{ display:flex; gap:12px; text-decoration:none; color:inherit; align-items:flex-start; padding:8px; border-radius:8px; }
+.pickItem:hover{ background: rgba(255,255,255,0.01); }
+.pickThumb{ width:70px; height:70px; object-fit:cover; border-radius:8px; background:#0b0d0e; }
+.pickBody{ flex:1; }
+.pickBadge{ display:inline-block; background:#ffd54a; color:#111; padding:4px 8px; border-radius:6px; font-size:12px; margin-bottom:6px; }
+.pickTitle{ margin:4px 0 6px; font-size:15px; line-height:1.2; }
+.pickMeta{ font-size:13px; color:var(--muted); }
+/* Sticky sidebar */
+@media (min-width: 981px){
+  .sidebar{ position:relative; }
+  /* push the Editor's Pick down so it lines up with the hero/figure area */
+  
+  .editorsPick{ position:sticky; top:120px; }
+}
+
+/* Author box to show author name and kicker next to the heading */
+.authorBox{ display:flex; flex-direction:column; gap:12px; padding:14px; margin-top: 54px; }
+.authorName{ font-weight:700; font-size:16px; }
+.authorMeta{ font-size:13px; color:var(--muted); }
+.articleKicker{ margin-bottom:0; }
+
+/* Article author box displayed below article content */
+.articleAuthorBox{ grid-column:1 / span 1; background: #0b0d10;
+    padding: 28px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-radius: 16px;
+    margin-top: 28px;
+    box-shadow: 0 10px 40px rgb(82 82 82 / 45%);}
+.authorRow{ display:flex; gap:18px; align-items:flex-start; margin-bottom: 10px; }
+.authorCol{ display:flex; flex-direction:column; }
+.articleAuthorBox img{ width:72px; height:72px; border-radius:50% !important; object-fit:cover; box-shadow: 0 6px 20px rgba(0,0,0,0.45); flex:0 0 auto; }
+.authorCol::before{ content: 'AUTHOR'; display:block; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:0.12em; margin-bottom:6px; }
+.authorName{ font-weight:100; font-size:28px; color:var(--text); }
+.authorLead{ color:#cfdce1; font-size:15px;margin-top:6px; }
+@media (max-width:720px){ .authorRow{ flex-direction:row; } .articleAuthorBox{ padding:14px } .articleAuthorBox img{ width:64px; height:64px } }
+
+/* Responsive adjustments */
+@media (max-width: 720px){
+  /* Single column layout on small screens.
+    Use the same horizontal padding/box-sizing as other containers so content lines up
+    consistently with the rest of the site. Ensure children occupy full width. */
+  .pageGrid{ grid-template-columns: 1fr; gap:20px; padding: 0 15px; max-width: 100%; box-sizing: border-box; margin: 0 auto;}
+  .pageGrid > * { width: 100%; box-sizing: border-box; }
+  /* Avoid using 100vw (causes horizontal overflow when parent has padding/scrollbar).
+    Use 100% + box-sizing so the main column respects container padding on mobile. */
+  .articleWrap{ order: 1; width: 100%; max-width: 100%; box-sizing: border-box; }
+  .sidebar{ order: 2; width:100%; position:static; grid-column:1 / span 1; }
+  .headerTop{ grid-column:1 / span 1; }
+  .cover{ grid-column:1 / span 1;    }
+  .articleTitle{ font-size:32px; 
+    /* Mobile: allow wrapping and prevent truncation */
+    overflow: visible;
+    white-space: normal;
+    text-overflow: clip;
+    word-break: break-word;
+  }
+  .articleDek{ font-size:16px; }
+  .figure img{ max-width:100%; height:auto; }
+.articleBody h2{ text-align: left; }
+.h2 {text-align: left;}
+/* Strongly scope article H2 styles so global page styles (e.g. advertise.css .section h2)
+   do not override article headings on mobile. We explicitly reset the most common
+   conflicting properties and provide the intended article H2 contract. */
+.articleBody :global(h2),
+.articleBody h2,
+.articleH2 {
+  text-align: left;
+  font-size: 28px; /* match article H2 scale */
+  margin: 28px 0 12px;
+  font-weight: 800;
+  text-align: left !important; /* inherit page/article color so ad CSS doesn't force a different color */
+  background: none !important; /* reset any background gradient applied by advertise.css */
+  background-clip: unset !important;
+  -webkit-background-clip: unset !important;
+}
+  /* Make sidebar cards full width and readable on small screens */
+  .sidebarCard{ width:100%; padding:14px; box-sizing:border-box; }
+  .editorsThumb img, .latestThumb, .pickThumb{ width:80px; height:56px; }
+  .editorsList{ gap:10px; }
+  .editorsItem{ align-items:center; }
+  .editors{ margin-top:28px; }
+  .editorsPick{ position:static; top:auto; }
+
+  /* Make the Latest News box corners less edgy on mobile (softer rounding) */
+  .latestSection{
+    border-radius: 12px;
+    border: none;
+  }
+}
+
+/* H3 styling to mirror H2 approach */
+.articleH3,
+.content h3,
+.articleBody h3 {
+  font-size: 26px;
+    color: var(--ink) !important;
+    position: relative;
+}
+
+.articleH3:after {
+    content: '';
+    display: block;
+    height: 6px;
+    width: 64px;
+    margin-top: 8px;
+    border-radius: 999px;
+    text-align: center;
+    background: linear-gradient(90deg, var(--gold), var(--accent));
+}
+
+/* Space adjustments: gap between MarketMarquee and kicker, and kicker and title */
+.articleHero{ margin-top:54px; }
+.articleKicker{ margin-bottom:14px; }
+.articleTitle{ margin-top:4px; }
+
+/* Latest posts section (above footer) */
+.latestSection{
+  /* full-bleed background that stretches the viewport even inside a centered container */
+  position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 40px;
+  margin-bottom: 48px;
+  padding: 56px 4vw 70px 4vw;
+  overflow: hidden;
+  border-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  background: linear-gradient(15deg, #a0fbcd 50%, #b4f5d4 100%);
+  box-sizing: border-box;
+}
+.latestInner{
+  /* align the inner content to the same two-column layout as the article page */
+ /* match .pageGrid max-width so columns line up */
+  margin: 0 auto;
+  padding: 0;
+
+  grid-template-columns: minmax(0, 1fr) 400px; /* main column + sidebar column */
+  gap: 36px; /* match .pageGrid gap so columns align visually */
+}
+
+.latestInner > .latestHeader,
+.latestInner > .latestGrid{
+  grid-column: 1 / 2; /* keep header and grid inside the main/article column */
+}
+
+.latestHeader{ font-size:29px; font-weight:900; margin-bottom:20px; color:#061217; font-family: 'SF Pro Display', -apple-system, system-ui, 'Segoe UI', Roboto, Helvetica, Arial; }
+.latestGrid{ display:grid; /* responsive columns with sensible min width so items keep consistent sizing */
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+  gap:24px; align-items:start;
+}
+.latestCard{ background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent); border-radius:12px; gap:12px; align-items:flex-start; align-self:start; min-height:0; display:flex; padding:12px; }
+.latestThumb{ width:88px; height:88px; border-radius:10px; background:#0b0d0e; flex-shrink:0; display:block; overflow:hidden; }
+.latestThumbImg{ width:88px; height:88px; object-fit:cover; border-radius:10px; display:block; }
+.latestLink{ color:inherit; text-decoration:none;  }
+.latestByline{ 
+  margin-top:6px; 
+  color:#000; 
+  font-size:12px; 
+  line-height:1.3; 
+  white-space:nowrap; 
+  overflow:hidden; 
+  text-overflow:ellipsis; 
+}
+.bylineAuthor{ display:inline-block; margin-right:6px; }
+.bylineDate{ display:inline-block; color:#555; }
+.latestTag{ font-size:12px; color:#04663d; font-weight:700; margin-bottom:6px; }
+.latestTitle{ font-size:15px; font-weight:700; color:#080808; line-height:1.25; margin-top:2px;
+  display:-webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  min-height: calc(1.25em * 3);
+}
+
+@media (max-width: 980px){
+  .latestGrid{ grid-template-columns: repeat(1, 1fr); }
+  .latestThumb{ width:64px; height:64px; }
+  .latestThumbImg{ width:64px; height:64px; object-fit:cover; border-radius:8px; }
+  .latestCard{ display:flex; gap:12px; padding:10px; align-items:center; }
+  .latestCard > div { flex:1; }
+}
+
+@media (min-width: 600px) and (max-width: 980px){
+  .latestGrid{ grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Ensure mobile override comes after the base rules so it wins against later declarations */
+@media (max-width: 720px){
+  .latestSection{
+    border-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+  }
+}
+
+/* Reading focus mode: apply on the article container by toggling the
+   `reading-focus` class (e.g. `<div class="articleBody reading-focus">`).
+   Provides a subtle tinted backdrop and a centered 'ruler' to guide line-length.
+   Use the CSS variable `--focus-strength` to control intensity (0 to 1). */
+.articleBody.reading-focus {
+  --focus-strength: 0.14; /* default tint strength */
+  position: relative; /* create stacking context for overlays */
+  background-color: rgba(10,12,14, calc(var(--focus-strength) * 0.6));
+  padding: 28px 20px; /* add interior breathing room when focused */
+  border-radius: 12px;
+}
+
+/* Centered ruler: narrow highlighted column to guide reading focus */
+.articleBody.reading-focus::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+  width: min(72ch, 68%); /* cap width but remain responsive */
+  margin: auto;
+  pointer-events: none;
+  box-shadow: 0 0 0 9999px rgba(0,0,0, calc(0.6 * var(--focus-strength))); /* darken outside */
+  border-radius: 12px;
+}
+
+/* Subtle left and right soft edges to help focus on the column */
+.articleBody.reading-focus::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+  width: min(72ch, 68%);
+  margin: auto;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+  mix-blend-mode: overlay;
+  border-radius: 12px;
+}
+
+/* Optional: subtle guideline (ruler) near top to signal the reading column */
+.articleBody.reading-focus .ruler {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 92px; /* below the hero/title area */
+  width: min(72ch, 68%);
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+  box-shadow: 0 6px 18px rgba(0,0,0,0.28);
+  pointer-events: none;
+}
+
+@media (max-width: 980px){
+  .articleBody.reading-focus, .articleBody.reading-focus::before, .articleBody.reading-focus::after { padding: 18px 12px; }
+  .articleBody.reading-focus::before, .articleBody.reading-focus::after { width: calc(100% - 40px); left: 50%; transform: translateX(-50%); }
+}

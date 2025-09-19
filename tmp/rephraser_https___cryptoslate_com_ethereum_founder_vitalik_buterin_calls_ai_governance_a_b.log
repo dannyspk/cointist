@@ -1,0 +1,27 @@
+
+=== Spawned rephraser for https://cryptoslate.com/ethereum-founder-vitalik-buterin-calls-ai-governance-a-bad-idea/ at 2025-09-14T18:17:52.866Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptoslate_com_ethereum-founder-vitalik-buterin-calls-ai-governance-a-b.txt --twoStage invocation=https://cryptoslate.com/ethereum-founder-vitalik-buterin-calls-ai-governance-a-bad-idea/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757873882378.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 360,
+    "slug": "vitalik-buterin-critiques-ai-governance-concepts",
+    "title": "Vitalik Buterin Critiques AI Governance Concepts",
+    "excerpt": "Ethereum founder Vitalik Buterin has voiced his apprehensions regarding the governance of artificial intelligence, highlighting significant flaws in current proposals and the necessity of human intervention."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cd37b25883389656aaf27ec4c906a398b20dc307', id: 360 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T18:18:03.871Z ===

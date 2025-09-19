@@ -1,0 +1,324 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T11:41:53.830Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757850124887.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 334,
+    "slug": "pakistan-welcomes-international-crypto-firms-to-enter-its-market",
+    "title": "Pakistan Welcomes International Crypto Firms to Enter Its Market",
+    "excerpt": "Pakistan is opening its doors to global virtual asset service providers, inviting them to apply for licenses through the newly established PVARA. This initiative aims to enhance market transparency and tackle illicit finance issues."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 334 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T11:42:06.018Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T11:46:15.829Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757850386283.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 335,
+    "slug": "pakistan-opens-doors-for-global-crypto-firms-licensing-opportunities-ahead",
+    "title": "Pakistan Opens Doors for Global Crypto Firms: Licensing Opportunities Ahead",
+    "excerpt": "Pakistan is actively inviting international cryptocurrency enterprises to secure licenses through the newly established Pakistan Virtual Asset Regulatory Authority (PVARA). This initiative encourages leading exchanges and virtual asset service providers to participate, with a focus on compliance and transparency."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 335 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T11:46:27.678Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T11:50:47.097Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757850656570.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 336,
+    "slug": "pakistan-opens-licensing-for-global-crypto-firms-key-details",
+    "title": "Pakistan Opens Licensing for Global Crypto Firms: Key Details",
+    "excerpt": "Pakistan is now welcoming international cryptocurrency companies to apply for licenses through the Pakistan Virtual Assets Regulatory Authority (PVARA), aiming to bolster fintech opportunities while regulating the industry."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 336 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T11:50:58.158Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T11:54:46.717Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757850897319.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 337,
+    "slug": "pakistan-opens-gateway-for-international-crypto-firms-with-new-licensing-framework",
+    "title": "Pakistan Opens Gateway for International Crypto Firms with New Licensing Framework",
+    "excerpt": "Pakistan is now welcoming international cryptocurrency companies to apply for licenses under its newly established regulatory authority, the Pakistan Virtual Asset Regulatory Authority (PVARA). This initiative seeks to foster a transparent and robust digital financial environment in the country."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 337 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T11:54:58.592Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T12:04:33.427Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757851484810.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 338,
+    "slug": "pakistan-s-regulatory-push-to-attract-global-crypto-enterprises",
+    "title": "Pakistan's Regulatory Push to Attract Global Crypto Enterprises",
+    "excerpt": "Pakistan is actively inviting international cryptocurrency firms to register for licenses under the PVARA, aiming to align with global standards while boosting its fintech sector."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 338 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T12:04:45.923Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T12:49:57.900Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757854208958.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 339,
+    "slug": "pakistan-opens-licensing-opportunities-for-global-crypto-companies",
+    "title": "Pakistan Opens Licensing Opportunities for Global Crypto Companies",
+    "excerpt": "Pakistan's Virtual Asset Regulatory Authority (PVARA) is extending an invitation to international cryptocurrency firms to apply for operating licenses. This initiative is part of a broader effort to foster fintech innovations while ensuring regulatory compliance."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 339 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T12:50:10.914Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T12:54:15.704Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757854467514.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 340,
+    "slug": "pakistan-s-push-for-global-crypto-engagement-new-licensing-opportunities",
+    "title": "Pakistan's Push for Global Crypto Engagement: New Licensing Opportunities",
+    "excerpt": "Pakistan's regulatory authority, PVARA, is actively seeking international crypto firms to obtain operating licenses, emphasizing compliance and transparency in the burgeoning digital finance sector."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 340 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T12:54:28.944Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T12:56:25.739Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757854595751.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 341,
+    "slug": "pakistan-s-regulatory-initiative-welcomes-global-crypto-firms",
+    "title": "Pakistan's Regulatory Initiative Welcomes Global Crypto Firms",
+    "excerpt": "Pakistan is inviting international cryptocurrency firms to apply for licenses through the newly established Pakistan Virtual Asset Regulatory Authority (PVARA). This initiative aims to create a transparent digital financial ecosystem by fostering collaboration with recognized global players in the crypto market."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 341 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T12:56:36.863Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T13:00:28.520Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757854838190.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 342,
+    "slug": "pakistan-welcomes-global-crypto-firms-with-new-license-initiative",
+    "title": "Pakistan Welcomes Global Crypto Firms with New License Initiative",
+    "excerpt": "Pakistan has taken a significant step towards integrating global crypto firms by opening applications under the Pakistan Virtual Asset Regulatory Authority (PVARA). This initiative aims to enhance the country's position in the cryptocurrency landscape while ensuring compliance with international standards."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 342 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T13:00:39.064Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T13:48:42.233Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757857735820.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 349,
+    "slug": "pakistan-opens-doors-for-international-crypto-firms-new-licensing-opportunities",
+    "title": "Pakistan Opens Doors for International Crypto Firms: New Licensing Opportunities",
+    "excerpt": "Pakistan is actively inviting global cryptocurrency companies to apply for operating licenses, creating a framework aimed at fostering a secure and transparent digital financial landscape."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 349 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T13:48:56.462Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T14:12:05.917Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757859138390.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 351,
+    "slug": "pakistan-welcomes-global-crypto-firms-with-new-licensing-initiative",
+    "title": "Pakistan Welcomes Global Crypto Firms with New Licensing Initiative",
+    "excerpt": "Pakistan is extending an invitation to international cryptocurrency businesses to seek licenses through its new framework, aimed at enhancing the fintech landscape in the region."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 351 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T14:12:19.869Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses at 2025-09-14T15:00:09.967Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_pakistan-invites-global-crypto-firms-to-apply-for.txt --twoStage invocation=https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757862023130.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 355,
+    "slug": "pakistan-opens-doors-to-international-crypto-firms-for-licensing",
+    "title": "Pakistan Opens Doors to International Crypto Firms for Licensing",
+    "excerpt": "Pakistan is welcoming global cryptocurrency companies to apply for licenses, setting the stage for enhanced regulation and opportunities in the digital asset landscape."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'd1f2864d96e4dc1f190cee43c58456427110a467', id: 355 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T15:00:24.204Z ===

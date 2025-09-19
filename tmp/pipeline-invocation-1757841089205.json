@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757841089205,
+  "invocationToken": "3abfeb6fb4c4b0ddfeb1",
+  "selected": [
+    {
+      "id": "https://ambcrypto.com/meme-to-mainstay-dogecoins-journey-is-no-joke/",
+      "title": "Meme to mainstay: Why Dogecoin’s journey is no joke!",
+      "url": "https://ambcrypto.com/meme-to-mainstay-dogecoins-journey-is-no-joke/",
+      "slug": "meme-to-mainstay-dogecoins-journey-is-no-joke",
+      "oldSlug": null,
+      "href": "/articles/meme-to-mainstay-dogecoins-journey-is-no-joke"
+    },
+    {
+      "id": "https://www.newsbtc.com/news/bitcoin/bitcoin-bulls-now-target-117000/",
+      "title": "Bitcoin Flips Key Support, Bulls Now Target $117,000",
+      "url": "https://www.newsbtc.com/news/bitcoin/bitcoin-bulls-now-target-117000/",
+      "slug": "bitcoin-bulls-now-target-117000",
+      "oldSlug": null,
+      "href": "/articles/bitcoin-bulls-now-target-117000"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

@@ -1,0 +1,29 @@
+
+=== Spawned fetch_and_dump for https://www.newsbtc.com/bitcoin-news/bitcoin-bears-shaken-local-bottom-90-likely-set/ at 2025-09-13T07:05:44.089Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.newsbtc.com/bitcoin-news/bitcoin-bears-shaken-local-bottom-90-likely-set/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_bitcoin-news_bitcoin-bears-shaken-local-bottom-90-likely.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757747144080.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_bitcoin-news_bitcoin-bears-shaken-local-bottom-90-likely.txt
+Spawned rephraser for https://www.newsbtc.com/bitcoin-news/bitcoin-bears-shaken-local-bottom-90-likely-set/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757747160546.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 225,
+    "slug": "bitcoin-s-resilience-is-the-bottom-truly-behind-us"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '28e69a824dbfe7d41fb129b00260fc56590d9a44', id: 225 }
+
+=== child exit code=0 at 2025-09-13T07:06:02.101Z ===
+
+
+=== child exit code=0 at 2025-09-13T07:06:02.173Z ===

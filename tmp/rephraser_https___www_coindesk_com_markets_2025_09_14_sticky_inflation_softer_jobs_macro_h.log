@@ -1,0 +1,54 @@
+
+=== Spawned rephraser for https://www.coindesk.com/markets/2025/09/14/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds at 2025-09-14T14:16:31.181Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_markets_2025_09_14_sticky-inflation-softer-jobs-macro-h.txt --twoStage invocation=https://www.coindesk.com/markets/2025/09/14/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757859404052.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 352,
+    "slug": "economic-trends-bitcoin-s-rise-amidst-inflation-and-job-market-challenges",
+    "title": "Economic Trends: Bitcoin's Rise Amidst Inflation and Job Market Challenges",
+    "excerpt": "The economic landscape is shifting as inflation rises and job creation falls, impacting various markets. Notably, Bitcoin's price surge is observed against this backdrop of economic uncertainty."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '55b7a8a278bf6f04fa8a17f1c5353c029e7bb338', id: 352 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T14:16:46.248Z ===
+
+=== Spawned rephraser for https://www.coindesk.com/markets/2025/09/14/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds at 2025-09-14T14:54:38.324Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_markets_2025_09_14_sticky-inflation-softer-jobs-macro-h.txt --twoStage invocation=https://www.coindesk.com/markets/2025/09/14/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757861698401.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 354,
+    "slug": "economic-strains-and-bitcoin-s-resilience-analyzing-current-trends",
+    "title": "Economic Strains and Bitcoin's Resilience: Analyzing Current Trends",
+    "excerpt": "Recent economic data reveals significant challenges, yet Bitcoin shows resilience as it approaches key price levels. This article examines the interplay between current economic indicators and Bitcoin's performance in the market."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '55b7a8a278bf6f04fa8a17f1c5353c029e7bb338', id: 354 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T14:55:00.310Z ===

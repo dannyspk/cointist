@@ -1,0 +1,17 @@
+{
+  "metrics": {
+    "gasGwei": 15,
+    "stakedEth": 872064,
+    "validators": 27252,
+    "tvlUsd": 198460247167,
+    "currentPrice": 4299.79,
+    "weekChange": -3.6912684031456457,
+    "confidence": {
+      "gasGwei": null,
+      "stakedEth": "inferred_from_deposit_count",
+      "validators": "inferred_from_deposit_count",
+      "tvlUsd": null
+    }
+  },
+  "ts": 1757232703450
+}

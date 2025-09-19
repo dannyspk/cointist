@@ -1,0 +1,29 @@
+name: Generate sitemap-news
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # every 6 hours
+  workflow_dispatch: {}
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call sitemap generation endpoint
+        id: call
+        run: |
+          set -e
+          echo "Calling sitemap generation endpoint..."
+          resp=$(curl -s -w "\n%{http_code}" -X POST -H "x-sitemap-secret: $SITEMAP_CRON_SECRET" "https://${{ secrets.SITE_URL }}/api/generate-sitemap-news") || true
+          body=$(printf "%s" "$resp" | sed -n '1,$p' | sed '$d')
+          code=$(printf "%s" "$resp" | tail -n1)
+          echo "HTTP status: $code"
+          echo "Response body: $body"
+          if [ "$code" -lt 200 ] || [ "$code" -ge 300 ]; then
+            echo "Sitemap generation failed with status $code"
+            exit 1
+          fi
+        env:
+          SITEMAP_CRON_SECRET: ${{ secrets.SITEMAP_CRON_SECRET }}
+          # SITE_URL secret should contain the domain (e.g., cointist.net or your-vercel-domain)
+          SITE_URL: ${{ secrets.SITE_URL }}

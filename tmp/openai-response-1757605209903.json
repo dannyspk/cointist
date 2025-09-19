@@ -1,0 +1,55 @@
+{
+  "id": "resp_68c2ed5a69f48196a51228d661ea5af0089ab07b11055731",
+  "object": "response",
+  "created_at": 1757605210,
+  "status": "completed",
+  "background": false,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 1800,
+  "max_tool_calls": null,
+  "model": "gpt-5-2025-08-07",
+  "output": [
+    {
+      "id": "rs_68c2ed5b48608196aa5a68d5911f5780089ab07b11055731",
+      "type": "reasoning",
+      "summary": []
+    }
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 310,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1792,
+    "output_tokens_details": {
+      "reasoning_tokens": 1792
+    },
+    "total_tokens": 2102
+  },
+  "user": null,
+  "metadata": {}
+}

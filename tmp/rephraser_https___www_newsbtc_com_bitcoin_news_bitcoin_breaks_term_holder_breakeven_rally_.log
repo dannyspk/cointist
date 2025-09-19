@@ -1,0 +1,74 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/bitcoin-news/bitcoin-breaks-term-holder-breakeven-rally/ at 2025-09-13T10:17:24.694Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_bitcoin-news_bitcoin-breaks-term-holder-breakeven-rally_.txt --twoStage invocation=https://www.newsbtc.com/bitcoin-news/bitcoin-breaks-term-holder-breakeven-rally/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757758654315.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 250,
+    "slug": "bitcoin-s-price-surge-analyzing-market-trends-and-holder-sentiment"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'a2f7f9f3d4d395a582e256c436e40442c0964a49', id: 250 }
+
+=== child exit code=0 at 2025-09-13T10:17:36.253Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/bitcoin-news/bitcoin-breaks-term-holder-breakeven-rally/ at 2025-09-14T03:51:37.813Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_bitcoin-news_bitcoin-breaks-term-holder-breakeven-rally_.txt --twoStage invocation=https://www.newsbtc.com/bitcoin-news/bitcoin-breaks-term-holder-breakeven-rally/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821905437.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 285,
+    "slug": "bitcoin-s-potential-rally-key-insights-on-market-sentiment"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'a2f7f9f3d4d395a582e256c436e40442c0964a49', id: 285 }
+
+=== child exit code=0 at 2025-09-14T03:51:47.336Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/bitcoin-news/bitcoin-breaks-term-holder-breakeven-rally/ at 2025-09-14T04:59:09.152Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_bitcoin-news_bitcoin-breaks-term-holder-breakeven-rally_.txt --twoStage invocation=https://www.newsbtc.com/bitcoin-news/bitcoin-breaks-term-holder-breakeven-rally/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757825958266.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 292,
+    "slug": "bitcoin-s-mid-term-holders-signal-bullish-momentum-with-recent-price-surge",
+    "title": "Bitcoin's Mid-Term Holders Signal Bullish Momentum with Recent Price Surge",
+    "excerpt": "Recent data shows a significant uptick in Bitcoin's price, suggesting that mid-term holders are regaining confidence in the market. With the current price hovering around $115,050, analysts remain divided on the future trajectory of Bitcoin."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'a2f7f9f3d4d395a582e256c436e40442c0964a49', id: 292 }
+
+=== child exit code=0 at 2025-09-14T04:59:20.118Z ===

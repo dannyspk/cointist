@@ -1,0 +1,28 @@
+
+=== Spawned rephraser for https://thedefiant.io/news/blockchains/plasma-stablecoin-chain-mainnet-beta-tge-launch-date at 2025-09-18T15:14:37.699Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___thedefiant_io_news_blockchains_plasma-stablecoin-chain-mainnet-beta-tge-.txt --twoStage invocation=https://thedefiant.io/news/blockchains/plasma-stablecoin-chain-mainnet-beta-tge-launch-date ===
+[rephraser] model= gpt-5
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758208651981.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 384,
+    "slug": "plasma-sets-sept-25-mainnet-beta-and-xpl-debut-amid-surging-stablecoin-demand",
+    "title": "Plasma Sets Sept. 25 Mainnet Beta and XPL Debut Amid Surging Stablecoin Demand",
+    "excerpt": "Plasma will launch its mainnet beta on Thursday, Sept. 25 at 8:00 am ET, introducing XPL alongside deep USDT integrations. Backed by Bitfinex and Peter Thiel’s Founders Fund, the rollout lands amid rapid vault uptake and fresh capital commitments across the stablecoin ecosystem."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cbc87d40f26f433af404a6bd21b76baf3c046ac5', id: 384 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-18T15:17:34.182Z ===

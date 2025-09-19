@@ -1,0 +1,32 @@
+
+=== Spawned fetch_and_dump for https://coinspectator.com/mainstream/2025/09/14/french-companies-borrowing-costs-fall-below-governments-as-debt-fears-intensify/ at 2025-09-14T09:52:35.364Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/mainstream/2025/09/14/french-companies-borrowing-costs-fall-below-governments-as-debt-fears-intensify/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_french-companies-borrowing-costs.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757843555334.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_french-companies-borrowing-costs.txt
+Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/french-companies-borrowing-costs-fall-below-governments-as-debt-fears-intensify/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757843568237.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 322,
+    "slug": "french-firms-outpace-government-in-borrowing-costs-amid-debt-concerns",
+    "title": "French Firms Outpace Government in Borrowing Costs Amid Debt Concerns",
+    "excerpt": "Recent trends show that French companies are experiencing a significant decline in borrowing costs, surpassing those of the government, which raises questions about France's economic standing amidst increasing debt concerns."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '61f1f8eb7bfd953343a1db3b6aab6781815313bd', id: 322 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T09:52:50.507Z ===
+
+
+=== child exit code=0 at 2025-09-14T09:52:50.544Z ===

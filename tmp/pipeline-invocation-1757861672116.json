@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757861672116,
+  "invocationToken": "125d89927c362e58fc6f",
+  "selected": [
+    {
+      "id": "https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/",
+      "title": "Analyst Says Bitcoin Is A Strong Buy If It Overcomes $118K — Here’s Why",
+      "url": "https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/",
+      "slug": "bitcoin-is-a-strong-buy-if-it-overcomes-118k",
+      "oldSlug": "bitcoin-is-a-strong-buy-if-it-overcomes-118k",
+      "href": "/articles/bitcoin-is-a-strong-buy-if-it-overcomes-118k"
+    },
+    {
+      "id": "https://www.coindesk.com/markets/2025/09/14/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds",
+      "title": "Bitcoin Climbs as Economy Cracks — Is it Bullish or Bearish?",
+      "url": "https://www.coindesk.com/markets/2025/09/14/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds",
+      "slug": "sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds",
+      "oldSlug": "sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds",
+      "href": "/articles/sticky-inflation-softer-jobs-macro-headwinds-stir-bitcoin-tailwinds"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

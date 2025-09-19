@@ -1,0 +1,31 @@
+{
+  "startedAt": 1758208474056,
+  "invocationToken": "9880828f4902c30df0f1",
+  "selected": [
+    {
+      "id": "https://www.theblock.co/post/370941/rex-osprey-launches-first-of-its-kind-xrp-etf-under-unique-legal-structure?utm_source=rss&utm_medium=rss",
+      "title": "REX-Osprey launches first of its kind spot XRP ETF tracking the third-largest cryptocurrency",
+      "url": "https://www.theblock.co/post/370941/rex-osprey-launches-first-of-its-kind-xrp-etf-under-unique-legal-structure?utm_source=rss&utm_medium=rss",
+      "slug": "rex-osprey-launches-first-of-its-kind-xrp-etf-under-unique-legal-structure",
+      "oldSlug": "rex-osprey-launches-first-of-its-kind-xrp-etf-under-unique-legal-structure",
+      "href": "/articles/rex-osprey-launches-first-of-its-kind-xrp-etf-under-unique-legal-structure"
+    },
+    {
+      "id": "https://thedefiant.io/news/blockchains/plasma-stablecoin-chain-mainnet-beta-tge-launch-date",
+      "title": "Stablecoin L1 Plasma Unveils Launch Date for Mainnet Beta, TGE",
+      "url": "https://thedefiant.io/news/blockchains/plasma-stablecoin-chain-mainnet-beta-tge-launch-date",
+      "slug": "plasma-stablecoin-chain-mainnet-beta-tge-launch-date",
+      "oldSlug": "plasma-stablecoin-chain-mainnet-beta-tge-launch-date",
+      "href": "/articles/plasma-stablecoin-chain-mainnet-beta-tge-launch-date"
+    },
+    {
+      "id": "https://ambcrypto.com/ethereum-65-traders-go-long-is-a-further-upside-a-matter-of-time/",
+      "title": "Ethereum: 65% traders go long – Is a further upside a matter of time?",
+      "url": "https://ambcrypto.com/ethereum-65-traders-go-long-is-a-further-upside-a-matter-of-time/",
+      "slug": "ethereum-65-traders-go-long-is-a-further-upside-a-matter-of-time",
+      "oldSlug": "ethereum-65-traders-go-long-is-a-further-upside-a-matter-of-time",
+      "href": "/articles/ethereum-65-traders-go-long-is-a-further-upside-a-matter-of-time"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

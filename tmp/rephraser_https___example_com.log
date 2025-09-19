@@ -1,0 +1,7 @@
+
+=== Spawned rephraser for https://example.com at 2025-09-13T06:32:30.449Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=c:\cointistreact\tmp\test-sr.txt --twoStage invocation=https://example.com ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757745161283.html
+Upserted rephrase to Supabase { sha: '327c3fda87ce286848a574982ddd0b7c7487f816', id: null }
+
+=== child exit code=0 at 2025-09-13T06:32:42.220Z ===

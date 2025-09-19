@@ -1,0 +1,174 @@
+
+=== Spawned fetch_and_dump for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ at 2025-09-13T14:41:28.121Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ --out=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757774488112.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt
+Spawned rephraser for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757774504089.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 256,
+    "slug": "profit-and-loss-dynamics-among-pump-fun-traders"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 256 }
+
+=== child exit code=0 at 2025-09-13T14:41:46.321Z ===
+
+
+=== child exit code=0 at 2025-09-13T14:41:46.372Z ===
+
+=== Spawned fetch_and_dump for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ at 2025-09-13T15:04:22.441Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ --out=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757775862425.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt
+Spawned rephraser for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757775878599.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 266,
+    "slug": "analysis-of-profitability-among-pump-fun-traders"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 266 }
+
+=== child exit code=0 at 2025-09-13T15:04:40.833Z ===
+
+
+=== child exit code=0 at 2025-09-13T15:04:40.880Z ===
+
+=== Spawned fetch_and_dump for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ at 2025-09-13T16:12:41.619Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ --out=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757779961614.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt
+Spawned rephraser for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757779977327.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 275,
+    "slug": "profit-and-loss-dynamics-among-pump-fun-s-pump-token-holders"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 275 }
+
+=== child exit code=0 at 2025-09-13T16:12:59.286Z ===
+
+
+=== child exit code=0 at 2025-09-13T16:12:59.305Z ===
+
+=== Spawned fetch_and_dump for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ at 2025-09-13T16:25:32.800Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ --out=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757780732799.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt
+Spawned rephraser for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757780745176.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 278,
+    "slug": "analysis-of-profitability-among-pump-fun-traders"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 278 }
+
+=== child exit code=0 at 2025-09-13T16:25:46.748Z ===
+
+
+=== child exit code=0 at 2025-09-13T16:25:46.768Z ===
+
+=== Spawned fetch_and_dump for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ at 2025-09-14T03:45:05.069Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ --out=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757821505022.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt
+Spawned rephraser for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821517759.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 282,
+    "slug": "insights-into-profit-distribution-among-pump-token-traders"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 282 }
+
+=== child exit code=0 at 2025-09-14T03:45:19.104Z ===
+
+
+=== child exit code=0 at 2025-09-14T03:45:19.158Z ===
+
+=== Spawned fetch_and_dump for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ at 2025-09-14T04:01:26.685Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/ --out=C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757822486668.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___beincrypto_com_nearly-half-pumpfun-traders-book-profits_.txt
+Spawned rephraser for https://beincrypto.com/nearly-half-pumpfun-traders-book-profits/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757822497268.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 286,
+    "slug": "insights-into-profitability-among-pump-fun-traders"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'cf06e4221684a81035dd0d944ff2dd605aeecc84', id: 286 }
+
+=== child exit code=0 at 2025-09-14T04:01:38.940Z ===
+
+
+=== child exit code=0 at 2025-09-14T04:01:38.986Z ===

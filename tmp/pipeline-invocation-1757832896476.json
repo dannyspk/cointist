@@ -1,0 +1,23 @@
+{
+  "startedAt": 1757832896476,
+  "invocationToken": "f6b548d4c9caa7cfd717",
+  "selected": [
+    {
+      "id": "https://ambcrypto.com/crypto-bull-run-could-extend-into-2026-arthur-hayes/",
+      "title": "Crypto bull run could extend into 2026 – Arthur Hayes",
+      "url": "https://ambcrypto.com/crypto-bull-run-could-extend-into-2026-arthur-hayes/",
+      "slug": "crypto-bull-run-could-extend-into-2026-arthur-hayes",
+      "oldSlug": null,
+      "href": "/articles/crypto-bull-run-could-extend-into-2026-arthur-hayes"
+    },
+    {
+      "id": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Here’s what happened in crypto today",
+      "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "what-happened-in-crypto-today",
+      "oldSlug": null,
+      "href": "/articles/what-happened-in-crypto-today"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

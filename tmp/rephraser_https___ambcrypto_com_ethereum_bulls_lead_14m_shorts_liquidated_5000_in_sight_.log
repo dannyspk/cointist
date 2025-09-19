@@ -1,0 +1,81 @@
+
+=== Spawned rephraser for https://ambcrypto.com/ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight/ at 2025-09-14T06:44:56.282Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight_.txt --twoStage invocation=https://ambcrypto.com/ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757832304628.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 301,
+    "slug": "ethereum-s-ascent-analyzing-the-path-to-5-000",
+    "title": "Ethereum's Ascent: Analyzing the Path to $5,000",
+    "excerpt": "Ethereum's recent performance has sparked interest as it crosses the $4,700 mark, driven by significant market indicators and a shift in trading dynamics. Analysts are observing critical signs that could pave the way for a surge towards the $5,000 milestone."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'e5c19ced884cb9de74a175711429a4ec9a0a0911', id: 301 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T06:45:07.260Z ===
+
+=== Spawned rephraser for https://ambcrypto.com/ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight/ at 2025-09-14T09:37:38.103Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight_.txt --twoStage invocation=https://ambcrypto.com/ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757842668338.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 318,
+    "slug": "ethereum-poised-for-growth-as-shorts-liquidated-and-5-000-target-approaches",
+    "title": "Ethereum Poised for Growth as Shorts Liquidated and $5,000 Target Approaches",
+    "excerpt": "Ethereum has recently exceeded the $4,700 threshold, showcasing strong bullish trends as short positions face liquidation and market dynamics shift favorably."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'e5c19ced884cb9de74a175711429a4ec9a0a0911', id: 318 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T09:37:50.450Z ===
+
+=== Spawned rephraser for https://ambcrypto.com/ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight/ at 2025-09-14T09:44:32.113Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___ambcrypto_com_ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight_.txt --twoStage invocation=https://ambcrypto.com/ethereum-bulls-lead-14m-shorts-liquidated-5000-in-sight/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757843081786.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 320,
+    "slug": "ethereum-poised-for-breakout-key-insights-on-bullish-momentum",
+    "title": "Ethereum Poised for Breakout: Key Insights on Bullish Momentum",
+    "excerpt": "Ethereum has recently surpassed the $4,700 mark, indicating a strong potential for further growth toward the $5,000 threshold. This article explores various indicators that suggest Ethereum is on the cusp of a significant bullish phase."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'e5c19ced884cb9de74a175711429a4ec9a0a0911', id: 320 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T09:44:43.527Z ===

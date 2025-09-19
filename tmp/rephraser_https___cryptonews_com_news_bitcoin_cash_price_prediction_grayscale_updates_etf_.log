@@ -1,0 +1,7 @@
+
+=== Spawned rephraser for https://cryptonews.com/news/bitcoin-cash-price-prediction-grayscale-updates-etf-filing-is-bch-the-next-sleeper-to-explode/ at 2025-09-13T04:58:34.716Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptonews_com_news_bitcoin-cash-price-prediction-grayscale-updates-etf-.txt --twoStage invocation=https://cryptonews.com/news/bitcoin-cash-price-prediction-grayscale-updates-etf-filing-is-bch-the-next-sleeper-to-explode/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757739525671.html
+Upserted rephrase to Supabase { sha: '456f15315b03cc6e02fa01a6c39651fb5221b1c6', id: null }
+
+=== child exit code=0 at 2025-09-13T04:58:46.391Z ===

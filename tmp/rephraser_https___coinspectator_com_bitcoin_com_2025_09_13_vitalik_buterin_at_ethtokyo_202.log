@@ -1,0 +1,48 @@
+
+=== Spawned rephraser for https://coinspectator.com/bitcoin-com/2025/09/13/vitalik-buterin-at-ethtokyo-2025-bridging-east-and-west-stories-from-ethereums-early-days-and-more/ at 2025-09-14T03:45:08.725Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_vitalik-buterin-at-ethtokyo-202.txt --twoStage invocation=https://coinspectator.com/bitcoin-com/2025/09/13/vitalik-buterin-at-ethtokyo-2025-bridging-east-and-west-stories-from-ethereums-early-days-and-more/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821518113.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 283,
+    "slug": "bridging-cultures-and-innovations-vitalik-buterin-s-vision-at-ethtokyo-2025"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '60124764561ed59457d3bee048ef7aef87f34c9e', id: 283 }
+
+=== child exit code=0 at 2025-09-14T03:45:20.207Z ===
+
+=== Spawned rephraser for https://coinspectator.com/bitcoin-com/2025/09/13/vitalik-buterin-at-ethtokyo-2025-bridging-east-and-west-stories-from-ethereums-early-days-and-more/ at 2025-09-14T04:01:29.361Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_bitcoin-com_2025_09_13_vitalik-buterin-at-ethtokyo-202.txt --twoStage invocation=https://coinspectator.com/bitcoin-com/2025/09/13/vitalik-buterin-at-ethtokyo-2025-bridging-east-and-west-stories-from-ethereums-early-days-and-more/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757822497138.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 287,
+    "slug": "bridging-borders-vitalik-buterin-s-insights-from-ethtokyo-2025"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '60124764561ed59457d3bee048ef7aef87f34c9e', id: 287 }
+
+=== child exit code=0 at 2025-09-14T04:01:39.247Z ===

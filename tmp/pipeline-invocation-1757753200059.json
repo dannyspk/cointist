@@ -1,0 +1,14 @@
+{
+  "startedAt": 1757753200059,
+  "invocationToken": "1dc83e2ad3313bdd8234",
+  "selected": [
+    {
+      "id": "https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/",
+      "title": "Crypto Investment Slows, August Funding Sinks To $2 Billion",
+      "url": "https://www.newsbtc.com/news/crypto-investment-slows-august-funding-sinks-to-2-billion/",
+      "slug": "crypto-investment-slows-august-funding-sinks-to-2-billion",
+      "href": "/articles/crypto-investment-slows-august-funding-sinks-to-2-billion"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

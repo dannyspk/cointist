@@ -1,0 +1,48 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit at 2025-09-13T07:59:02.632Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_prediction-market-kalshi-massachusetts-lawsuit_ut.txt --twoStage invocation=https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757750352256.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 235,
+    "slug": "kalshi-s-legal-battle-defending-prediction-markets-against-massachusetts-lawsuit"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '691ee6b21986fbb4bcf12bd0094e2889293be532', id: 235 }
+
+=== child exit code=0 at 2025-09-13T07:59:12.859Z ===
+
+=== Spawned rephraser for https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit at 2025-09-13T08:26:20.689Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_prediction-market-kalshi-massachusetts-lawsuit_ut.txt --twoStage invocation=https://cointelegraph.com/news/prediction-market-kalshi-massachusetts-lawsuit ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757751988372.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 243,
+    "slug": "legal-challenge-for-prediction-market-kalshi-in-massachusetts"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '691ee6b21986fbb4bcf12bd0094e2889293be532', id: 243 }
+
+=== child exit code=0 at 2025-09-13T08:26:29.115Z ===

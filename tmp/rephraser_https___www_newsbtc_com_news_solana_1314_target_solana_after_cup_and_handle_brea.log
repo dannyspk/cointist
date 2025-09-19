@@ -1,0 +1,51 @@
+
+=== Spawned rephraser for https://www.newsbtc.com/news/solana/1314-target-solana-after-cup-and-handle-breakout/ at 2025-09-14T03:37:30.788Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_solana_1314-target-solana-after-cup-and-handle-brea.txt --twoStage invocation=https://www.newsbtc.com/news/solana/1314-target-solana-after-cup-and-handle-breakout/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757821059286.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 281,
+    "slug": "solana-s-potential-price-surge-following-cup-and-handle-breakout"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'fe7edd1f9f816debc708f14dc44959d5d5a56f44', id: 281 }
+
+=== child exit code=0 at 2025-09-14T03:37:41.209Z ===
+
+=== Spawned rephraser for https://www.newsbtc.com/news/solana/1314-target-solana-after-cup-and-handle-breakout/ at 2025-09-14T05:09:33.237Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_solana_1314-target-solana-after-cup-and-handle-brea.txt --twoStage invocation=https://www.newsbtc.com/news/solana/1314-target-solana-after-cup-and-handle-breakout/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757826581199.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 293,
+    "slug": "solana-s-bullish-potential-analyzing-the-cup-and-handle-breakout",
+    "title": "Solana's Bullish Potential: Analyzing the Cup-and-Handle Breakout",
+    "excerpt": "Recent analysis by Ali Martinez reveals a bullish cup-and-handle pattern in Solana's price, suggesting a potential uptrend continuation for the cryptocurrency SOL."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'fe7edd1f9f816debc708f14dc44959d5d5a56f44', id: 293 }
+No Supabase select responses found in log.
+
+=== child exit code=0 at 2025-09-14T05:09:43.370Z ===

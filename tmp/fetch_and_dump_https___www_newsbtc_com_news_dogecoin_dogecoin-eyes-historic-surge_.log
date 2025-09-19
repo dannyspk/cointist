@@ -1,0 +1,29 @@
+
+=== Spawned fetch_and_dump for https://www.newsbtc.com/news/dogecoin/dogecoin-eyes-historic-surge/ at 2025-09-13T08:51:19.583Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.newsbtc.com/news/dogecoin/dogecoin-eyes-historic-surge/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_dogecoin_dogecoin-eyes-historic-surge_.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757753479573.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_news_dogecoin_dogecoin-eyes-historic-surge_.txt
+Spawned rephraser for https://www.newsbtc.com/news/dogecoin/dogecoin-eyes-historic-surge/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757753492448.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 246,
+    "slug": "dogecoin-s-breakout-analysts-predict-major-price-surge-ahead"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'f3730c7e6892d76145c0f0c6f3dccbf5b032247a', id: 246 }
+
+=== child exit code=0 at 2025-09-13T08:51:33.148Z ===
+
+
+=== child exit code=0 at 2025-09-13T08:51:33.165Z ===

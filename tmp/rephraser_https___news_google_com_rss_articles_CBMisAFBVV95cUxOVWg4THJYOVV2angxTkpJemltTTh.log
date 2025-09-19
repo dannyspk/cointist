@@ -1,0 +1,54 @@
+
+=== Spawned rephraser for https://news.google.com/rss/articles/CBMisAFBVV95cUxOVWg4THJYOVV2angxTkpJemltTThMVFhFQ2pMMWNaNGdfSGU2ZDFfNzZxaURUT0tpRHZYSjNYVlEwYkJmV2c5TVFnRFpPRFU4Skotc1NuU1huT1g4OXhxSHExNFc3NjRSTzYxTl9YY3RIYjV0QThUdnpMb1Q3cjUxTWVEZjM1WHozRklRSTNNdE1qWEFKZHhYN3M5WHhHSk1Zemd0UG5JTG5LaGt0c1BoMw?oc=5 at 2025-09-14T05:21:54.801Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___news_google_com_rss_articles_CBMisAFBVV95cUxOVWg4THJYOVV2angxTkpJemltTTh.txt --twoStage invocation=https://news.google.com/rss/articles/CBMisAFBVV95cUxOVWg4THJYOVV2angxTkpJemltTThMVFhFQ2pMMWNaNGdfSGU2ZDFfNzZxaURUT0tpRHZYSjNYVlEwYkJmV2c5TVFnRFpPRFU4Skotc1NuU1huT1g4OXhxSHExNFc3NjRSTzYxTl9YY3RIYjV0QThUdnpMb1Q3cjUxTWVEZjM1WHozRklRSTNNdE1qWEFKZHhYN3M5WHhHSk1Zemd0UG5JTG5LaGt0c1BoMw?oc=5 ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757827322603.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 296,
+    "slug": "new-developments-in-the-tech-industry-a-look-ahead",
+    "title": "New Developments in the Tech Industry: A Look Ahead",
+    "excerpt": "The tech industry is navigating a complex landscape filled with challenges and opportunities. This article explores recent hurdles, market trends, innovations in AI, regulatory shifts, and the anticipated future of technology in 2024."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '20e3f91562f4cb3cb6ee8b221f1cf4d6448f8b25', id: 296 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T05:22:04.719Z ===
+
+=== Spawned rephraser for https://news.google.com/rss/articles/CBMisAFBVV95cUxOVWg4THJYOVV2angxTkpJemltTThMVFhFQ2pMMWNaNGdfSGU2ZDFfNzZxaURUT0tpRHZYSjNYVlEwYkJmV2c5TVFnRFpPRFU4Skotc1NuU1huT1g4OXhxSHExNFc3NjRSTzYxTl9YY3RIYjV0QThUdnpMb1Q3cjUxTWVEZjM1WHozRklRSTNNdE1qWEFKZHhYN3M5WHhHSk1Zemd0UG5JTG5LaGt0c1BoMw?oc=5 at 2025-09-14T06:20:35.821Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___news_google_com_rss_articles_CBMisAFBVV95cUxOVWg4THJYOVV2angxTkpJemltTTh.txt --twoStage invocation=https://news.google.com/rss/articles/CBMisAFBVV95cUxOVWg4THJYOVV2angxTkpJemltTThMVFhFQ2pMMWNaNGdfSGU2ZDFfNzZxaURUT0tpRHZYSjNYVlEwYkJmV2c5TVFnRFpPRFU4Skotc1NuU1huT1g4OXhxSHExNFc3NjRSTzYxTl9YY3RIYjV0QThUdnpMb1Q3cjUxTWVEZjM1WHozRklRSTNNdE1qWEFKZHhYN3M5WHhHSk1Zemd0UG5JTG5LaGt0c1BoMw?oc=5 ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757830843639.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 298,
+    "slug": "key-developments-in-renewable-energy-initiatives",
+    "title": "Key Developments in Renewable Energy Initiatives",
+    "excerpt": "The renewable energy sector is experiencing significant advancements, with a variety of key players and policies shaping its landscape. This article explores recent trends, statistics, and future potential in sustainable energy initiatives."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '20e3f91562f4cb3cb6ee8b221f1cf4d6448f8b25', id: 298 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-14T06:20:45.722Z ===

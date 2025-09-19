@@ -1,0 +1,15 @@
+{
+  "startedAt": 1757850641603,
+  "invocationToken": "ff89454cbb4cb5e5309c",
+  "selected": [
+    {
+      "id": "https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Pakistan invites global crypto firms to apply for operating licenses: Report",
+      "url": "https://cointelegraph.com/news/pakistan-invites-global-crypto-firms-to-apply-for-licenses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "pakistan-invites-global-crypto-firms-to-apply-for-licenses",
+      "oldSlug": null,
+      "href": "/articles/pakistan-invites-global-crypto-firms-to-apply-for-licenses"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

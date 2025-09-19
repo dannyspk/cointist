@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "generationTime": 10,
+  "id": 150389451,
+  "output": [
+    "https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/generations/c1ade827-407c-4824-ae5d-ba2477275e4f.png"
+  ],
+  "proxy_links": [
+    "https://cdn2.stablediffusionapi.com/generations/c1ade827-407c-4824-ae5d-ba2477275e4f.png"
+  ],
+  "meta": {
+    "model_id": "seedream-t2i",
+    "prompt": "photorealistic editorial feature photo for: bitcoin takes a dip: navigating impending stagflation and top crypto investments. excerpt: as the economic landscape shifts, concerns about stagflation are becoming more pronounced, leading investors to reconsider their positions in the cryptocurrency market. with recent fluctuations in bitcoin's value, now may be the perfect time to explore emerging opportunities within the crypto space.. keywords: stagflation, crypto, cryptocurrency, opportunities, fluctuations, investments. no logos, no watermarks, journalistic tone.",
+    "width": "1024",
+    "height": "1024",
+    "samples": 1
+  }
+}

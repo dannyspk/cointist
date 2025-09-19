@@ -1,0 +1,22 @@
+name: Notify Publish Hook
+
+on:
+  push:
+    paths:
+      - 'guides/**'
+      - 'pages/articles/**'
+      - 'data/**'
+  workflow_dispatch: {}
+
+jobs:
+  call-publish-hook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call publish webhook
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: ${{ secrets.PUBLISH_HOOK_URL }}
+          method: 'POST'
+          headers: |
+            x-publish-secret: ${{ secrets.PUBLISH_HOOK_SECRET }}
+          timeout: 30

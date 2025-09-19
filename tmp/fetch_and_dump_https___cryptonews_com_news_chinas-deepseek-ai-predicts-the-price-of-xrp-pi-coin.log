@@ -1,0 +1,6 @@
+
+=== Spawned fetch_and_dump for https://cryptonews.com/news/chinas-deepseek-ai-predicts-the-price-of-xrp-pi-coin-and-solana-by-the-end-of-2025/ at 2025-09-13T04:24:58.388Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://cryptonews.com/news/chinas-deepseek-ai-predicts-the-price-of-xrp-pi-coin-and-solana-by-the-end-of-2025/ --out=C:\cointistreact\tmp\source-for-rephrase-https___cryptonews_com_news_chinas-deepseek-ai-predicts-the-price-of-xrp-pi-coin.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757737498383.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___cryptonews_com_news_chinas-deepseek-ai-predicts-the-price-of-xrp-pi-coin.txt
+Spawned rephraser for https://cryptonews.com/news/chinas-deepseek-ai-predicts-the-price-of-xrp-pi-coin-and-solana-by-the-end-of-2025/
+
+=== child exit code=0 at 2025-09-13T04:25:14.356Z ===

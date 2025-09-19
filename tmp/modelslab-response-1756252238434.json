@@ -1,0 +1,18 @@
+{
+  "status": "success",
+  "generationTime": 10,
+  "id": 150390107,
+  "output": [
+    "https://pub-3626123a908346a7a8be8d9295f44e26.r2.dev/generations/437bb87a-cf5e-4349-b5dc-e259aa8f69e0.png"
+  ],
+  "proxy_links": [
+    "https://cdn2.stablediffusionapi.com/generations/437bb87a-cf5e-4349-b5dc-e259aa8f69e0.png"
+  ],
+  "meta": {
+    "model_id": "imagen-4.0-ultra",
+    "prompt": "photorealistic editorial feature photo for: why investors should focus on solana: the rise of institutional support. excerpt: as the cryptocurrency landscape continues to evolve, solana is emerging as a strong contender for institutional adoption, drawing attention from investors and market analysts alike. the unique features of the solana network combined with its growing momentum make it an appealing choice for those looking to enter the cryptocurrency space.. keywords: solana, cryptocurrency, institutional, investors, landscape, continues. no logos, no watermarks, journalistic tone.",
+    "width": "1024",
+    "height": "1024",
+    "samples": 1
+  }
+}

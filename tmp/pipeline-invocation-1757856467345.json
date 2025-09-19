@@ -1,0 +1,15 @@
+{
+  "startedAt": 1757856467345,
+  "invocationToken": "28215ebd01bbc9b20337",
+  "selected": [
+    {
+      "id": "https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/",
+      "title": "Analyst Says Bitcoin Is A Strong Buy If It Overcomes $118K — Here’s Why",
+      "url": "https://www.newsbtc.com/news/bitcoin/bitcoin-is-a-strong-buy-if-it-overcomes-118k/",
+      "slug": "bitcoin-is-a-strong-buy-if-it-overcomes-118k",
+      "oldSlug": null,
+      "href": "/articles/bitcoin-is-a-strong-buy-if-it-overcomes-118k"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

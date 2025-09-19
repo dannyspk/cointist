@@ -1,0 +1,64 @@
+
+=== Spawned fetch_and_dump for https://coinspectator.com/mainstream/2025/09/14/many-americans-use-ai-chatbots-for-financial-advice-some-with-regret/ at 2025-09-14T17:08:42.741Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/mainstream/2025/09/14/many-americans-use-ai-chatbots-for-financial-advice-some-with-regret/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_many-americans-use-ai-chatbots-f.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757869722673.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_many-americans-use-ai-chatbots-f.txt
+Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/many-americans-use-ai-chatbots-for-financial-advice-some-with-regret/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757869740444.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 356,
+    "slug": "the-growing-trend-of-ai-chatbots-in-financial-guidance-and-its-pitfalls",
+    "title": "The Growing Trend of AI Chatbots in Financial Guidance and Its Pitfalls",
+    "excerpt": "AI chatbots are becoming increasingly popular among Americans seeking financial advice, yet their use comes with notable risks. This article explores both the benefits and drawbacks of relying on AI for financial guidance."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '593c93b12413a17124594a0f80079b3e6362a6f6', id: 356 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T17:09:03.410Z ===
+
+
+=== child exit code=0 at 2025-09-14T17:09:03.683Z ===
+
+=== Spawned fetch_and_dump for https://coinspectator.com/mainstream/2025/09/14/many-americans-use-ai-chatbots-for-financial-advice-some-with-regret/ at 2025-09-14T18:15:44.130Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://coinspectator.com/mainstream/2025/09/14/many-americans-use-ai-chatbots-for-financial-advice-some-with-regret/ --out=C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_many-americans-use-ai-chatbots-f.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1757873744124.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___coinspectator_com_mainstream_2025_09_14_many-americans-use-ai-chatbots-f.txt
+Spawned rephraser for https://coinspectator.com/mainstream/2025/09/14/many-americans-use-ai-chatbots-for-financial-advice-some-with-regret/
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757873762737.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 359,
+    "slug": "ai-chatbots-in-finance-insights-and-cautions-from-users",
+    "title": "AI Chatbots in Finance: Insights and Cautions from Users",
+    "excerpt": "The adoption of AI chatbots for financial advice is on the rise among Americans, bringing both advantages and potential pitfalls for users. This article delves into user experiences, highlighting benefits, concerns, and best practices for utilizing AI financial tools."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '593c93b12413a17124594a0f80079b3e6362a6f6', id: 359 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-14T18:16:04.223Z ===
+
+
+=== child exit code=0 at 2025-09-14T18:16:04.237Z ===

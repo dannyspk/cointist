@@ -1,0 +1,7 @@
+
+=== Spawned rephraser for https://cryptonews.com/news/chinas-deepseek-ai-predicts-the-price-of-xrp-pi-coin-and-solana-by-the-end-of-2025/ at 2025-09-13T04:25:00.439Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptonews_com_news_chinas-deepseek-ai-predicts-the-price-of-xrp-pi-coin.txt --twoStage invocation=https://cryptonews.com/news/chinas-deepseek-ai-predicts-the-price-of-xrp-pi-coin-and-solana-by-the-end-of-2025/ ===
+[rephraser] model= gpt-4o-mini
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1757737513424.html
+Upserted rephrase to Supabase d4d25ecfa2372e509d9d7a0bd9a8639012050288
+
+=== child exit code=0 at 2025-09-13T04:25:14.299Z ===

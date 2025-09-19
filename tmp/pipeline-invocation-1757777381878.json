@@ -1,0 +1,28 @@
+{
+  "startedAt": 1757777381878,
+  "invocationToken": "a40273494a90487482ac",
+  "selected": [
+    {
+      "id": "https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/",
+      "title": "Bitcoin prices stall – But THESE signals say BTC rally isn’t over!",
+      "url": "https://ambcrypto.com/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over/",
+      "slug": "bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over",
+      "href": "/articles/bitcoin-prices-stall-but-these-signals-say-btc-rally-isnt-over"
+    },
+    {
+      "id": "https://beincrypto.com/ai-crypto-bingx-financial-dignity/",
+      "title": "AI x Crypto: How BingX Is Charting a New Era of Financial Dignity",
+      "url": "https://beincrypto.com/ai-crypto-bingx-financial-dignity/",
+      "slug": "ai-crypto-bingx-financial-dignity",
+      "href": "/articles/ai-crypto-bingx-financial-dignity"
+    },
+    {
+      "id": "https://crypto.news/cometa-global-focuses-on-investment-and-management-of-mainstream-crypto/",
+      "title": "Cometa.Global focuses on investment and management of mainstream crypto",
+      "url": "https://crypto.news/cometa-global-focuses-on-investment-and-management-of-mainstream-crypto/",
+      "slug": "cometa-global-focuses-on-investment-and-management-of-mainstream-crypto",
+      "href": "/articles/cometa-global-focuses-on-investment-and-management-of-mainstream-crypto"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

@@ -13,8 +13,10 @@ jobs:
         id: call
         run: |
           set -e
-          echo "Calling sitemap generation endpoint..."
-          resp=$(curl -s -w "\n%{http_code}" -X POST -H "x-sitemap-secret: $SITEMAP_CRON_SECRET" "https://${{ secrets.SITE_URL }}/api/generate-sitemap-news") || true
+          echo "Calling sitemap generation endpoint (GET with query secret)..."
+          # Use GET with query param to avoid POST-only restrictions; follow redirects and retry once
+          url="https://${SITE_URL}/api/generate-sitemap-news?secret=${SITEMAP_CRON_SECRET}"
+          resp=$(curl -s -S -L --retry 1 -w "\n%{http_code}" "$url") || true
           body=$(printf "%s" "$resp" | sed -n '1,$p' | sed '$d')
           code=$(printf "%s" "$resp" | tail -n1)
           echo "HTTP status: $code"

@@ -10,7 +10,7 @@ try{ fetchFn = require('node-fetch'); }catch(e){ fetchFn = null; }
 async function generateNarrativeWithLLM(summary, movers){
   const apiKey = process.env.OPENAI_API_KEY;
   if(!apiKey) return null;
-  const model = process.env.OPENAI_MODEL || 'gpt-4o-mini';
+  const model = process.env.OPENAI_MODEL || 'gpt-5-mini';
   console.log('LLM model:', model);
   const prompt = `You are a concise market analyst. Given a two-line top-10 summary and arrays of top gainers/losers, produce a JSON object with keys: title (short page title), snapshot (1-2 short sentences), highlights (array up to 6 bullets), headlines (array up to 6 short headlines). Respond with valid JSON only.\n\nsummary: ${String(summary)}\n\nmovers: ${JSON.stringify(movers)}\n\nExample: {"title":"Crypto Weekly Preview: Top-10 snapshot","snapshot":"...","highlights":["..."],"headlines":["..."]}`;
   const url = 'https://api.openai.com/v1/chat/completions';

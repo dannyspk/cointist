@@ -9,7 +9,7 @@ try{ fetchFn = require('node-fetch'); }catch(e){ fetchFn = null; }
 async function generateNarrativeWithLLM(signals, priceSummary){
   const apiKey = process.env.OPENAI_API_KEY;
   if(!apiKey) return null;
-  const model = process.env.OPENAI_MODEL || 'gpt-4o-mini';
+  const model = process.env.OPENAI_MODEL || 'gpt-5-mini';
   const prompt = `You are a concise market analyst. Given the following JSON signals and a short price summary, produce a JSON object with keys: snapshot (1-2 short sentences), chronology (array up to 7 brief timeline bullets), technicalReadout (array up to 6 concise bullets), scenarios (array of up to 3 objects with title and text). Respond with valid JSON only.
 
 signals: ${JSON.stringify(signals)}

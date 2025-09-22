@@ -1,44 +1,43 @@
 {
-  "generatedAt": "2025-09-22T23:23:07.645Z",
-  "title": "Crypto Market Update: Gainers and Losers",
-  "snapshot": "BNB leads the gainers with an 8% increase, while DOGE drops 10%. The overall market breadth is weak at 1/7.",
+  "generatedAt": "2025-09-22T23:37:14.534Z",
+  "title": "Crypto Weekly Preview — Top-10 snapshot",
+  "snapshot": "Gainers: DOGE 11%, SOL 8%, ETH 4% • Losers: ADA 0%, XRP 2%, BTC 2%\nBreadth 7/1",
   "highlights": [
-    "BNB up 8%",
-    "TRX slightly down 0%",
-    "BTC down 2%",
-    "DOGE down 10%",
-    "ETH down 7%",
-    "SOL down 6%"
+    "Bitcoin: 2.30%",
+    "Ethereum: 4.28%",
+    "XRP: 2.01%",
+    "Tether: 0.04%",
+    "BNB: 4.14%"
   ],
   "headlines": [
-    "BNB Sees Significant Gains",
-    "DOGE Faces Major Losses",
-    "Ethereum Continues Downward Trend",
-    "Bitcoin Struggles Amid Market Weakness",
-    "TRX Remains Stable",
-    "Solana Experiences Decline"
+    "Strategy Adds $60 Million to Bitcoin Treasury in Smallest Buy in a Month",
+    "Coinbase Is Considering Launching a Token for Ethereum Network Base",
+    "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+    "Crypto Lender Maple Expands to Tether-Backed Plasma",
+    "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+    "Solana Gets First Billion-Dollar Publicly Traded Treasury as Forward Industries Buys 6.8M SOL"
   ],
   "reports": [
     {
       "id": "bitcoin",
       "name": "Bitcoin",
       "symbol": "BTC",
-      "priceSummary": "First: $115,088.66\nLast:  $112,657.03\nLow:   $112,122.9\nHigh:  $117,822.97\nChange: -2.11%",
+      "priceSummary": "First: $112,214.4\nLast:  $114,800.74\nLow:   $110,880.76\nHigh:  $116,632.51\nChange: 2.30%",
       "signals": {
-        "last": 112657.03,
-        "change": -2.112831967980168,
-        "rsi": 39.90694938043328,
-        "lastSMA8": 112575.44,
-        "lastSMA21": 112902.45952380949,
+        "last": 114800.74,
+        "change": 2.3048200587446988,
+        "rsi": 42.10251100982038,
+        "lastSMA8": 114801.99375000001,
+        "lastSMA21": 115329.39571428571,
         "volumeSpike": false,
         "sweep": false,
-        "maxDropPct": 2.2040928255578836,
+        "maxDropPct": 1.5927909371781654,
         "lowerHighs": false
       },
       "metrics": {
-        "currentPrice": 112714,
-        "marketCap": 2245413820416,
-        "circulatingSupply": 19923296
+        "currentPrice": 114757,
+        "marketCap": 2286706427424,
+        "circulatingSupply": 19921303
       },
       "data": {
         "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
@@ -49,21 +48,21 @@
         "checklist": [],
         "events": [
           {
-            "title": "CleanSpark Shares Rise After Getting $100M Bitcoin-Backed Credit From Coinbase Prime",
-            "source": "coindesk",
-            "url": "https://www.coindesk.com/business/2025/09/22/cleanspark-shares-rise-after-getting-usd100m-bitcoin-backed-credit-from-coinbase-prime",
-            "publishedAt": "2025-09-22T22:04:56.000Z",
-            "description": "The credit facility allows CleanSpark to leverage its bitcoin holdings to fund expansion without selling the asset."
+            "title": "Strategy Adds $60 Million to Bitcoin Treasury in Smallest Buy in a Month",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339475/strategy-adds-60-million-bitcoin-treasury-smallest-buy-month",
+            "publishedAt": "2025-09-15T15:44:17.000Z",
+            "description": "But the firm didn’t fund the acquisition through common shares."
           }
         ]
       },
       "events": [
         {
-          "title": "CleanSpark Shares Rise After Getting $100M Bitcoin-Backed Credit From Coinbase Prime",
-          "source": "coindesk",
-          "url": "https://www.coindesk.com/business/2025/09/22/cleanspark-shares-rise-after-getting-usd100m-bitcoin-backed-credit-from-coinbase-prime",
-          "publishedAt": "2025-09-22T22:04:56.000Z",
-          "description": "The credit facility allows CleanSpark to leverage its bitcoin holdings to fund expansion without selling the asset."
+          "title": "Strategy Adds $60 Million to Bitcoin Treasury in Smallest Buy in a Month",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339475/strategy-adds-60-million-bitcoin-treasury-smallest-buy-month",
+          "publishedAt": "2025-09-15T15:44:17.000Z",
+          "description": "But the firm didn’t fund the acquisition through common shares."
         }
       ]
     },
@@ -71,25 +70,25 @@
       "id": "ethereum",
       "name": "Ethereum",
       "symbol": "ETH",
-      "priceSummary": "First: $4,513.45\nLast:  $4,203.9\nLow:   $4,134.98\nHigh:  $4,621.3\nChange: -6.86%",
+      "priceSummary": "First: $4,311.48\nLast:  $4,495.94\nLow:   $4,284.94\nHigh:  $4,756.81\nChange: 4.28%",
       "signals": {
-        "last": 4203.9,
-        "change": -6.858389923451023,
-        "rsi": 41.78698070562573,
-        "lastSMA8": 4174.337500000001,
-        "lastSMA21": 4193.494761904762,
+        "last": 4495.94,
+        "change": 4.2783452549936465,
+        "rsi": 29.114121897826067,
+        "lastSMA8": 4515.45625,
+        "lastSMA21": 4577.340476190477,
         "volumeSpike": false,
         "sweep": true,
-        "maxDropPct": 4.642007993044733,
-        "lowerHighs": false
+        "maxDropPct": 3.5793636496212726,
+        "lowerHighs": true
       },
       "metrics": {
-        "currentPrice": 4205.36,
-        "marketCap": 507750477013,
-        "circulatingSupply": 120703827.073058
+        "currentPrice": 4493.86,
+        "marketCap": 542262548875,
+        "circulatingSupply": 120704642.1054955
       },
       "data": {
-        "snapshot": "A fast liquidity sweep (~4.6% drop) occurred during the week, grabbing stops before the partial recovery.",
+        "snapshot": "A fast liquidity sweep (~3.6% drop) occurred during the week, grabbing stops before the partial recovery. Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
         "chronology": [],
         "technicalReadout": [],
         "levels": [],
@@ -97,69 +96,21 @@
         "checklist": [],
         "events": [
           {
-            "title": "Ethereum Wallet Rainbow Reveals RNBW Token Airdrop—Here's When",
+            "title": "Coinbase Is Considering Launching a Token for Ethereum Network Base",
             "source": "decrypt",
-            "url": "https://decrypt.co/340768/ethereum-wallet-rainbow-reveals-rnbw-token-airdrop",
-            "publishedAt": "2025-09-22T21:00:29.000Z",
-            "description": "Rainbow, a popular Ethereum wallet, announced that its points program is converting into an on-chain RNBW token expected before year's end."
+            "url": "https://decrypt.co/339467/coinbase-is-considering-launching-a-token-for-ethereum-network-base",
+            "publishedAt": "2025-09-15T15:03:41.000Z",
+            "description": "Ethereum layer-2 network Base is \"exploring\" a token launch, Coinbase confirmed on Monday, in a pivot from previous messaging."
           }
         ]
       },
       "events": [
         {
-          "title": "Ethereum Wallet Rainbow Reveals RNBW Token Airdrop—Here's When",
+          "title": "Coinbase Is Considering Launching a Token for Ethereum Network Base",
           "source": "decrypt",
-          "url": "https://decrypt.co/340768/ethereum-wallet-rainbow-reveals-rnbw-token-airdrop",
-          "publishedAt": "2025-09-22T21:00:29.000Z",
-          "description": "Rainbow, a popular Ethereum wallet, announced that its points program is converting into an on-chain RNBW token expected before year's end."
-        }
-      ]
-    },
-    {
-      "id": "tether",
-      "name": "Tether",
-      "symbol": "USDT",
-      "priceSummary": "First: $1\nLast:  $1\nLow:   $1\nHigh:  $1\nChange: 0.05%",
-      "signals": {
-        "last": 1.000750353256238,
-        "change": 0.04574889732949212,
-        "rsi": 60.093435249637245,
-        "lastSMA8": 1.000674883855064,
-        "lastSMA21": 1.0005897509564639,
-        "volumeSpike": false,
-        "sweep": false,
-        "maxDropPct": 0.018031052035726032,
-        "lowerHighs": false
-      },
-      "metrics": {
-        "currentPrice": 1.001,
-        "marketCap": 172148418688,
-        "circulatingSupply": 172017973864.2237
-      },
-      "data": {
-        "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
-        "chronology": [],
-        "technicalReadout": [],
-        "levels": [],
-        "scenarios": [],
-        "checklist": [],
-        "events": [
-          {
-            "title": "New AI System Predicts Risk of 1,000 Diseases Years in Advance",
-            "source": "decrypt",
-            "url": "https://decrypt.co/340776/new-ai-system-predicts-risk-1000-diseases-years-advance",
-            "publishedAt": "2025-09-22T23:20:40.000Z",
-            "description": "Delphi-2M reads your medical history like a language model reads text—and forecasts health problems 20 years out with surprising accuracy."
-          }
-        ]
-      },
-      "events": [
-        {
-          "title": "New AI System Predicts Risk of 1,000 Diseases Years in Advance",
-          "source": "decrypt",
-          "url": "https://decrypt.co/340776/new-ai-system-predicts-risk-1000-diseases-years-advance",
-          "publishedAt": "2025-09-22T23:20:40.000Z",
-          "description": "Delphi-2M reads your medical history like a language model reads text—and forecasts health problems 20 years out with surprising accuracy."
+          "url": "https://decrypt.co/339467/coinbase-is-considering-launching-a-token-for-ethereum-network-base",
+          "publishedAt": "2025-09-15T15:03:41.000Z",
+          "description": "Ethereum layer-2 network Base is \"exploring\" a token launch, Coinbase confirmed on Monday, in a pivot from previous messaging."
         }
       ]
     },
@@ -167,25 +118,25 @@
       "id": "ripple",
       "name": "XRP",
       "symbol": "XRP",
-      "priceSummary": "First: $2.99\nLast:  $2.85\nLow:   $2.8\nHigh:  $3.14\nChange: -4.62%",
+      "priceSummary": "First: $2.97\nLast:  $3.03\nLow:   $2.94\nHigh:  $3.18\nChange: 2.01%",
       "signals": {
-        "last": 2.8483,
-        "change": -4.621103037203224,
-        "rsi": 42.62656372468752,
-        "lastSMA8": 2.8451250000000003,
-        "lastSMA21": 2.8431095238095234,
+        "last": 3.0294,
+        "change": 2.006869149437661,
+        "rsi": 49.9608762661733,
+        "lastSMA8": 3.0038625,
+        "lastSMA21": 3.02332380952381,
         "volumeSpike": false,
         "sweep": true,
-        "maxDropPct": 4.003427592116539,
-        "lowerHighs": true
+        "maxDropPct": 3.476842791911279,
+        "lowerHighs": false
       },
       "metrics": {
-        "currentPrice": 2.85,
-        "marketCap": 170229354727,
-        "circulatingSupply": 59777241479
+        "currentPrice": 3.03,
+        "marketCap": 180622766910,
+        "circulatingSupply": 59610205486
       },
       "data": {
-        "snapshot": "A fast liquidity sweep (~4.0% drop) occurred during the week, grabbing stops before the partial recovery. Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
+        "snapshot": "A fast liquidity sweep (~3.5% drop) occurred during the week, grabbing stops before the partial recovery.",
         "chronology": [],
         "technicalReadout": [],
         "levels": [],
@@ -193,140 +144,44 @@
         "checklist": [],
         "events": [
           {
-            "title": "XRP Holders Can Now Earn Up to 8% Through New Liquid Staking Token",
-            "source": "coindesk",
-            "url": "https://www.coindesk.com/tech/2025/09/22/xrp-holders-can-now-earn-up-to-8-through-new-liquid-staking-token",
-            "publishedAt": "2025-09-22T09:13:01.000Z",
-            "description": "The introduction highlights a push to tie the XRP ledger into cross-chain liquidity flows, with returns projected at 6%–8% dependent on strategy performance."
-          }
-        ]
-      },
-      "events": [
-        {
-          "title": "XRP Holders Can Now Earn Up to 8% Through New Liquid Staking Token",
-          "source": "coindesk",
-          "url": "https://www.coindesk.com/tech/2025/09/22/xrp-holders-can-now-earn-up-to-8-through-new-liquid-staking-token",
-          "publishedAt": "2025-09-22T09:13:01.000Z",
-          "description": "The introduction highlights a push to tie the XRP ledger into cross-chain liquidity flows, with returns projected at 6%–8% dependent on strategy performance."
-        }
-      ]
-    },
-    {
-      "id": "binancecoin",
-      "name": "BNB",
-      "symbol": "BNB",
-      "priceSummary": "First: $919.09\nLast:  $991.91\nLow:   $919.09\nHigh:  $1,076.01\nChange: 7.92%",
-      "signals": {
-        "last": 991.91,
-        "change": 7.923054325474103,
-        "rsi": 35.41529720377149,
-        "lastSMA8": 989.78625,
-        "lastSMA21": 1008.537142857143,
-        "volumeSpike": false,
-        "sweep": true,
-        "maxDropPct": 5.367133541690791,
-        "lowerHighs": true
-      },
-      "metrics": {
-        "currentPrice": 991.9,
-        "marketCap": 138025144950,
-        "circulatingSupply": 139186288.02
-      },
-      "data": {
-        "snapshot": "A fast liquidity sweep (~5.4% drop) occurred during the week, grabbing stops before the partial recovery. Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
-        "chronology": [],
-        "technicalReadout": [],
-        "levels": [],
-        "scenarios": [],
-        "checklist": [],
-        "events": [
-          {
-            "title": "BNB is Soaring: Here's Where Analysts See It Headed Next",
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
             "source": "decrypt",
-            "url": "https://decrypt.co/340621/bnb-soaring-heres-where-analysts-see-headed-next",
-            "publishedAt": "2025-09-22T04:29:24.000Z",
-            "description": "BNB surged to a record high, buoyed by institutional demand, though analysts caution the rally may face a short-term pullback."
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
           }
         ]
       },
       "events": [
         {
-          "title": "BNB is Soaring: Here's Where Analysts See It Headed Next",
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
           "source": "decrypt",
-          "url": "https://decrypt.co/340621/bnb-soaring-heres-where-analysts-see-headed-next",
-          "publishedAt": "2025-09-22T04:29:24.000Z",
-          "description": "BNB surged to a record high, buoyed by institutional demand, though analysts caution the rally may face a short-term pullback."
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
         }
       ]
     },
     {
-      "id": "solana",
-      "name": "Solana",
-      "symbol": "SOL",
-      "priceSummary": "First: $233.8\nLast:  $220.14\nLow:   $217.1\nHigh:  $251.38\nChange: -5.84%",
+      "id": "tether",
+      "name": "Tether",
+      "symbol": "USDT",
+      "priceSummary": "First: $1\nLast:  $1\nLow:   $1\nHigh:  $1\nChange: 0.04%",
       "signals": {
-        "last": 220.14,
-        "change": -5.842600513259207,
-        "rsi": 37.26239855435114,
-        "lastSMA8": 219.70499999999998,
-        "lastSMA21": 222.29190476190476,
-        "volumeSpike": false,
-        "sweep": true,
-        "maxDropPct": 6.899952828165874,
-        "lowerHighs": true
-      },
-      "metrics": {
-        "currentPrice": 220.09,
-        "marketCap": 119568013849,
-        "circulatingSupply": 543277528.5906779
-      },
-      "data": {
-        "snapshot": "A fast liquidity sweep (~6.9% drop) occurred during the week, grabbing stops before the partial recovery. Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
-        "chronology": [],
-        "technicalReadout": [],
-        "levels": [],
-        "scenarios": [],
-        "checklist": [],
-        "events": [
-          {
-            "title": "Streamer Drained of $31K in Solana Raised for Cancer Treatment After He Downloads Game",
-            "source": "decrypt",
-            "url": "https://decrypt.co/340708/streamer-drained-31k-solana-cancer-treatment-after-downloads-game",
-            "publishedAt": "2025-09-22T20:21:49.000Z",
-            "description": "Raivo “Rastaland” Plavnieks is battling a rare form of cancer, and Solana funds raised for his treatment were swiped via a malware-infected game on Steam."
-          }
-        ]
-      },
-      "events": [
-        {
-          "title": "Streamer Drained of $31K in Solana Raised for Cancer Treatment After He Downloads Game",
-          "source": "decrypt",
-          "url": "https://decrypt.co/340708/streamer-drained-31k-solana-cancer-treatment-after-downloads-game",
-          "publishedAt": "2025-09-22T20:21:49.000Z",
-          "description": "Raivo “Rastaland” Plavnieks is battling a rare form of cancer, and Solana funds raised for his treatment were swiped via a malware-infected game on Steam."
-        }
-      ]
-    },
-    {
-      "id": "usd-coin",
-      "name": "USDC",
-      "symbol": "USDC",
-      "priceSummary": "First: $1\nLast:  $1\nLow:   $1\nHigh:  $1\nChange: 0.00%",
-      "signals": {
-        "last": 0.9997444423608159,
-        "change": 0.0032964666365305428,
-        "rsi": 53.93985171719058,
-        "lastSMA8": 0.9997086525781098,
-        "lastSMA21": 0.9996912667088248,
+        "last": 1.0003655105685325,
+        "change": 0.03986780621506063,
+        "rsi": 30.18542660784813,
+        "lastSMA8": 1.0004686009422517,
+        "lastSMA21": 1.000605800173822,
         "volumeSpike": false,
         "sweep": false,
-        "maxDropPct": 0.010125001473151743,
+        "maxDropPct": 0.036309388411123106,
         "lowerHighs": true
       },
       "metrics": {
-        "currentPrice": 0.999705,
-        "marketCap": 74124313665,
-        "circulatingSupply": 74153085579.21986
+        "currentPrice": 1,
+        "marketCap": 170319039334,
+        "circulatingSupply": 170251299953.0489
       },
       "data": {
         "snapshot": " Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
@@ -337,21 +192,165 @@
         "checklist": [],
         "events": [
           {
-            "title": "New AI System Predicts Risk of 1,000 Diseases Years in Advance",
-            "source": "decrypt",
-            "url": "https://decrypt.co/340776/new-ai-system-predicts-risk-1000-diseases-years-advance",
-            "publishedAt": "2025-09-22T23:20:40.000Z",
-            "description": "Delphi-2M reads your medical history like a language model reads text—and forecasts health problems 20 years out with surprising accuracy."
+            "title": "Crypto Lender Maple Expands to Tether-Backed Plasma",
+            "source": "coindesk",
+            "url": "https://www.coindesk.com/business/2025/09/15/crypto-lender-maple-expands-to-tether-backed-plasma-with-syrupusdt",
+            "publishedAt": "2025-09-15T14:41:26.000Z",
+            "description": "The deployment marks first syrupUSDT launch beyond Ethereum as Maple targets $5B in assets by year-end."
           }
         ]
       },
       "events": [
         {
-          "title": "New AI System Predicts Risk of 1,000 Diseases Years in Advance",
+          "title": "Crypto Lender Maple Expands to Tether-Backed Plasma",
+          "source": "coindesk",
+          "url": "https://www.coindesk.com/business/2025/09/15/crypto-lender-maple-expands-to-tether-backed-plasma-with-syrupusdt",
+          "publishedAt": "2025-09-15T14:41:26.000Z",
+          "description": "The deployment marks first syrupUSDT launch beyond Ethereum as Maple targets $5B in assets by year-end."
+        }
+      ]
+    },
+    {
+      "id": "binancecoin",
+      "name": "BNB",
+      "symbol": "BNB",
+      "priceSummary": "First: $878.5\nLast:  $914.88\nLow:   $873.16\nHigh:  $942.38\nChange: 4.14%",
+      "signals": {
+        "last": 914.88,
+        "change": 4.141149686966419,
+        "rsi": 37.343581959152644,
+        "lastSMA8": 917.6750000000001,
+        "lastSMA21": 924.1566666666669,
+        "volumeSpike": false,
+        "sweep": false,
+        "maxDropPct": 2.478135671237567,
+        "lowerHighs": false
+      },
+      "metrics": {
+        "currentPrice": 914.64,
+        "marketCap": 127277816118,
+        "circulatingSupply": 139186986.41
+      },
+      "data": {
+        "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
           "source": "decrypt",
-          "url": "https://decrypt.co/340776/new-ai-system-predicts-risk-1000-diseases-years-advance",
-          "publishedAt": "2025-09-22T23:20:40.000Z",
-          "description": "Delphi-2M reads your medical history like a language model reads text—and forecasts health problems 20 years out with surprising accuracy."
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+        }
+      ]
+    },
+    {
+      "id": "solana",
+      "name": "Solana",
+      "symbol": "SOL",
+      "priceSummary": "First: $215.42\nLast:  $233\nLow:   $211.62\nHigh:  $248.68\nChange: 8.16%",
+      "signals": {
+        "last": 233,
+        "change": 8.160802153931861,
+        "rsi": 34.51104252873711,
+        "lastSMA8": 234.7075,
+        "lastSMA21": 238.6042857142857,
+        "volumeSpike": false,
+        "sweep": true,
+        "maxDropPct": 6.393191352049047,
+        "lowerHighs": true
+      },
+      "metrics": {
+        "currentPrice": 232.35,
+        "marketCap": 126065079948,
+        "circulatingSupply": 542566221.6273707
+      },
+      "data": {
+        "snapshot": "A fast liquidity sweep (~6.4% drop) occurred during the week, grabbing stops before the partial recovery. Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Solana Gets First Billion-Dollar Publicly Traded Treasury as Forward Industries Buys 6.8M SOL",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339463/solana-first-billion-dollar-publicly-traded-treasury-forward-industries-6-8m-sol",
+            "publishedAt": "2025-09-15T14:43:08.000Z",
+            "description": "Forward Industries announced a purchase of nearly 7 million SOL, becoming the largest publicly traded Solana treasury firm—by far."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Solana Gets First Billion-Dollar Publicly Traded Treasury as Forward Industries Buys 6.8M SOL",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339463/solana-first-billion-dollar-publicly-traded-treasury-forward-industries-6-8m-sol",
+          "publishedAt": "2025-09-15T14:43:08.000Z",
+          "description": "Forward Industries announced a purchase of nearly 7 million SOL, becoming the largest publicly traded Solana treasury firm—by far."
+        }
+      ]
+    },
+    {
+      "id": "usd-coin",
+      "name": "USDC",
+      "symbol": "USDC",
+      "priceSummary": "First: $1\nLast:  $1\nLow:   $1\nHigh:  $1\nChange: -0.01%",
+      "signals": {
+        "last": 0.9997103367005796,
+        "change": -0.009116035978052084,
+        "rsi": 45.45758754109923,
+        "lastSMA8": 0.9997352767437858,
+        "lastSMA21": 0.9997622384792161,
+        "volumeSpike": false,
+        "sweep": false,
+        "maxDropPct": 0.012729828345960684,
+        "lowerHighs": false
+      },
+      "metrics": {
+        "currentPrice": 0.999709,
+        "marketCap": 72989090424,
+        "circulatingSupply": 73010313939.15979
+      },
+      "data": {
+        "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
+        "chronology": [],
+        "technicalReadout": [],
+        "levels": [],
+        "scenarios": [],
+        "checklist": [],
+        "events": [
+          {
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
+          }
+        ]
+      },
+      "events": [
+        {
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
         }
       ]
     },
@@ -359,25 +358,25 @@
       "id": "dogecoin",
       "name": "Dogecoin",
       "symbol": "DOGE",
-      "priceSummary": "First: $0.27\nLast:  $0.24\nLow:   $0.24\nHigh:  $0.29\nChange: -9.80%",
+      "priceSummary": "First: $0.24\nLast:  $0.26\nLow:   $0.23\nHigh:  $0.3\nChange: 10.83%",
       "signals": {
-        "last": 0.24079,
-        "change": -9.802966736589742,
-        "rsi": 40.77733496095039,
-        "lastSMA8": 0.23916749999999998,
-        "lastSMA21": 0.24053714285714284,
+        "last": 0.26341,
+        "change": 10.82547963648602,
+        "rsi": 35.6522906522509,
+        "lastSMA8": 0.26362250000000004,
+        "lastSMA21": 0.27182761904761904,
         "volumeSpike": false,
         "sweep": true,
-        "maxDropPct": 5.461092218443687,
-        "lowerHighs": false
+        "maxDropPct": 7.765507935944324,
+        "lowerHighs": true
       },
       "metrics": {
-        "currentPrice": 0.240695,
-        "marketCap": 36331505652,
-        "circulatingSupply": 151036106383.7051
+        "currentPrice": 0.263305,
+        "marketCap": 39725438831,
+        "circulatingSupply": 150924576383.7052
       },
       "data": {
-        "snapshot": "A fast liquidity sweep (~5.5% drop) occurred during the week, grabbing stops before the partial recovery.",
+        "snapshot": "A fast liquidity sweep (~7.8% drop) occurred during the week, grabbing stops before the partial recovery. Structure shows lower highs across recent peaks, which favors bearish continuation unless reclaimed.",
         "chronology": [],
         "technicalReadout": [],
         "levels": [],
@@ -385,21 +384,21 @@
         "checklist": [],
         "events": [
           {
-            "title": "Shiba Inu Tanks 5%, SHIB-DOGE Bounces From Record Lows",
-            "source": "coindesk",
-            "url": "https://www.coindesk.com/markets/2025/09/22/shiba-inu-tanks-5-shib-doge-bounces-from-record-lows",
-            "publishedAt": "2025-09-22T16:57:11.000Z",
-            "description": "SHIB outperforms DOGE as the crypto market wilts."
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+            "source": "decrypt",
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
           }
         ]
       },
       "events": [
         {
-          "title": "Shiba Inu Tanks 5%, SHIB-DOGE Bounces From Record Lows",
-          "source": "coindesk",
-          "url": "https://www.coindesk.com/markets/2025/09/22/shiba-inu-tanks-5-shib-doge-bounces-from-record-lows",
-          "publishedAt": "2025-09-22T16:57:11.000Z",
-          "description": "SHIB outperforms DOGE as the crypto market wilts."
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
+          "source": "decrypt",
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
         }
       ]
     },
@@ -407,25 +406,25 @@
       "id": "tron",
       "name": "TRON",
       "symbol": "TRX",
-      "priceSummary": "First: $0.34\nLast:  $0.34\nLow:   $0.33\nHigh:  $0.35\nChange: -0.36%",
+      "priceSummary": "First: $0.33\nLast:  $0.35\nLow:   $0.33\nHigh:  $0.35\nChange: 3.65%",
       "signals": {
-        "last": 0.34213946770608195,
-        "change": -0.36241446533530514,
-        "rsi": 55.66253651322774,
-        "lastSMA8": 0.3396174847448297,
-        "lastSMA21": 0.33974447353718185,
+        "last": 0.34554644773960486,
+        "change": 3.650389696356399,
+        "rsi": 31.986230307561286,
+        "lastSMA8": 0.3487526490410362,
+        "lastSMA21": 0.3486051819263971,
         "volumeSpike": false,
-        "sweep": true,
-        "maxDropPct": 2.878916681804492,
+        "sweep": false,
+        "maxDropPct": 1.628634226295859,
         "lowerHighs": false
       },
       "metrics": {
-        "currentPrice": 0.339878,
-        "marketCap": 32166524227,
-        "circulatingSupply": 94665742036.90671
+        "currentPrice": 0.34277,
+        "marketCap": 32480444104,
+        "circulatingSupply": 94664286603.4597
       },
       "data": {
-        "snapshot": "A fast liquidity sweep (~2.9% drop) occurred during the week, grabbing stops before the partial recovery.",
+        "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
         "chronology": [],
         "technicalReadout": [],
         "levels": [],
@@ -433,21 +432,21 @@
         "checklist": [],
         "events": [
           {
-            "title": "New AI System Predicts Risk of 1,000 Diseases Years in Advance",
-            "source": "decrypt",
-            "url": "https://decrypt.co/340776/new-ai-system-predicts-risk-1000-diseases-years-advance",
-            "publishedAt": "2025-09-22T23:20:40.000Z",
-            "description": "Delphi-2M reads your medical history like a language model reads text—and forecasts health problems 20 years out with surprising accuracy."
+            "title": "France, Austria and Italy Urge Stronger EU Oversight of Crypto Markets Under MiCA",
+            "source": "coindesk",
+            "url": "https://www.coindesk.com/policy/2025/09/15/france-austria-and-italy-urge-stronger-eu-oversight-of-crypto-markets-under-mica",
+            "publishedAt": "2025-09-15T15:03:04.000Z",
+            "description": "Regulators seek direct ESMA supervision and tighter rules on non-EU platforms to boost investor protection."
           }
         ]
       },
       "events": [
         {
-          "title": "New AI System Predicts Risk of 1,000 Diseases Years in Advance",
-          "source": "decrypt",
-          "url": "https://decrypt.co/340776/new-ai-system-predicts-risk-1000-diseases-years-advance",
-          "publishedAt": "2025-09-22T23:20:40.000Z",
-          "description": "Delphi-2M reads your medical history like a language model reads text—and forecasts health problems 20 years out with surprising accuracy."
+          "title": "France, Austria and Italy Urge Stronger EU Oversight of Crypto Markets Under MiCA",
+          "source": "coindesk",
+          "url": "https://www.coindesk.com/policy/2025/09/15/france-austria-and-italy-urge-stronger-eu-oversight-of-crypto-markets-under-mica",
+          "publishedAt": "2025-09-15T15:03:04.000Z",
+          "description": "Regulators seek direct ESMA supervision and tighter rules on non-EU platforms to boost investor protection."
         }
       ]
     },
@@ -455,25 +454,25 @@
       "id": "cardano",
       "name": "Cardano",
       "symbol": "ADA",
-      "priceSummary": "First: $0.86\nLast:  $0.83\nLow:   $0.81\nHigh:  $0.94\nChange: -4.24%",
+      "priceSummary": "First: $0.86\nLast:  $0.86\nLow:   $0.86\nHigh:  $0.95\nChange: -0.29%",
       "signals": {
-        "last": 0.8253,
-        "change": -4.2353214202831255,
-        "rsi": 40.01166489037635,
-        "lastSMA8": 0.8219625000000002,
-        "lastSMA21": 0.8260190476190475,
+        "last": 0.8586,
+        "change": -0.29032632679130727,
+        "rsi": 32.218064068353414,
+        "lastSMA8": 0.8612500000000001,
+        "lastSMA21": 0.8781904761904762,
         "volumeSpike": false,
         "sweep": true,
-        "maxDropPct": 5.738084220268392,
+        "maxDropPct": 5.067080607606172,
         "lowerHighs": false
       },
       "metrics": {
-        "currentPrice": 0.825789,
-        "marketCap": 30138147940,
-        "circulatingSupply": 36523691980.95682
+        "currentPrice": 0.856517,
+        "marketCap": 31327706240,
+        "circulatingSupply": 36516438056.75004
       },
       "data": {
-        "snapshot": "A fast liquidity sweep (~5.7% drop) occurred during the week, grabbing stops before the partial recovery.",
+        "snapshot": "A fast liquidity sweep (~5.1% drop) occurred during the week, grabbing stops before the partial recovery.",
         "chronology": [],
         "technicalReadout": [],
         "levels": [],
@@ -481,21 +480,21 @@
         "checklist": [],
         "events": [
           {
-            "title": "New AI System Predicts Risk of 1,000 Diseases Years in Advance",
+            "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
             "source": "decrypt",
-            "url": "https://decrypt.co/340776/new-ai-system-predicts-risk-1000-diseases-years-advance",
-            "publishedAt": "2025-09-22T23:20:40.000Z",
-            "description": "Delphi-2M reads your medical history like a language model reads text—and forecasts health problems 20 years out with surprising accuracy."
+            "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+            "publishedAt": "2025-09-15T15:49:55.000Z",
+            "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
           }
         ]
       },
       "events": [
         {
-          "title": "New AI System Predicts Risk of 1,000 Diseases Years in Advance",
+          "title": "Bank of England's Stablecoin Cap Proposal Criticized as 'Restrictive'",
           "source": "decrypt",
-          "url": "https://decrypt.co/340776/new-ai-system-predicts-risk-1000-diseases-years-advance",
-          "publishedAt": "2025-09-22T23:20:40.000Z",
-          "description": "Delphi-2M reads your medical history like a language model reads text—and forecasts health problems 20 years out with surprising accuracy."
+          "url": "https://decrypt.co/339469/bank-of-englands-stablecoin-cap-proposal-criticized-as-restrictive",
+          "publishedAt": "2025-09-15T15:49:55.000Z",
+          "description": "Coinbase and other groups warned that restrictions would leave the UK lagging the US and EU on digital asset regulation."
         }
       ]
     }

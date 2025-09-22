@@ -1,54 +1,33 @@
 {
-  "generatedAt": "2025-09-22T23:22:03.875Z",
-  "dataSource": "binance-klines",
-  "priceSummary": "First: $115,088.66\nLast:  $112,663.11\nLow:   $112,122.9\nHigh:  $117,822.97\nChange: -2.11%",
+  "generatedAt": "2025-09-22T23:37:13.652Z",
+  "dataSource": "coingecko-sparkline",
+  "priceSummary": "First: $114,913.6\nLast:  $112,683.95\nLow:   $112,420.02\nHigh:  $117,851.19\nChange: -1.94%",
   "signals": {
-    "last": 112663.11,
-    "change": -2.10754908433203,
-    "rsi": 40.01194648587333,
-    "lastSMA8": 112576.2,
-    "lastSMA21": 112902.74904761903,
+    "last": 112683.95356400768,
+    "change": -1.940283506957737,
+    "rsi": 30.05326278089494,
+    "lastSMA8": 112805.62677315604,
+    "lastSMA21": 113714.70220440702,
     "volumeSpike": false,
-    "sweep": false,
-    "maxDropPct": 2.2040928255578836,
+    "sweep": true,
+    "maxDropPct": 2.7858458306158034,
     "lowerHighs": false
   },
-  "futuresAvailable": true,
-  "futures": {
-    "ticker24": {
-      "lastPrice": 112617.9,
-      "priceChangePercent": -2.2
-    },
-    "premium": {
-      "markPrice": 112623.22347101,
-      "lastFundingRate": 0.00007477
-    },
-    "openInterest": {
-      "openInterest": 87099.956
-    },
-    "fundingSummary": {
-      "recentAvg": 0.000022217,
-      "sampleCount": 10
-    }
-  },
+  "futuresAvailable": false,
+  "futures": null,
   "data": {
-    "snapshot": "The market closed at $112,663.11, reflecting a 2.11% decrease from the previous session. Current RSI indicates a neutral momentum.",
+    "snapshot": "A fast liquidity sweep (~2.8% drop) occurred during the week, grabbing stops before the partial recovery.",
     "chronology": [
-      "Opened at $115,088.66.",
-      "Reached a high of $117,822.97.",
-      "Dropped to a low of $112,122.90.",
-      "Closed at $112,663.11.",
-      "Experienced a 2.11% change.",
-      "No volume spikes detected.",
-      "RSI stands at 40.01, indicating potential oversold conditions."
+      "Early week: multiple rejections at the 116k–118k supply zone; bullish momentum cooled.",
+      "Midweek: a rapid liquidity sweep down to ~107k–109k (stop hunt) with elevated sell volume.",
+      "Post‑sweep: a bounce/retest into the 111k–114k gap area (partial fill) but sellers remained active around 116k.",
+      "Current: lower highs and weak confirmation on the bounce; watch the reaction at the gap and the 109k demand band."
     ],
     "technicalReadout": [
-      "Last price: $112,663.11.",
-      "Last 8-period SMA: $112,576.20.",
-      "Last 21-period SMA: $112,902.75.",
-      "Max drop percentage observed: 2.20%.",
-      "No lower highs observed in recent price action.",
-      "Current market sentiment is neutral."
+      "Momentum: RSI softened from overbought to neutral/weak; no clear bullish divergence on the bounce.",
+      "Moving averages: short/medium MAs remain at or above price — bulls need a reclaim to shift bias.",
+      "Volume: heavy selling on the sweep; muted volume on the bounce indicates limited conviction.",
+      "CME gap: the unfinished gap near ~114–116k acted as a magnet; reaction at that zone is important."
     ],
     "levels": [
       "Immediate Resistance: 114k",
@@ -59,16 +38,20 @@
     ],
     "scenarios": [
       {
-        "title": "Bullish Reversal",
-        "text": "If the price breaks above the last SMA21 of $112,902.75, it could signal a bullish reversal with potential resistance at the recent high."
+        "title": "Bearish continuation (most likely)",
+        "text": "Fail to reclaim 116–118k → rollover → break 109k → impulse toward 105–102k."
       },
       {
-        "title": "Continued Downtrend",
-        "text": "A drop below the recent low of $112,122.90 may indicate a continuation of the downtrend, with further support levels to watch."
+        "title": "Range / chop (plausible)",
+        "text": "Price oscillates between 109k–116k as macro events & flows decide the next leg."
       },
       {
-        "title": "Sideways Consolidation",
-        "text": "The market may enter a consolidation phase if it trades within the range of $112,122.90 to $112,902.75, awaiting a clearer directional signal."
+        "title": "Bullish recovery (lower probability)",
+        "text": "Sustained daily close above ~116.5–118k with high volume → retest 123k+."
+      },
+      {
+        "title": "Event risk",
+        "text": "NFP, CPI, FOMC and options expiries can amplify intraday moves; avoid heavy sizing around these."
       }
     ],
     "checklist": [

@@ -1,53 +1,33 @@
 {
-  "generatedAt": "2025-09-22T23:22:15.770Z",
+  "generatedAt": "2025-09-22T23:37:14.247Z",
   "dataSource": "binance-klines",
-  "priceSummary": "First: $4,513.45\nLast:  $4,205.04\nLow:   $4,134.98\nHigh:  $4,621.3\nChange: -6.83%",
+  "priceSummary": "First: $4,503.41\nLast:  $4,168.16\nLow:   $4,156.78\nHigh:  $4,628.91\nChange: -7.44%",
   "signals": {
-    "last": 4205.04,
-    "change": -6.833132082996375,
-    "rsi": 42.06130060479087,
-    "lastSMA8": 4174.4800000000005,
-    "lastSMA21": 4193.549047619048,
+    "last": 4168.163614051888,
+    "change": -7.444328512738413,
+    "rsi": 22.680152443775555,
+    "lastSMA8": 4181.112029231504,
+    "lastSMA21": 4270.0520899485455,
     "volumeSpike": false,
     "sweep": true,
-    "maxDropPct": 4.642007993044733,
+    "maxDropPct": 7.574859227927548,
     "lowerHighs": false
   },
-  "futuresAvailable": true,
-  "futures": {
-    "ticker24": {
-      "lastPrice": 4202.45,
-      "priceChangePercent": -5.411
-    },
-    "premium": {
-      "markPrice": 4202.67497674,
-      "lastFundingRate": -0.00000298
-    },
-    "openInterest": {
-      "openInterest": 1909940.127
-    },
-    "fundingSummary": {
-      "recentAvg": -0.0000016640000000000003,
-      "sampleCount": 10
-    }
-  },
+  "futuresAvailable": false,
+  "futures": null,
   "data": {
-    "snapshot": "Ethereum is currently trading at $4,205.04, reflecting a 6.83% decline from its recent peak. The market exhibits a mix of bearish momentum with some technical indicators suggesting potential support levels.",
+    "snapshot": "A fast liquidity sweep (~7.6% drop) occurred during the week, grabbing stops before the partial recovery.",
     "chronology": [
-      "Price peaked at $4,513.45.",
-      "Dipped to a low of $4,134.98.",
-      "Last recorded price at $4,205.04.",
-      "6.83% change observed over the period.",
-      "Volume spike not detected.",
-      "SMA indicators show divergence."
+      "Early week: rejections at supply zones.",
+      "Midweek: liquidity sweep and elevated sells.",
+      "Post-sweep: partial recovery and retest.",
+      "Current: watch key support bands."
     ],
     "technicalReadout": [
-      "Current RSI at 42.06 indicates neutral momentum.",
-      "Last SMA (8) at $4,174.48, slightly above current price.",
-      "Last SMA (21) at $4,193.55, indicating potential resistance.",
-      "Max drop percentage observed at 4.64%.",
-      "No lower highs detected in recent price action.",
-      "Sweep signals suggest possible accumulation."
+      "Momentum softened",
+      "Short/medium MAs near price",
+      "Muted volume on bounce",
+      "No clear divergences"
     ],
     "levels": [
       "Immediate Resistance: 3.8k",
@@ -58,16 +38,20 @@
     ],
     "scenarios": [
       {
-        "title": "Bearish Continuation",
-        "text": "If momentum continues to decline, Ethereum may test support levels around $4,134.98."
+        "title": "Bearish continuation (most likely)",
+        "text": "Fail to reclaim resistance → rollover → break support → test lower bands."
       },
       {
-        "title": "Bullish Reversal",
-        "text": "A recovery above $4,250 could signal a potential bullish reversal, targeting previous highs."
+        "title": "Range / chop (plausible)",
+        "text": "Price oscillates as macro events & flows decide the next leg."
       },
       {
-        "title": "Range-Bound Trading",
-        "text": "Price may consolidate between $4,134 and $4,250, creating a range for traders to capitalize on."
+        "title": "Bullish recovery (lower probability)",
+        "text": "Sustained daily strength above resistance with volume → retest higher levels."
+      },
+      {
+        "title": "Event risk",
+        "text": "Macro prints and expiries can amplify intraday moves; avoid heavy sizing around these."
       }
     ],
     "checklist": [

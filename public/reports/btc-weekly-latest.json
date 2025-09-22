@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2025-09-15T15:17:02.070Z",
+  "generatedAt": "2025-09-22T23:22:03.875Z",
   "dataSource": "binance-klines",
-  "priceSummary": "First: $112,398\nLast:  $114,468.52\nLow:   $110,880.76\nHigh:  $116,632.51\nChange: 1.84%",
+  "priceSummary": "First: $115,088.66\nLast:  $112,663.11\nLow:   $112,122.9\nHigh:  $117,822.97\nChange: -2.11%",
   "signals": {
-    "last": 114468.52,
-    "change": 1.8421324222850977,
-    "rsi": 37.344340605120976,
-    "lastSMA8": 114747.26249999998,
-    "lastSMA21": 115351.29428571428,
+    "last": 112663.11,
+    "change": -2.10754908433203,
+    "rsi": 40.01194648587333,
+    "lastSMA8": 112576.2,
+    "lastSMA21": 112902.74904761903,
     "volumeSpike": false,
     "sweep": false,
-    "maxDropPct": 1.7606247854445554,
+    "maxDropPct": 2.2040928255578836,
     "lowerHighs": false
   },
   "futuresAvailable": true,
   "futures": {
     "ticker24": {
-      "lastPrice": 114415.4,
-      "priceChangePercent": -0.767
+      "lastPrice": 112617.9,
+      "priceChangePercent": -2.2
     },
     "premium": {
-      "markPrice": 114412.80852536,
-      "lastFundingRate": 0.00008874
+      "markPrice": 112623.22347101,
+      "lastFundingRate": 0.00007477
     },
     "openInterest": {
-      "openInterest": 88991.171
+      "openInterest": 87099.956
     },
     "fundingSummary": {
-      "recentAvg": 0.000045036,
+      "recentAvg": 0.000022217,
       "sampleCount": 10
     }
   },
   "data": {
-    "snapshot": "The market shows a slight upward movement with a 1.84% change, closing at $114,468.52. RSI indicates a potential oversold condition.",
+    "snapshot": "The market closed at $112,663.11, reflecting a 2.11% decrease from the previous session. Current RSI indicates a neutral momentum.",
     "chronology": [
-      "Price opened at $112,398.",
-      "Reached a low of $110,880.76.",
-      "Hit a high of $116,632.51.",
-      "Closed at $114,468.52.",
-      "Notable change of 1.84% during the session.",
-      "RSI recorded at 37.34, suggesting possible oversold conditions.",
-      "No significant volume spikes or sweeps observed."
+      "Opened at $115,088.66.",
+      "Reached a high of $117,822.97.",
+      "Dropped to a low of $112,122.90.",
+      "Closed at $112,663.11.",
+      "Experienced a 2.11% change.",
+      "No volume spikes detected.",
+      "RSI stands at 40.01, indicating potential oversold conditions."
     ],
     "technicalReadout": [
-      "Current price is below both the 8-day and 21-day simple moving averages.",
-      "Last SMA 8 is $114,747.26.",
-      "Last SMA 21 is $115,351.29.",
-      "Max drop percentage observed is 1.76%.",
-      "No lower highs indicated in the current trend.",
-      "Volume remains stable with no spikes."
+      "Last price: $112,663.11.",
+      "Last 8-period SMA: $112,576.20.",
+      "Last 21-period SMA: $112,902.75.",
+      "Max drop percentage observed: 2.20%.",
+      "No lower highs observed in recent price action.",
+      "Current market sentiment is neutral."
     ],
     "levels": [
       "Immediate Resistance: 114k",
@@ -60,15 +60,15 @@
     "scenarios": [
       {
         "title": "Bullish Reversal",
-        "text": "If the price breaks above the 21-day SMA, a bullish trend may emerge, targeting the recent high of $116,632.51."
+        "text": "If the price breaks above the last SMA21 of $112,902.75, it could signal a bullish reversal with potential resistance at the recent high."
       },
       {
         "title": "Continued Downtrend",
-        "text": "Should the price fall below $110,880.76, it may indicate a continuation of the downtrend, with potential targets at lower support levels."
+        "text": "A drop below the recent low of $112,122.90 may indicate a continuation of the downtrend, with further support levels to watch."
       },
       {
-        "title": "Sideways Movement",
-        "text": "With no significant volume spikes, the price may consolidate in a range between $110,880.76 and $116,632.51 until a clearer trend emerges."
+        "title": "Sideways Consolidation",
+        "text": "The market may enter a consolidation phase if it trades within the range of $112,122.90 to $112,902.75, awaiting a clearer directional signal."
       }
     ],
     "checklist": [

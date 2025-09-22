@@ -18,6 +18,9 @@
     "opinions:generate": "node scripts/generate-opinion-images.js",
     "generate:btc-weekly": "node scripts/generate-btc-weekly.js",
     "generate:crypto-weekly-preview": "node scripts/generate-crypto-weekly-preview.js",
+    "generate:eth-weekly": "node scripts/generate-eth-weekly.js",
+  "generate:sitemap-news": "node scripts/generate-sitemap-news.js",
+  "generate:sitemap-index": "node scripts/generate-sitemap-index.js",
     "migrate:dev-to-supabase": "node scripts/migrate-dev-to-supabase.js",
     "migrate:supabase-to-dev": "node scripts/migrate-supabase-to-dev.js"
   },

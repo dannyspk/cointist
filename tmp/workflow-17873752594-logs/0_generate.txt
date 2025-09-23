@@ -1,0 +1,50 @@
+﻿2025-09-20T02:01:24.5661659Z Current runner version: '2.328.0'
+2025-09-20T02:01:24.5686017Z ##[group]Runner Image Provisioner
+2025-09-20T02:01:24.5687120Z Hosted Compute Agent
+2025-09-20T02:01:24.5687722Z Version: 20250829.383
+2025-09-20T02:01:24.5688334Z Commit: 27cb235aab5b0e52e153a26cd86b4742e89dac5d
+2025-09-20T02:01:24.5689130Z Build Date: 2025-08-29T13:48:48Z
+2025-09-20T02:01:24.5689763Z ##[endgroup]
+2025-09-20T02:01:24.5690262Z ##[group]Operating System
+2025-09-20T02:01:24.5690859Z Ubuntu
+2025-09-20T02:01:24.5691346Z 24.04.3
+2025-09-20T02:01:24.5691801Z LTS
+2025-09-20T02:01:24.5692311Z ##[endgroup]
+2025-09-20T02:01:24.5692827Z ##[group]Runner Image
+2025-09-20T02:01:24.5693385Z Image: ubuntu-24.04
+2025-09-20T02:01:24.5693916Z Version: 20250907.24.1
+2025-09-20T02:01:24.5694980Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250907.24/images/ubuntu/Ubuntu2404-Readme.md
+2025-09-20T02:01:24.5696785Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250907.24
+2025-09-20T02:01:24.5697914Z ##[endgroup]
+2025-09-20T02:01:24.5699175Z ##[group]GITHUB_TOKEN Permissions
+2025-09-20T02:01:24.5701329Z Contents: read
+2025-09-20T02:01:24.5701903Z Metadata: read
+2025-09-20T02:01:24.5702470Z Packages: read
+2025-09-20T02:01:24.5703055Z ##[endgroup]
+2025-09-20T02:01:24.5705089Z Secret source: Actions
+2025-09-20T02:01:24.5706501Z Prepare workflow directory
+2025-09-20T02:01:24.6039664Z Prepare all required actions
+2025-09-20T02:01:24.6132144Z Complete job name: generate
+2025-09-20T02:01:24.6879185Z ##[group]Run set -e
+2025-09-20T02:01:24.6879849Z [36;1mset -e[0m
+2025-09-20T02:01:24.6880496Z [36;1mecho "Calling sitemap generation endpoint..."[0m
+2025-09-20T02:01:24.6881912Z [36;1mresp=$(curl -s -w "\n%{http_code}" -X POST -H "x-sitemap-secret: $SITEMAP_CRON_SECRET" "https://***/api/generate-sitemap-news") || true[0m
+2025-09-20T02:01:24.6883157Z [36;1mbody=$(printf "%s" "$resp" | sed -n '1,$p' | sed '$d')[0m
+2025-09-20T02:01:24.6883955Z [36;1mcode=$(printf "%s" "$resp" | tail -n1)[0m
+2025-09-20T02:01:24.6884858Z [36;1mecho "HTTP status: $code"[0m
+2025-09-20T02:01:24.6885495Z [36;1mecho "Response body: $body"[0m
+2025-09-20T02:01:24.6886333Z [36;1mif [ "$code" -lt 200 ] || [ "$code" -ge 300 ]; then[0m
+2025-09-20T02:01:24.6887246Z [36;1m  echo "Sitemap generation failed with status $code"[0m
+2025-09-20T02:01:24.6887970Z [36;1m  exit 1[0m
+2025-09-20T02:01:24.6888951Z [36;1mfi[0m
+2025-09-20T02:01:24.8341301Z shell: /usr/bin/bash -e {0}
+2025-09-20T02:01:24.8342423Z env:
+2025-09-20T02:01:24.8343018Z   SITEMAP_CRON_SECRET: ***
+2025-09-20T02:01:24.8343743Z   SITE_URL: ***
+2025-09-20T02:01:24.8344261Z ##[endgroup]
+2025-09-20T02:01:24.8527165Z Calling sitemap generation endpoint...
+2025-09-20T02:01:25.0285226Z HTTP status: 405
+2025-09-20T02:01:25.0286654Z Response body: 
+2025-09-20T02:01:25.0287407Z Sitemap generation failed with status 405
+2025-09-20T02:01:25.0312859Z ##[error]Process completed with exit code 1.
+2025-09-20T02:01:25.0437774Z Cleaning up orphan processes

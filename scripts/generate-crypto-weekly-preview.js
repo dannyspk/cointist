@@ -13,17 +13,80 @@ async function generateNarrativeWithLLM(summary, movers){
   const model = process.env.OPENAI_MODEL || 'gpt-5-mini';
   console.log('LLM model:', model);
   const prompt = `You are a concise market analyst. Given a two-line top-10 summary and arrays of top gainers/losers, produce a JSON object with keys: title (short page title), snapshot (1-2 short sentences), highlights (array up to 6 bullets), headlines (array up to 6 short headlines). Respond with valid JSON only.\n\nsummary: ${String(summary)}\n\nmovers: ${JSON.stringify(movers)}\n\nExample: {"title":"Crypto Weekly Preview: Top-10 snapshot","snapshot":"...","highlights":["..."],"headlines":["..."]}`;
-  const url = 'https://api.openai.com/v1/chat/completions';
-  const body = { model, messages:[{role:'system', content:'You are a professional financial market analyst. Be concise and factual.'},{role:'user', content:prompt}], max_tokens:300, temperature:0.6 };
   try{
-    const res = await (fetchFn ? fetchFn(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }) : fetch(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }));
-    if(!res || !res.ok){ console.warn('LLM request failed', res && res.status); return null; }
-    const json = await res.json();
-    const content = json && json.choices && json.choices[0] && (json.choices[0].message && json.choices[0].message.content || json.choices[0].text);
-    if(!content) return null;
-    const m = content.match(/\{[\s\S]*\}/m);
-    const jtxt = m ? m[0] : content;
-    try{ return JSON.parse(jtxt); }catch(e){ console.warn('Failed to parse LLM JSON response for preview'); return null; }
+    if (String(model).toLowerCase().startsWith('gpt-5')){
+      const url = 'https://api.openai.com/v1/responses';
+      let maxOutput = 300;
+      const doRequest = async (maxOutputTokens) => {
+        const body = { model, input: prompt, max_output_tokens: maxOutputTokens };
+        const res = await (fetchFn ? fetchFn(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }) : fetch(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }));
+        if(!res || !res.ok){ const txt = res ? await res.text().catch(()=>'<no body>') : '<no response>'; console.warn('LLM request failed', res && res.status, txt); return null; }
+        return await res.json();
+      };
+      let json = await doRequest(maxOutput);
+      if (json && json.status === 'incomplete' && json.incomplete_details && json.incomplete_details.reason === 'max_output_tokens'){
+        console.warn('LLM response incomplete due to max_output_tokens; retrying with larger max_output_tokens');
+        const newMax = Math.min(Math.max(800, maxOutput * 2), 2000);
+        json = await doRequest(newMax) || json;
+      }
+      let content = null;
+      if (json.output_text) content = json.output_text;
+      else if (json.output && Array.isArray(json.output)){
+        const parts = [];
+        json.output.forEach(o=>{
+          if (typeof o === 'string') parts.push(o);
+          else if (o.content && Array.isArray(o.content)){
+            o.content.forEach(c=>{ if (c.text) parts.push(c.text); else if (typeof c === 'string') parts.push(c); });
+          }
+        });
+        content = parts.join('\n').trim();
+      } else if (json.choices && json.choices[0]){
+        content = (json.choices[0].message && json.choices[0].message.content) || json.choices[0].text;
+      }
+      if(!content) return null;
+  const m = content.match(/\{[\s\S]*\}/m);
+  const jtxt = m ? m[0] : content;
+  try{ return JSON.parse(jtxt); }catch(e){
+    console.warn('Failed to parse LLM JSON response for preview; raw content follows:\n', jtxt);
+    try{ console.warn('Full API JSON:', JSON.stringify(json).slice(0,2000)); }catch(_){}
+    // If the response was incomplete (truncated), attempt a lightweight repair by balancing braces/brackets/quotes
+    try{
+      const repair = (txt)=>{
+        // find first JSON object start
+        const idx = txt.indexOf('{');
+        if(idx === -1) return txt;
+        let s = txt.slice(idx);
+        // simple counts
+        const count = (ch)=> (s.split(ch).length-1);
+        const openBr = count('{'); const closeBr = count('}');
+        const openSq = count('['); const closeSq = count(']');
+        const quotes = count('"');
+        // trim trailing incomplete tokens
+        s = s.replace(/,\s*\n?\s*$/, '');
+        if(quotes % 2 === 1) s = s + '"';
+        if(closeSq < openSq) s = s + ']'.repeat(openSq - closeSq);
+        if(closeBr < openBr) s = s + '}'.repeat(openBr - closeBr);
+        return s;
+      };
+      const repaired = repair(jtxt);
+      return JSON.parse(repaired);
+    }catch(e2){
+      // final fallback
+      return null;
+    }
+  }
+    }else{
+      const url = 'https://api.openai.com/v1/chat/completions';
+      const body = { model, messages:[{role:'system', content:'You are a professional financial market analyst. Be concise and factual.'},{role:'user', content:prompt}], max_tokens:300, temperature:0.6 };
+      const res = await (fetchFn ? fetchFn(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }) : fetch(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }));
+      if(!res || !res.ok){ const txt = res ? await res.text().catch(()=>'<no body>') : '<no response>'; console.warn('LLM request failed', res && res.status, txt); return null; }
+      const json = await res.json();
+      const content = json && json.choices && json.choices[0] && (json.choices[0].message && json.choices[0].message.content || json.choices[0].text);
+      if(!content) return null;
+  const m = content.match(/\{[\s\S]*\}/m);
+  const jtxt = m ? m[0] : content;
+  try{ return JSON.parse(jtxt); }catch(e){ console.warn('Failed to parse LLM JSON response for preview; raw content follows:\n', jtxt); try{ console.warn('Full API JSON:', JSON.stringify(json).slice(0,2000)); }catch(_){} return null; }
+    }
   }catch(e){ console.warn('LLM preview generation failed', e && e.message); return null; }
 }
 

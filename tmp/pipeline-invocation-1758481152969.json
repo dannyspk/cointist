@@ -1,0 +1,23 @@
+{
+  "startedAt": 1758481152969,
+  "invocationToken": "25b97f63443befb3a1f7",
+  "selected": [
+    {
+      "id": "https://crypto.news/ethereum-buterin-points-to-low-risk-defi-google/",
+      "title": "Ethereum’s next chapter? Buterin likens low-risk DeFi to Google search",
+      "url": "https://crypto.news/ethereum-buterin-points-to-low-risk-defi-google/",
+      "slug": "ethereum-buterin-points-to-low-risk-defi-google",
+      "oldSlug": "ethereum-buterin-points-to-low-risk-defi-google",
+      "href": "/articles/ethereum-buterin-points-to-low-risk-defi-google"
+    },
+    {
+      "id": "https://cointelegraph.com/news/first-chinese-stablecoin-debut-race-heats-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "First Chinese CNH stablecoin debuts as global race heats up",
+      "url": "https://cointelegraph.com/news/first-chinese-stablecoin-debut-race-heats-up?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "first-chinese-stablecoin-debut-race-heats-up",
+      "oldSlug": "first-chinese-stablecoin-debut-race-heats-up",
+      "href": "/articles/first-chinese-stablecoin-debut-race-heats-up"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

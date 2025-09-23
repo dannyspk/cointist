@@ -1,3 +1,4 @@
+import { Storage } from '@google-cloud/storage';
 import fs from 'fs';
 import path from 'path';
 
@@ -32,20 +33,7 @@ export function getStorage() {
   if (PROJECT_ID) opts.projectId = PROJECT_ID;
   if (KEY_JSON) opts.credentials = KEY_JSON;
   else if (KEY_JSON_FROM_PATH) opts.credentials = KEY_JSON_FROM_PATH;
-  // Lazy-load @google-cloud/storage at runtime to avoid bundling it into serverless functions
-  let StorageLib;
-  try {
-    StorageLib = require('@google-cloud/storage').Storage || require('@google-cloud/storage');
-  } catch (e) {
-    try {
-      // Attempt dynamic import as fallback (ESM environments)
-      // eslint-disable-next-line no-eval
-      StorageLib = eval("(await import('@google-cloud/storage')).Storage");
-    } catch (e2) {
-      throw new Error('@google-cloud/storage not available in this environment');
-    }
-  }
-  storageClient = new StorageLib(opts);
+  storageClient = new Storage(opts);
   return storageClient;
 }
 

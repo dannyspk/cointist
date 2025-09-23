@@ -1,5 +1,5 @@
 :root .guide-root, .guide-root{
-  --bg:#030d1640 --ink:#e7f1ee; --muted:#9bb0ac;
+  --bg:#030d1640; --ink:#e7f1ee; --muted:#9bb0ac;
   --card:#0f1b25; --card-2:#0b1419; --border:rgba(255,255,255,0.04);
   --pill:rgba(255,255,255,0.03); --accent:#6ee7b7; --gold:#f5c06a;
   --glass:rgba(255,255,255,0.03); --shadow: 0 8px 30px rgba(3,7,10,0.6);
@@ -212,7 +212,7 @@ li{margin:8px 0 }
 /* Learn more scroller styles */    
 .learn-more{max-width:1120px;margin:40px auto;padding:0 20px}
 .learn-inner{position:relative}
-.learn-inner h3{font-size:28px;margin:10px 0 18px;color: var(--ink), m !important;}
+.learn-inner h3{font-size:28px;margin:10px 0 18px;color: var(--ink) !important;}
 .cards-viewport{overflow:hidden}
 .cards-track{display:flex;gap:13px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:56px}
 .cards-track::-webkit-scrollbar{height:8px}

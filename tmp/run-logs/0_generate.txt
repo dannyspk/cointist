@@ -1,0 +1,256 @@
+﻿2025-09-22T23:42:41.5728574Z Current runner version: '2.328.0'
+2025-09-22T23:42:41.5762909Z ##[group]Runner Image Provisioner
+2025-09-22T23:42:41.5764053Z Hosted Compute Agent
+2025-09-22T23:42:41.5764956Z Version: 20250829.383
+2025-09-22T23:42:41.5765840Z Commit: 27cb235aab5b0e52e153a26cd86b4742e89dac5d
+2025-09-22T23:42:41.5766928Z Build Date: 2025-08-29T13:48:48Z
+2025-09-22T23:42:41.5767765Z ##[endgroup]
+2025-09-22T23:42:41.5768680Z ##[group]Operating System
+2025-09-22T23:42:41.5769494Z Ubuntu
+2025-09-22T23:42:41.5770191Z 24.04.3
+2025-09-22T23:42:41.5771075Z LTS
+2025-09-22T23:42:41.5772157Z ##[endgroup]
+2025-09-22T23:42:41.5773069Z ##[group]Runner Image
+2025-09-22T23:42:41.5774164Z Image: ubuntu-24.04
+2025-09-22T23:42:41.5775011Z Version: 20250907.24.1
+2025-09-22T23:42:41.5776791Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250907.24/images/ubuntu/Ubuntu2404-Readme.md
+2025-09-22T23:42:41.5779610Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250907.24
+2025-09-22T23:42:41.5781183Z ##[endgroup]
+2025-09-22T23:42:41.5783411Z ##[group]GITHUB_TOKEN Permissions
+2025-09-22T23:42:41.5786249Z Contents: write
+2025-09-22T23:42:41.5787156Z Metadata: read
+2025-09-22T23:42:41.5787990Z ##[endgroup]
+2025-09-22T23:42:41.5791007Z Secret source: Actions
+2025-09-22T23:42:41.5793035Z Prepare workflow directory
+2025-09-22T23:42:41.6176715Z Prepare all required actions
+2025-09-22T23:42:41.6233068Z Getting action download info
+2025-09-22T23:42:41.9420804Z Download action repository 'actions/checkout@v4' (SHA:08eba0b27e820071cde6df949e0beb9ba4906955)
+2025-09-22T23:42:42.1363431Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2025-09-22T23:42:42.3495479Z Complete job name: generate
+2025-09-22T23:42:42.4301378Z ##[group]Run actions/checkout@v4
+2025-09-22T23:42:42.4302521Z with:
+2025-09-22T23:42:42.4302941Z   persist-credentials: true
+2025-09-22T23:42:42.4303423Z   repository: dannyspk/cointist
+2025-09-22T23:42:42.4304065Z   token: ***
+2025-09-22T23:42:42.4304466Z   ssh-strict: true
+2025-09-22T23:42:42.4304982Z   ssh-user: git
+2025-09-22T23:42:42.4305409Z   clean: true
+2025-09-22T23:42:42.4305796Z   sparse-checkout-cone-mode: true
+2025-09-22T23:42:42.4306269Z   fetch-depth: 1
+2025-09-22T23:42:42.4306649Z   fetch-tags: false
+2025-09-22T23:42:42.4307039Z   show-progress: true
+2025-09-22T23:42:42.4307437Z   lfs: false
+2025-09-22T23:42:42.4307799Z   submodules: false
+2025-09-22T23:42:42.4308189Z   set-safe-directory: true
+2025-09-22T23:42:42.4308912Z ##[endgroup]
+2025-09-22T23:42:42.5606441Z Syncing repository: dannyspk/cointist
+2025-09-22T23:42:42.5609044Z ##[group]Getting Git version info
+2025-09-22T23:42:42.5610068Z Working directory is '/home/runner/work/cointist/cointist'
+2025-09-22T23:42:42.5611575Z [command]/usr/bin/git version
+2025-09-22T23:42:42.5748171Z git version 2.51.0
+2025-09-22T23:42:42.5782401Z ##[endgroup]
+2025-09-22T23:42:42.5804978Z Temporarily overriding HOME='/home/runner/work/_temp/d7f3f367-3883-4658-9615-9a608eb932cb' before making global git config changes
+2025-09-22T23:42:42.5810544Z Adding repository directory to the temporary git global config as a safe directory
+2025-09-22T23:42:42.5836965Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cointist/cointist
+2025-09-22T23:42:42.6968899Z Deleting the contents of '/home/runner/work/cointist/cointist'
+2025-09-22T23:42:42.6973325Z ##[group]Initializing the repository
+2025-09-22T23:42:42.6978682Z [command]/usr/bin/git init /home/runner/work/cointist/cointist
+2025-09-22T23:42:42.8489994Z hint: Using 'master' as the name for the initial branch. This default branch name
+2025-09-22T23:42:42.8491803Z hint: is subject to change. To configure the initial branch name to use in all
+2025-09-22T23:42:42.8493588Z hint: of your new repositories, which will suppress this warning, call:
+2025-09-22T23:42:42.8494442Z hint:
+2025-09-22T23:42:42.8495016Z hint: 	git config --global init.defaultBranch <name>
+2025-09-22T23:42:42.8495701Z hint:
+2025-09-22T23:42:42.8496345Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2025-09-22T23:42:42.8497628Z hint: 'development'. The just-created branch can be renamed via this command:
+2025-09-22T23:42:42.8498701Z hint:
+2025-09-22T23:42:42.8499149Z hint: 	git branch -m <name>
+2025-09-22T23:42:42.8499642Z hint:
+2025-09-22T23:42:42.8500286Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2025-09-22T23:42:42.8501381Z Initialized empty Git repository in /home/runner/work/cointist/cointist/.git/
+2025-09-22T23:42:42.8505544Z [command]/usr/bin/git remote add origin https://github.com/dannyspk/cointist
+2025-09-22T23:42:42.8556525Z ##[endgroup]
+2025-09-22T23:42:42.8561380Z ##[group]Disabling automatic garbage collection
+2025-09-22T23:42:42.8562722Z [command]/usr/bin/git config --local gc.auto 0
+2025-09-22T23:42:42.8592263Z ##[endgroup]
+2025-09-22T23:42:42.8593489Z ##[group]Setting up auth
+2025-09-22T23:42:42.8600141Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-09-22T23:42:42.8631681Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-09-22T23:42:42.8965027Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-09-22T23:42:42.8998198Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-09-22T23:42:42.9221280Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-09-22T23:42:42.9258118Z ##[endgroup]
+2025-09-22T23:42:42.9266900Z ##[group]Fetching the repository
+2025-09-22T23:42:42.9268527Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +51b258d451c7a2621b0514d3fb3fb876aeb69605:refs/remotes/origin/main
+2025-09-22T23:42:45.1791779Z From https://github.com/dannyspk/cointist
+2025-09-22T23:42:45.1794468Z  * [new ref]         51b258d451c7a2621b0514d3fb3fb876aeb69605 -> origin/main
+2025-09-22T23:42:45.1826548Z ##[endgroup]
+2025-09-22T23:42:45.1827925Z ##[group]Determining the checkout info
+2025-09-22T23:42:45.1829564Z ##[endgroup]
+2025-09-22T23:42:45.1833851Z [command]/usr/bin/git sparse-checkout disable
+2025-09-22T23:42:45.1876797Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2025-09-22T23:42:45.1907662Z ##[group]Checking out the ref
+2025-09-22T23:42:45.1911534Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2025-09-22T23:42:45.7477226Z Switched to a new branch 'main'
+2025-09-22T23:42:45.7478659Z branch 'main' set up to track 'origin/main'.
+2025-09-22T23:42:45.7533645Z ##[endgroup]
+2025-09-22T23:42:45.7574934Z [command]/usr/bin/git log -1 --format=%H
+2025-09-22T23:42:45.7598334Z 51b258d451c7a2621b0514d3fb3fb876aeb69605
+2025-09-22T23:42:45.7821835Z ##[group]Run actions/setup-node@v4
+2025-09-22T23:42:45.7822334Z with:
+2025-09-22T23:42:45.7822550Z   node-version: 18
+2025-09-22T23:42:45.7822785Z   always-auth: false
+2025-09-22T23:42:45.7823014Z   check-latest: false
+2025-09-22T23:42:45.7823393Z   token: ***
+2025-09-22T23:42:45.7823614Z ##[endgroup]
+2025-09-22T23:42:45.9611460Z Found in cache @ /opt/hostedtoolcache/node/18.20.8/x64
+2025-09-22T23:42:45.9618700Z ##[group]Environment details
+2025-09-22T23:42:46.3421422Z node: v18.20.8
+2025-09-22T23:42:46.3422196Z npm: 10.8.2
+2025-09-22T23:42:46.3422531Z yarn: 1.22.22
+2025-09-22T23:42:46.3423767Z ##[endgroup]
+2025-09-22T23:42:46.3542564Z ##[group]Run npm ci
+2025-09-22T23:42:46.3542889Z [36;1mnpm ci[0m
+2025-09-22T23:42:46.3613940Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:42:46.3614214Z ##[endgroup]
+2025-09-22T23:42:48.1897263Z npm warn EBADENGINE Unsupported engine {
+2025-09-22T23:42:48.1898149Z npm warn EBADENGINE   package: 'better-sqlite3@12.2.0',
+2025-09-22T23:42:48.1898817Z npm warn EBADENGINE   required: { node: '20.x || 22.x || 23.x || 24.x' },
+2025-09-22T23:42:48.1899981Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+2025-09-22T23:42:48.1900453Z npm warn EBADENGINE }
+2025-09-22T23:42:48.1900826Z npm warn EBADENGINE Unsupported engine {
+2025-09-22T23:42:48.1901303Z npm warn EBADENGINE   package: 'cheerio@1.1.2',
+2025-09-22T23:42:48.1901803Z npm warn EBADENGINE   required: { node: '>=20.18.1' },
+2025-09-22T23:42:48.1902569Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+2025-09-22T23:42:48.1903016Z npm warn EBADENGINE }
+2025-09-22T23:42:48.1936731Z npm warn EBADENGINE Unsupported engine {
+2025-09-22T23:42:48.1937410Z npm warn EBADENGINE   package: 'png-to-ico@3.0.1',
+2025-09-22T23:42:48.1938076Z npm warn EBADENGINE   required: { node: '>=20' },
+2025-09-22T23:42:48.1938802Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+2025-09-22T23:42:48.1939375Z npm warn EBADENGINE }
+2025-09-22T23:42:48.1958156Z npm warn EBADENGINE Unsupported engine {
+2025-09-22T23:42:48.1958813Z npm warn EBADENGINE   package: 'undici@7.15.0',
+2025-09-22T23:42:48.1959477Z npm warn EBADENGINE   required: { node: '>=20.18.1' },
+2025-09-22T23:42:48.1960231Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+2025-09-22T23:42:48.1960837Z npm warn EBADENGINE }
+2025-09-22T23:42:50.8162849Z npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+2025-09-22T23:42:51.9465067Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+2025-09-22T23:42:52.0780024Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-09-22T23:44:34.6690321Z 
+2025-09-22T23:44:34.6690901Z > cointistreact@0.1.0 postinstall
+2025-09-22T23:44:34.6693327Z > prisma generate
+2025-09-22T23:44:34.6693557Z 
+2025-09-22T23:44:35.7694887Z Prisma schema loaded from prisma/schema.prisma
+2025-09-22T23:44:35.9449110Z 
+2025-09-22T23:44:35.9450423Z ✔ Generated Prisma Client (v6.14.0) to ./node_modules/@prisma/client in 75ms
+2025-09-22T23:44:35.9450951Z 
+2025-09-22T23:44:35.9451484Z Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+2025-09-22T23:44:35.9452357Z 
+2025-09-22T23:44:35.9453155Z Tip: Need your database queries to be 1000x faster? Accelerate offers you that and more: https://pris.ly/tip-2-accelerate
+2025-09-22T23:44:35.9453780Z 
+2025-09-22T23:44:35.9790756Z 
+2025-09-22T23:44:35.9792121Z added 883 packages, and audited 884 packages in 2m
+2025-09-22T23:44:35.9792741Z 
+2025-09-22T23:44:35.9793166Z 164 packages are looking for funding
+2025-09-22T23:44:35.9793663Z   run `npm fund` for details
+2025-09-22T23:44:35.9814337Z 
+2025-09-22T23:44:35.9814651Z found 0 vulnerabilities
+2025-09-22T23:44:36.0172295Z ##[group]Run npm run generate:btc-weekly
+2025-09-22T23:44:36.0172657Z [36;1mnpm run generate:btc-weekly[0m
+2025-09-22T23:44:36.0204383Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:44:36.0204636Z ##[endgroup]
+2025-09-22T23:44:36.1477051Z 
+2025-09-22T23:44:36.1477635Z > cointistreact@0.1.0 generate:btc-weekly
+2025-09-22T23:44:36.1478134Z > node scripts/generate-btc-weekly.js
+2025-09-22T23:44:36.1478335Z 
+2025-09-22T23:44:36.4555298Z Binance fetch failed, falling back to CoinGecko sparkline: Binance fetch failed: 451 - 
+2025-09-22T23:44:36.5352691Z Computed signals: {
+2025-09-22T23:44:36.5353173Z   last: 112683.95356400768,
+2025-09-22T23:44:36.5353467Z   change: -1.940283506957737,
+2025-09-22T23:44:36.5353710Z   rsi: 30.05326278089494,
+2025-09-22T23:44:36.5353987Z   lastSMA8: 112805.62677315604,
+2025-09-22T23:44:36.5354277Z   lastSMA21: 113714.70220440702,
+2025-09-22T23:44:36.5354523Z   volumeSpike: false,
+2025-09-22T23:44:36.5354747Z   sweep: true,
+2025-09-22T23:44:36.5355047Z   maxDropPct: 2.7858458306158034,
+2025-09-22T23:44:36.5355297Z   lowerHighs: false
+2025-09-22T23:44:36.5355499Z }
+2025-09-22T23:44:36.6807172Z Binance futures fetch failed: Futures fetch failed 451
+2025-09-22T23:44:36.6808722Z LLM narrative not available or failed to parse; using rule-based narrative
+2025-09-22T23:44:36.6825470Z Wrote report to /home/runner/work/cointist/cointist/public/reports/btc-weekly-20250922.html
+2025-09-22T23:44:36.6826913Z Wrote latest JSON to /home/runner/work/cointist/cointist/public/reports/btc-weekly-latest.json
+2025-09-22T23:44:36.6828328Z Wrote latest HTML to /home/runner/work/cointist/cointist/public/reports/btc-weekly-latest.html
+2025-09-22T23:44:36.7057906Z ##[group]Run npm run generate:eth-weekly
+2025-09-22T23:44:36.7058218Z [36;1mnpm run generate:eth-weekly[0m
+2025-09-22T23:44:36.7088402Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:44:36.7088635Z ##[endgroup]
+2025-09-22T23:44:36.8394352Z 
+2025-09-22T23:44:36.8395040Z > cointistreact@0.1.0 generate:eth-weekly
+2025-09-22T23:44:36.8395739Z > node scripts/generate-eth-weekly.js
+2025-09-22T23:44:36.8396078Z 
+2025-09-22T23:44:36.9922903Z Binance fetch failed, falling back to CoinGecko sparkline: Binance fetch failed: 451 - 
+2025-09-22T23:44:37.0792348Z Computed signals: {
+2025-09-22T23:44:37.0792779Z   last: 4168.163614051888,
+2025-09-22T23:44:37.0793171Z   change: -7.444328512738413,
+2025-09-22T23:44:37.0793554Z   rsi: 22.680152443775555,
+2025-09-22T23:44:37.0793932Z   lastSMA8: 4181.112029231504,
+2025-09-22T23:44:37.0794327Z   lastSMA21: 4270.0520899485455,
+2025-09-22T23:44:37.0794693Z   volumeSpike: false,
+2025-09-22T23:44:37.0795031Z   sweep: true,
+2025-09-22T23:44:37.0795481Z   maxDropPct: 7.574859227927548,
+2025-09-22T23:44:37.0795855Z   lowerHighs: false
+2025-09-22T23:44:37.0796169Z }
+2025-09-22T23:44:37.1516576Z Binance futures fetch failed: Futures fetch failed 451
+2025-09-22T23:44:37.1533945Z Wrote report to /home/runner/work/cointist/cointist/public/reports/eth-weekly-20250922.html
+2025-09-22T23:44:37.1535340Z Wrote latest JSON to /home/runner/work/cointist/cointist/public/reports/eth-weekly-latest.json
+2025-09-22T23:44:37.1536658Z Wrote latest HTML to /home/runner/work/cointist/cointist/public/reports/eth-weekly-latest.html
+2025-09-22T23:44:37.1747090Z ##[group]Run npm run generate:crypto-weekly-preview
+2025-09-22T23:44:37.1747477Z [36;1mnpm run generate:crypto-weekly-preview[0m
+2025-09-22T23:44:37.1778299Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:44:37.1778544Z ##[endgroup]
+2025-09-22T23:44:37.3076706Z 
+2025-09-22T23:44:37.3077398Z > cointistreact@0.1.0 generate:crypto-weekly-preview
+2025-09-22T23:44:37.3078190Z > node scripts/generate-crypto-weekly-preview.js
+2025-09-22T23:44:37.3078585Z 
+2025-09-22T23:44:37.3609384Z crypto-weekly: getReport start
+2025-09-22T23:44:37.3623102Z crypto-weekly: using fresh cache
+2025-09-22T23:44:37.3641686Z LLM preview not available; using deterministic summary
+2025-09-22T23:44:37.3665701Z Wrote preview HTML to /home/runner/work/cointist/cointist/public/reports/crypto-weekly-preview-20250922.html
+2025-09-22T23:44:37.3667375Z Wrote latest JSON to /home/runner/work/cointist/cointist/public/reports/crypto-weekly-preview-latest.json
+2025-09-22T23:44:37.3668988Z Wrote latest HTML to /home/runner/work/cointist/cointist/public/reports/crypto-weekly-preview-latest.html
+2025-09-22T23:44:37.3813612Z ##[group]Run git config user.name "github-actions[bot]"
+2025-09-22T23:44:37.3814025Z [36;1mgit config user.name "github-actions[bot]"[0m
+2025-09-22T23:44:37.3814443Z [36;1mgit config user.email "41898282+github-actions[bot]@users.noreply.github.com"[0m
+2025-09-22T23:44:37.3814834Z [36;1mgit add public/reports || true[0m
+2025-09-22T23:44:37.3815104Z [36;1mif git diff --staged --quiet; then[0m
+2025-09-22T23:44:37.3815359Z [36;1m  echo "No changes to commit"[0m
+2025-09-22T23:44:37.3815585Z [36;1melse[0m
+2025-09-22T23:44:37.3815916Z [36;1m  git commit -m "chore(reports): update generated weekly crypto reports [skip ci]" || true[0m
+2025-09-22T23:44:37.3816327Z [36;1m  git push origin HEAD:main || true[0m
+2025-09-22T23:44:37.3816564Z [36;1mfi[0m
+2025-09-22T23:44:37.3845848Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:44:37.3846085Z ##[endgroup]
+2025-09-22T23:44:37.9723388Z [main 31cd335] chore(reports): update generated weekly crypto reports [skip ci]
+2025-09-22T23:44:37.9724356Z  9 files changed, 403 insertions(+), 481 deletions(-)
+2025-09-22T23:44:38.2280495Z To https://github.com/dannyspk/cointist
+2025-09-22T23:44:38.2281578Z  ! [rejected]        HEAD -> main (fetch first)
+2025-09-22T23:44:38.2282907Z error: failed to push some refs to 'https://github.com/dannyspk/cointist'
+2025-09-22T23:44:38.2297860Z hint: Updates were rejected because the remote contains work that you do not
+2025-09-22T23:44:38.2299275Z hint: have locally. This is usually caused by another repository pushing to
+2025-09-22T23:44:38.2300326Z hint: the same ref. If you want to integrate the remote changes, use
+2025-09-22T23:44:38.2300997Z hint: 'git pull' before pushing again.
+2025-09-22T23:44:38.2301784Z hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2025-09-22T23:44:38.2400983Z Post job cleanup.
+2025-09-22T23:44:38.4143880Z Post job cleanup.
+2025-09-22T23:44:38.5110111Z [command]/usr/bin/git version
+2025-09-22T23:44:38.5147666Z git version 2.51.0
+2025-09-22T23:44:38.5193644Z Temporarily overriding HOME='/home/runner/work/_temp/a9aea092-7a9f-4869-a808-76b08654c48c' before making global git config changes
+2025-09-22T23:44:38.5195105Z Adding repository directory to the temporary git global config as a safe directory
+2025-09-22T23:44:38.5200493Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cointist/cointist
+2025-09-22T23:44:38.5239142Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-09-22T23:44:38.5273711Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-09-22T23:44:38.5509592Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-09-22T23:44:38.5532431Z http.https://github.com/.extraheader
+2025-09-22T23:44:38.5545528Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2025-09-22T23:44:38.5576533Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-09-22T23:44:38.5912416Z Cleaning up orphan processes

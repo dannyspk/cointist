@@ -1,0 +1,24 @@
+﻿2025-09-22T23:44:36.7057895Z ##[group]Run npm run generate:eth-weekly
+2025-09-22T23:44:36.7058214Z [36;1mnpm run generate:eth-weekly[0m
+2025-09-22T23:44:36.7088395Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:44:36.7088633Z ##[endgroup]
+2025-09-22T23:44:36.8394301Z 
+2025-09-22T23:44:36.8395032Z > cointistreact@0.1.0 generate:eth-weekly
+2025-09-22T23:44:36.8395731Z > node scripts/generate-eth-weekly.js
+2025-09-22T23:44:36.8396073Z 
+2025-09-22T23:44:36.9922856Z Binance fetch failed, falling back to CoinGecko sparkline: Binance fetch failed: 451 - 
+2025-09-22T23:44:37.0792303Z Computed signals: {
+2025-09-22T23:44:37.0792774Z   last: 4168.163614051888,
+2025-09-22T23:44:37.0793166Z   change: -7.444328512738413,
+2025-09-22T23:44:37.0793550Z   rsi: 22.680152443775555,
+2025-09-22T23:44:37.0793929Z   lastSMA8: 4181.112029231504,
+2025-09-22T23:44:37.0794323Z   lastSMA21: 4270.0520899485455,
+2025-09-22T23:44:37.0794685Z   volumeSpike: false,
+2025-09-22T23:44:37.0795028Z   sweep: true,
+2025-09-22T23:44:37.0795384Z   maxDropPct: 7.574859227927548,
+2025-09-22T23:44:37.0795851Z   lowerHighs: false
+2025-09-22T23:44:37.0796165Z }
+2025-09-22T23:44:37.1516526Z Binance futures fetch failed: Futures fetch failed 451
+2025-09-22T23:44:37.1533920Z Wrote report to /home/runner/work/cointist/cointist/public/reports/eth-weekly-20250922.html
+2025-09-22T23:44:37.1535328Z Wrote latest JSON to /home/runner/work/cointist/cointist/public/reports/eth-weekly-latest.json
+2025-09-22T23:44:37.1536648Z Wrote latest HTML to /home/runner/work/cointist/cointist/public/reports/eth-weekly-latest.html

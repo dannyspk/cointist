@@ -127,16 +127,18 @@ export default function LatestNews({ article }){
             const date = dateSrc ? (new Date(dateSrc)).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : ''
             return (
               <article key={it.id || it.slug || it.title} className={styles.latestCard}>
-                <a className={styles.latestThumb} href={href}>
-                      <Image src={normalizeSrc(img)} alt={it.thumbnailAlt || it.title || ''} className={styles.latestThumbImg} width={88} height={88} style={{borderRadius:10}} />
-                    </a>
-                <div>
-                  <div className={styles.latestTitle}><a href={href} className={styles.latestLink}>{it.title}</a></div>
-                  <div className={styles.latestByline}>
-                    <span className={styles.bylineAuthor}>{author}</span>
-                    {date ? <span className={styles.bylineDate}>· {date}</span> : null}
+                <a href={href} className={styles.latestCardLink} aria-label={it.title}>
+                  <span className={styles.latestThumb}>
+                    <Image src={normalizeSrc(img)} alt={it.thumbnailAlt || it.title || ''} className={styles.latestThumbImg} width={88} height={88} style={{borderRadius:10}} />
+                  </span>
+                  <div className={styles.latestCardBody}>
+                    <div className={styles.latestTitle}>{it.title}</div>
+                    <div className={styles.latestByline}>
+                      <span className={styles.bylineAuthor}>{author}</span>
+                      {date ? <span className={styles.bylineDate}>· {date}</span> : null}
+                    </div>
                   </div>
-                </div>
+                </a>
               </article>
             )
           })}

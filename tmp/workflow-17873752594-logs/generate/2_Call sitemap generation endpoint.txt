@@ -1,0 +1,22 @@
+﻿2025-09-20T02:01:24.6879020Z ##[group]Run set -e
+2025-09-20T02:01:24.6879844Z [36;1mset -e[0m
+2025-09-20T02:01:24.6880492Z [36;1mecho "Calling sitemap generation endpoint..."[0m
+2025-09-20T02:01:24.6881907Z [36;1mresp=$(curl -s -w "\n%{http_code}" -X POST -H "x-sitemap-secret: $SITEMAP_CRON_SECRET" "https://***/api/generate-sitemap-news") || true[0m
+2025-09-20T02:01:24.6883150Z [36;1mbody=$(printf "%s" "$resp" | sed -n '1,$p' | sed '$d')[0m
+2025-09-20T02:01:24.6883952Z [36;1mcode=$(printf "%s" "$resp" | tail -n1)[0m
+2025-09-20T02:01:24.6884848Z [36;1mecho "HTTP status: $code"[0m
+2025-09-20T02:01:24.6885492Z [36;1mecho "Response body: $body"[0m
+2025-09-20T02:01:24.6886329Z [36;1mif [ "$code" -lt 200 ] || [ "$code" -ge 300 ]; then[0m
+2025-09-20T02:01:24.6887241Z [36;1m  echo "Sitemap generation failed with status $code"[0m
+2025-09-20T02:01:24.6887966Z [36;1m  exit 1[0m
+2025-09-20T02:01:24.6888938Z [36;1mfi[0m
+2025-09-20T02:01:24.8341267Z shell: /usr/bin/bash -e {0}
+2025-09-20T02:01:24.8342306Z env:
+2025-09-20T02:01:24.8343013Z   SITEMAP_CRON_SECRET: ***
+2025-09-20T02:01:24.8343739Z   SITE_URL: ***
+2025-09-20T02:01:24.8344258Z ##[endgroup]
+2025-09-20T02:01:24.8527124Z Calling sitemap generation endpoint...
+2025-09-20T02:01:25.0285132Z HTTP status: 405
+2025-09-20T02:01:25.0286634Z Response body: 
+2025-09-20T02:01:25.0287400Z Sitemap generation failed with status 405
+2025-09-20T02:01:25.0312832Z ##[error]Process completed with exit code 1.

@@ -1,0 +1,14 @@
+﻿2025-09-22T23:44:37.1747078Z ##[group]Run npm run generate:crypto-weekly-preview
+2025-09-22T23:44:37.1747474Z [36;1mnpm run generate:crypto-weekly-preview[0m
+2025-09-22T23:44:37.1778292Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:44:37.1778533Z ##[endgroup]
+2025-09-22T23:44:37.3076652Z 
+2025-09-22T23:44:37.3077383Z > cointistreact@0.1.0 generate:crypto-weekly-preview
+2025-09-22T23:44:37.3078185Z > node scripts/generate-crypto-weekly-preview.js
+2025-09-22T23:44:37.3078580Z 
+2025-09-22T23:44:37.3609347Z crypto-weekly: getReport start
+2025-09-22T23:44:37.3623089Z crypto-weekly: using fresh cache
+2025-09-22T23:44:37.3641672Z LLM preview not available; using deterministic summary
+2025-09-22T23:44:37.3665683Z Wrote preview HTML to /home/runner/work/cointist/cointist/public/reports/crypto-weekly-preview-20250922.html
+2025-09-22T23:44:37.3667367Z Wrote latest JSON to /home/runner/work/cointist/cointist/public/reports/crypto-weekly-preview-latest.json
+2025-09-22T23:44:37.3668899Z Wrote latest HTML to /home/runner/work/cointist/cointist/public/reports/crypto-weekly-preview-latest.html

@@ -1,22 +1,38 @@
 {
-  "generatedAt": "2025-09-22T23:54:30.245Z",
+  "generatedAt": "2025-09-22T23:59:03.991Z",
   "dataSource": "binance-klines",
-  "priceSummary": "First: $4,503.41\nLast:  $4,168.16\nLow:   $4,156.78\nHigh:  $4,628.91\nChange: -7.44%",
+  "priceSummary": "First: $4,513.45\nLast:  $4,199.71\nLow:   $4,134.98\nHigh:  $4,621.3\nChange: -6.95%",
   "signals": {
-    "last": 4168.163614051888,
-    "change": -7.444328512738413,
-    "rsi": 22.680152443775555,
-    "lastSMA8": 4181.112029231504,
-    "lastSMA21": 4270.0520899485455,
+    "last": 4199.71,
+    "change": -6.951223565122019,
+    "rsi": 40.7560203477996,
+    "lastSMA8": 4173.81375,
+    "lastSMA21": 4193.295238095238,
     "volumeSpike": false,
     "sweep": true,
-    "maxDropPct": 7.574859227927548,
+    "maxDropPct": 4.642007993044733,
     "lowerHighs": false
   },
-  "futuresAvailable": false,
-  "futures": null,
+  "futuresAvailable": true,
+  "futures": {
+    "ticker24": {
+      "lastPrice": 4197.24,
+      "priceChangePercent": -5.618
+    },
+    "premium": {
+      "markPrice": 4197.51939535,
+      "lastFundingRate": -0.00000231
+    },
+    "openInterest": {
+      "openInterest": 1911488.374
+    },
+    "fundingSummary": {
+      "recentAvg": -0.0000016640000000000003,
+      "sampleCount": 10
+    }
+  },
   "data": {
-    "snapshot": "A fast liquidity sweep (~7.6% drop) occurred during the week, grabbing stops before the partial recovery.",
+    "snapshot": "A fast liquidity sweep (~4.6% drop) occurred during the week, grabbing stops before the partial recovery.",
     "chronology": [
       "Early week: rejections at supply zones.",
       "Midweek: liquidity sweep and elevated sells.",

@@ -1,0 +1,28 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/first-chinese-stablecoin-debut-race-heats-up at 2025-09-21T18:59:16.170Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_first-chinese-stablecoin-debut-race-heats-up_utm_.txt --twoStage invocation=https://cointelegraph.com/news/first-chinese-stablecoin-debut-race-heats-up ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758481257887.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 402,
+    "slug": "cnh-and-krw-stablecoins-signal-intensifying-global-tokenization-race",
+    "title": "CNH and KRW Stablecoins Signal Intensifying Global Tokenization Race",
+    "excerpt": "Two new sovereign-linked stablecoins—AnchorX’s AxCNH and BDACS’s KRW1—have debuted in major regional forums, underscoring a growing global push to tokenize fiat and reshape cross-border payments. Their structures and timing highlight both commercial ambitions and broader macroeconomic and geopolitical implications."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '28c2e3c90b68588ca2e1860f041b13c2e1cef665', id: 402 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-21T19:01:00.099Z ===

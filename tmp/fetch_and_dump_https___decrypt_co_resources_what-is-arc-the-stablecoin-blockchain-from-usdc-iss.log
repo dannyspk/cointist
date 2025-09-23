@@ -1,0 +1,33 @@
+
+=== Spawned fetch_and_dump for https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle at 2025-09-20T16:44:31.611Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle --out=C:\cointistreact\tmp\source-for-rephrase-https___decrypt_co_resources_what-is-arc-the-stablecoin-blockchain-from-usdc-iss.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758386671587.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___decrypt_co_resources_what-is-arc-the-stablecoin-blockchain-from-usdc-iss.txt
+Spawned rephraser for https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758386719750.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 391,
+    "slug": "https-decrypt-co-resources-what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+    "title": "",
+    "excerpt": "Arc: Circle’s USDC-Centered Blockchain — A Brief"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'c73c3ca3d622b1bee16f0f818ce2e167f14bf565', id: 391 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-20T16:45:22.430Z ===
+
+
+=== child exit code=0 at 2025-09-20T16:45:22.445Z ===

@@ -1,0 +1,23 @@
+{
+  "startedAt": 1758418270027,
+  "invocationToken": "a9469fa7ec8839610746",
+  "selected": [
+    {
+      "id": "https://www.coindesk.com/business/2025/09/20/bitgo-files-for-ipo-with-usd4-2b-in-h1-2025-revenue-usd90b-in-crypto-on-platform",
+      "title": "BitGo Files for IPO With $4.2B in H1 2025 Revenue, $90B in Crypto on Platform",
+      "url": "https://www.coindesk.com/business/2025/09/20/bitgo-files-for-ipo-with-usd4-2b-in-h1-2025-revenue-usd90b-in-crypto-on-platform",
+      "slug": "bitgo-files-for-ipo-with-usd4-2b-in-h1-2025-revenue-usd90b-in-crypto-on-platform",
+      "oldSlug": "bitgo-files-for-ipo-with-usd4-2b-in-h1-2025-revenue-usd90b-in-crypto-on-platform",
+      "href": "/articles/bitgo-files-for-ipo-with-usd4-2b-in-h1-2025-revenue-usd90b-in-crypto-on-platform"
+    },
+    {
+      "id": "https://cointelegraph.com/news/crypto-treasuries-long-term-strategy-survive-hashkey?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Crypto treasuries with long-term strategy will ‘survive any market’: Hashkey",
+      "url": "https://cointelegraph.com/news/crypto-treasuries-long-term-strategy-survive-hashkey?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "slug": "crypto-treasuries-long-term-strategy-survive-hashkey",
+      "oldSlug": "crypto-treasuries-long-term-strategy-survive-hashkey",
+      "href": "/articles/crypto-treasuries-long-term-strategy-survive-hashkey"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

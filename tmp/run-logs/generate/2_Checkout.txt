@@ -1,0 +1,69 @@
+﻿2025-09-22T23:42:42.4301348Z ##[group]Run actions/checkout@v4
+2025-09-22T23:42:42.4302507Z with:
+2025-09-22T23:42:42.4302937Z   persist-credentials: true
+2025-09-22T23:42:42.4303420Z   repository: dannyspk/cointist
+2025-09-22T23:42:42.4304061Z   token: ***
+2025-09-22T23:42:42.4304463Z   ssh-strict: true
+2025-09-22T23:42:42.4304978Z   ssh-user: git
+2025-09-22T23:42:42.4305406Z   clean: true
+2025-09-22T23:42:42.4305793Z   sparse-checkout-cone-mode: true
+2025-09-22T23:42:42.4306267Z   fetch-depth: 1
+2025-09-22T23:42:42.4306647Z   fetch-tags: false
+2025-09-22T23:42:42.4307036Z   show-progress: true
+2025-09-22T23:42:42.4307435Z   lfs: false
+2025-09-22T23:42:42.4307796Z   submodules: false
+2025-09-22T23:42:42.4308186Z   set-safe-directory: true
+2025-09-22T23:42:42.4308905Z ##[endgroup]
+2025-09-22T23:42:42.5606369Z Syncing repository: dannyspk/cointist
+2025-09-22T23:42:42.5609024Z ##[group]Getting Git version info
+2025-09-22T23:42:42.5610060Z Working directory is '/home/runner/work/cointist/cointist'
+2025-09-22T23:42:42.5611480Z [command]/usr/bin/git version
+2025-09-22T23:42:42.5748113Z git version 2.51.0
+2025-09-22T23:42:42.5782369Z ##[endgroup]
+2025-09-22T23:42:42.5804941Z Temporarily overriding HOME='/home/runner/work/_temp/d7f3f367-3883-4658-9615-9a608eb932cb' before making global git config changes
+2025-09-22T23:42:42.5810519Z Adding repository directory to the temporary git global config as a safe directory
+2025-09-22T23:42:42.5836937Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cointist/cointist
+2025-09-22T23:42:42.6968825Z Deleting the contents of '/home/runner/work/cointist/cointist'
+2025-09-22T23:42:42.6973304Z ##[group]Initializing the repository
+2025-09-22T23:42:42.6978663Z [command]/usr/bin/git init /home/runner/work/cointist/cointist
+2025-09-22T23:42:42.8489905Z hint: Using 'master' as the name for the initial branch. This default branch name
+2025-09-22T23:42:42.8491789Z hint: is subject to change. To configure the initial branch name to use in all
+2025-09-22T23:42:42.8493528Z hint: of your new repositories, which will suppress this warning, call:
+2025-09-22T23:42:42.8494437Z hint:
+2025-09-22T23:42:42.8495006Z hint: 	git config --global init.defaultBranch <name>
+2025-09-22T23:42:42.8495697Z hint:
+2025-09-22T23:42:42.8496342Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2025-09-22T23:42:42.8497624Z hint: 'development'. The just-created branch can be renamed via this command:
+2025-09-22T23:42:42.8498686Z hint:
+2025-09-22T23:42:42.8499145Z hint: 	git branch -m <name>
+2025-09-22T23:42:42.8499639Z hint:
+2025-09-22T23:42:42.8500282Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2025-09-22T23:42:42.8501378Z Initialized empty Git repository in /home/runner/work/cointist/cointist/.git/
+2025-09-22T23:42:42.8505526Z [command]/usr/bin/git remote add origin https://github.com/dannyspk/cointist
+2025-09-22T23:42:42.8556502Z ##[endgroup]
+2025-09-22T23:42:42.8561360Z ##[group]Disabling automatic garbage collection
+2025-09-22T23:42:42.8562677Z [command]/usr/bin/git config --local gc.auto 0
+2025-09-22T23:42:42.8592237Z ##[endgroup]
+2025-09-22T23:42:42.8593473Z ##[group]Setting up auth
+2025-09-22T23:42:42.8600115Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-09-22T23:42:42.8631651Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-09-22T23:42:42.8964937Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-09-22T23:42:42.8998144Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-09-22T23:42:42.9221183Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-09-22T23:42:42.9257762Z ##[endgroup]
+2025-09-22T23:42:42.9266873Z ##[group]Fetching the repository
+2025-09-22T23:42:42.9268512Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +51b258d451c7a2621b0514d3fb3fb876aeb69605:refs/remotes/origin/main
+2025-09-22T23:42:45.1791662Z From https://github.com/dannyspk/cointist
+2025-09-22T23:42:45.1794431Z  * [new ref]         51b258d451c7a2621b0514d3fb3fb876aeb69605 -> origin/main
+2025-09-22T23:42:45.1826500Z ##[endgroup]
+2025-09-22T23:42:45.1827898Z ##[group]Determining the checkout info
+2025-09-22T23:42:45.1829540Z ##[endgroup]
+2025-09-22T23:42:45.1833822Z [command]/usr/bin/git sparse-checkout disable
+2025-09-22T23:42:45.1876740Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2025-09-22T23:42:45.1907622Z ##[group]Checking out the ref
+2025-09-22T23:42:45.1911486Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2025-09-22T23:42:45.7477134Z Switched to a new branch 'main'
+2025-09-22T23:42:45.7478581Z branch 'main' set up to track 'origin/main'.
+2025-09-22T23:42:45.7533618Z ##[endgroup]
+2025-09-22T23:42:45.7574906Z [command]/usr/bin/git log -1 --format=%H
+2025-09-22T23:42:45.7598309Z 51b258d451c7a2621b0514d3fb3fb876aeb69605

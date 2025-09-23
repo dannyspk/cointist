@@ -1,0 +1,46 @@
+﻿2025-09-22T23:42:46.3542541Z ##[group]Run npm ci
+2025-09-22T23:42:46.3542885Z [36;1mnpm ci[0m
+2025-09-22T23:42:46.3613925Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:42:46.3614210Z ##[endgroup]
+2025-09-22T23:42:48.1897207Z npm warn EBADENGINE Unsupported engine {
+2025-09-22T23:42:48.1898142Z npm warn EBADENGINE   package: 'better-sqlite3@12.2.0',
+2025-09-22T23:42:48.1898814Z npm warn EBADENGINE   required: { node: '20.x || 22.x || 23.x || 24.x' },
+2025-09-22T23:42:48.1899976Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+2025-09-22T23:42:48.1900450Z npm warn EBADENGINE }
+2025-09-22T23:42:48.1900824Z npm warn EBADENGINE Unsupported engine {
+2025-09-22T23:42:48.1901299Z npm warn EBADENGINE   package: 'cheerio@1.1.2',
+2025-09-22T23:42:48.1901800Z npm warn EBADENGINE   required: { node: '>=20.18.1' },
+2025-09-22T23:42:48.1902564Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+2025-09-22T23:42:48.1903014Z npm warn EBADENGINE }
+2025-09-22T23:42:48.1936663Z npm warn EBADENGINE Unsupported engine {
+2025-09-22T23:42:48.1937405Z npm warn EBADENGINE   package: 'png-to-ico@3.0.1',
+2025-09-22T23:42:48.1938072Z npm warn EBADENGINE   required: { node: '>=20' },
+2025-09-22T23:42:48.1938798Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+2025-09-22T23:42:48.1939371Z npm warn EBADENGINE }
+2025-09-22T23:42:48.1958144Z npm warn EBADENGINE Unsupported engine {
+2025-09-22T23:42:48.1958805Z npm warn EBADENGINE   package: 'undici@7.15.0',
+2025-09-22T23:42:48.1959471Z npm warn EBADENGINE   required: { node: '>=20.18.1' },
+2025-09-22T23:42:48.1960223Z npm warn EBADENGINE   current: { node: 'v18.20.8', npm: '10.8.2' }
+2025-09-22T23:42:48.1960831Z npm warn EBADENGINE }
+2025-09-22T23:42:50.8162807Z npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+2025-09-22T23:42:51.9464985Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+2025-09-22T23:42:52.0779981Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+2025-09-22T23:44:34.6690277Z 
+2025-09-22T23:44:34.6690896Z > cointistreact@0.1.0 postinstall
+2025-09-22T23:44:34.6693313Z > prisma generate
+2025-09-22T23:44:34.6693553Z 
+2025-09-22T23:44:35.7694844Z Prisma schema loaded from prisma/schema.prisma
+2025-09-22T23:44:35.9449061Z 
+2025-09-22T23:44:35.9450415Z ✔ Generated Prisma Client (v6.14.0) to ./node_modules/@prisma/client in 75ms
+2025-09-22T23:44:35.9450947Z 
+2025-09-22T23:44:35.9451480Z Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+2025-09-22T23:44:35.9452350Z 
+2025-09-22T23:44:35.9453149Z Tip: Need your database queries to be 1000x faster? Accelerate offers you that and more: https://pris.ly/tip-2-accelerate
+2025-09-22T23:44:35.9453775Z 
+2025-09-22T23:44:35.9790701Z 
+2025-09-22T23:44:35.9792101Z added 883 packages, and audited 884 packages in 2m
+2025-09-22T23:44:35.9792691Z 
+2025-09-22T23:44:35.9793161Z 164 packages are looking for funding
+2025-09-22T23:44:35.9793659Z   run `npm fund` for details
+2025-09-22T23:44:35.9814323Z 
+2025-09-22T23:44:35.9814646Z found 0 vulnerabilities

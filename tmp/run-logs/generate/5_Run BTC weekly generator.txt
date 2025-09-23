@@ -1,0 +1,25 @@
+﻿2025-09-22T23:44:36.0172280Z ##[group]Run npm run generate:btc-weekly
+2025-09-22T23:44:36.0172654Z [36;1mnpm run generate:btc-weekly[0m
+2025-09-22T23:44:36.0204375Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:44:36.0204633Z ##[endgroup]
+2025-09-22T23:44:36.1476992Z 
+2025-09-22T23:44:36.1477629Z > cointistreact@0.1.0 generate:btc-weekly
+2025-09-22T23:44:36.1478131Z > node scripts/generate-btc-weekly.js
+2025-09-22T23:44:36.1478332Z 
+2025-09-22T23:44:36.4555256Z Binance fetch failed, falling back to CoinGecko sparkline: Binance fetch failed: 451 - 
+2025-09-22T23:44:36.5352648Z Computed signals: {
+2025-09-22T23:44:36.5353170Z   last: 112683.95356400768,
+2025-09-22T23:44:36.5353464Z   change: -1.940283506957737,
+2025-09-22T23:44:36.5353707Z   rsi: 30.05326278089494,
+2025-09-22T23:44:36.5353985Z   lastSMA8: 112805.62677315604,
+2025-09-22T23:44:36.5354274Z   lastSMA21: 113714.70220440702,
+2025-09-22T23:44:36.5354520Z   volumeSpike: false,
+2025-09-22T23:44:36.5354744Z   sweep: true,
+2025-09-22T23:44:36.5354973Z   maxDropPct: 2.7858458306158034,
+2025-09-22T23:44:36.5355295Z   lowerHighs: false
+2025-09-22T23:44:36.5355497Z }
+2025-09-22T23:44:36.6807129Z Binance futures fetch failed: Futures fetch failed 451
+2025-09-22T23:44:36.6808711Z LLM narrative not available or failed to parse; using rule-based narrative
+2025-09-22T23:44:36.6825453Z Wrote report to /home/runner/work/cointist/cointist/public/reports/btc-weekly-20250922.html
+2025-09-22T23:44:36.6826902Z Wrote latest JSON to /home/runner/work/cointist/cointist/public/reports/btc-weekly-latest.json
+2025-09-22T23:44:36.6828319Z Wrote latest HTML to /home/runner/work/cointist/cointist/public/reports/btc-weekly-latest.html

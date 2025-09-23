@@ -182,6 +182,7 @@ export default function Learnby({ guides = [], hideHeader = false }){
               : (path === 'Intermediate' ? '/uploads/markets.webp' : (path === 'Advanced' ? '/assets/advanced.webp' : `/assets/guides/${path.toLowerCase()}.jpg`))
             return (
               <div key={path} className={`path-card ${path.toLowerCase()}`} style={{border: 'none', borderLeft: `4px solid ${borderColor}`}}>
+                <a className="card-link-overlay" href={`/learning-path/${encodeURIComponent(path.toLowerCase())}`} aria-label={`Start ${path} path`} />
                 <div className="path-thumb" style={{backgroundImage:`url(${img})`}} />
                 <div style={{flex:1}}>
                   <h4 style={{color:headingColor}}>{path}</h4>

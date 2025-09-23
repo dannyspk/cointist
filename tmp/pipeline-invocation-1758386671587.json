@@ -1,0 +1,39 @@
+{
+  "startedAt": 1758386671587,
+  "invocationToken": "c588eb782b9a9eac7320",
+  "selected": [
+    {
+      "id": "https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+      "title": "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle",
+      "url": "https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+      "slug": "what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+      "oldSlug": "what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+      "href": "/articles/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle"
+    },
+    {
+      "id": "https://www.newsbtc.com/bitcoin-news/bitcoin-is-digital-capital-that-outpaces-traditional-assets-michael-saylor/",
+      "title": "Bitcoin Is ‘Digital Capital’ That Outpaces Traditional Assets—Michael Saylor",
+      "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-is-digital-capital-that-outpaces-traditional-assets-michael-saylor/",
+      "slug": "bitcoin-is-digital-capital-that-outpaces-traditional-assets-michael-saylor",
+      "oldSlug": "bitcoin-is-digital-capital-that-outpaces-traditional-assets-michael-saylor",
+      "href": "/articles/bitcoin-is-digital-capital-that-outpaces-traditional-assets-michael-saylor"
+    },
+    {
+      "id": "https://www.coindesk.com/business/2025/09/20/kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade",
+      "title": "Kevin Durant Recovers Bitcoin Bought at $650, Now Up Over 17,700%, After Nearly a Decade",
+      "url": "https://www.coindesk.com/business/2025/09/20/kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade",
+      "slug": "kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade",
+      "oldSlug": "kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade",
+      "href": "/articles/kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade"
+    },
+    {
+      "id": "https://beincrypto.com/tether-usdt-mint-after-fed-rate-cut/",
+      "title": "Tether Minted $5 Billion In USDT After The Fed’s First Rate Cut This Year",
+      "url": "https://beincrypto.com/tether-usdt-mint-after-fed-rate-cut/",
+      "slug": "tether-usdt-mint-after-fed-rate-cut",
+      "oldSlug": "tether-usdt-mint-after-fed-rate-cut",
+      "href": "/articles/tether-usdt-mint-after-fed-rate-cut"
+    }
+  ],
+  "note": "pipeline invocation created before spawning process"
+}

@@ -1,0 +1,28 @@
+
+=== Spawned rephraser for https://cointelegraph.com/news/crypto-treasuries-long-term-strategy-survive-hashkey at 2025-09-21T01:31:15.350Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cointelegraph_com_news_crypto-treasuries-long-term-strategy-survive-hash.txt --twoStage invocation=https://cointelegraph.com/news/crypto-treasuries-long-term-strategy-survive-hashkey ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758418377399.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 398,
+    "slug": "hashkey-s-framework-for-durable-corporate-crypto-treasuries",
+    "title": "HashKey’s framework for durable corporate crypto treasuries",
+    "excerpt": "HashKey Capital is positioning a new $500 million DAT fund in Hong Kong as a template for institutional-grade corporate crypto treasuries, emphasizing governance, discipline and reserves. The fund’s design, deployment priorities and market context highlight how custody, liquidity and regulated infrastructure are being balanced for long-term corporate allocat"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'bbe9c3c1cb6d3f8a224f852edaac713574e8e1d6', id: 398 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-21T01:32:58.813Z ===

@@ -1,0 +1,28 @@
+
+=== Spawned rephraser for https://cryptobriefing.com/spot-gold-climbs-above-3740-oz/ at 2025-09-22T17:40:57.731Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___cryptobriefing_com_spot-gold-climbs-above-3740-oz_.txt --twoStage invocation=https://cryptobriefing.com/spot-gold-climbs-above-3740-oz/ ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758562989338.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 405,
+    "slug": "gold-reaches-new-peak-above-3-740-as-2025-rally-intensifies",
+    "title": "Gold reaches new peak above $3,740 as 2025 rally intensifies",
+    "excerpt": "Gold climbed above $3,740 on Monday, setting a fresh record as the metal's 2025 rally accelerated. The move follows sustained buying by central banks and growing safe-haven demand, leaving gold more than 40% higher year-to-date."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '1e856045ff746cffa53cdb177aceea3e9306d9f5', id: 405 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-22T17:43:11.859Z ===

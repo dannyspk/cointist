@@ -1,0 +1,66 @@
+
+=== Spawned fetch_and_dump for https://www.coindesk.com/business/2025/09/20/kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade at 2025-09-20T16:44:31.706Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.coindesk.com/business/2025/09/20/kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade --out=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_business_2025_09_20_kevin-durant-recovers-bitcoin-bough.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758386671587.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_business_2025_09_20_kevin-durant-recovers-bitcoin-bough.txt
+Spawned rephraser for https://www.coindesk.com/business/2025/09/20/kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758386732932.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 392,
+    "slug": "kevin-durant-reclaims-coinbase-access-as-2016-bitcoin-stake-climbs-over-17-700",
+    "title": "Kevin Durant Reclaims Coinbase Access as 2016 Bitcoin Stake Climbs Over 17,700%",
+    "excerpt": "Kevin Durant has regained access to a Coinbase account nearly a decade after being locked out, a development publicized on X by Brian Armstrong. The recovery comes as a 2016 Bitcoin purchase tied to Durant has surged in value, drawing commentary on CNBC and renewed scrutiny of Coinbase customer support."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '29c5c5a838481700dd4947283eb25f3b8ddff356', id: 392 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-20T16:45:35.138Z ===
+
+
+=== child exit code=0 at 2025-09-20T16:45:35.215Z ===
+
+=== Spawned fetch_and_dump for https://www.coindesk.com/business/2025/09/20/kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade at 2025-09-20T17:32:48.450Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.coindesk.com/business/2025/09/20/kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade --out=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_business_2025_09_20_kevin-durant-recovers-bitcoin-bough.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758389568438.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_business_2025_09_20_kevin-durant-recovers-bitcoin-bough.txt
+Spawned rephraser for https://www.coindesk.com/business/2025/09/20/kevin-durant-recovers-bitcoin-bought-at-usd650-now-up-over-17-700-after-nearly-a-decade
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758389621990.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 395,
+    "slug": "kevin-durant-regains-coinbase-access-2016-bitcoin-stake-soars",
+    "title": "Kevin Durant Regains Coinbase Access; 2016 Bitcoin Stake Soars",
+    "excerpt": "Coinbase confirmed on X that Kevin Durant has regained access to his account, a development that coincides with a substantial appreciation in a Bitcoin position he first purchased in 2016. The stake, originally bought at an estimated $650 per Bitcoin, is now valued near $116,000 and is up over 17,700% (CoinMarketCap)."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '29c5c5a838481700dd4947283eb25f3b8ddff356', id: 395 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-20T17:33:42.971Z ===
+
+
+=== child exit code=0 at 2025-09-20T17:33:43.018Z ===

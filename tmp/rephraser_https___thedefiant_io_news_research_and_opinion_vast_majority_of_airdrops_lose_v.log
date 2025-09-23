@@ -1,0 +1,56 @@
+
+=== Spawned rephraser for https://thedefiant.io/news/research-and-opinion/vast-majority-of-airdrops-lose-value-in-three-months-dappradar at 2025-09-20T17:43:09.285Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___thedefiant_io_news_research-and-opinion_vast-majority-of-airdrops-lose-v.txt --twoStage invocation=https://thedefiant.io/news/research-and-opinion/vast-majority-of-airdrops-lose-value-in-three-months-dappradar ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758390260447.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 396,
+    "slug": "airdrops-early-booms-and-rapid-fade-dappradar-s-key-findings",
+    "title": "Airdrops’ Early Booms and Rapid Fade: DappRadar’s Key Findings",
+    "excerpt": "New analysis from DappRadar highlights the enormous scale of token airdrops and the transitory nature of the activity they create, with striking examples of immediate market impact followed by rapid reversion. The report and related commentary sketch why projects continue to use airdrops despite evidence that most gains dissipate within months."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4773567afbe356e477b2671df9b791cf3fad9cd7', id: 396 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-20T17:44:21.835Z ===
+
+=== Spawned rephraser for https://thedefiant.io/news/research-and-opinion/vast-majority-of-airdrops-lose-value-in-three-months-dappradar at 2025-09-20T17:57:13.213Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___thedefiant_io_news_research-and-opinion_vast-majority-of-airdrops-lose-v.txt --twoStage invocation=https://thedefiant.io/news/research-and-opinion/vast-majority-of-airdrops-lose-value-in-three-months-dappradar ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758391153038.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 397,
+    "slug": "airdrops-big-short-term-gains-scarce-long-term-value",
+    "title": "Airdrops: Big Short-Term Gains, Scarce Long-Term Value",
+    "excerpt": "Airdrops have become a prominent incentive tool in crypto, driving bursts of engagement but often failing to create enduring value. Industry data and recent project responses highlight a pattern of high initial activity followed by rapid decay."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '4773567afbe356e477b2671df9b791cf3fad9cd7', id: 397 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-20T17:59:14.129Z ===

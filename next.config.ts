@@ -36,6 +36,18 @@ function collectStaticPageRewrites(): Array<{ source: string; destination: strin
         // Skip adding rewrite for routes handled by Next pages
         continue;
       }
+      // Additionally, if a top-level Next pages folder exists that would handle this
+      // route dynamically (for example `pages/guides/[slug].js`), skip adding rewrites
+      // for any files under that folder to avoid duplicate static vs dynamic pages.
+      const segments = route.replace(/^\//, '').split('/').filter(Boolean);
+      if (segments.length > 0) {
+        const top = segments[0];
+        const nextTopFolder = path.join(process.cwd(), 'pages', top);
+        if (fs.existsSync(nextTopFolder)) {
+          // There's a Next page folder (could include dynamic routes) — skip rewrite
+          continue;
+        }
+      }
       // skip overriding root index
       if (route !== '/') {
         rewrites.push({ source: route, destination });
@@ -113,6 +125,18 @@ const nextConfig: NextConfig = {
         source: '/learning-path',
         has: [{ type: 'query', key: 'path', value: 'Advanced' }],
         destination: '/learning-path/advanced',
+        permanent: true
+      }
+      ,
+      // Redirect legacy guide slugs to current canonical slugs to avoid 404s
+      {
+        source: '/guides/setting-up-your-first-wallet',
+        destination: '/guides/wallets-101-custodial-vs-non-custodial',
+        permanent: true
+      },
+      {
+        source: '/guides/stablecoins-explained',
+        destination: '/guides/stablecoins-payments',
         permanent: true
       }
     ];

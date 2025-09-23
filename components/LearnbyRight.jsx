@@ -8,7 +8,7 @@ export default function LearnbyRight({ featured = null, trending = [] }){
     { slug: '/guides/how-defi-protocols-work', title: 'DeFi Fundamentals', thumb: '/uploads/1756873318398-defivariant.webp' },
     { slug: '/guides/wallets-101-custodial-vs-non-custodial', title: 'Choosing a wallet', thumb: '/uploads/1756871398055-wallets.webp' },
     { slug: '/guides/stablecoins-payments', title: 'Stablecoins and Payments', thumb: '/uploads/1756870754193-stablecoins.webp' },
-    { slug: '/guides/bridges-interopertability', title: 'Cross Chain Bridges', thumb: '/uploads/1756871925435-bridges.webp' },
+    { slug: '/guides/bridges-interoperability', title: 'Cross Chain Bridges', thumb: '/uploads/1756871925435-bridges.webp' },
     { slug: '/guides/nfts-overview', title: 'NFTs explained', thumb: '/assets/nfts.webp' }
   ]
 
@@ -38,10 +38,15 @@ export default function LearnbyRight({ featured = null, trending = [] }){
   return (
     <aside className="learnby-right" aria-label="Guides right column">
       <div className="featured">
-        <img src={f.image} alt={f.title} />
-  <h4>{f.title}</h4>
-  <p>{f.desc || f.excerpt}</p>
-        
+        {f && f.slug ? (
+          <a href={f.slug} aria-label={`Read guide: ${f.title}`}>
+            <img src={f.image} alt={f.title} />
+          </a>
+        ) : (
+          <img src={f.image} alt={f.title} />
+        )}
+        <h4>{f && f.slug ? <a href={f.slug}>{f.title}</a> : f.title}</h4>
+        <p>{f.desc || f.excerpt}</p>
       </div>
 
       <div className="trending">

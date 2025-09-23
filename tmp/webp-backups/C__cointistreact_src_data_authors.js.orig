@@ -51,7 +51,7 @@ export const AUTHORS_META = {
   },
   'Kai Yamamoto': {
     lead: 'APAC incident coverage—exchange outages, sequencer pauses, bridge advisories—with verifiable source links and status pages.',
-    file: 'Kai Yamamot.png'
+  file: '/authors/orig/kai.png'
   },
   'Marta Silva': {
     lead: 'EU session wraps blending policy headlines, flows, and crypto-equity proxies to set the U.S. open.',

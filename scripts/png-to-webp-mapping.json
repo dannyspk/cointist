@@ -1,0 +1,49 @@
+{
+  "description": "Mapping of referenced PNG asset paths to actual files in public/assets. Prefer .webp when available.",
+  "generatedAt": "2025-09-21T00:00:00Z",
+  "mappings": {
+    "/assets/twitter.png": "/assets/twitter.webp",
+    "/assets/youtube.png": "/assets/youtube.webp",
+    "/assets/instagram.png": "/assets/instagram.webp",
+    "/assets/facebook.png": "/assets/facebook.webp",
+    "/assets/telegram.png": "/assets/telegram.webp",
+    "/assets/logo.png": "/assets/logo.webp",
+    "/favicon.png": "/favicon-32.webp",
+
+    "/assets/web3.png": "/assets/web3.webp",
+    "/assets/markets.png": "/assets/markets.webp",
+    "/assets/scaling.png": "/assets/scaling.webp",
+    "/assets/nfts.png": "/assets/nfts.webp",
+    "/assets/advanced.png": "/assets/advanced.webp",
+
+    "/assets/guides/card-tokenization.png": "/assets/guides/card-tokenization.webp",
+    "/assets/guides/og-what-is-web3.jpg": "/assets/guides/og-what-is-web3.jpg",
+
+    "/assets/regulation.png": "/assets/regulation.webp",
+    "/assets/thisweekineth.png": "/assets/thisweekineth.webp",
+    "/assets/thisweekincrypto.png": "/assets/thisweekincrypto.webp",
+    "/assets/thisweekincryptothumb.png": "/assets/thisweekincryptothumb.png",
+
+    "/assets/btc-weekly-cover.png": "/assets/btc-weekly-cover.png",
+    "/assets/gpt.png": "/assets/gpt.png",
+    "/assets/cnh.png": "/assets/cnh.png",
+    "/assets/howdefiworks.png": "/assets/howdefiworks.png",
+
+    "/assets/bitcoin-btc-logo.png": "/assets/bitcoin-btc-logo.webp",
+    "/assets/ethereum-eth-logo.png": "/assets/ethereum-eth-logo.webp",
+    "/assets/solana-sol-logo.png": "/assets/solana-sol-logo.webp",
+    "/assets/polkadot-dot-logo.png": "/assets/polkadot-dot-logo.webp",
+    "/assets/polygon-matic-logo.png": "/assets/polygon-matic-logo.webp",
+    "/assets/xrp-xrp-logo.png": "/assets/xrp-xrp-logo.webp",
+    "/assets/dogecoin-doge-logo.png": "/assets/dogecoin-doge-logo.webp",
+    "/assets/avalanche-avax-logo.png": "/assets/avalanche-avax-logo.webp",
+    "/assets/binance-bnb-logo.png": "/assets/binance-bnb-logo.webp",
+    "/assets/cardano-ada-logo.png": "/assets/cardano-ada-logo.webp",
+    "/assets/chainlink-link-logo.png": "/assets/chainlink-link-logo.webp",
+
+    "# fallbacks for tmp/generated snapshots (do not edit source snapshots)": "",
+    "/assets/thumb1.png": "/assets/placeholder.webp",
+    "/assets/tron-logo.png": "/assets/placeholder.webp",
+    "/assets/injective-logo.png": "/assets/placeholder.webp"
+  }
+}

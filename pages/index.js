@@ -279,7 +279,7 @@ export default function Home({ staticPages = [], serverPressItems = null, server
       {/* Ad Banner */}
       <div className="ad-banner">
         {/* Use next/image to serve optimized responsive images */}
-  <Image src="/assets/banner-1200.webp" alt="Advertisement" width={1200} height={120} priority={true} fetchPriority="high" />
+  <Image src="/assets/gpt.png" alt="Advertisement" width={1200} height={120} priority={true} fetchPriority="high" />
       </div>
 
       {/* Main Page Grid */}
@@ -307,10 +307,12 @@ export default function Home({ staticPages = [], serverPressItems = null, server
                 const href = it.slug ? `/articles/${it.slug}` : '#'
                 return (
                   <div className="press-item" key={it.id || it.slug || title}>
-                    <Image src={normalizeSrc(img)} alt={title} width={120} height={80} />
+                    <a href={href} aria-label={"Read: " + title} style={{display: 'inline-block', width: 120, height: 80}}>
+                      <Image src={normalizeSrc(img)} alt={title} width={120} height={80} />
+                    </a>
                     <div>
                       <div>{title}</div>
-                      <a href={href}>Read more</a>
+                      <a href={href} aria-label={`Read more about ${title}`}>Read more</a>
                       <div className="press-date">{date}</div>
                     </div>
                   </div>
@@ -479,29 +481,29 @@ export default function Home({ staticPages = [], serverPressItems = null, server
             <div className="sponsored-item-card">
             <Image src="/assets/sponsored1.webp" alt="Sponsored 1" className="sponsored-thumb" width={300} height={170} />
             <div className="sponsored-content">
-              <h4 className="sponsored-title">Unlock Passive Income with Crypto Staking</h4>
-              <p className="sponsored-desc">Discover how staking your digital assets can earn you rewards every month. Start with as little as $50 and watch your portfolio grow.</p>
+              <h4 className="sponsored-title">Boost Treasury Yield — Earn Reliable On‑Chain Rewards</h4>
+              <p className="sponsored-desc">Convert idle assets into steady yield with a non‑custodial liquidity solution designed for treasuries and DAOs. Easy integration, predictable returns.</p>
             </div>
           </div>
           <div className="sponsored-item-card">
             <Image src="/assets/sponsored2.webp" alt="Sponsored 2" className="sponsored-thumb" width={300} height={170} />
             <div className="sponsored-content">
-              <h4 className="sponsored-title">Get Real-Time Market Alerts on Your Phone</h4>
-              <p className="sponsored-desc">Never miss a price swing again! Our app sends instant notifications for Bitcoin, Ethereum, and trending altcoins.</p>
+              <h4 className="sponsored-title">Enterprise Oracles — High Fidelity Price Feeds</h4>
+              <p className="sponsored-desc">Protect your contracts with redundant, low‑latency oracle feeds built for production DeFi. SLA‑backed reliability and simple integration for teams.</p>
             </div>
           </div>
           <div className="sponsored-item-card">
             <Image src="/assets/automate-bot.webp" alt="Sponsored 3" className="sponsored-thumb" width={300} height={170} />
             <div className="sponsored-content sponsored-center">
-              <h4 className="sponsored-title">Automate Your Portfolio with AI Bots</h4>
-              <p className="sponsored-desc">Let smart algorithms buy and sell for you 24/7. Set your risk level and let the bot do the work—perfect for beginners and pros.</p>
+              <h4 className="sponsored-title">Automated Execution — Trading Bots That Work 24/7</h4>
+              <p className="sponsored-desc">Launch AI‑driven execution tailored to your risk profile. Continuous monitoring, adaptive strategies, and a hands‑off setup to capture market opportunities.</p>
             </div>
           </div>
           <div className="sponsored-item-card">
             <Image src="/assets/cashback.webp" alt="Sponsored 4" className="sponsored-thumb" width={300} height={170} />
             <div className="sponsored-content sponsored-center">
-              <h4 className="sponsored-title">Earn Crypto Cashback on Every Purchase</h4>
-              <p className="sponsored-desc">Shop online and get instant crypto rewards. Use your favorite coins for everyday spending and earn up to 5% back.</p>
+              <h4 className="sponsored-title">Institutional Custody & Compliance, Simplified</h4>
+              <p className="sponsored-desc">Enterprise custody with insurance, audit tooling, and compliance workflows to meet regulatory requirements—built for funds and regulated entities.</p>
             </div>
           </div>
             </div>
@@ -610,18 +612,40 @@ function FeaturedCarouselSlide({ articleId, preloadedArticle }){
     return s.trim();
   }
 
-  const _rawContent = article.content ? stripHtmlTags(article.content) : '';
+  // Prefer the article excerpt for the featured description; fall back to the main content
+  const _rawExcerpt = article.excerpt ? stripHtmlTags(article.excerpt) : '';
+  const _rawContent = _rawExcerpt || (article.content ? stripHtmlTags(article.content) : '');
   const _firstSentence = _rawContent ? firstSentenceFromText(_rawContent) : '';
   const featuredDesc = article.featuredDescription || article.featured_desc || article.ogDescription || article.og_description || (_firstSentence ? (_firstSentence.endsWith('.') ? _firstSentence + '' : _firstSentence + '') : '')
+  const navigateToArticle = (ev) => {
+    // If the click originated from an interactive element (link/button), let that element handle it
+    try{
+      const tag = (ev && ev.target && ev.target.tagName) ? String(ev.target.tagName).toLowerCase() : '';
+      if(tag === 'a' || tag === 'button' || (ev && ev.target && ev.target.closest && ev.target.closest('a'))) return
+    }catch(e){}
+    if (typeof window !== 'undefined') window.location.href = href
+  }
+  const onKey = (ev) => {
+    if (!ev) return
+    if (ev.key === 'Enter' || ev.key === ' ') {
+      ev.preventDefault()
+      if (typeof window !== 'undefined') window.location.href = href
+    }
+  }
+
   return (
-    <div className="carousel-slide">
+    <div className="carousel-slide" role="link" tabIndex={0} onClick={navigateToArticle} onKeyDown={onKey}>
       <div className="cover" style={{position:'relative', width:'100%', height: '440px'}}>
-        <Image src={img} alt={article.coverAlt || article.title || 'Featured'} fill style={{objectFit:'cover'}} priority fetchPriority="high" />
+        <a href={href} aria-label={article.title || 'Read featured article'} style={{position:'absolute', inset:0, display:'block'}}>
+          <Image src={img} alt={article.coverAlt || article.title || 'Featured'} fill style={{objectFit:'cover'}} priority fetchPriority="high" />
+        </a>
       </div>
       <div className="body">
-        <h1 className="h1">{article.title}</h1>
-        <span className="meta">{when}{article.content ? ` • ${Math.max(1, Math.round((String(article.content).replace(/<[^>]+>/g,' ').trim().split(/\s+/).filter(Boolean).length||0)/200))} min read` : ''}</span>
-  <p className="featured-desc">{featuredDesc}</p>
+        <div>
+          <h1 className="h1">{article.title}</h1>
+          <span className="meta">{when}{article.content ? ` • ${Math.max(1, Math.round((String(article.content).replace(/<[^>]+>/g,' ').trim().split(/\s+/).filter(Boolean).length||0)/200))} min read` : ''}</span>
+          <p className="featured-desc">{featuredDesc}</p>
+        </div>
         <a className="cta btn-gradient" href={href}>Read full story →</a>
       </div>
     </div>

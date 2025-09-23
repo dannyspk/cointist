@@ -173,14 +173,35 @@ export default function ArticleLayout({ article }) {
     return 'FEATURED • ANALYSIS'
   })()
 
+  // Build a safe, useful meta description. Avoid using short/generic
+  // excerpts like "Track 3 - Applications" which cause duplicate
+  // meta descriptions across many guide pages. Prefer explicit
+  // ogDescription, then a cleaned excerpt (if not generic), then a
+  // content-derived snippet, and finally a title-based fallback.
+  const metaDescription = (() => {
+    try {
+      const rawContent = String(article.content || '').replace(/<[^>]+>/g, ' ').trim()
+      const contentSnippet = rawContent.slice(0, 150)
+      const ex = String(article.excerpt || '').trim()
+      const og = String(article.ogDescription || article.og_description || '')
+      const isGenericTrack = /^Track\s*\d+/i.test(ex) || /^Track\s*-?/i.test(ex)
+      if (og && og.length > 10) return og
+      if (ex && !isGenericTrack && ex.length > 20) return ex
+      if (contentSnippet && contentSnippet.length > 30) return contentSnippet
+      return `${article.title || 'Cointist'} — Guides and explanations about crypto.`
+    } catch (e) {
+      return article.title ? `${article.title} • Cointist` : 'Cointist'
+    }
+  })()
+
   return (
     <>
-      <Head>
-  <link rel="stylesheet" href="/styles/guides-layout.css" />
+    <Head>
+  <link rel="stylesheet" href="/styles/guides-layout.min.css" />
         <title>{article.title ? `${article.title} • Cointist` : 'Cointist'}</title>
-        <meta name="description" content={article.excerpt || (String(article.content || '').replace(/<[^>]+>/g,' ').trim().slice(0,150))} />
-        <meta property="og:title" content={article.title || 'Cointist'} />
-        <meta property="og:description" content={article.excerpt || ''} />
+  <meta name="description" content={metaDescription} />
+  <meta property="og:title" content={article.title || 'Cointist'} />
+  <meta property="og:description" content={metaDescription} />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={article.title || 'Cointist'} />
@@ -190,7 +211,7 @@ export default function ArticleLayout({ article }) {
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": article.title || 'Cointist Article',
-          "description": article.excerpt || (String(article.content || '').replace(/<[^>]+>/g,' ').trim().slice(0,150)),
+          "description": metaDescription,
           "image": article.coverImage || undefined,
           "datePublished": rawPublished || undefined,
           "author": article.author ? { "@type": "Person", "name": article.author } : undefined,

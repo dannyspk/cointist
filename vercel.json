@@ -2,11 +2,7 @@
   "crons": [
     {
       "path": "/api/generate-sitemap-news",
-      "schedule": "0 */6 * * *",
-      "method": "POST",
-      "headers": {
-        "x-sitemap-secret": "<REPLACE_WITH_SECRET>"
-      }
+      "schedule": "0 */6 * * *"
     }
   ],
   "rewrites": [

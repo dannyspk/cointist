@@ -1,0 +1,22 @@
+﻿2025-09-22T23:44:37.3813600Z ##[group]Run git config user.name "github-actions[bot]"
+2025-09-22T23:44:37.3814023Z [36;1mgit config user.name "github-actions[bot]"[0m
+2025-09-22T23:44:37.3814441Z [36;1mgit config user.email "41898282+github-actions[bot]@users.noreply.github.com"[0m
+2025-09-22T23:44:37.3814832Z [36;1mgit add public/reports || true[0m
+2025-09-22T23:44:37.3815102Z [36;1mif git diff --staged --quiet; then[0m
+2025-09-22T23:44:37.3815357Z [36;1m  echo "No changes to commit"[0m
+2025-09-22T23:44:37.3815583Z [36;1melse[0m
+2025-09-22T23:44:37.3815914Z [36;1m  git commit -m "chore(reports): update generated weekly crypto reports [skip ci]" || true[0m
+2025-09-22T23:44:37.3816325Z [36;1m  git push origin HEAD:main || true[0m
+2025-09-22T23:44:37.3816562Z [36;1mfi[0m
+2025-09-22T23:44:37.3845842Z shell: /usr/bin/bash -e {0}
+2025-09-22T23:44:37.3846083Z ##[endgroup]
+2025-09-22T23:44:37.9723338Z [main 31cd335] chore(reports): update generated weekly crypto reports [skip ci]
+2025-09-22T23:44:37.9724279Z  9 files changed, 403 insertions(+), 481 deletions(-)
+2025-09-22T23:44:38.2280451Z To https://github.com/dannyspk/cointist
+2025-09-22T23:44:38.2281569Z  ! [rejected]        HEAD -> main (fetch first)
+2025-09-22T23:44:38.2282899Z error: failed to push some refs to 'https://github.com/dannyspk/cointist'
+2025-09-22T23:44:38.2297847Z hint: Updates were rejected because the remote contains work that you do not
+2025-09-22T23:44:38.2299269Z hint: have locally. This is usually caused by another repository pushing to
+2025-09-22T23:44:38.2300321Z hint: the same ref. If you want to integrate the remote changes, use
+2025-09-22T23:44:38.2300990Z hint: 'git pull' before pushing again.
+2025-09-22T23:44:38.2301775Z hint: See the 'Note about fast-forwards' in 'git push --help' for details.

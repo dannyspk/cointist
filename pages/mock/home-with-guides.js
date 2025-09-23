@@ -228,8 +228,8 @@ export default function MockHomeWithGuides({ guides = [] }){
     <>
     <Head>
   <title>Mock Home — Guides section preview</title>
-  <link rel="stylesheet" href="/styles/guides-layout.css" />
-  <link rel="stylesheet" href="/styles/mock-home-guides.css" />
+  <link rel="stylesheet" href="/styles/guides-layout.min.css" />
+  <link rel="stylesheet" href="/styles/mock-home-guides.min.css" />
     </Head>
 
       <MarketMarquee />

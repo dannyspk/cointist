@@ -25,8 +25,8 @@ export default function App({ Component, pageProps }) {
   {/* Optimized small favicon (webp) + sensible fallbacks */}
   <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
   {/* Load guides-layout.css non-blocking: preload then apply onload, with noscript fallback */}
-  <link rel="preload" href="/styles/guides-layout.css" as="style" onLoad="this.rel='stylesheet'" />
-  <noscript><link rel="stylesheet" href="/styles/guides-layout.css" /></noscript>
+  <link rel="preload" href="/styles/guides-layout.min.css" as="style" onLoad="this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="/styles/guides-layout.min.css" /></noscript>
         {/* Organization JSON-LD using canonical social profiles */}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",

@@ -458,8 +458,8 @@ export default function LearnbyPath({ guides = [], serverPath = null, hideHeader
     <>
       { !hideHeader && (
         <Head>
-          <link rel="stylesheet" href="/styles/guides-layout.css" />
-          <link rel="stylesheet" href="/styles/learnby-path.css" />
+          <link rel="stylesheet" href="/styles/guides-layout.min.css" />
+          <link rel="stylesheet" href="/styles/learnby-path.min.css" />
         </Head>
       ) }
 

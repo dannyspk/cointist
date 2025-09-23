@@ -185,7 +185,7 @@ export default function Authors(){
         <ul class="beats"><li>Daily briefs</li><li>FX & rates</li><li>Open/close recaps</li></ul>
         <a class="link" href="#rohan-khanna">Read profile ↓</a></div></article>
 
-  <article class="card"><img class="avatar" src="/authors/orig/Kai Yamamot.png" alt="Kai Yamamoto" /><div><span class="role-pill">Breaking News</span><h3>Kai Yamamoto</h3><div class="region">Asia — Japan</div>
+  <article class="card"><img class="avatar" src="/authors/orig/kai.png" alt="Kai Yamamoto" /><div><span class="role-pill">Breaking News</span><h3>Kai Yamamoto</h3><div class="region">Asia — Japan</div>
         <p class="byline">APAC incident coverage—exchange outages, sequencer pauses, bridge advisories—with verifiable source links and status pages.</p>
         <ul class="beats"><li>Exchange status</li><li>Outages/incidents</li><li>APAC live updates</li></ul>
         <a class="link" href="#kai-yamamoto">Read profile ↓</a></div></article>

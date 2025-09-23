@@ -1,0 +1,56 @@
+
+=== Spawned rephraser for https://www.coindesk.com/business/2025/09/20/bitgo-files-for-ipo-with-usd4-2b-in-h1-2025-revenue-usd90b-in-crypto-on-platform at 2025-09-21T01:31:15.718Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_business_2025_09_20_bitgo-files-for-ipo-with-usd4-2b-in.txt --twoStage invocation=https://www.coindesk.com/business/2025/09/20/bitgo-files-for-ipo-with-usd4-2b-in-h1-2025-revenue-usd90b-in-crypto-on-platform ===
+[rephraser] model= gpt-5-mini
+
+=== Spawned rephraser for https://www.coindesk.com/business/2025/09/20/bitgo-files-for-ipo-with-usd4-2b-in-h1-2025-revenue-usd90b-in-crypto-on-platform at 2025-09-21T01:33:05.722Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\web-chatgpt-rephraser.js --in=C:\cointistreact\tmp\source-for-rephrase-https___www_coindesk_com_business_2025_09_20_bitgo-files-for-ipo-with-usd4-2b-in.txt --twoStage invocation=https://www.coindesk.com/business/2025/09/20/bitgo-files-for-ipo-with-usd4-2b-in-h1-2025-revenue-usd90b-in-crypto-on-platform ===
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758418386696.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 399,
+    "slug": "bitgo-moves-toward-nyse-debut-after-4-19-billion-h1-2025-revenue",
+    "title": "BitGo Moves Toward NYSE Debut After $4.19 billion H1 2025 Revenue",
+    "excerpt": "BitGo has filed an S-1 and signaled plans to list on the NYSE under ticker BTGO after reporting $4.19 billion in revenue for H1 2025. The filing outlines the company’s financial performance, governance structure and strategic priorities as it prepares for a public offering."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'dccd4084b439b9b6806b68fa65d4358846bc4c42', id: 399 }
+Updated selection files from rephraser log. Items: 1
+
+=== child exit code=0 at 2025-09-21T01:33:07.358Z ===
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758418493457.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 400,
+    "slug": "bitgo-s-1-shows-4-19-billion-h1-2025-revenue-and-over-90-billion-in-crypto",
+    "title": "BitGo S-1 Shows $4.19 billion H1 2025 Revenue and Over $90 billion in Crypto",
+    "excerpt": "BitGo's S-1 filing outlines plans for an NYSE listing under the ticker BTGO and reports strong first-half financials, while disclosing platform scale and asset concentration as of mid‑2025. The filing also details governance features and intended uses of proceeds amid a changing crypto market backdrop."
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: 'dccd4084b439b9b6806b68fa65d4358846bc4c42', id: 400 }
+Updated selection files from rephraser log. Items: 2
+
+=== child exit code=0 at 2025-09-21T01:34:54.733Z ===

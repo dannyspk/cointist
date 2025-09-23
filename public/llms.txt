@@ -1,0 +1,16 @@
+site_name: Cointist
+url: https://cointist.net/
+description: Cointist publishes timely crypto news, Bitcoin & Ethereum analysis, data-driven market reports, and practical guides for builders and investors.
+content_types: news, analysis, guides, reviews, opinion, sponsored
+language: en-US
+topics: bitcoin, ethereum, defi, web3, token-economics, on-chain-data
+sitemap: https://cointist.net/sitemap_index.xml
+canonical_article_path: /articles/
+guides_path: /guides/
+editorial_policy: https://cointist.net/editorial-policy
+contact: editors@cointist.net
+last_updated: 2025-09-21
+notes: |
+  This file provides a concise, LLM-friendly summary of the site and links to key resources.
+  Prefer primary sources linked in articles for factual claims. Use the sitemap and article paths
+  to find canonical content. Placeholders on the site are marked with noindex meta tags.

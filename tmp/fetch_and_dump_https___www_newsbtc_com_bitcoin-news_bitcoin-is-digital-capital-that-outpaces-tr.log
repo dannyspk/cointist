@@ -1,0 +1,33 @@
+
+=== Spawned fetch_and_dump for https://www.newsbtc.com/bitcoin-news/bitcoin-is-digital-capital-that-outpaces-traditional-assets-michael-saylor/ at 2025-09-20T16:44:31.671Z script=C:\Program Files\nodejs\node.exe C:\cointistreact\scripts\fetch_and_dump.js --url=https://www.newsbtc.com/bitcoin-news/bitcoin-is-digital-capital-that-outpaces-traditional-assets-michael-saylor/ --out=C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_bitcoin-news_bitcoin-is-digital-capital-that-outpaces-tr.txt invocation=C:\cointistreact\tmp\pipeline-invocation-1758386671587.json ===
+Wrote C:\cointistreact\tmp\source-for-rephrase-https___www_newsbtc_com_bitcoin-news_bitcoin-is-digital-capital-that-outpaces-tr.txt
+Spawned rephraser for https://www.newsbtc.com/bitcoin-news/bitcoin-is-digital-capital-that-outpaces-traditional-assets-michael-saylor/
+[rephraser] model= gpt-5-mini
+[rephraser] wrote raw responses to C:\cointistreact\tmp\reph-raw.json
+Wrote rephrase to C:\cointistreact\tmp\rephrase-1758386748030.html
+Supabase upsert raw response: {
+  "error": null,
+  "data": null,
+  "count": null,
+  "status": 201,
+  "statusText": "Created"
+}
+Supabase select raw response for slug: {
+  "error": null,
+  "data": {
+    "id": 393,
+    "slug": "saylor-s-blueprint-bitcoin-as-digital-capital-corporate-strategy-and-long-term-outperformance",
+    "title": "Saylor’s Blueprint: Bitcoin as Digital Capital, Corporate Strategy and Long-Term Outperformance",
+    "excerpt": "Michael Saylor’s plan reframes Bitcoin as a form of corporate capital and anchors Strategy’s public identity to a concentrated crypto stake, setting the company apart from traditional technology and financial peers. The thesis mixes an ambitious forecast of long-term outperformance with proposals to make Bitcoin usable as collateral, while facing volatility,"
+  },
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
+Upserted rephrase to Supabase { sha: '17efaa3970e8519f009afd600740490d7b786cec', id: 393 }
+Updated selection files from rephraser log. Items: 3
+
+=== child exit code=0 at 2025-09-20T16:45:49.891Z ===
+
+
+=== child exit code=0 at 2025-09-20T16:45:49.950Z ===

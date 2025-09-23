@@ -1,0 +1,5 @@
+2025-09-22T23:42:39.0370000Z Requested labels: ubuntu-latest
+2025-09-22T23:42:39.0370000Z Job defined at: dannyspk/cointist/.github/workflows/generate-weekly-reports.yml@refs/heads/main
+2025-09-22T23:42:39.0370000Z Waiting for a runner to pick up this job...
+2025-09-22T23:42:39.5360000Z Job is waiting for a hosted runner to come online.
+2025-09-22T23:42:39.5360000Z Job is about to start running on the hosted runner: GitHub Actions 1000000020

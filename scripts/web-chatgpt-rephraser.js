@@ -71,6 +71,27 @@ async function sendOpenAIChat(opts){
 
     // If the structured Responses output doesn't include text, fall back to chat completions
     const hasText = (json && (typeof json.output_text === 'string' && json.output_text.trim())) || (json && Array.isArray(json.output) && json.output.some(o => (o && (o.text || (o.content && o.content.some(c=>c && c.text))))))
+    // If the response is incomplete due to hitting max_output_tokens, retry once with a larger cap
+    try{
+      const incompleteReason = json && json.incomplete_details && json.incomplete_details.reason
+      if(incompleteReason === 'max_output_tokens'){
+        const orig = Number(body.max_output_tokens || opts.maxTokens || 1400)
+        const increased = Math.min(Math.max(orig * 2, orig + 512), 6000)
+        if(increased > orig){
+          try{ appendPipelineRunLine(`[rephraser] Responses API hit max_output_tokens (was ${orig}); retrying with ${increased}`) }catch(e){}
+          const body2 = Object.assign({}, body, { max_output_tokens: increased })
+          const r2 = await fetchWithRetry('https://api.openai.com/v1/responses', { method: 'POST', headers: { 'Content-Type':'application/json', 'Authorization': `Bearer ${OPENAI_KEY}` }, body: JSON.stringify(body2) })
+          if(r2 && r2.ok){
+            const j2 = await r2.json()
+            // prefer the retried result if it contains text
+            const hasText2 = (j2 && (typeof j2.output_text === 'string' && j2.output_text.trim())) || (j2 && Array.isArray(j2.output) && j2.output.some(o => (o && (o.text || (o.content && o.content.some(c=>c && c.text))))))
+            if(hasText2) return j2
+            // otherwise fall through to original json and eventual fallback
+          }
+        }
+      }
+    }catch(e){ /* non-fatal */ }
+
     if(!hasText){
   const fallbackPayload = { model: 'gpt-5-mini', messages: payload.messages }
       const cres = await fetchWithRetry('https://api.openai.com/v1/chat/completions', { method: 'POST', headers: { 'Content-Type':'application/json', 'Authorization': `Bearer ${OPENAI_KEY}` }, body: JSON.stringify(fallbackPayload) })

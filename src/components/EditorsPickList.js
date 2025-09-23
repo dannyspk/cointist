@@ -42,15 +42,30 @@ export default function EditorsPickList({ excludeIds }){
           }catch(e){}
         }
     if (mounted) {
-      // sort by createdAt (newest first) before taking top picks
+      // sort by most relevant date (prefer publishedAt, then updatedAt, then createdAt)
       const pickDate = (it) => {
         if (!it) return 0
-        const raw = it.createdAt || it.created_at || it.publishedAt || it.published_at || it.updatedAt || it.updated_at || null
+        const raw = it.publishedAt || it.published_at || it.updatedAt || it.updated_at || it.createdAt || it.created_at || null
         const d = raw ? new Date(raw).getTime() : 0
         return isNaN(d) ? 0 : d
       }
-      list.sort((a,b) => pickDate(b) - pickDate(a))
-      setItems(list.slice(0,4))
+      // prefer items that have an explicit published date and are recent
+      try{
+        const now = Date.now()
+        const maxAgeMs = 30 * 24 * 60 * 60 * 1000 // 30 days
+        const withPublished = list.filter(it => {
+          const pubRaw = it && (it.publishedAt || it.published_at)
+          if (!pubRaw) return false
+          const t = new Date(pubRaw).getTime()
+          return !isNaN(t) && (now - t) <= maxAgeMs
+        })
+        const finalList = (withPublished && withPublished.length) ? withPublished : list
+        finalList.sort((a,b) => pickDate(b) - pickDate(a))
+        setItems(finalList.slice(0,4))
+      }catch(e){
+        list.sort((a,b) => pickDate(b) - pickDate(a))
+        setItems(list.slice(0,4))
+      }
     }
       }catch(e){ if (mounted) setItems([]) }
       finally{ if (mounted) setLoading(false) }
@@ -63,8 +78,8 @@ export default function EditorsPickList({ excludeIds }){
 
   const formatDateAndRead = (iso, content, altIso) => {
     try{
-      // prefer creation time when available (altIso is expected to be createdAt)
-      const raw = altIso || iso
+      // prefer publishedAt, then updatedAt, then createdAt (altIso is fallback)
+      const raw = iso || altIso
       if (!raw) return ''
       const d = new Date(raw)
       const dateLabel = format(d, 'MMM d')
@@ -179,7 +194,7 @@ export default function EditorsPickList({ excludeIds }){
               
               <h4>{it.title}</h4>
               <p className="meta">{byline}{when ? ` • ${when}` : ''}{firstTag ? <span> • <strong>{firstTag}</strong></span> : ''}</p>
-              <p style={{display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical', overflow:'hidden'}}>{excerptPreview(it.excerpt || stripHtml(it.content))}</p>
+              <p className="excerpt">{excerptPreview(it.excerpt || stripHtml(it.content))}</p>
             </div>
           </a>
         )

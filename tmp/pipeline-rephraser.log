@@ -914,3 +914,108 @@
 2025-09-18T22:11:19.445Z Supabase select raw response for slug: {"error":null,"data":{"id":390,"slug":"1-000-fold-gain-for-early-bnb-investor-as-token-tops-1-000","title":"1,000-fold gain for early BNB investor as token tops $1,000","excerpt":"BNB surged to a fresh all-time high of $1,005, turning an early $1,000 stake into $1,000,000 over eight years for at least one investor. On-chain analytics and market commentators point to a mix of native utility, institutional flows and broader macro momentum behind the rally."},"count":null,"status":200,"statusText":"OK"}
 2025-09-18T22:11:19.449Z Upserted rephrase to Supabase { sha: '10635b98467501ea54f6b5d494a86994c637aaef', id: 390 }
 2025-09-18T22:11:19.473Z Attempting in-process require of updater (preferred)
+2025-09-20T16:44:34.865Z [rephraser] model= gpt-5-mini
+2025-09-20T16:44:34.866Z [rephraser] model= gpt-5-mini
+2025-09-20T16:44:35.165Z [rephraser] model= gpt-5-mini
+2025-09-20T16:44:35.215Z [rephraser] model= gpt-5-mini
+2025-09-20T16:45:19.754Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758386719750.html
+2025-09-20T16:45:21.312Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-20T16:45:22.393Z Supabase select raw response for slug: {"error":null,"data":{"id":391,"slug":"https-decrypt-co-resources-what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle","title":"","excerpt":"Arc: Circle’s USDC-Centered Blockchain — A Brief"},"count":null,"status":200,"statusText":"OK"}
+2025-09-20T16:45:22.396Z Upserted rephrase to Supabase { sha: 'c73c3ca3d622b1bee16f0f818ce2e167f14bf565', id: 391 }
+2025-09-20T16:45:22.402Z Attempting in-process require of updater (preferred)
+2025-09-20T16:45:32.936Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758386732932.html
+2025-09-20T16:45:33.949Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-20T16:45:34.966Z Supabase select raw response for slug: {"error":null,"data":{"id":392,"slug":"kevin-durant-reclaims-coinbase-access-as-2016-bitcoin-stake-climbs-over-17-700","title":"Kevin Durant Reclaims Coinbase Access as 2016 Bitcoin Stake Climbs Over 17,700%","excerpt":"Kevin Durant has regained access to a Coinbase account nearly a decade after being locked out, a development publicized on X by Brian Armstrong. The recovery comes as a 2016 Bitcoin purchase tied to Durant has surged in value, drawing commentary on CNBC and renewed scrutiny of Coinbase customer support."},"count":null,"status":200,"statusText":"OK"}
+2025-09-20T16:45:34.970Z Upserted rephrase to Supabase { sha: '29c5c5a838481700dd4947283eb25f3b8ddff356', id: 392 }
+2025-09-20T16:45:35.009Z Attempting in-process require of updater (preferred)
+2025-09-20T16:45:48.038Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758386748030.html
+2025-09-20T16:45:49.103Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-20T16:45:49.810Z Supabase select raw response for slug: {"error":null,"data":{"id":393,"slug":"saylor-s-blueprint-bitcoin-as-digital-capital-corporate-strategy-and-long-term-outperformance","title":"Saylor’s Blueprint: Bitcoin as Digital Capital, Corporate Strategy and Long-Term Outperformance","excerpt":"Michael Saylor’s plan reframes Bitcoin as a form of corporate capital and anchors Strategy’s public identity to a concentrated crypto stake, setting the company apart from traditional technology and financial peers. The thesis mixes an ambitious forecast of long-term outperformance with proposals to make Bitcoin usable as collateral, while facing volatility,"},"count":null,"status":200,"statusText":"OK"}
+2025-09-20T16:45:49.814Z Upserted rephrase to Supabase { sha: '17efaa3970e8519f009afd600740490d7b786cec', id: 393 }
+2025-09-20T16:45:49.840Z Attempting in-process require of updater (preferred)
+2025-09-20T16:46:02.084Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758386762074.html
+2025-09-20T16:46:03.085Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-20T16:46:04.033Z Supabase select raw response for slug: {"error":null,"data":{"id":394,"slug":"tether-mints-5-billion-in-usdt-amid-fed-rate-cut","title":"Tether Mints $5 Billion in USDT Amid Fed Rate Cut","excerpt":"Tether has issued $5 Billion in new USDT tokens, a minting surge that coincided with a Federal Reserve move and shifting market signals. On-chain data, DeFi allocations and wallet-growth figures point to elevated demand for dollar-pegged liquidity across crypto markets."},"count":null,"status":200,"statusText":"OK"}
+2025-09-20T16:46:04.039Z Upserted rephrase to Supabase { sha: 'ba6fc592039ad24b49611591c1c6e835df8e6272', id: 394 }
+2025-09-20T16:46:04.063Z Attempting in-process require of updater (preferred)
+2025-09-20T17:32:55.053Z [rephraser] model= gpt-5-mini
+2025-09-20T17:33:41.998Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758389621990.html
+2025-09-20T17:33:42.340Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-20T17:33:42.898Z Supabase select raw response for slug: {"error":null,"data":{"id":395,"slug":"kevin-durant-regains-coinbase-access-2016-bitcoin-stake-soars","title":"Kevin Durant Regains Coinbase Access; 2016 Bitcoin Stake Soars","excerpt":"Coinbase confirmed on X that Kevin Durant has regained access to his account, a development that coincides with a substantial appreciation in a Bitcoin position he first purchased in 2016. The stake, originally bought at an estimated $650 per Bitcoin, is now valued near $116,000 and is up over 17,700% (CoinMarketCap)."},"count":null,"status":200,"statusText":"OK"}
+2025-09-20T17:33:42.901Z Upserted rephrase to Supabase { sha: '29c5c5a838481700dd4947283eb25f3b8ddff356', id: 395 }
+2025-09-20T17:33:42.924Z Attempting in-process require of updater (preferred)
+2025-09-20T17:43:09.492Z [rephraser] model= gpt-5-mini
+2025-09-20T17:44:20.450Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758390260447.html
+2025-09-20T17:44:21.456Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-20T17:44:21.795Z Supabase select raw response for slug: {"error":null,"data":{"id":396,"slug":"airdrops-early-booms-and-rapid-fade-dappradar-s-key-findings","title":"Airdrops’ Early Booms and Rapid Fade: DappRadar’s Key Findings","excerpt":"New analysis from DappRadar highlights the enormous scale of token airdrops and the transitory nature of the activity they create, with striking examples of immediate market impact followed by rapid reversion. The report and related commentary sketch why projects continue to use airdrops despite evidence that most gains dissipate within months."},"count":null,"status":200,"statusText":"OK"}
+2025-09-20T17:44:21.797Z Upserted rephrase to Supabase { sha: '4773567afbe356e477b2671df9b791cf3fad9cd7', id: 396 }
+2025-09-20T17:44:21.803Z Attempting in-process require of updater (preferred)
+2025-09-20T17:57:13.367Z [rephraser] model= gpt-5-mini
+2025-09-20T17:57:26.086Z [rephraser] Responses API hit max_output_tokens (was 500); retrying with 1012
+2025-09-20T17:58:37.928Z [rephraser] Responses API hit max_output_tokens (was 1400); retrying with 2800
+2025-09-20T17:59:13.045Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758391153038.html
+2025-09-20T17:59:13.721Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-20T17:59:14.048Z Supabase select raw response for slug: {"error":null,"data":{"id":397,"slug":"airdrops-big-short-term-gains-scarce-long-term-value","title":"Airdrops: Big Short-Term Gains, Scarce Long-Term Value","excerpt":"Airdrops have become a prominent incentive tool in crypto, driving bursts of engagement but often failing to create enduring value. Industry data and recent project responses highlight a pattern of high initial activity followed by rapid decay."},"count":null,"status":200,"statusText":"OK"}
+2025-09-20T17:59:14.054Z Upserted rephrase to Supabase { sha: '4773567afbe356e477b2671df9b791cf3fad9cd7', id: 397 }
+2025-09-20T17:59:14.074Z Attempting in-process require of updater (preferred)
+2025-09-21T01:31:15.695Z [rephraser] model= gpt-5-mini
+2025-09-21T01:31:15.994Z [rephraser] model= gpt-5-mini
+2025-09-21T01:31:25.126Z [rephraser] Responses API hit max_output_tokens (was 500); retrying with 1012
+2025-09-21T01:31:26.919Z [rephraser] Responses API hit max_output_tokens (was 500); retrying with 1012
+2025-09-21T01:32:28.611Z [rephraser] Responses API hit max_output_tokens (was 1400); retrying with 2800
+2025-09-21T01:32:39.353Z [rephraser] Responses API hit max_output_tokens (was 1400); retrying with 2800
+2025-09-21T01:32:57.406Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758418377399.html
+2025-09-21T01:32:58.417Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-21T01:32:58.697Z Supabase select raw response for slug: {"error":null,"data":{"id":398,"slug":"hashkey-s-framework-for-durable-corporate-crypto-treasuries","title":"HashKey’s framework for durable corporate crypto treasuries","excerpt":"HashKey Capital is positioning a new $500 million DAT fund in Hong Kong as a template for institutional-grade corporate crypto treasuries, emphasizing governance, discipline and reserves. The fund’s design, deployment priorities and market context highlight how custody, liquidity and regulated infrastructure are being balanced for long-term corporate allocat"},"count":null,"status":200,"statusText":"OK"}
+2025-09-21T01:32:58.698Z Upserted rephrase to Supabase { sha: 'bbe9c3c1cb6d3f8a224f852edaac713574e8e1d6', id: 398 }
+2025-09-21T01:32:58.739Z Attempting in-process require of updater (preferred)
+2025-09-21T01:33:05.985Z [rephraser] model= gpt-5-mini
+2025-09-21T01:33:06.705Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758418386696.html
+2025-09-21T01:33:07.026Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-21T01:33:07.290Z Supabase select raw response for slug: {"error":null,"data":{"id":399,"slug":"bitgo-moves-toward-nyse-debut-after-4-19-billion-h1-2025-revenue","title":"BitGo Moves Toward NYSE Debut After $4.19 billion H1 2025 Revenue","excerpt":"BitGo has filed an S-1 and signaled plans to list on the NYSE under ticker BTGO after reporting $4.19 billion in revenue for H1 2025. The filing outlines the company’s financial performance, governance structure and strategic priorities as it prepares for a public offering."},"count":null,"status":200,"statusText":"OK"}
+2025-09-21T01:33:07.294Z Upserted rephrase to Supabase { sha: 'dccd4084b439b9b6806b68fa65d4358846bc4c42', id: 399 }
+2025-09-21T01:33:07.315Z Attempting in-process require of updater (preferred)
+2025-09-21T01:33:15.903Z [rephraser] Responses API hit max_output_tokens (was 500); retrying with 1012
+2025-09-21T01:34:24.538Z [rephraser] Responses API hit max_output_tokens (was 1400); retrying with 2800
+2025-09-21T01:34:53.469Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758418493457.html
+2025-09-21T01:34:54.267Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-21T01:34:54.543Z Supabase select raw response for slug: {"error":null,"data":{"id":400,"slug":"bitgo-s-1-shows-4-19-billion-h1-2025-revenue-and-over-90-billion-in-crypto","title":"BitGo S-1 Shows $4.19 billion H1 2025 Revenue and Over $90 billion in Crypto","excerpt":"BitGo's S-1 filing outlines plans for an NYSE listing under the ticker BTGO and reports strong first-half financials, while disclosing platform scale and asset concentration as of mid‑2025. The filing also details governance features and intended uses of proceeds amid a changing crypto market backdrop."},"count":null,"status":200,"statusText":"OK"}
+2025-09-21T01:34:54.546Z Upserted rephrase to Supabase { sha: 'dccd4084b439b9b6806b68fa65d4358846bc4c42', id: 400 }
+2025-09-21T01:34:54.580Z Attempting in-process require of updater (preferred)
+2025-09-21T18:59:15.579Z [rephraser] model= gpt-5-mini
+2025-09-21T18:59:16.408Z [rephraser] model= gpt-5-mini
+2025-09-21T18:59:24.099Z [rephraser] Responses API hit max_output_tokens (was 500); retrying with 1012
+2025-09-21T18:59:27.962Z [rephraser] Responses API hit max_output_tokens (was 500); retrying with 1012
+2025-09-21T19:00:26.773Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758481226766.html
+2025-09-21T19:00:27.739Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-21T19:00:28.762Z Supabase select raw response for slug: {"error":null,"data":{"id":401,"slug":"vitalik-buterin-low-risk-defi-as-ethereum-s-commercial-backbone","title":"Vitalik Buterin: Low-risk DeFi as Ethereum’s commercial backbone","excerpt":"Vitalik Buterin argues that Ethereum’s commercial future will rest on low-risk decentralized finance primitives rather than speculative on-chain experiments. He frames this shift as a move toward predictable, widely accessible financial infrastructure that can support broad economic activity on-chain."},"count":null,"status":200,"statusText":"OK"}
+2025-09-21T19:00:28.765Z Upserted rephrase to Supabase { sha: '988f3a739bd3ea889acaf564bbb0a948fc6ec33d', id: 401 }
+2025-09-21T19:00:28.774Z Attempting in-process require of updater (preferred)
+2025-09-21T19:00:31.421Z [rephraser] Responses API hit max_output_tokens (was 1400); retrying with 2800
+2025-09-21T19:00:57.891Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758481257887.html
+2025-09-21T19:00:58.943Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-21T19:00:59.993Z Supabase select raw response for slug: {"error":null,"data":{"id":402,"slug":"cnh-and-krw-stablecoins-signal-intensifying-global-tokenization-race","title":"CNH and KRW Stablecoins Signal Intensifying Global Tokenization Race","excerpt":"Two new sovereign-linked stablecoins—AnchorX’s AxCNH and BDACS’s KRW1—have debuted in major regional forums, underscoring a growing global push to tokenize fiat and reshape cross-border payments. Their structures and timing highlight both commercial ambitions and broader macroeconomic and geopolitical implications."},"count":null,"status":200,"statusText":"OK"}
+2025-09-21T19:01:00.015Z Upserted rephrase to Supabase { sha: '28c2e3c90b68588ca2e1860f041b13c2e1cef665', id: 402 }
+2025-09-21T19:01:00.035Z Attempting in-process require of updater (preferred)
+2025-09-22T16:23:43.389Z [rephraser] model= gpt-5-mini
+2025-09-22T16:23:57.089Z [rephraser] Responses API hit max_output_tokens (was 500); retrying with 1012
+2025-09-22T16:25:15.999Z [rephraser] Responses API hit max_output_tokens (was 1400); retrying with 2800
+2025-09-22T16:26:14.685Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758558374650.html
+2025-09-22T16:26:16.282Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-22T16:26:17.585Z Supabase select raw response for slug: {"error":null,"data":{"id":403,"slug":"steam-incident-fake-block-blasters-game-led-to-150-000-crypto-thefts","title":"Steam Incident: Fake Block Blasters Game Led to $150,000 Crypto Thefts","excerpt":"A fraudulent game titled Block Blasters remained available on Steam for more than a month and contained hidden malware that exfiltrated cryptocurrency from players’ wallets. Security researchers say confirmed losses total at least $150,000 and that the incident underscores gaps in platform safeguards."},"count":null,"status":200,"statusText":"OK"}
+2025-09-22T16:26:17.587Z Upserted rephrase to Supabase { sha: '078932263b087bc4537bee4d1683600ebbb8316f', id: 403 }
+2025-09-22T16:26:17.630Z Attempting in-process require of updater (preferred)
+2025-09-22T17:12:34.626Z [rephraser] model= gpt-5-mini
+2025-09-22T17:13:30.980Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758561210964.html
+2025-09-22T17:13:31.478Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-22T17:13:31.801Z Supabase select raw response for slug: {"error":null,"data":{"id":404,"slug":"i-can-t-access-external-web-links-please-paste-the-full-article-text-or-the-key-paragraphs-and-facts-here-and-i-ll-creat","title":"I can’t access external web links. Please paste the full article text (or the key paragraphs and facts) here, and I’ll create a new H2 title and a concise 4–6 heading outline that preserves all named entities and numeric facts exactly.","excerpt":"Because I cannot open external web links, I need the article text or the essential paragraphs and facts pasted into the chat. Provide the full copy or the critical excerpts and I will produce a new H2 title and a concise 4–6 heading outline that preserves all named entities and numeric facts exactly."},"count":null,"status":200,"statusText":"OK"}
+2025-09-22T17:13:31.811Z Upserted rephrase to Supabase { sha: '7acd014d640ee0c1115437d9c19e48bd53b373b9', id: 404 }
+2025-09-22T17:13:31.848Z Attempting in-process require of updater (preferred)
+2025-09-22T17:40:57.976Z [rephraser] model= gpt-5-mini
+2025-09-22T17:41:11.144Z [rephraser] Responses API hit max_output_tokens (was 500); retrying with 1012
+2025-09-22T17:42:38.064Z [rephraser] Responses API hit max_output_tokens (was 1400); retrying with 2800
+2025-09-22T17:43:09.354Z Wrote rephrase to C:\cointistreact\tmp\rephrase-1758562989338.html
+2025-09-22T17:43:10.928Z Supabase upsert raw response: {"error":null,"data":null,"count":null,"status":201,"statusText":"Created"}
+2025-09-22T17:43:11.758Z Supabase select raw response for slug: {"error":null,"data":{"id":405,"slug":"gold-reaches-new-peak-above-3-740-as-2025-rally-intensifies","title":"Gold reaches new peak above $3,740 as 2025 rally intensifies","excerpt":"Gold climbed above $3,740 on Monday, setting a fresh record as the metal's 2025 rally accelerated. The move follows sustained buying by central banks and growing safe-haven demand, leaving gold more than 40% higher year-to-date."},"count":null,"status":200,"statusText":"OK"}
+2025-09-22T17:43:11.766Z Upserted rephrase to Supabase { sha: '1e856045ff746cffa53cdb177aceea3e9306d9f5', id: 405 }
+2025-09-22T17:43:11.796Z Attempting in-process require of updater (preferred)

@@ -112,7 +112,7 @@ export default function AnalysisSection({ items = null, showHeader = true }){
       </div>
 
       <style jsx>{`
-        .analysis-section{ padding: 36px 0; background: background: linear-gradient(180deg, rgb(21 22 22 / 60%), rgba(6, 8, 7, 0.5)); border-top: 1px solid rgba(255,255,255,0.03);  }
+        .analysis-section{ padding: 36px 0; background: background: linear-gradient(180deg, rgb(21 22 22 / 60%), rgba(6, 8, 7, 0.5)); }
   .analysis-inner{  margin: 0 auto; padding: 0 20px }
   /* full-bleed overrides: allow this section to use the full viewport width */
   .analysis-section.full-bleed{ width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; }
@@ -149,7 +149,7 @@ export default function AnalysisSection({ items = null, showHeader = true }){
           .card-thumb{ height: 180px; background-size: contain; background-repeat: no-repeat; background-position: center; }
           .card-link{ padding: 10px; align-items: stretch }
           .card-body{ text-align: left; margin-top: 10px;}
-          .analysis-title{ font-size: 26px; margin-left: 4px }
+          .analysis-title{ margin-left: 4px }
         }
         @media (max-width: 600px){
             .analysis-cards{ grid-template-columns: 1fr; gap: 12px }

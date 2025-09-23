@@ -30,6 +30,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Debug OpenAI env
+        run: |
+          echo "OPENAI_MODEL=$OPENAI_MODEL"
+          echo "OPENAI_CHAT_MODEL=$OPENAI_CHAT_MODEL"
+          echo "OPENAI_DEBUG=$OPENAI_DEBUG"
+
       - name: Run BTC weekly generator
         run: npm run generate:btc-weekly
 

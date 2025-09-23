@@ -1,33 +1,38 @@
 {
-  "generatedAt": "2025-09-22T23:54:29.575Z",
+  "generatedAt": "2025-09-23T03:28:33.781Z",
   "dataSource": "coingecko-sparkline",
-  "priceSummary": "First: $114,913.6\nLast:  $112,683.95\nLow:   $112,420.02\nHigh:  $117,851.19\nChange: -1.94%",
+  "priceSummary": "First: $115,356.68\nLast:  $112,696.45\nLow:   $112,176.16\nHigh:  $117,851.19\nChange: -2.31%",
   "signals": {
-    "last": 112683.95356400768,
-    "change": -1.940283506957737,
-    "rsi": 30.05326278089494,
-    "lastSMA8": 112805.62677315604,
-    "lastSMA21": 113714.70220440702,
+    "last": 112696.45087669161,
+    "change": -2.306094372740218,
+    "rsi": 39.14753103032891,
+    "lastSMA8": 112627.16432962436,
+    "lastSMA21": 112999.3971240528,
     "volumeSpike": false,
     "sweep": true,
-    "maxDropPct": 2.7858458306158034,
+    "maxDropPct": 2.672048734291511,
     "lowerHighs": false
   },
   "futuresAvailable": false,
   "futures": null,
   "data": {
-    "snapshot": "A fast liquidity sweep (~2.8% drop) occurred during the week, grabbing stops before the partial recovery.",
+    "snapshot": "Price is down ~2.3% from the open and sits just above the short SMA8 but below the SMA21; RSI ~39 shows mild bearish momentum. A sweep occurred without a volume spike, suggesting a shallow stop-hunt rather than strong distribution.",
     "chronology": [
-      "Early week: multiple rejections at the 116k–118k supply zone; bullish momentum cooled.",
-      "Midweek: a rapid liquidity sweep down to ~107k–109k (stop hunt) with elevated sell volume.",
-      "Post‑sweep: a bounce/retest into the 111k–114k gap area (partial fill) but sellers remained active around 116k.",
-      "Current: lower highs and weak confirmation on the bounce; watch the reaction at the gap and the 109k demand band."
+      "Open/First: $115,356.68",
+      "Intra-day high: $117,851.19",
+      "Price rolled over to a low of $112,176.16",
+      "Last traded: $112,696.45 (−2.31%)",
+      "Price is slightly above SMA8 (112,627) but below SMA21 (112,999)",
+      "Sweep detected (stop-hunt) without accompanying volume spike",
+      "Max intraday drop ~2.67% from local highs"
     ],
     "technicalReadout": [
-      "Momentum: RSI softened from overbought to neutral/weak; no clear bullish divergence on the bounce.",
-      "Moving averages: short/medium MAs remain at or above price — bulls need a reclaim to shift bias.",
-      "Volume: heavy selling on the sweep; muted volume on the bounce indicates limited conviction.",
-      "CME gap: the unfinished gap near ~114–116k acted as a magnet; reaction at that zone is important."
+      "RSI 39 — weak/below-neutral momentum, not oversold",
+      "Price > SMA8 but < SMA21 — short-term support, mid-term resistance",
+      "No volume spike — current move lacks strong conviction",
+      "Sweep flagged — possible stop-loss clearing around the low",
+      "MaxDropPct 2.67% — recent pullback size is limited",
+      "LowerHighs = false — trend structure hasn't confirmed a series of lower highs"
     ],
     "levels": [
       "Immediate Resistance: 114k",
@@ -38,20 +43,16 @@
     ],
     "scenarios": [
       {
-        "title": "Bearish continuation (most likely)",
-        "text": "Fail to reclaim 116–118k → rollover → break 109k → impulse toward 105–102k."
+        "title": "Shallow pullback and rebound",
+        "text": "If price holds above SMA8 and reclaims SMA21 (~112,999) with increased volume, expect a mean-reversion bounce toward recent highs; RSI recovery above 50 would add confirmation."
       },
       {
-        "title": "Range / chop (plausible)",
-        "text": "Price oscillates between 109k–116k as macro events & flows decide the next leg."
+        "title": "Bear continuation",
+        "text": "Failure to hold the recent low (~112,176)—especially on rising volume—would likely extend selling pressure and open room for a deeper test of lower ranges under 112k."
       },
       {
-        "title": "Bullish recovery (lower probability)",
-        "text": "Sustained daily close above ~116.5–118k with high volume → retest 123k+."
-      },
-      {
-        "title": "Event risk",
-        "text": "NFP, CPI, FOMC and options expiries can amplify intraday moves; avoid heavy sizing around these."
+        "title": "False sweep then volatile reversal",
+        "text": "The sweep could have cleared stops; a sudden volume pickup and quick move back above SMA21 would signal a short-squeeze style reversal and a fast recovery toward mid-term levels."
       }
     ],
     "checklist": [

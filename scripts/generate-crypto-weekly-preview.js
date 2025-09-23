@@ -20,7 +20,12 @@ async function generateNarrativeWithLLM(summary, movers){
       const doRequest = async (maxOutputTokens) => {
         const body = { model, input: prompt, max_output_tokens: maxOutputTokens };
         const res = await (fetchFn ? fetchFn(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }) : fetch(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }));
-        if(!res || !res.ok){ const txt = res ? await res.text().catch(()=>'<no body>') : '<no response>'; console.warn('LLM request failed', res && res.status, txt); return null; }
+        if(!res || !res.ok){
+          const txt = res ? await res.text().catch(()=>'<no body>') : '<no response>';
+          console.warn('LLM request failed', res && res.status, txt);
+          try{ if(process.env.OPENAI_DEBUG === 'true'){ console.warn('Model used:', model); console.warn('Request body snippet:', JSON.stringify(body).slice(0,2000)); console.warn('Full response body (truncated 8000 chars):', txt && String(txt).slice(0,8000)); } }catch(_){ }
+          return null;
+        }
         return await res.json();
       };
       let json = await doRequest(maxOutput);
@@ -28,6 +33,18 @@ async function generateNarrativeWithLLM(summary, movers){
         console.warn('LLM response incomplete due to max_output_tokens; retrying with larger max_output_tokens');
         const newMax = Math.min(Math.max(800, maxOutput * 2), 2000);
         json = await doRequest(newMax) || json;
+      }
+      // If Responses API failed (e.g., 400) return null — fall back to Chat Completions
+      if (!json){
+        console.warn('Responses API failed or returned no JSON; falling back to Chat Completions');
+        try{
+          const chatModel = process.env.OPENAI_CHAT_MODEL || 'gpt-4o-mini';
+          const chatUrl = 'https://api.openai.com/v1/chat/completions';
+          const chatBody = { model: chatModel, messages:[{role:'system', content:'You are a professional financial market analyst. Be concise and factual.'},{role:'user', content:prompt}], max_tokens:300, temperature:0.0 };
+          const chatRes = await (fetchFn ? fetchFn(chatUrl, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(chatBody) }) : fetch(chatUrl, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(chatBody) }));
+          if(!chatRes || !chatRes.ok){ const txt = chatRes ? await chatRes.text().catch(()=>'<no body>') : '<no response>'; console.warn('Chat fallback failed', chatRes && chatRes.status, txt); json = null; }
+          else json = await chatRes.json();
+        }catch(e){ console.warn('Chat fallback failed', e && e.message); json = null; }
       }
       let content = null;
       if (json.output_text) content = json.output_text;

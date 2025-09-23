@@ -13,18 +13,66 @@ async function generateNarrativeWithLLM(signals, priceSummary){
   const model = process.env.OPENAI_MODEL || 'gpt-5-mini';
   console.log('LLM model:', model);
   const prompt = `You are a concise market analyst. Given the following JSON signals and a short price summary for Ethereum, produce a JSON object with keys: snapshot (1-2 short sentences), chronology (array up to 6 brief timeline bullets), technicalReadout (array up to 6 concise bullets), scenarios (array of up to 3 objects with title and text). Respond with valid JSON only.\n\nsignals: ${JSON.stringify(signals)}\n\npriceSummary: ${String(priceSummary)}\n\nExample response shape: {"snapshot":"...","chronology":["..."],"technicalReadout":["..."],"scenarios":[{"title":"...","text":"..."}]}\n`;
-  const url = 'https://api.openai.com/v1/chat/completions';
-  const body = { model, messages:[{role:'system', content:'You are a professional financial market analyst. Be concise and factual.'},{role:'user', content:prompt}], max_tokens:400, temperature:0.6 };
-  try{
-    const res = await (fetchFn ? fetchFn(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }) : fetch(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }));
-    if(!res || !res.ok){ console.warn('LLM narrative request failed', res && res.status); return null; }
-    const json = await res.json();
-    const content = json && json.choices && json.choices[0] && (json.choices[0].message && json.choices[0].message.content || json.choices[0].text);
-    if(!content) return null;
-    const m = content.match(/\{[\s\S]*\}/m);
-    const jtxt = m ? m[0] : content;
-    try{ return JSON.parse(jtxt); }catch(e){ console.warn('Failed to parse LLM JSON response'); return null; }
-  }catch(e){ console.warn('LLM narrative generation failed', e && e.message); return null; }
+    async function callOpenAI(body, url){
+      const headers = { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` };
+      const reqBody = JSON.stringify(body);
+      try{
+        console.log('LLM request URL:', url);
+        console.log('LLM request body:', reqBody);
+        const res = await (fetchFn ? fetchFn(url, { method: 'POST', headers, body: reqBody }) : fetch(url, { method: 'POST', headers, body: reqBody }));
+        if(!res){ console.warn('LLM narrative request had no response object'); return null; }
+        if(!res.ok){
+          let text = null;
+          try{ text = await res.text(); }catch(e){ text = `<failed to read body: ${e && e.message}>`; }
+          console.warn('LLM narrative request failed', res.status, text);
+          return null;
+        }
+        return await res.json();
+      }catch(e){
+        console.warn('LLM narrative request failed (exception)', e && e.message);
+        return null;
+      }
+    }
+
+    try{
+      console.log('LLM model:', model);
+      if(String(model).toLowerCase().startsWith('gpt-5')){
+  const url = 'https://api.openai.com/v1/responses';
+  const body = { model, input: prompt, max_output_tokens: 500 };
+        const json = await callOpenAI(body, url);
+        if(!json) return null;
+        let content = null;
+        if(json.output_text) content = json.output_text;
+        else if(Array.isArray(json.output) && json.output.length){
+          content = json.output.map(o => {
+            if(o.content && Array.isArray(o.content)) return o.content.map(c => c.text || '').join('');
+            return o.text || '';
+          }).join('\n');
+        } else if(json.output && typeof json.output === 'string') content = json.output;
+        if(!content) return null;
+        const m = content.match(/\{[\s\S]*\}/m);
+        const jtxt = m ? m[0] : content;
+        try{ return JSON.parse(jtxt); }catch(e){ console.warn('Failed to parse LLM JSON response'); return null; }
+      }
+
+      const url = 'https://api.openai.com/v1/chat/completions';
+      const body = {
+        model,
+        messages: [
+          { role: 'system', content: 'You are a professional financial market analyst. Be concise and factual.' },
+          { role: 'user', content: prompt }
+        ],
+        max_tokens: 500,
+        temperature: 0.6
+      };
+      const json = await callOpenAI(body, url);
+      if(!json) return null;
+      const content = (json && json.choices && json.choices[0] && json.choices[0].message && json.choices[0].message.content) || (json.choices && json.choices[0] && json.choices[0].text);
+      if(!content) return null;
+      const m = content.match(/\{[\s\S]*\}/m);
+      const jtxt = m ? m[0] : content;
+      try{ return JSON.parse(jtxt); }catch(e){ console.warn('Failed to parse LLM JSON response'); return null; }
+    }catch(e){ console.warn('LLM narrative generation failed', e && e.message); return null; }
 }
 
 async function fetchCoinGecko7d() {

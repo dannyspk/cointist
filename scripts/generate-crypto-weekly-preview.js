@@ -13,11 +13,19 @@ async function generateNarrativeWithLLM(summary, movers){
   const model = process.env.OPENAI_MODEL || 'gpt-5-mini';
   console.log('LLM model:', model);
   const prompt = `You are a concise market analyst. Given a two-line top-10 summary and arrays of top gainers/losers, produce a JSON object with keys: title (short page title), snapshot (1-2 short sentences), highlights (array up to 6 bullets), headlines (array up to 6 short headlines). Respond with valid JSON only.\n\nsummary: ${String(summary)}\n\nmovers: ${JSON.stringify(movers)}\n\nExample: {"title":"Crypto Weekly Preview: Top-10 snapshot","snapshot":"...","highlights":["..."],"headlines":["..."]}`;
-  const url = 'https://api.openai.com/v1/chat/completions';
-  const body = { model, messages:[{role:'system', content:'You are a professional financial market analyst. Be concise and factual.'},{role:'user', content:prompt}], max_tokens:300, temperature:0.6 };
+  const isGpt5 = String(model).toLowerCase().startsWith('gpt-5');
+  const url = isGpt5 ? 'https://api.openai.com/v1/responses' : 'https://api.openai.com/v1/chat/completions';
+  const body = isGpt5
+    ? { model, input: prompt, max_output_tokens: 300 }
+    : { model, messages:[{role:'system', content:'You are a professional financial market analyst. Be concise and factual.'},{role:'user', content:prompt}], max_tokens:300, temperature:0.6 };
   try{
-    const res = await (fetchFn ? fetchFn(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }) : fetch(url, { method:'POST', headers:{ 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }));
-    if(!res || !res.ok){ console.warn('LLM request failed', res && res.status); return null; }
+    const headers = { 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` };
+    const reqBody = JSON.stringify(body);
+    console.log('LLM request URL:', url);
+    console.log('LLM request body:', reqBody);
+    const res = await (fetchFn ? fetchFn(url, { method:'POST', headers, body: reqBody }) : fetch(url, { method:'POST', headers, body: reqBody }));
+    if(!res){ console.warn('LLM preview request had no response object'); return null; }
+    if(!res.ok){ let text=null; try{ text = await res.text(); }catch(e){ text = `<failed to read body: ${e && e.message}>`; } console.warn('LLM request failed', res && res.status, text); return null; }
     const json = await res.json();
     const content = json && json.choices && json.choices[0] && (json.choices[0].message && json.choices[0].message.content || json.choices[0].text);
     if(!content) return null;

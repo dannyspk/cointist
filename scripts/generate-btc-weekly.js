@@ -10,39 +10,71 @@ async function generateNarrativeWithLLM(signals, priceSummary){
   const apiKey = process.env.OPENAI_API_KEY;
   if(!apiKey) return null;
   const model = process.env.OPENAI_MODEL || 'gpt-5-mini';
-  const prompt = `You are a concise market analyst. Given the following JSON signals and a short price summary, produce a JSON object with keys: snapshot (1-2 short sentences), chronology (array up to 7 brief timeline bullets), technicalReadout (array up to 6 concise bullets), scenarios (array of up to 3 objects with title and text). Respond with valid JSON only.
-
-signals: ${JSON.stringify(signals)}
-
-priceSummary: ${String(priceSummary)}
-
-Example response shape: {"snapshot":"...","chronology":["..."],"technicalReadout":["..."],"scenarios":[{"title":"...","text":"..."}]}\n`;
-
-  const url = 'https://api.openai.com/v1/chat/completions';
-  const body = {
-    model,
-    messages: [
-      { role: 'system', content: 'You are a professional financial market analyst. Be concise and factual.' },
-      { role: 'user', content: prompt }
-    ],
-    max_tokens: 500,
-    temperature: 0.6
-  };
+  const prompt = `You are a concise market analyst. Given the following JSON signals and a short price summary, produce a JSON object with keys: snapshot (1-2 short sentences), chronology (array up to 7 brief timeline bullets), technicalReadout (array up to 6 concise bullets), scenarios (array of up to 3 objects with title and text). Respond with valid JSON only.\n\nsignals: ${JSON.stringify(signals)}\n\npriceSummary: ${String(priceSummary)}\n\nExample response shape: {"snapshot":"...","chronology":["..."],"technicalReadout":["..."],"scenarios":[{"title":"...","text":"..."}]}`;
 
   try{
     console.log('LLM model:', model);
-    const res = await (fetchFn ? fetchFn(url, { method: 'POST', headers: { 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }) : fetch(url, { method: 'POST', headers: { 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }));
-    if(!res || !res.ok) {
-      console.warn('LLM narrative request failed', res && res.status);
-      return null;
+    // Use Responses API for gpt-5 family, fall back to Chat Completions for others
+    if (String(model).toLowerCase().startsWith('gpt-5')){
+      const url = 'https://api.openai.com/v1/responses';
+      let maxOutput = 500;
+      const doRequest = async (maxOutputTokens) => {
+        const body = { model, input: prompt, max_output_tokens: maxOutputTokens };
+        const res = await (fetchFn ? fetchFn(url, { method: 'POST', headers: { 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }) : fetch(url, { method: 'POST', headers: { 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }));
+        if(!res || !res.ok){
+          const txt = res ? await res.text().catch(()=>'<no body>') : '<no response>';
+          console.warn('LLM narrative request failed', res && res.status, txt);
+          return null;
+        }
+        return await res.json();
+      };
+
+      let json = await doRequest(maxOutput);
+      // If model returned incomplete due to max_output_tokens, retry once with a larger allowance
+      if (json && json.status === 'incomplete' && json.incomplete_details && json.incomplete_details.reason === 'max_output_tokens'){
+        console.warn('LLM response incomplete due to max_output_tokens; retrying with larger max_output_tokens');
+        const newMax = Math.min(Math.max(1000, maxOutput * 2), 2000);
+        json = await doRequest(newMax) || json;
+      }
+      // Responses API may return `output_text` or structured `output` array
+      let content = null;
+      if (json.output_text) content = json.output_text;
+      else if (json.output && Array.isArray(json.output)){
+        const parts = [];
+        json.output.forEach(o=>{
+          if (typeof o === 'string') parts.push(o);
+          else if (o.content && Array.isArray(o.content)){
+            o.content.forEach(c=>{ if (c.text) parts.push(c.text); else if (typeof c === 'string') parts.push(c); });
+          }
+        });
+        content = parts.join('\n').trim();
+      } else if (json.choices && json.choices[0]){
+        content = (json.choices[0].message && json.choices[0].message.content) || json.choices[0].text;
+      }
+  if(!content) return null;
+  const m = content.match(/\{[\s\S]*\}/m);
+  const jtxt = m ? m[0] : content;
+  try{ return JSON.parse(jtxt); }catch(e){ console.warn('Failed to parse LLM JSON response; raw content follows:\n', jtxt); try{ console.warn('Full API JSON:', JSON.stringify(json).slice(0,2000)); }catch(_){} return null; }
+    }else{
+      const url = 'https://api.openai.com/v1/chat/completions';
+      const body = {
+        model,
+        messages: [
+          { role: 'system', content: 'You are a professional financial market analyst. Be concise and factual.' },
+          { role: 'user', content: prompt }
+        ],
+        max_tokens: 500,
+        temperature: 0.6
+      };
+      const res = await (fetchFn ? fetchFn(url, { method: 'POST', headers: { 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }) : fetch(url, { method: 'POST', headers: { 'Content-Type':'application/json', 'Authorization': `Bearer ${apiKey}` }, body: JSON.stringify(body) }));
+      if(!res || !res.ok){ const txt = res ? await res.text().catch(()=>'<no body>') : '<no response>'; console.warn('LLM narrative request failed', res && res.status, txt); return null; }
+      const json = await res.json();
+      const content = (json && json.choices && json.choices[0] && json.choices[0].message && json.choices[0].message.content) || (json.choices && json.choices[0] && json.choices[0].text);
+      if(!content) return null;
+  const m = content.match(/\{[\s\S]*\}/m);
+  const jtxt = m ? m[0] : content;
+  try{ const parsed = JSON.parse(jtxt); return parsed; }catch(e){ console.warn('Failed to parse LLM JSON response; raw content follows:\n', jtxt); try{ console.warn('Full API JSON:', JSON.stringify(json).slice(0,2000)); }catch(_){} return null; }
     }
-    const json = await res.json();
-    const content = (json && json.choices && json.choices[0] && json.choices[0].message && json.choices[0].message.content) || json.choices && json.choices[0] && json.choices[0].text;
-    if(!content) return null;
-    // Try to extract JSON from content
-    const m = content.match(/\{[\s\S]*\}/m);
-    const jtxt = m ? m[0] : content;
-    try{ const parsed = JSON.parse(jtxt); return parsed; }catch(e){ console.warn('Failed to parse LLM JSON response'); return null; }
   }catch(e){ console.warn('LLM narrative generation failed', e && e.message); return null; }
 }
 

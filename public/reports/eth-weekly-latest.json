@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2025-09-23T03:29:02.505Z",
+  "generatedAt": "2025-09-24T03:30:12.131Z",
   "dataSource": "binance-klines",
-  "priceSummary": "First: $4,522.76\nLast:  $4,190.58\nLow:   $4,141.64\nHigh:  $4,628.91\nChange: -7.34%",
+  "priceSummary": "First: $4,514.09\nLast:  $4,164.83\nLow:   $4,141.64\nHigh:  $4,628.91\nChange: -7.74%",
   "signals": {
-    "last": 4190.575982902745,
-    "change": -7.344677484860831,
-    "rsi": 36.70353753296105,
-    "lastSMA8": 4172.2043839127455,
-    "lastSMA21": 4198.721244243058,
+    "last": 4164.826037505126,
+    "change": -7.737228731000247,
+    "rsi": 41.75013944189448,
+    "lastSMA8": 4168.223525711759,
+    "lastSMA21": 4184.1782893098325,
     "volumeSpike": false,
-    "sweep": true,
-    "maxDropPct": 6.844992507285695,
+    "sweep": false,
+    "maxDropPct": 1.4288853066531968,
     "lowerHighs": false
   },
   "futuresAvailable": false,
   "futures": null,
   "data": {
-    "snapshot": "A fast liquidity sweep (~6.8% drop) occurred during the week, grabbing stops before the partial recovery.",
+    "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
     "chronology": [
       "Early week: rejections at supply zones.",
       "Midweek: liquidity sweep and elevated sells.",

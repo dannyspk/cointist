@@ -1,33 +1,37 @@
 {
-  "generatedAt": "2025-09-24T03:30:12.131Z",
+  "generatedAt": "2025-09-25T03:33:59.309Z",
   "dataSource": "binance-klines",
-  "priceSummary": "First: $4,514.09\nLast:  $4,164.83\nLow:   $4,141.64\nHigh:  $4,628.91\nChange: -7.74%",
+  "priceSummary": "First: $4,591.77\nLast:  $4,155.7\nLow:   $4,141.52\nHigh:  $4,628.91\nChange: -9.50%",
   "signals": {
-    "last": 4164.826037505126,
-    "change": -7.737228731000247,
-    "rsi": 41.75013944189448,
-    "lastSMA8": 4168.223525711759,
-    "lastSMA21": 4184.1782893098325,
+    "last": 4155.695621811463,
+    "change": -9.496845160370658,
+    "rsi": 44.19190617251689,
+    "lastSMA8": 4168.572996340359,
+    "lastSMA21": 4170.797598741228,
     "volumeSpike": false,
     "sweep": false,
-    "maxDropPct": 1.4288853066531968,
-    "lowerHighs": false
+    "maxDropPct": 1.2093249112534947,
+    "lowerHighs": true
   },
   "futuresAvailable": false,
   "futures": null,
   "data": {
-    "snapshot": "Price action was mixed over the past week with modest net change and no dominant directional conviction.",
+    "snapshot": "ETH fell sharply from the session open and now trades below its short-term SMAs, signalling near-term bearish pressure. Momentum is neutral-to-weak (RSI ~44) with no volume spike to confirm a capitulation move.",
     "chronology": [
-      "Early week: rejections at supply zones.",
-      "Midweek: liquidity sweep and elevated sells.",
-      "Post-sweep: partial recovery and retest.",
-      "Current: watch key support bands."
+      "Opened at $4,591.77 and spiked to an intraday high of $4,628.91.",
+      "Price sold off to an intraday low of $4,141.52 before a partial recovery.",
+      "Last prints $4,155.70, ~9.5% below the session open.",
+      "Price sits below both SMA8 ($4,168.57) and SMA21 ($4,170.80).",
+      "RSI at ~44 indicates lack of bullish momentum but not oversold.",
+      "No volume spike or sweep detected; pattern shows lower highs, signaling a stalled rally attempt."
     ],
     "technicalReadout": [
-      "Momentum softened",
-      "Short/medium MAs near price",
-      "Muted volume on bounce",
-      "No clear divergences"
+      "Last: $4,155.70, Change: -9.50% from open.",
+      "RSI 44.19 — neutral-to-bearish momentum.",
+      "Price < SMA8 ($4,168.57) and SMA21 ($4,170.80) — short-term moving-average resistance.",
+      "lowerHighs = true — structure favors continuation of downward bias.",
+      "volumeSpike = false and sweep = false — move lacks strong participation or stop-hunt signature.",
+      "maxDropPct 1.21% — recent intra-leg volatility moderate rather than extreme."
     ],
     "levels": [
       "Immediate Resistance: 3.8k",
@@ -38,20 +42,16 @@
     ],
     "scenarios": [
       {
-        "title": "Bearish continuation (most likely)",
-        "text": "Fail to reclaim resistance → rollover → break support → test lower bands."
+        "title": "Bear continuation",
+        "text": "Failure to reclaim the SMAs and a break below $4,140 would likely extend the pullback toward $4,000 and open room for lower support tests."
       },
       {
-        "title": "Range / chop (plausible)",
-        "text": "Price oscillates as macro events & flows decide the next leg."
+        "title": "Range-bound consolidation",
+        "text": "If $4,140–$4,300 holds, expect sideways chop while SMAs compress; watch RSI for a shift above 50 to signal buildup for the next directional move."
       },
       {
-        "title": "Bullish recovery (lower probability)",
-        "text": "Sustained daily strength above resistance with volume → retest higher levels."
-      },
-      {
-        "title": "Event risk",
-        "text": "Macro prints and expiries can amplify intraday moves; avoid heavy sizing around these."
+        "title": "Relief rally / reclaim",
+        "text": "A decisive move back above both SMA8 and SMA21 with rising volume and RSI >50 could trigger a recovery attempt toward $4,600, but momentum must confirm to negate the lower-highs structure."
       }
     ],
     "checklist": [

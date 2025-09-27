@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2025-09-26T03:31:10.449Z",
+  "generatedAt": "2025-09-27T03:25:18.780Z",
   "dataSource": "binance-klines",
-  "priceSummary": "First: $4,590.64\nLast:  $3,895.93\nLow:   $3,846.41\nHigh:  $4,610.46\nChange: -15.13%",
+  "priceSummary": "First: $4,470.1\nLast:  $4,028.01\nLow:   $3,846.41\nHigh:  $4,502.68\nChange: -9.89%",
   "signals": {
-    "last": 3895.925502812583,
-    "change": -15.133221689473459,
-    "rsi": 34.73333428212095,
-    "lastSMA8": 3916.600787014473,
-    "lastSMA21": 3978.073890691073,
+    "last": 4028.01275228736,
+    "change": -9.889929191113243,
+    "rsi": 57.86449090043938,
+    "lastSMA8": 4013.360519872361,
+    "lastSMA21": 3965.195034489639,
     "volumeSpike": false,
-    "sweep": true,
-    "maxDropPct": 7.3789775890816935,
-    "lowerHighs": true
+    "sweep": false,
+    "maxDropPct": 2.000476858262399,
+    "lowerHighs": false
   },
   "futuresAvailable": false,
   "futures": null,
   "data": {
-    "snapshot": "Ethereum plunged ~15% from $4,590 to $3,896, briefly probing $3,846. Momentum is bearish (RSI ~34.7) with short SMA under mid SMA and a sweep suggesting a stophunt.",
+    "snapshot": "ETH opened near $4,470, slid from a $4,502 intraday high to a $3,846 low and currently trades around $4,028. Price sits modestly above short and mid SMAs with a neutral-to-bullish RSI, but volume shows no conviction.",
     "chronology": [
-      "High at $4,610.46 early in the window.",
-      "Price fell ~15% from $4,590.64 to $3,895.93 (Last).",
-      "Low printed $3,846.41, a ~7.38% intramove from the peak.",
-      "Sweep detected (stophunt) before partial recovery.",
-      "No volume spike accompanying the drop (volumeSpike=false).",
-      "Structure shows lower highs developing."
+      "Opened ~ $4,470 and spiked to an intraday high of $4,502.68.",
+      "Extended sell-off to an intraday low of $3,846.41.",
+      "Partial recovery into the $4,000 area; last prints $4,028.01 (-9.89% on the session).",
+      "Intraday maximum single-drop ~2.00%, indicating contained volatility.",
+      "Price currently above SMA8 ($4,013.36) and SMA21 ($3,965.20).",
+      "No volume spike or sweep detected during the move."
     ],
     "technicalReadout": [
-      "Last: $3,895.93; Change: -15.13%.",
-      "RSI 34.7 — near oversold but not deeply oversold.",
-      "SMA8 ($3,916.60) is below SMA21 ($3,978.07): short-term bearish bias.",
-      "Lower highs indicate failing bullish follow-through.",
-      "Sweep flag true — probable liquidity grab beneath prior lows.",
-      "No volume spike to confirm strong capitulation; move may lack conviction."
+      "Price: $4,028 — modestly above SMA8 ($4,013) and SMA21 ($3,965) — short-term bias lean bullish.",
+      "SMA8 > SMA21, signaling recent short-term upside momentum.",
+      "RSI 57.9 — neutral-to-mild bullish momentum, not overbought.",
+      "No volume spike -> move lacks strong participation/confirmation.",
+      "No sweep and lowerHighs=false -> no clear liquidity hunt or established downtrend.",
+      "Intraday max drop ~2% — volatility present but not extreme."
     ],
     "levels": [
       "Immediate Resistance: 3.8k",
@@ -42,16 +42,16 @@
     ],
     "scenarios": [
       {
-        "title": "Bear continuation",
-        "text": "Failure to reclaim SMA21 and continued lower highs lead to further downside toward prior support zones below $3,800; momentum stays negative if RSI remains under 40."
+        "title": "Bull continuation",
+        "text": "Sustain above SMA8/21 with rising RSI and pick-up in volume; target re-test of $4,500 and resume uptrend toward prior highs."
       },
       {
-        "title": "Short-term rebound",
-        "text": "After the sweep and absent heavy volume, price could bounce back to test SMA21 (~$3,978) and recent highs near $4,200 if buyers step in at the $3,800-$3,900 area."
+        "title": "Short-term pullback",
+        "text": "Failure to hold SMA8 leads to slide toward SMA21 (~$3,965) and possible re-test of the session low near $3,846 if momentum deteriorates."
       },
       {
-        "title": "Range-bound / choppy action",
-        "text": "If volume stays muted, expect consolidation between $3,800–$4,200 with volatility spikes on liquidity hunts before a clear trend resumes."
+        "title": "Range-bound consolidation",
+        "text": "With no volume spike and mixed momentum, expect chop between roughly $3,950–$4,500 while market participants await a catalyst."
       }
     ],
     "checklist": [
